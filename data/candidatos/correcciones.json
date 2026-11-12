@@ -1,0 +1,16 @@
+{
+ "fuente": "BOE-A-2026-23383 (7 nov. 2026), Corrección de errores de las candidaturas proclamadas. Solo la parte del Congreso, transcrita a mano.",
+ "correcciones": [
+  { "circunscripcion": "Huesca", "siglas": "SALF", "n": 2, "de": "Milagros Roca Pérez", "a": "Milagros Roca López" },
+  { "circunscripcion": "La Rioja", "siglas": "PCTE",
+    "titulares": ["Francisco Castro Portolés", "María Eugenia Oleaga Muguerza", "Gonzalo Alonso Alonso", "Lucía Sáenz Burgos"],
+    "suplentes": ["José Ángel Sáenz Díaz"] },
+  { "circunscripcion": "Navarra", "siglas": "EH BILDU-ERC", "nuevasSiglas": "EH BILDU", "denominacion": "EUSKAL HERRIA BILDU" },
+  { "circunscripcion": "Navarra", "siglas": "SALF", "suplente": true, "n": 2, "de": "Noelia Gonzaléz Salmerón", "a": "Noelia González Salmerón" },
+  { "circunscripcion": "Navarra", "siglas": "FRENTE AMPLIO-FRONTE ZABALA", "denominacion": "FRENTE AMPLIO-FRONTE ZABALA" },
+  { "circunscripcion": "Tarragona", "siglas": "COMUNS-FRONT AMPLI", "quitarPartido": true },
+  { "circunscripcion": "Tarragona", "siglas": "COMUNS-FRONT AMPLI", "n": 1, "de": "Ester Roca Domodel", "a": "Ester Roca Domedel" },
+  { "circunscripcion": "Teruel", "siglas": "PSOE", "n": 1, "de": "Herminio Rufino Sancho Íniguez", "a": "Herminio Rufino Sancho Íñiguez" },
+  { "circunscripcion": "Valencia", "siglas": "PCTE", "n": 3, "de": "Francisco José Domenech Gomis", "a": "Jose Francisco Domenech Gomis" }
+ ]
+}

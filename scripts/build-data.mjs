@@ -66,6 +66,30 @@ writeFileSync(
   JSON.stringify({ eleccion, fechaCorte, materias, partidos, celdas }, null, 1),
 );
 
+// Listas al Congreso (BOE) y enlaces de cada candidato, en un JSON aparte que la web carga
+// solo al abrir las listas de un partido. Se generan con scripts/candidatos.mjs.
+const listasF = join(root, "data/candidatos/listas.json");
+if (existsSync(listasF)) {
+  const L = JSON.parse(readFileSync(listasF, "utf8"));
+  const enlacesF = join(root, "data/candidatos/enlaces.json");
+  const enl = existsSync(enlacesF) ? JSON.parse(readFileSync(enlacesF, "utf8")) : {};
+  const ids = new Set(partidos.map((p) => p.id));
+  for (const l of L.listas) if (!ids.has(l.partido)) errors.push(`listas: partido desconocido ${l.partido}`);
+  const usados = new Set(L.listas.flatMap((l) => [...l.titulares, ...l.suplentes].map((c) => c.nombre)));
+  const enlaces = Object.fromEntries(Object.entries(enl).filter(([n]) => usados.has(n)));
+  writeFileSync(
+    join(root, "src/generated/candidatos.json"),
+    JSON.stringify({ fuente: L.fuente, correccion: L.correccion, listas: L.listas, enlaces }),
+  );
+  console.log(`candidatos.json: ${L.listas.length} listas, ${usados.size} candidatos, ${Object.keys(enlaces).length} con enlaces`);
+} else {
+  writeFileSync(join(root, "src/generated/candidatos.json"), JSON.stringify({ listas: [], enlaces: {} }));
+}
+if (errors.length) {
+  console.error(errors.join("\n"));
+  process.exit(1);
+}
+
 const pub = partidos.filter((p) => p.estado === "publicado");
 const nsnc = pub.reduce((n, p) => n + materias.filter((m) => celdas[p.id][m.id] === null).length, 0);
 console.log(`tabla.json: ${pub.length} programas × ${materias.length} materias, ${nsnc} celdas NS/NC`);

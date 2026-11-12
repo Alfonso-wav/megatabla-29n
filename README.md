@@ -21,6 +21,11 @@ npm run build               # dist/ estático
 | `data/text/<id>.pages.txt` | Texto extraído con marcadores de página, para verificar |
 | `data/notas/` | Notas de lectura intermedias |
 
+| `data/candidatos/listas.json` | Listas al Congreso proclamadas (BOE-A-2026-23103), por circunscripción, con titulares y suplentes |
+| `data/candidatos/correcciones.json` | Corrección de errores del BOE (BOE-A-2026-23383), transcrita a mano |
+| `data/candidatos/enlaces.json` | Wikipedia, Wikidata y ficha del Congreso de cada candidato, cuando la identificación es segura |
+| `data/candidatos/enlaces-manuales.json` | (opcional) `{ "Nombre BOE": {wikipedia, …} }` para añadir o corregir; `null` quita el enlace |
+
 `scripts/build-data.mjs` falla si a un partido le falta alguna materia o cita una
 página inexistente.
 
@@ -34,6 +39,23 @@ página inexistente.
 
 Estado a 12/11/2026: publicados PP, Vox, ERC, PNV, BNG y CC; pendientes PSOE, Sumar/Frente Amplio,
 Podemos, Junts, EH Bildu y SALF.
+
+## Listas de candidatos
+
+Al pulsar el nombre de un partido se abren sus listas al Congreso en cada circunscripción.
+
+```bash
+node scripts/candidatos.mjs            # BOE → data/candidatos/listas.json (+ correcciones)
+node scripts/candidatos.mjs --enlaces  # además, enlaces a Wikipedia y al Congreso (~25 min, con caché)
+```
+
+- Ficha del Congreso: diputados de las legislaturas X-XV, del buscador oficial de congreso.es,
+  emparejados por nombre y apellidos exactos.
+- Wikipedia: se busca el nombre completo del BOE en es.wikipedia y solo se enlaza si el título
+  está contenido en ese nombre, el artículo es de un político y menciona el partido de la lista
+  (o es diputado según el Congreso). Si dos artículos cumplen, no se enlaza ninguno.
+- Las siglas del BOE se asignan a los partidos de `partidos.json` en la tabla `PARTIDO` del script;
+  las que no encajan van a «Otras».
 
 ## Publicación
 

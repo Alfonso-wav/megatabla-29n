@@ -131,20 +131,64 @@ a { color: var(--accent); }
   color: var(--ink);
 }
 .chk { font-size: 13px; color: var(--ink-2); display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
-.partidos { display: inline-flex; flex-wrap: wrap; gap: 6px; border: 0; margin: 0; padding: 0; }
-.chip {
-  font-size: 13px;
-  font-weight: 600;
+.filtro-partidos { position: relative; font-size: 13px; }
+.filtro-partidos summary {
+  list-style: none;
   display: inline-flex;
-  gap: 5px;
   align-items: center;
-  padding: 4px 9px;
+  gap: 8px;
+  padding: 6px 10px;
   border: 1px solid var(--line-strong);
   border-radius: 6px;
   background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  user-select: none;
+}
+.filtro-partidos summary::-webkit-details-marker { display: none; }
+.filtro-partidos summary::after { content: "▾"; color: var(--ink-3); font-size: 11px; }
+.filtro-partidos[open] summary { border-color: var(--accent); }
+.filtro-partidos summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.filtro-partidos .menu {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  z-index: 30;
+  min-width: 300px;
+  max-width: calc(100vw - 32px);
+  max-height: 60vh;
+  overflow: auto;
+  padding: 6px;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+}
+.menu-acciones { display: flex; gap: 6px; padding: 2px 2px 6px; margin-bottom: 4px; border-bottom: 1px solid var(--line); }
+.menu-acciones button {
+  flex: 1;
+  font: inherit;
+  font-size: 12px;
+  padding: 5px 8px;
+  border: 1px solid var(--line-strong);
+  border-radius: 5px;
+  background: var(--surface-2);
+  color: var(--ink);
   cursor: pointer;
 }
-.chip:has(input:not(:checked)) { color: var(--ink-3); background: transparent; text-decoration: line-through; }
+.menu-acciones button:hover { border-color: var(--accent); color: var(--accent); }
+.opcion {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 6px 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.opcion:hover { background: var(--accent-soft); }
+.opcion input { transform: translateY(1px); }
+.opcion span { color: var(--ink-3); font-size: 12px; }
+.sin-resultados { padding: 28px 24px; color: var(--ink-2); font-style: italic; }
 #contador { font-size: 13px; color: var(--ink-2); }
 
 /* ---------- la megatabla ---------- */
@@ -207,6 +251,23 @@ a { color: var(--accent); }
 }
 .cab-materia .nombre { display: block; font: 600 15px/1.25 var(--serif); margin-top: 2px; }
 .cab-partido .siglas { display: block; font: 700 20px/1.1 var(--serif); }
+.ver-listas {
+  display: block;
+  width: 100%;
+  margin: -4px -6px;
+  padding: 4px 6px;
+  font: inherit;
+  text-align: left;
+  color: inherit;
+  background: none;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.ver-listas:hover { background: var(--accent-soft); }
+.ver-listas:hover .siglas { color: var(--accent); }
+.ver-listas:focus-visible { outline: 2px solid var(--accent); outline-offset: 0; }
+.listas-hint { display: block; margin-top: 6px; font-size: 12px; color: var(--accent); }
 .cab-partido .nombre { margin-top: 3px; text-transform: none; letter-spacing: 0; font-size: 12px; }
 .cab-partido .fuente { display: inline-block; margin-top: 8px; font-size: 12px; text-decoration: none; }
 .cab-partido .fuente:hover { text-decoration: underline; }
@@ -298,13 +359,79 @@ dialog li { margin-bottom: 6px; }
 .ficha-comparar button:hover { border-color: var(--accent); color: var(--accent); }
 .ficha-comparar span { font-size: 12px; color: var(--ink-3); padding: 6px 4px; }
 
+/* ---------- listas de candidatos ---------- */
+dialog.ancha { width: min(860px, calc(100vw - 32px)); }
+dialog h2 small { font: 400 15px var(--sans); color: var(--ink-2); margin-left: 6px; }
+.listas-resumen, .listas-marcas { font-size: 13px; color: var(--ink-2); margin: 0 0 8px; }
+.buscar-listas { display: block; margin: 12px 0; }
+.buscar-listas input {
+  width: 100%;
+  font: inherit;
+  padding: 8px 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--ink);
+}
+.buscar-listas input:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+.listas { border-top: 1px solid var(--line); }
+.lista { border-bottom: 1px solid var(--line); }
+.lista summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+  padding: 10px 2px;
+  cursor: pointer;
+}
+.lista summary:hover .circ { color: var(--accent); }
+.lista .circ { font: 600 16px var(--serif); }
+.lista .cuenta { margin-left: auto; font-size: 12px; color: var(--ink-3); }
+.marca, .afil {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 1px 6px;
+  border: 1px solid var(--line-strong);
+  border-radius: 4px;
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+.afil { margin-left: 4px; font-weight: 500; }
+.lista ol { margin: 0 0 10px; padding-left: 30px; }
+.lista li { margin: 0; padding: 4px 0; border-top: 1px dashed var(--line); font-size: 14px; }
+.lista li:first-child { border-top: 0; }
+.lista li::marker { color: var(--ink-3); font-variant-numeric: tabular-nums; font-size: 12.5px; }
+.lista li { display: list-item; }
+.cand { margin-right: 8px; }
+.sup-tit { margin: 4px 0 2px 2px; font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.04em; }
+.suplentes li { font-size: 13px; color: var(--ink-2); }
+.enlaces { display: inline-flex; flex-wrap: wrap; gap: 4px; vertical-align: 1px; }
+.enl {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0 6px;
+  border-radius: 4px;
+  text-decoration: none;
+  border: 1px solid currentColor;
+}
+a.enl:hover { background: var(--accent-soft); }
+.enl.w { color: var(--ink); }
+.enl.c { color: #8a1c1c; }
+.enl.d { color: var(--ink-3); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .enl.c { color: #ef9a9a; }
+}
+.vacio { color: var(--ink-3); font-style: italic; }
+
 .pie-pagina { padding: 16px 24px 28px; font-size: 12.5px; color: var(--ink-3); }
 
 @media (max-width: 640px) {
   :root { --col: 260px; --head: 110px; }
   .cabecera, .barra, .metodo, .pie-pagina { padding-left: 16px; padding-right: 16px; }
   .cifras { gap: 18px; }
-  .cab-partido .nombre, .cab-partido .fuente { display: none; }
+  .cab-partido .nombre, .cab-partido .fuente, .listas-hint { display: none; }
+  dialog { padding: 24px 16px 18px; }
   .barra { position: static; }
   .marco { max-height: none; }
 }

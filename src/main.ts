@@ -1,6 +1,6 @@
 import "./style.css";
 import data from "./generated/tabla.json";
-import type { Celda, Materia, Partido, Tabla } from "./types";
+import type { Candidatos, Celda, Enlaces, Lista, Materia, Partido, Tabla } from "./types";
 
 const tabla = data as Tabla;
 const { materias, partidos, celdas } = tabla;
@@ -18,10 +18,10 @@ interface Estado {
   ocultos: string[];
   verPendientes: boolean;
 }
-const KEY = "megatabla29n.vista";
+const KEY = "megatabla29n.vista.v2"; // v2: vista por defecto con materias en filas
 const estado: Estado = {
   q: "",
-  orient: "partidos",
+  orient: "materias",
   detalle: false,
   grupo: "todos",
   ocultos: [],
@@ -98,12 +98,19 @@ function celdaHTML(p: Partido, m: Materia, re: RegExp | null) {
   </td>`;
 }
 
-function partidoTH(p: Partido) {
-  if (p.estado === "pendiente")
-    return `<th scope="row" class="cab-partido pendiente"><span class="siglas">${esc(p.siglas)}</span><span class="nombre">${esc(p.nombre)}</span></th>`;
-  return `<th scope="row" class="cab-partido">
+// El nombre del partido abre sus listas al Congreso.
+const botonListas = (p: Partido) =>
+  `<button type="button" class="ver-listas" data-listas="${esc(p.id)}" title="Ver las listas de ${esc(p.siglas)} al Congreso">
     <span class="siglas">${esc(p.siglas)}</span>
     <span class="nombre">${esc(p.nombre)}</span>
+    <span class="listas-hint">Candidatos ›</span>
+  </button>`;
+
+function partidoTH(p: Partido) {
+  if (p.estado === "pendiente")
+    return `<th scope="row" class="cab-partido pendiente">${botonListas(p)}</th>`;
+  return `<th scope="row" class="cab-partido">
+    ${botonListas(p)}
     <a class="fuente" href="${esc(p.copiaLocal ? `${import.meta.env.BASE_URL}programas/${p.archivo}` : p.url!)}" target="_blank" rel="noopener">Programa · ${fecha(p.fechaPublicacion)}${p.idioma !== "es" ? ` · ${IDIOMA[p.idioma!]}` : ""}</a>
   </th>`;
 }
@@ -114,9 +121,18 @@ function materiaTH(m: Materia, scope: "col" | "row") {
 
 function tablaHTML() {
   const re = regexBusqueda(estado.q);
-  const ms = materias.filter((m) => estado.grupo === "todos" || m.grupo === estado.grupo);
-  const ps = publicados.filter((p) => !estado.ocultos.includes(p.id));
-  const pend = estado.verPendientes ? pendientes : [];
+  let ms = materias.filter((m) => estado.grupo === "todos" || m.grupo === estado.grupo);
+  let ps = publicados.filter((p) => !estado.ocultos.includes(p.id));
+  let pend = estado.verPendientes ? pendientes : [];
+  // Con búsqueda: fuera las materias y los partidos sin ninguna celda que coincida.
+  if (re) {
+    ms = ms.filter((m) => ps.some((p) => coincide(celdas[p.id][m.id], re)));
+    ps = ps.filter((p) => ms.some((m) => coincide(celdas[p.id][m.id], re)));
+    pend = [];
+    if (!ms.length) return `<p class="sin-resultados">Ninguna propuesta contiene «${esc(estado.q.trim())}».</p>`;
+  }
+  if (!ps.length && !pend.length)
+    return `<p class="sin-resultados">No hay ningún partido seleccionado. Elige alguno en el filtro de partidos.</p>`;
   const textoPend = `Programa no publicado a ${fecha(tabla.fechaCorte)}`;
 
   if (estado.orient === "partidos") {
@@ -174,6 +190,7 @@ app.innerHTML = `
       <li><strong>Materias:</strong> las ${materias.length} columnas recogen la unión de todos los temas que tratan los programas publicados. Si un tema aparece en un solo programa, tiene columna igualmente.</li>
       <li><strong>NS/NC:</strong> el programa no menciona la materia. Se ha comprobado buscando palabras clave en el texto completo.</li>
       <li><strong>Celdas:</strong> cada una resume en una frase la postura del partido y enumera sus medidas concretas. Son resúmenes, no citas literales; el número de página abre el PDF original en esa página para comprobarlo.</li>
+      <li><strong>Candidatos:</strong> pulsa el nombre de un partido para ver sus listas al Congreso en cada circunscripción, tal como las proclamó el BOE, con enlaces a Wikipedia y a la ficha oficial del Congreso cuando la identificación es segura.</li>
       <li><strong>Traducción:</strong> los programas de ERC (catalán) y BNG (gallego) se han resumido en castellano.</li>
       <li><strong>Pendientes:</strong> ${pendientes.map((p) => esc(p.siglas)).join(", ")} no habían publicado su programa a la fecha de corte. Aparecen como «no publicado», no como NS/NC, para no confundir «no lo dice» con «aún no lo ha presentado».</li>
     </ul>
@@ -205,12 +222,21 @@ app.innerHTML = `
   </label>
   <label class="chk"><input id="detalle" type="checkbox" /> Todas las medidas</label>
   <label class="chk"><input id="pend" type="checkbox" /> Mostrar no publicados</label>
-  <fieldset class="partidos">
-    <legend class="sr">Partidos visibles</legend>
-    ${publicados
-      .map((p) => `<label class="chip"><input type="checkbox" data-partido="${p.id}" /> ${esc(p.siglas)}</label>`)
-      .join("")}
-  </fieldset>
+  <details class="filtro-partidos" id="filtro-partidos">
+    <summary><span id="filtro-resumen">Partidos</span></summary>
+    <div class="menu" role="group" aria-label="Partidos visibles">
+      <div class="menu-acciones">
+        <button type="button" data-todos="1">Marcar todos</button>
+        <button type="button" data-todos="0">Desmarcar todos</button>
+      </div>
+      ${publicados
+        .map(
+          (p) =>
+            `<label class="opcion"><input type="checkbox" data-partido="${p.id}" /> <strong>${esc(p.siglas)}</strong> <span>${esc(p.nombre)}</span></label>`,
+        )
+        .join("")}
+    </div>
+  </details>
   <output id="contador" aria-live="polite"></output>
 </div>
 
@@ -274,13 +300,40 @@ document.querySelector("#pend")!.addEventListener("change", (e) => {
   estado.verPendientes = (e.target as HTMLInputElement).checked;
   pintar();
 });
+const filtroPartidos = document.querySelector<HTMLDetailsElement>("#filtro-partidos")!;
+function resumenFiltro() {
+  const n = publicados.length - estado.ocultos.filter((id) => publicados.some((p) => p.id === id)).length;
+  document.querySelector("#filtro-resumen")!.textContent =
+    n === publicados.length ? "Todos los partidos" : n === 0 ? "Ningún partido" : `${n} de ${publicados.length} partidos`;
+}
 document.querySelectorAll<HTMLInputElement>("[data-partido]").forEach((c) =>
   c.addEventListener("change", () => {
     const id = c.dataset.partido!;
     estado.ocultos = c.checked ? estado.ocultos.filter((x) => x !== id) : [...estado.ocultos, id];
+    resumenFiltro();
     pintar();
   }),
 );
+document.querySelectorAll<HTMLButtonElement>("[data-todos]").forEach((b) =>
+  b.addEventListener("click", () => {
+    const todos = b.dataset.todos === "1";
+    estado.ocultos = todos ? [] : publicados.map((p) => p.id);
+    document.querySelectorAll<HTMLInputElement>("[data-partido]").forEach((c) => (c.checked = todos));
+    resumenFiltro();
+    pintar();
+  }),
+);
+// cerrar el desplegable al pulsar fuera o con Escape
+document.addEventListener("click", (e) => {
+  if (filtroPartidos.open && !filtroPartidos.contains(e.target as Node)) filtroPartidos.open = false;
+});
+filtroPartidos.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    filtroPartidos.open = false;
+    filtroPartidos.querySelector("summary")!.focus();
+  }
+});
+resumenFiltro();
 
 // ficha de detalle al pulsar una celda
 function abrirFicha(td: HTMLElement) {
@@ -289,6 +342,7 @@ function abrirFicha(td: HTMLElement) {
   const c = celdas[p.id][m.id];
   if (!c) return;
   const re = regexBusqueda(estado.q);
+  ficha.classList.remove("ancha");
   fichaCuerpo.innerHTML = `
     <p class="ficha-meta">${esc(m.grupo)} · ${esc(p.nombre)}</p>
     <h2 id="ficha-titulo">${esc(m.nombre)}: ${esc(p.siglas)}</h2>
@@ -326,6 +380,129 @@ fichaCuerpo.addEventListener("click", (e) => {
 });
 ficha.addEventListener("click", (e) => {
   if (e.target === ficha) ficha.close(); // clic fuera del contenido
+});
+ficha.addEventListener("close", () => ficha.classList.remove("ancha"));
+
+// ---------- listas de candidatos (BOE), cargadas bajo demanda ----------
+let candidatos: Candidatos | null = null;
+const cargarCandidatos = async () =>
+  (candidatos ??= (await import("./generated/candidatos.json")).default as Candidatos);
+
+const ROMANO = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI"];
+const fechaLarga = (iso: string) =>
+  new Date(iso + "T12:00:00").toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" });
+
+function enlacesHTML(e: Enlaces | undefined, nombre: string) {
+  if (!e) return "";
+  const a = (href: string, txt: string, title: string, cls: string) =>
+    `<a class="enl ${cls}" href="${esc(href)}" target="_blank" rel="noopener" title="${esc(title)}">${txt}</a>`;
+  const legs = e.legislaturas?.map((l) => ROMANO[l] ?? l).join(", ");
+  return `<span class="enlaces">${[
+    e.wikipedia && a(e.wikipedia, "Wikipedia", `Artículo de ${nombre} en Wikipedia`, "w"),
+    e.congreso && a(e.congreso, "Congreso", `Ficha oficial en congreso.es${legs ? ` (diputado/a en la legislatura ${legs})` : ""}`, "c"),
+    e.wikidata && a(`https://www.wikidata.org/wiki/${e.wikidata}`, "Wikidata", `${nombre} en Wikidata`, "d"),
+  ]
+    .filter(Boolean)
+    .join("")}</span>`;
+}
+
+function candidatoHTML(c: Lista["titulares"][number], l: Lista, re: RegExp | null) {
+  const e = candidatos!.enlaces[c.nombre];
+  const marca = c.partido && c.partido !== l.siglas ? ` <span class="afil" title="Partido según el BOE">${esc(c.partido)}</span>` : "";
+  return `<li value="${c.n}"><span class="cand">${marcar(c.nombre, re)}${marca}</span>${enlacesHTML(e, c.nombre)}</li>`;
+}
+
+function listaHTML(l: Lista, p: Partido, re: RegExp | null, abierta: boolean) {
+  const conEnlace = l.titulares.filter((c) => candidatos!.enlaces[c.nombre]).length;
+  const otraMarca = p.id === "otros" || l.siglas.toUpperCase() !== p.siglas.toUpperCase();
+  return `<details class="lista" ${abierta ? "open" : ""}>
+    <summary>
+      <span class="circ">${marcar(l.circunscripcion, re)}</span>
+      ${otraMarca ? `<span class="marca" title="${esc(l.denominacion)}">${esc(l.siglas)}</span>` : ""}
+      <span class="cuenta">${l.titulares.length} titular${l.titulares.length === 1 ? "" : "es"}${conEnlace ? ` · ${conEnlace} con enlaces` : ""}</span>
+    </summary>
+    <ol class="titulares">${l.titulares.map((c) => candidatoHTML(c, l, re)).join("")}</ol>
+    ${
+      l.suplentes.length
+        ? `<p class="sup-tit">Suplentes</p><ol class="suplentes">${l.suplentes.map((c) => candidatoHTML(c, l, re)).join("")}</ol>`
+        : ""
+    }
+  </details>`;
+}
+
+let listasPartido: { p: Partido; listas: Lista[] } | null = null;
+
+function pintarListas(q: string) {
+  const cont = fichaCuerpo.querySelector<HTMLElement>("#listas-cuerpo");
+  if (!cont || !listasPartido) return;
+  const { p, listas } = listasPartido;
+  const re = regexBusqueda(q);
+  const pasa = (l: Lista) => {
+    if (!re) return true;
+    const t = [l.circunscripcion, l.siglas, ...l.titulares.map((c) => c.nombre), ...l.suplentes.map((c) => c.nombre)].join(" | ");
+    re.lastIndex = 0;
+    const ok = re.test(t);
+    re.lastIndex = 0;
+    return ok;
+  };
+  const vis = listas.filter(pasa);
+  cont.innerHTML = vis.length
+    ? vis.map((l) => listaHTML(l, p, re, !!re || listas.length === 1)).join("")
+    : `<p class="vacio">Ningún candidato ni circunscripción coincide con «${esc(q.trim())}».</p>`;
+}
+
+async function abrirListas(id: string) {
+  const p = partidos.find((x) => x.id === id);
+  if (!p) return;
+  ficha.classList.add("ancha");
+  fichaCuerpo.innerHTML = `<p class="ficha-meta">Listas al Congreso</p><h2 id="ficha-titulo">${esc(p.siglas)}</h2><p>Cargando…</p>`;
+  if (!ficha.open) ficha.showModal();
+  const cand = await cargarCandidatos();
+  const listas = cand.listas
+    .filter((l) => l.partido === p.id)
+    .sort((a, b) => a.circunscripcion.localeCompare(b.circunscripcion, "es") || a.orden - b.orden);
+  listasPartido = { p, listas };
+  const personas = listas.flatMap((l) => l.titulares);
+  const nW = personas.filter((c) => cand.enlaces[c.nombre]?.wikipedia).length;
+  const nC = personas.filter((c) => cand.enlaces[c.nombre]?.congreso).length;
+  const marcas = [...new Set(listas.map((l) => l.siglas))];
+  const fuente = cand.fuente
+    ? `<a href="${esc(cand.fuente.url)}" target="_blank" rel="noopener">BOE de ${fechaLarga(cand.fuente.fecha)} (${esc(cand.fuente.id)})</a>${
+        cand.correccion
+          ? `, con la <a href="${esc(cand.correccion.url)}" target="_blank" rel="noopener">corrección de errores del ${fechaLarga(cand.correccion.fecha)}</a>`
+          : ""
+      }`
+    : "";
+
+  fichaCuerpo.innerHTML = `
+    <p class="ficha-meta">Listas al Congreso de los Diputados · 29N</p>
+    <h2 id="ficha-titulo">${esc(p.siglas)} <small>${esc(p.nombre)}</small></h2>
+    ${
+      listas.length
+        ? `<p class="listas-resumen">${listas.length} circunscripci${listas.length === 1 ? "ón" : "ones"} · ${personas.length} candidatos titulares
+            · <span class="enl w">Wikipedia</span> ${nW} · <span class="enl c">Congreso</span> ${nC}</p>
+          ${marcas.length > 1 ? `<p class="listas-marcas">Se presenta como: ${marcas.map((m) => `<span class="marca">${esc(m)}</span>`).join(" ")}</p>` : ""}
+          <label class="buscar buscar-listas"><span class="sr">Buscar candidato o circunscripción</span>
+            <input id="q-listas" type="search" placeholder="Buscar candidato o circunscripción…" autocomplete="off" /></label>
+          <div id="listas-cuerpo" class="listas"></div>`
+        : `<p class="vacio">No consta ninguna lista de ${esc(p.siglas)} al Congreso entre las candidaturas proclamadas.</p>`
+    }
+    <p class="ficha-fuente">Fuente: ${fuente}. Los números son el puesto en la lista.
+      Enlaces a Wikipedia solo cuando el artículo coincide con el nombre completo del BOE, es de un político y menciona su partido
+      (o consta como diputado en los datos del Congreso); si hay dudas no se enlaza, así que pueden faltar.
+      La ficha del Congreso aparece para quienes han sido diputados entre la X y la XV legislatura.</p>`;
+  pintarListas("");
+  const qL = fichaCuerpo.querySelector<HTMLInputElement>("#q-listas");
+  let tl: number | undefined;
+  qL?.addEventListener("input", () => {
+    clearTimeout(tl);
+    tl = window.setTimeout(() => pintarListas(qL.value), 120);
+  });
+}
+
+marco.addEventListener("click", (e) => {
+  const b = (e.target as HTMLElement).closest<HTMLElement>("button[data-listas]");
+  if (b) void abrirListas(b.dataset.listas!);
 });
 
 pintar();

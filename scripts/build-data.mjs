@@ -1,7 +1,7 @@
 // Une data/materias.json + data/partidos.json + data/extract/*.json en
 // src/generated/tabla.json, validando que cada partido publicado tenga una
 // celda (o null = NS/NC) para cada materia y que las páginas citadas existan.
-import { readFileSync, writeFileSync, mkdirSync, existsSync, copyFileSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync, copyFileSync, rmSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -50,10 +50,13 @@ if (errors.length) {
 }
 
 // Copias locales de los PDF (si se han descargado con scripts/descargar.sh).
-mkdirSync(join(root, "public/programas"), { recursive: true });
+// Con --publicar no se copian: la web publicada enlaza a las webs oficiales.
+const publicar = process.argv.includes("--publicar");
+rmSync(join(root, "public/programas"), { recursive: true, force: true });
+if (!publicar) mkdirSync(join(root, "public/programas"), { recursive: true });
 for (const p of partidos.filter((p) => p.archivo)) {
   const src = join(root, "data/raw", p.archivo);
-  p.copiaLocal = existsSync(src);
+  p.copiaLocal = !publicar && existsSync(src);
   if (p.copiaLocal) copyFileSync(src, join(root, "public/programas", p.archivo));
 }
 

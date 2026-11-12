@@ -37,12 +37,12 @@ Podemos, Junts, EH Bildu y SALF.
 
 ## Publicación
 
-Cada push a `main` valida los datos, compila y publica en GitHub Pages
-(`.github/workflows/pages.yml`). Si un JSON tiene un error (materia que falta, página
-inexistente), el build falla y la web publicada no cambia.
+`npm run deploy` valida los datos, compila y sube `dist/` a la rama `gh-pages`, que
+GitHub Pages sirve en https://alfonso-wav.github.io/megatabla-29n/. Si un JSON tiene un
+error (materia que falta, página inexistente), el build falla y no se publica nada.
 
 En la versión publicada los números de página enlazan al PDF en la web oficial de cada
-partido. Las copias locales (`data/raw`, `public/programas`) no se suben al repo.
+partido; las copias locales (`data/raw`, `public/programas`) no se suben.
 
 Actualización diaria:
 
@@ -50,6 +50,6 @@ Actualización diaria:
 node scripts/vigilar.mjs        # ¿algún programa nuevo?
 bash scripts/descargar.sh       # tras añadirlo a data/partidos.json
 # crear data/extract/<id>.json
-npm run data                    # validar
+npm run deploy                  # valida, compila y publica
 git add -A && git commit -m "datos: añade programa de X" && git push
 ```

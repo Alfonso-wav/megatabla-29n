@@ -1,0 +1,152 @@
+{
+  "vivienda": {
+    "postura": "Vivienda para asentar población en el medio rural.",
+    "medidas": [
+      "Parque público de vivienda en todos los municipios y alquiler asequible",
+      "Rehabilitación de pueblos; vivienda protegida rural para atraer población",
+      "Regulación donde haya excesiva presión turística"
+    ],
+    "paginas": [3]
+  },
+  "empleo": {
+    "postura": "Apoyo al empleo y a las empresas de Teruel.",
+    "medidas": [
+      "Ayudas al funcionamiento de empresas y autónomos al máximo autorizado por la UE (20 % de los costes laborales)",
+      "Más apoyo a autónomos y emprendedores",
+      "Medidas de igualdad salarial, conciliación y corresponsabilidad"
+    ],
+    "paginas": [2, 3]
+  },
+  "pensiones": null,
+  "fiscalidad": {
+    "postura": "Una fiscalidad que incentive quedarse en los pueblos.",
+    "medidas": [
+      "Rebaja del 25 % en el IRPF para quien vive en los pueblos",
+      "Fondo soberano que grave las actividades extractivas de recursos comunes y revierta en el territorio"
+    ],
+    "paginas": [2, 3]
+  },
+  "economia": {
+    "postura": "Reindustrialización y transformación en origen en la provincia de Teruel.",
+    "medidas": [
+      "Reindustrialización real de las Cuencas Mineras y Andorra",
+      "Áreas logístico-industriales en el Bajo Aragón y el Jiloca",
+      "Industria con transformación en origen",
+      "Protección del turismo rural de calidad"
+    ],
+    "paginas": [2]
+  },
+  "administracion": {
+    "postura": "Acercar el sector público al territorio despoblado.",
+    "medidas": [
+      "Desconcentración del sector público",
+      "Complementos de territorialidad en zonas despobladas"
+    ],
+    "paginas": [2, 3]
+  },
+  "energia": {
+    "postura": "Teruel no será «territorio de sacrificio» del despliegue renovable.",
+    "medidas": [
+      "Moratoria de macroparques renovables y líneas de muy alta tensión",
+      "Ordenación del despliegue y garantías ante centros de datos, minería y biogás",
+      "Oposición al Clúster del Maestrazgo y a las centrales eólicas en el Matarraña y Albarracín"
+    ],
+    "paginas": [3]
+  },
+  "medio_ambiente": null,
+  "sector_primario": {
+    "postura": "Un campo vivo con agricultura y ganadería familiar.",
+    "medidas": [
+      "Respaldo a la agricultura y ganadería familiar",
+      "Defensa de una PAC justa e igualar la PAC entre provincias limítrofes"
+    ],
+    "paginas": [2]
+  },
+  "infraestructuras": {
+    "postura": "Saldar la deuda pendiente en carreteras y ferrocarril con Teruel.",
+    "medidas": [
+      "Autovías A-68 (hasta Vinaròs), A-40 (Cuenca–Teruel y prolongación a Tarragona y Lleida), A-25 y Teruel–Requena–Almansa",
+      "Terminar la electrificación de la línea Zaragoza–Teruel–Valencia y abrirla de inmediato",
+      "Tren directo Teruel–Madrid y larga distancia Bilbao–Teruel–Cartagena",
+      "Corredor Cantábrico-Mediterráneo de doble vía electrificada en Zaragoza–Teruel–Sagunto",
+      "Plan 300/30/30: servicios básicos a menos de 30 minutos y autovía a menos de 30 km"
+    ],
+    "paginas": [2, 3]
+  },
+  "sanidad": {
+    "postura": "Servicios públicos de calidad vivas donde vivas.",
+    "medidas": [
+      "Historia clínica universal",
+      "Servicios básicos a menos de 30 minutos (Plan 300/30/30)"
+    ],
+    "paginas": [3]
+  },
+  "educacion": null,
+  "ciencia": {
+    "postura": "Atraer y retener talento científico en Teruel.",
+    "medidas": [
+      "Potenciar el Instituto de Investigación Astrofísica de Teruel, el CEFCA y el Observatorio de Javalambre",
+      "Centro Nacional de Investigación en Paleontología de Dinosaurios en Dinópolis",
+      "Consolidar la extensión de la UNED; ayudas para el talento científico"
+    ],
+    "paginas": [3]
+  },
+  "servicios_sociales": {
+    "postura": "Servicios sociales públicos y de calidad en todo el territorio.",
+    "medidas": [
+      "Servicios sociales públicos y de calidad, vivas donde vivas"
+    ],
+    "paginas": [3]
+  },
+  "familia_infancia": null,
+  "igualdad": {
+    "postura": "«Ni un paso atrás» en los derechos conseguidos.",
+    "medidas": [
+      "Igualdad salarial, conciliación y corresponsabilidad",
+      "Apoyo a la mujer rural",
+      "Protección frente a la violencia de género"
+    ],
+    "paginas": [3]
+  },
+  "lgtbi": null,
+  "inmigracion": null,
+  "seguridad": {
+    "postura": "Seguridad rural como servicio público en todo el territorio.",
+    "medidas": [
+      "Seguridad rural de calidad en zonas despobladas"
+    ],
+    "paginas": [3]
+  },
+  "defensa": null,
+  "justicia": null,
+  "democracia": null,
+  "territorial": {
+    "postura": "Financiación que reconozca el coste de prestar servicios en territorios despoblados; voto exclusivamente al servicio de Teruel.",
+    "medidas": [
+      "Financiación autonómica y local según el coste real de los servicios en población escasa y dispersa",
+      "Aumentar el FITE a 100 M€ para proyectos estratégicos de empleo",
+      "Reconocer y subsanar la deuda histórica del Estado con Teruel; nuevo Plan de actuación específico"
+    ],
+    "paginas": [2, 3]
+  },
+  "lengua_cultura": {
+    "postura": "Cultura en red y protección del patrimonio.",
+    "medidas": [
+      "Protección del patrimonio material e inmaterial y fomento de festivales rurales",
+      "Un Museo Nacional en Teruel y un Centro estatal de diseño contemporáneo Manuel Pertegaz",
+      "Recuperación del patrimonio industrial minero (Power Experience)"
+    ],
+    "paginas": [3]
+  },
+  "digital": {
+    "postura": "Conectividad de calidad en todos los municipios.",
+    "medidas": [
+      "Banda ancha de calidad en todos los municipios (Plan 300/30/30)"
+    ],
+    "paginas": [3]
+  },
+  "juventud": null,
+  "deporte": null,
+  "animales": null,
+  "ue_exterior": null
+}

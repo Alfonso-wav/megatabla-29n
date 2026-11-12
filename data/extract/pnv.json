@@ -1,0 +1,293 @@
+{
+  "vivienda": {
+    "postura": "Más oferta de vivienda y reglas claras en el alquiler para frenar los abusos.",
+    "medidas": [
+      "Agilizar trámites urbanísticos; movilizar viviendas vacías y rehabilitar edificios",
+      "Evitar el uso fraudulento de los contratos de temporada; regular alquileres de temporada y turísticos",
+      "Reducir prácticas especulativas",
+      "Seguridad jurídica a inquilinos y pequeños propietarios; alternativas habitacionales para familias vulnerables sin cargar la responsabilidad sobre pequeños propietarios",
+      "Medidas específicas para el acceso de jóvenes a la primera vivienda, en alquiler y en propiedad"
+    ],
+    "paginas": [7, 8]
+  },
+  "empleo": {
+    "postura": "Salarios acordes con el coste de vida vasco, empleo estable y marco vasco de relaciones laborales.",
+    "medidas": [
+      "Competencia para un salario mínimo vasco propio, siempre por encima del estatal",
+      "Prevalencia de los convenios colectivos vascos más favorables",
+      "Reforzar la Inspección de Trabajo contra el fraude y los falsos autónomos",
+      "Ampliar la prestación por desempleo hasta 36 meses vinculada a la empleabilidad",
+      "Transparencia retributiva entre mujeres y hombres; protocolos contra el acoso laboral",
+      "Regular las prácticas formativas; proteger la FP dual",
+      "Mejorar la prestación por cese de actividad de autónomos y hacerla compatible con un nuevo proyecto"
+    ],
+    "paginas": [9, 10, 15]
+  },
+  "pensiones": {
+    "postura": "Pensiones públicas revalorizadas con el IPC y corrección de las penalizaciones a las carreras largas.",
+    "medidas": [
+      "Revalorización anual conforme al IPC; mejorar las pensiones mínimas y no contributivas",
+      "Eliminar penalizaciones a la jubilación anticipada con más de 40 años cotizados",
+      "Reducir la brecha de género y reconocer los periodos de cuidados familiares",
+      "Coeficientes reductores para cuidadores no profesionales y autónomos de la pesca",
+      "Previsión social complementaria vía negociación colectiva, nunca como sustitución",
+      "Transferir a Euskadi la gestión del régimen económico de la Seguridad Social"
+    ],
+    "paginas": [18, 31]
+  },
+  "fiscalidad": {
+    "postura": "Fiscalidad que proteja el poder adquisitivo y respete el Concierto Económico.",
+    "medidas": [
+      "Reforma del IVA de bienes esenciales: tipos cero o superreducidos en alimentos básicos y productos para celíacos; revisar el IVA de suministros y transporte público",
+      "Revisar el IVA cultural",
+      "Reducir de forma permanente el Impuesto Especial sobre la Electricidad al 0,5 %",
+      "Más capacidad normativa de las Haciendas Forales en IVA e Impuestos Especiales",
+      "Flexibilizar las reglas de estabilidad presupuestaria y permitir usar superávits en inversión",
+      "Declarar exentas en el IRPF las indemnizaciones a víctimas del amianto"
+    ],
+    "paginas": [16, 21, 34]
+  },
+  "economia": {
+    "postura": "Industria fuerte con centros de decisión en Euskadi, apoyo a pymes, autónomos y cooperativas.",
+    "medidas": [
+      "Legislación industrial adaptada y protección de comarcas en transformación como Aiaraldea",
+      "Mantener los centros de decisión de empresas con participación pública en Euskadi",
+      "Adaptar programas estatales de innovación; modernización tecnológica e IA en pymes",
+      "Proteger el modelo cooperativo vasco; apoyar la internacionalización",
+      "Reforzar las líneas ICO; facilitar el relevo en empresas familiares y que las plantillas asuman empresas viables",
+      "Economía circular y recuperación de suelos industriales"
+    ],
+    "paginas": [14, 15, 17]
+  },
+  "administracion": {
+    "postura": "Menos burocracia para emprender y más transparencia en las administraciones.",
+    "medidas": [
+      "Reducir la burocracia y eliminar duplicidades en la creación y gestión de empresas",
+      "Reforzar la transparencia y la rendición de cuentas de las administraciones"
+    ],
+    "paginas": [14, 40]
+  },
+  "energia": {
+    "postura": "Energía competitiva para la industria y asequible para los hogares, con redes suficientes.",
+    "medidas": [
+      "Acelerar inversiones en redes eléctricas con incentivos y penalizaciones por retrasos",
+      "Revisar el PNIEC para incorporar las necesidades industriales",
+      "Almacenamiento y mecanismos de capacidad; régimen de apoyo a la cogeneración",
+      "Compensar al máximo los costes indirectos de CO2 de la industria",
+      "Reforzar el gas natural; impulso a biometano e hidrógeno renovable",
+      "Mantener bonos sociales y TUR del gas; restablecer la Comisión Nacional de la Energía",
+      "Autoconsumo compartido y comunidades energéticas"
+    ],
+    "paginas": [15, 16]
+  },
+  "medio_ambiente": {
+    "postura": "Transición ecológica compatible con la actividad industrial.",
+    "medidas": [
+      "Rehabilitación energética de edificios (Plan Nacional de Renovación)",
+      "Estrategia de adaptación al cambio climático con prevención de inundaciones e incendios",
+      "Protección y restauración de ríos, bosques, humedales y ecosistemas marinos",
+      "Reforma integral de la Ley de Costas y plan de protección de la costa vasca",
+      "Más inversión en abastecimiento, saneamiento y depuración"
+    ],
+    "paginas": [16, 17]
+  },
+  "sector_primario": {
+    "postura": "Un primer sector rentable, con relevo generacional y voz en las decisiones europeas.",
+    "medidas": [
+      "PAC 2028-2034 con Plan Estratégico propio para Euskadi",
+      "Protección frente a prácticas comerciales desleales y precios que cubran costes; reforzar la Ley de la Cadena Alimentaria",
+      "Cotizaciones reducidas para jóvenes que se incorporen al sector",
+      "Controles y reciprocidad para productos importados",
+      "Revisión de la Política Pesquera Común y de las restricciones a la pesca de fondo; reparto justo de cuotas",
+      "Renovación de la flota y ayudas ante subidas de costes energéticos y vedas",
+      "Rioja Alavesa: diferenciación en el etiquetado"
+    ],
+    "paginas": [17, 18]
+  },
+  "infraestructuras": {
+    "postura": "Infraestructuras con fechas, inversiones y resultados, y gestión vasca de las que prestan servicio en Euskadi.",
+    "medidas": [
+      "Terminar la Y vasca con calendario verificable y conexión con Iruñea",
+      "Transferir las cercanías que discurren íntegramente por Euskadi",
+      "Corredor Atlántico, Variante Sur Ferroviaria de Bilbao y plataforma de Jundiz",
+      "Más capacidad de decisión vasca sobre aeropuertos y puertos (desclasificar Pasaia para su transferencia)",
+      "Eliminar pasos a nivel; accesibilidad universal del ferrocarril",
+      "Ayudas estables a vehículos eléctricos, renovación de flotas y puntos de recarga",
+      "Permitir repercutir los peajes a los clientes del transporte"
+    ],
+    "paginas": [19, 20]
+  },
+  "sanidad": {
+    "postura": "Sanidad pública con profesionales suficientes y respeto a las competencias de Osakidetza.",
+    "medidas": [
+      "Adaptar el MIR a las necesidades reales de especialistas",
+      "Valorar las lenguas oficiales en el acceso a la formación especializada",
+      "Participación vasca y navarra en la fijación de precios de medicamentos",
+      "Atención a enfermedades raras y neurodegenerativas; acceso a medicamentos huérfanos",
+      "Regular el uso medicinal del cannabis",
+      "Culminar las transferencias sanitarias pendientes; negociar el Estatuto Marco con profesionales"
+    ],
+    "paginas": [32]
+  },
+  "educacion": {
+    "postura": "Educación inclusiva, plurilingüe e intercultural, con modelo educativo vasco propio.",
+    "medidas": [
+      "Preservar las competencias educativas vascas frente a interferencias estatales",
+      "Reforzar la coeducación y la educación afectivo-sexual",
+      "Mantener la capacidad normativa del Sistema Vasco de Becas",
+      "Fortalecer la FP dual"
+    ],
+    "paginas": [10]
+  },
+  "ciencia": {
+    "postura": "Colaboración universidad-empresa y gobernanza universitaria vasca.",
+    "medidas": [
+      "Colaboración entre universidades y empresas para investigación y empleo cualificado",
+      "Capacidad vasca para decidir la gobernanza de sus universidades; proyectos universitarios europeos",
+      "Investigación en enfermedades raras y neurodegenerativas"
+    ],
+    "paginas": [10, 32]
+  },
+  "servicios_sociales": {
+    "postura": "Cuidar a quienes cuidan y hacer efectivos los derechos reconocidos ante la enfermedad y la dependencia.",
+    "medidas": [
+      "Prestación digna para cuidadores no profesionales tomando como referencia el SMI",
+      "Compatibilizar prestaciones y servicios de apoyo; servicios de respiro",
+      "Fondo Personal para Cuidados en la Comunidad",
+      "Cumplimiento íntegro y financiación de la Ley ELA",
+      "Real Decreto de Electrodependencia y protección frente a cortes de suministro",
+      "Reformar el fondo de compensación de víctimas del amianto",
+      "Financiación sostenible del sistema de protección social"
+    ],
+    "paginas": [33, 34, 35]
+  },
+  "familia_infancia": {
+    "postura": "Ningún niño sin oportunidades; protección frente a la pobreza y la violencia.",
+    "medidas": [
+      "Reforzar la lucha contra la pobreza infantil",
+      "Órganos judiciales especializados en infancia en Euskadi",
+      "Obligaciones a plataformas frente al ciberacoso y la violencia sexual digital; verificación de edad proporcionada",
+      "Evaluar y mejorar la prestación CUME y estudiar extenderla a funcionarios"
+    ],
+    "paginas": [34, 35]
+  },
+  "igualdad": {
+    "postura": "Igualdad efectiva y vida libre de violencia machista, sin retrocesos.",
+    "medidas": [
+      "Perspectiva de género en las políticas públicas; transponer las directivas 2024/1499 y 2024/1500",
+      "Garantizar los derechos sexuales y reproductivos; perímetro de 150 m alrededor de clínicas de IVE",
+      "Cumplir el Pacto de Estado contra la Violencia de Género; regular la violencia vicaria",
+      "Formación obligatoria en género para jueces y fiscales; más juzgados de violencia sobre la mujer en Euskadi",
+      "Reparar a las víctimas del Patronato de Protección a la Mujer"
+    ],
+    "paginas": [26]
+  },
+  "lgtbi": {
+    "postura": "Defender los derechos de las personas LGTBIQ+ frente a cualquier retroceso.",
+    "medidas": [
+      "Reforzar la persecución de los delitos de odio",
+      "Exigir a las plataformas el cumplimiento del Reglamento de Servicios Digitales",
+      "Tipificar penalmente las terapias de conversión",
+      "Desarrollar el art. 50 de la Ley 4/2023 para personas extranjeras trans"
+    ],
+    "paginas": [27]
+  },
+  "inmigracion": {
+    "postura": "Migración gestionada desde Euskadi, con derechos y responsabilidades.",
+    "medidas": [
+      "Más competencias vascas en migración y extranjería, también para la Ertzaintza",
+      "Reconocer a Euskadi como frontera norte",
+      "Acogida descentralizada; rechazo a grandes centros como el previsto en Arana",
+      "Vías legales y seguras, contratación en origen y regularización según la ley",
+      "Agilizar la homologación de títulos extranjeros y los procedimientos de asilo",
+      "Política europea común de asilo con reparto equilibrado de solicitantes y menores",
+      "Integración con aprendizaje del euskera; alternativas a los CIE"
+    ],
+    "paginas": [24, 25, 28]
+  },
+  "seguridad": {
+    "postura": "Seguridad gestionada desde Euskadi con una Ertzaintza de capacidades plenas.",
+    "medidas": [
+      "Reconocer a la Ertzaintza como policía integral y como policía judicial",
+      "Participación directa de la Ertzaintza en la cooperación policial europea y en sus bases de datos",
+      "Reformas legales contra la multirreincidencia",
+      "Rechazo a la prisión permanente revisable; sistema penitenciario orientado a la reinserción",
+      "Reforma de la «ley mordaza»"
+    ],
+    "paginas": [24, 27, 28, 39]
+  },
+  "defensa": null,
+  "justicia": {
+    "postura": "Justicia más cercana, con capacidad de decisión desde Euskadi.",
+    "medidas": [
+      "Que la organización judicial culmine en el TSJ del País Vasco (salvo la jurisdicción del Supremo)",
+      "Crear un Consejo Vasco de Justicia",
+      "Recuperar la jurisdicción universal",
+      "Nueva Ley de Secretos Oficiales con desclasificación automática"
+    ],
+    "paginas": [28, 39, 40]
+  },
+  "democracia": {
+    "postura": "Derechos humanos y libertades sin retrocesos; verdad, justicia y reparación.",
+    "medidas": [
+      "Plan Estatal de Derechos Humanos",
+      "Reformar la «ley mordaza» y los delitos de expresión sobre la Corona y los símbolos",
+      "Desclasificar documentos del 3 de marzo de 1976, Mikel Zabalza, bar Aldana y Sanfermines de 1978",
+      "Aplicar íntegramente las leyes de Memoria Histórica y Democrática",
+      "No facilitar ningún gobierno que dependa de Vox"
+    ],
+    "paginas": [3, 27, 40]
+  },
+  "territorial": {
+    "postura": "Reconocimiento nacional de Euskadi, cumplimiento íntegro del Estatuto de Gernika y nuevo pacto político bilateral.",
+    "medidas": [
+      "Culminar todas las transferencias pendientes; rechazo a la recentralización",
+      "Mecanismos bilaterales de negociación con garantías frente a modificaciones unilaterales",
+      "Defender y ampliar el Concierto Económico; avanzar hacia un «Concierto Político»",
+      "Defender el Amejoramiento y el Convenio Económico de Navarra",
+      "Derecho de Treviño y Villaverde de Trucíos a pronunciarse sobre su incorporación a Euskadi"
+    ],
+    "paginas": [4, 38, 39]
+  },
+  "lengua_cultura": {
+    "postura": "Promoción del euskera y de las lenguas oficiales.",
+    "medidas": [
+      "Oficialidad del euskera, el catalán y el gallego en la UE",
+      "Valorar el conocimiento de lenguas oficiales en el acceso a la formación sanitaria",
+      "El euskera como herramienta de integración de las personas migrantes",
+      "Revisar el IVA cultural para artistas y galerías"
+    ],
+    "paginas": [21, 25, 32, 41]
+  },
+  "digital": {
+    "postura": "Digitalización de la industria y protección en entornos digitales.",
+    "medidas": [
+      "Financiación para digitalización, automatización e IA en empresas y pymes",
+      "Obligaciones a las plataformas digitales frente a contenidos de odio y para proteger a la infancia"
+    ],
+    "paginas": [14, 27, 35]
+  },
+  "juventud": {
+    "postura": "Emancipación posible y una juventud con voz en las decisiones públicas.",
+    "medidas": [
+      "Emancipación juvenil como prioridad en reformas de vivienda, empleo y protección social",
+      "Políticas de emancipación estables y con financiación suficiente",
+      "Mecanismos de participación juvenil en el diseño y evaluación de políticas",
+      "Perspectiva juvenil en la legislación estatal"
+    ],
+    "paginas": [8, 11]
+  },
+  "deporte": null,
+  "animales": null,
+  "ue_exterior": {
+    "postura": "Voz propia de Euskadi en Europa y política exterior comprometida con los derechos humanos.",
+    "medidas": [
+      "Participación directa de Euskadi en el Consejo de la UE (ECOFIN, JAI) en sus competencias",
+      "Reconocimiento de las realidades nacionales en las instituciones europeas",
+      "Macrorregión Atlántica Europea",
+      "Gestión descentralizada de los fondos europeos y participación en el MFP 2028-2034",
+      "Reforzar la cooperación al desarrollo; abolición internacional de la pena de muerte"
+    ],
+    "paginas": [28, 41, 42]
+  }
+}

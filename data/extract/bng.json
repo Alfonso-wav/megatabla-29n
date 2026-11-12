@@ -1,0 +1,347 @@
+{
+  "vivienda": {
+    "postura": "La vivienda es un derecho y no un negocio: topar alquileres, prohibir desahucios de personas vulnerables y crear un gran parque público.",
+    "medidas": [
+      "Topar por ley los precios del alquiler; contratos indefinidos con renovación automática",
+      "Prohibir los desahucios de personas vulnerables y suspender todo lanzamiento sin alternativa habitacional",
+      "Destinar el 3 % de los PGE a un parque público de alquiler permanente",
+      "Frenar la fuga de vivienda habitual hacia el alquiler turístico, de temporada o por habitaciones",
+      "Facilitar la expropiación de vivienda pública comprada por fondos; recargos en Sociedades a fondos y SOCIMIs",
+      "Calificación permanente de la vivienda protegida y prohibición de privatizarla",
+      "Transferir gratis suelo y viviendas de la Sareb al IGVS; edificios de Defensa sin uso para vivienda",
+      "Alquiler forzoso, expropiación temporal o canon de al menos 10 €/m² a viviendas vacías de grandes propietarios"
+    ],
+    "paginas": [10, 11, 12, 13, 14]
+  },
+  "empleo": {
+    "postura": "Restituir los derechos laborales perdidos y crear un marco gallego de relaciones laborales.",
+    "medidas": [
+      "Derogar las contrarreformas laborales: 45 días por año trabajado (máx. 42 mensualidades), autorización administrativa de los ERE y salarios de tramitación",
+      "Jornada de 35 horas sin reducción salarial, con horizonte de 32 horas en 4 días",
+      "SMI al 60 % del salario medio y competencia gallega para mejorarlo",
+      "Elección del trabajador entre readmisión e indemnización; prevalencia de los convenios gallegos",
+      "Eliminar ETT, agencias privadas de colocación y subcontratación en cadena",
+      "Prestación por desempleo del 75 % de la base durante 180 días y 65 % después, nunca inferior al SMI",
+      "Suprimir la tasa de reposición en el sector público e internalizar servicios privatizados",
+      "Equiparar los derechos de los autónomos con los de los asalariados"
+    ],
+    "paginas": [9, 14, 15, 16, 17, 18, 51, 52]
+  },
+  "pensiones": {
+    "postura": "Derogar las reformas de pensiones y transferir la Seguridad Social a Galicia.",
+    "medidas": [
+      "Derogar las reformas de 2011, 2013, 2021 y 2023",
+      "Pensiones mínimas iguales al SMI y no contributivas al 75 % del umbral de pobreza",
+      "Revalorización con el IPC real",
+      "Jubilación ordinaria a los 65 años y parcial a los 61; jubilación voluntaria sin penalización con 35 años cotizados",
+      "Eliminar el Mecanismo de Equidad Intergeneracional y destopar las bases máximas de cotización",
+      "Derogar el fomento de planes de pensiones privados de empleo",
+      "Cubrir las lagunas de cotización de las mujeres y elevar el complemento de brecha de género"
+    ],
+    "paginas": [9, 18, 19, 20]
+  },
+  "fiscalidad": {
+    "postura": "Más progresividad: que tribute más el capital y menos el trabajo, con capacidad gallega para recaudar todos los impuestos.",
+    "medidas": [
+      "IRPF más progresivo, con tramos ajustados al IPC gallego y más tributación de las rentas del capital",
+      "Que las empresas que operan en Galicia tributen allí; Sociedades progresivo según el tamaño",
+      "IVA superreducido para alimentos básicos, productos del mar, higiene, transporte público y bienes culturales",
+      "IVA del 5 % permanente en electricidad, gas, biomasa y leña; Impuesto Especial de Electricidad permanente al 0,5 %",
+      "Blindar los impuestos a banca, energéticas y grandes fortunas, con su gestión transferida a Galicia",
+      "Prohibir ayudas públicas a empresas con sociedades en paraísos fiscales",
+      "Gravar el negocio de extracción de datos de las plataformas según usuarios en cada territorio"
+    ],
+    "paginas": [9, 43, 44, 45, 81]
+  },
+  "economia": {
+    "postura": "Reindustrialización autocentrada y control público de los sectores estratégicos.",
+    "medidas": [
+      "Plan de Industrialización con atención prioritaria a Ferrol y Vigo",
+      "Obligar a devolver las ayudas a las empresas que deslocalicen",
+      "Navantia-Ferrol como complejo integral con construcción naval civil; Xunta en su consejo de administración",
+      "Continuidad de Alcoa-San Cibrao, incluso mediante intervención pública",
+      "Corporación Industrial Pública Galega con las participaciones del Estado",
+      "Regular por ley los precios de los alimentos básicos; precio máximo de gasolina y diésel",
+      "Minería: participación pública mínima del 20 % en minerales estratégicos y transformación industrial en Galicia"
+    ],
+    "paginas": [21, 45, 46, 57, 58, 59]
+  },
+  "administracion": {
+    "postura": "Adelgazar el aparato del Estado en Galicia y reforzar la gestión pública directa.",
+    "medidas": [
+      "Suprimir la administración periférica del Estado y los ministerios con competencias transferidas",
+      "Suprimir las diputaciones provinciales",
+      "Derogar la reforma local (LRSAL) y permitir el uso incondicional de los remanentes municipales",
+      "Transparencia en la contratación negociada y directa; más pymes en la contratación pública",
+      "Atención presencial sin cita previa en las oficinas del Estado"
+    ],
+    "paginas": [41, 42, 45]
+  },
+  "energia": {
+    "postura": "Soberanía energética gallega, con un modelo distribuido y la energía tratada como bien público.",
+    "medidas": [
+      "Transferir las competencias energéticas; que Galicia decida sobre instalaciones de más de 50 MW",
+      "Tarifa eléctrica gallega que compense su papel de productora excedentaria",
+      "Retirar los POEM y declarar el litoral gallego no apto para eólica marina",
+      "Recuperar las garantías ambientales y la participación ciudadana en los proyectos eólicos",
+      "Electricidad como bien básico: superar el bono social y prohibir los cortes de suministro",
+      "Recuperar las concesiones de los embalses para una empresa pública gallega de energía",
+      "Mantener la prohibición del fracking"
+    ],
+    "paginas": [9, 53, 54, 55, 56]
+  },
+  "medio_ambiente": {
+    "postura": "Superar el modelo extractivo que convierte a Galicia en proveedora de materias primas y energía.",
+    "medidas": [
+      "Transferir todas las competencias ambientales: costas, cuencas, meteorología, salvamento",
+      "Metas Kunming-Montreal: conservar el 30 % del territorio y restaurar el 20 % de los ecosistemas degradados",
+      "Catalogar el eucalipto como especie exótica invasora",
+      "Derogar la prórroga de ENCE en la ría de Pontevedra; saneamiento separativo en las rías",
+      "Reconocer la propiedad comunal del monte en el Código Civil",
+      "Restringir la minería a cielo abierto y prohibir el cianuro",
+      "Sistema de depósito, devolución y retorno de envases; movilidad «amable» frente a restricciones por antigüedad del vehículo"
+    ],
+    "paginas": [50, 59, 65, 66, 67, 68, 69, 70]
+  },
+  "sector_primario": {
+    "postura": "Defender el agro y la pesca gallegos frente a las decisiones de Madrid y Bruselas.",
+    "medidas": [
+      "Modificar la Ley de la Cadena Alimentaria para impedir ventas por debajo de los costes",
+      "Rechazar el acuerdo UE-Mercosur",
+      "Oponerse a los recortes del marco 2028-2034 (PAC −22 %, FEMPA −67 %) y exigir gestión descentralizada",
+      "Que Galicia negocie directamente los tratados pesqueros, como la cuota de sardina con Portugal",
+      "Eliminar el principio de estabilidad relativa; pesca artesanal exenta de TAC y cuotas",
+      "IVA reducido para los productos pesqueros; catálogo de enfermedades profesionales del mar",
+      "Ayudas directas para que los jóvenes se incorporen al sector primario"
+    ],
+    "paginas": [47, 48, 49, 50, 51, 84]
+  },
+  "infraestructuras": {
+    "postura": "Acabar con el déficit histórico de inversión y transferir la gestión de las infraestructuras a Galicia.",
+    "medidas": [
+      "Cercanías ferroviarias en las principales ciudades gallegas; empresa pública GALTRÉN para las líneas interiores",
+      "Modernizar A Coruña–Ferrol, A Coruña–Lugo, Ferrol–Ribadeo y conexión directa Santiago–Lugo",
+      "Corredor Atlántico de Mercancías y alta velocidad Vigo–Oporto en 2030-2032",
+      "AP-9 y AP-53 transferidas, públicas y sin peajes",
+      "Completar la A-54, la A-74, la A-76 y la A-56",
+      "Transferir aeropuertos y puertos de interés general; torres de control públicas",
+      "Auditoría independiente de la seguridad de la red ferroviaria"
+    ],
+    "paginas": [9, 10, 60, 61, 62, 63, 64]
+  },
+  "sanidad": {
+    "postura": "Sanidad 100 % pública y universal, con capacidad plena de Galicia para regirla.",
+    "medidas": [
+      "Financiación sanitaria al menos igual a la media europea por habitante",
+      "Modificar la Ley 15/97 para que la gestión sea exclusivamente pública",
+      "Nueva ley de universalización de la asistencia sanitaria",
+      "Ampliar la cartera: dental, podología, óptica, logopedia, ortoprótesis y nutrición",
+      "Fin de los copagos farmacéuticos",
+      "Transferir la formación MIR/EIR/PIR y aumentar plazas; eliminar la tasa de reposición",
+      "Investigación en enfermedades raras y en salud de la mujer"
+    ],
+    "paginas": [36, 37, 38, 39]
+  },
+  "educacion": {
+    "postura": "Una única red pública, gallega, laica, coeducativa y gratuita de 0 a 18 años.",
+    "medidas": [
+      "Competencias plenas: ley gallega de educación, de FP y del sistema universitario",
+      "Educación obligatoria de 3 a 18 años; libros, material y actividades extraescolares gratuitos",
+      "Suprimir progresivamente los conciertos, empezando por la etapa no obligatoria y los centros que segregan por sexo",
+      "Sacar la Religión del currículo",
+      "Destinar el 7 % del PIB a educación",
+      "Revertir los aspectos lesivos de la LOMLOE, la LOSU y la Ley de FP",
+      "Protocolo estatal contra el acoso escolar y el ciberacoso"
+    ],
+    "paginas": [33, 34, 35, 85, 86]
+  },
+  "ciencia": {
+    "postura": "Ciencia con derechos y universidades públicas bien financiadas.",
+    "medidas": [
+      "Inversión estatal en I+D+i del 3 % del PIB en 2030",
+      "Estatuto del Personal de Investigación con estabilidad y carrera profesional",
+      "Transferir a Galicia los centros del CSIC, el IEO, la UNED y la UIMP",
+      "Financiación universitaria de referencia del 1,5 % del PIB; reforma de la LOSU",
+      "Becas universitarias gestionadas por Galicia; residencias públicas universitarias",
+      "Liberar con licencias abiertas el software y las patentes financiados con fondos públicos"
+    ],
+    "paginas": [35, 52, 53, 78]
+  },
+  "servicios_sociales": {
+    "postura": "Servicios públicos de cuidados frente a la privatización y lucha contra la pobreza.",
+    "medidas": [
+      "Transferir el IMV para crear una Renta Gallega de Inclusión no inferior al SMI",
+      "Gasto en protección social al menos en la media de la UE",
+      "Que el Estado pague su deuda con la dependencia gallega (más de 3.000 M€) y financie el 50 %",
+      "Fondos de dependencia destinados a la red pública, no a la privatización",
+      "Mejores condiciones para las trabajadoras de cuidados (SAF y residencias)",
+      "Plan de accesibilidad universal y financiación de la asistencia personal",
+      "Cuentas bancarias básicas gratuitas para personas vulnerables"
+    ],
+    "paginas": [20, 21, 40, 41]
+  },
+  "familia_infancia": {
+    "postura": "Corresponsabilidad y conciliación con apoyo público.",
+    "medidas": [
+      "Reconocer legalmente a las familias monoparentales",
+      "Compensar económicamente las reducciones de jornada y garantizar ingresos en las excedencias por cuidados",
+      "Aportación estatal a la gratuidad de las escuelas infantiles gallegas",
+      "Blindar la prestación CUME para menores con enfermedades graves",
+      "Cotización completa en las reducciones de jornada por cuidados"
+    ],
+    "paginas": [20, 27, 41]
+  },
+  "igualdad": {
+    "postura": "Políticas feministas para garantizar una vida libre de violencia machista; abolicionismo.",
+    "medidas": [
+      "Reforma integral conforme al Convenio de Estambul y rango de ley para la violencia vicaria",
+      "Introducir el término feminicidio y un Estatuto de Víctima de Feminicidio",
+      "Gestión pública y directa de las pulseras de control telemático; revisar VioGén",
+      "Ejecutar el Pacto de Estado y aumentar los fondos para Galicia",
+      "Oposición a los vientres de alquiler",
+      "Abolición de la prostitución penalizando a proxenetas y prostituidores, no a las mujeres",
+      "Reformar la Ley de paridad para que haya más mujeres en las listas"
+    ],
+    "paginas": [24, 25, 26, 27]
+  },
+  "lgtbi": {
+    "postura": "Consolidar y ampliar los derechos LGTB.",
+    "medidas": [
+      "Reconocer a las personas no binarias",
+      "Autodeterminación de género para menores trans de menos de 12 años",
+      "Reconocimiento documental de la identidad de las personas trans migrantes",
+      "Retirar subvenciones y sancionar a organizaciones que nieguen los derechos LGTB",
+      "Servicio de igualdad y diversidad sexual en todos los centros educativos",
+      "Envejecimiento sin LGTBfobia en las residencias"
+    ],
+    "paginas": [28, 29]
+  },
+  "inmigracion": {
+    "postura": "Galicia inclusiva: regularización, derechos y lucha contra el racismo.",
+    "medidas": [
+      "Promover la regularización administrativa como vía para eliminar la explotación",
+      "Cerrar los CIE y acabar con las devoluciones en caliente",
+      "Garantizar el acceso al gallego en la acogida; aceptar el conocimiento del gallego como criterio para la nacionalidad",
+      "Agilizar la homologación de títulos, también para los emigrantes retornados",
+      "Más recursos para las oficinas de extranjería",
+      "Renegociar Schengen con una política europea respetuosa con el asilo"
+    ],
+    "paginas": [22, 23, 91]
+  },
+  "seguridad": {
+    "postura": "Policía propia para Galicia y fin del modelo punitivo de la «ley mordaza».",
+    "medidas": [
+      "Transferir la seguridad pública, la policía judicial y el tráfico para desplegar la Policía Galega",
+      "Derogar íntegramente la «ley mordaza»; prohibir las pelotas de goma",
+      "Derogar la prisión permanente revisable",
+      "Transferir instituciones penitenciarias; que los presos gallegos cumplan condena en Galicia",
+      "Concentrar la inspección pesquera en Gardacostas de Galicia"
+    ],
+    "paginas": [9, 30, 31, 50]
+  },
+  "defensa": {
+    "postura": "Neutralidad activa: salida de la OTAN y rechazo al aumento del gasto militar.",
+    "medidas": [
+      "Salir de la OTAN y defender su disolución",
+      "Retirar las tropas de las misiones de la OTAN y de EE. UU.; cancelar los acuerdos bilaterales con EE. UU.",
+      "Reducir progresivamente el gasto militar",
+      "Prohibir la venta de armas a dictaduras o Estados agresores",
+      "Desmilitarizar Galicia y transferir a la Xunta los espacios militares",
+      "Abolición definitiva del servicio militar obligatorio"
+    ],
+    "paginas": [66, 86, 89, 90, 91]
+  },
+  "justicia": {
+    "postura": "Lucha contra la corrupción y el fraude fiscal de los cargos públicos.",
+    "medidas": [
+      "Inhabilitación directa de cargos públicos por fraude fiscal o uso de paraísos fiscales",
+      "Regulación estricta de las puertas giratorias e incompatibilidades parlamentarias"
+    ],
+    "paginas": [41]
+  },
+  "democracia": {
+    "postura": "Defensa de los derechos y libertades, memoria democrática y Estado laico.",
+    "medidas": [
+      "Derogar los delitos de injurias a la Corona, ultrajes a símbolos y escarnio religioso",
+      "Derogar la Ley de Amnistía de 1977 y modificar la Ley de Memoria contra la impunidad del franquismo",
+      "Pazo de Meirás como lugar de memoria cedido a Galicia",
+      "Derogar la Ley de Secretos Oficiales y la Ley de Seguridad Nacional",
+      "Referendos vinculantes, incluido el de autodeterminación",
+      "Denunciar el Concordato y los Acuerdos con la Santa Sede",
+      "Reforma electoral: Galicia como circunscripción, sin umbral del 5 %; voto a los 16 y 17 años"
+    ],
+    "paginas": [30, 31, 32, 86]
+  },
+  "territorial": {
+    "postura": "Avanzar en la soberanía de Galicia hacia una «ruptura democrática» con un Estado que considera «irreformable».",
+    "medidas": [
+      "Financiación basada en un concierto económico: Galicia recauda todos los impuestos (Facenda Galega)",
+      "Transferir relaciones laborales, Seguridad Social, seguridad, energía, costas, cuencas e infraestructuras",
+      "Reformar la financiación local (Participación en Ingresos del Estado)",
+      "Derecho de autodeterminación de los pueblos, empezando por Galicia"
+    ],
+    "paginas": [8, 9, 10, 32, 89]
+  },
+  "lengua_cultura": {
+    "postura": "Normalización plena del gallego, también en la Administración del Estado.",
+    "medidas": [
+      "Más presencia del gallego en RTVE; recuperar Radio 4 en gallego; horizonte de un canal de TV en gallego",
+      "Ley Audiovisual con igualdad de lenguas; doblaje y subtítulos en gallego en las plataformas",
+      "Conocimiento del gallego entre el funcionariado estatal; gallego en la Justicia y en todos los trámites digitales",
+      "Oficialidad plena del gallego en la UE; Galicia como miembro asociado de la UNESCO",
+      "Respeto a la toponimia, incluida la marítima",
+      "Cursos regulares de gallego en el Instituto Cervantes; puente con la Lusofonía y presencia en la CPLP"
+    ],
+    "paginas": [71, 72, 73, 74]
+  },
+  "digital": {
+    "postura": "Soberanía digital: infraestructuras públicas, control democrático de los algoritmos y gallego en la IA.",
+    "medidas": [
+      "Transferir las competencias de telecomunicaciones, ciberseguridad e identidad digital",
+      "Ecosistema público gallego de IA, con modelos pequeños y especializados",
+      "Ley de transparencia algorítmica; revisión humana obligatoria y registro público de algoritmos",
+      "Limitar la vigilancia biométrica; prohibir la policía predictiva y las armas autónomas",
+      "Nube pública gallega; reducir la dependencia de software privativo extraeuropeo",
+      "Interoperabilidad obligatoria de redes sociales y límites a los diseños adictivos",
+      "Límites a los macrocentros de datos (como el de Curtis), con auditorías hídricas y canon territorial"
+    ],
+    "paginas": [75, 76, 77, 78, 79, 80, 81, 82, 83]
+  },
+  "juventud": {
+    "postura": "Que la juventud pueda vivir, trabajar y construir su proyecto de vida en Galicia.",
+    "medidas": [
+      "Destinar el 1 % de los PGE a políticas de juventud, transferido a las comunidades",
+      "Acceso prioritario de los jóvenes al parque público de vivienda; contra la discriminación por falta de avales",
+      "Plan de choque para el retorno de los jóvenes emigrados",
+      "Prácticas remuneradas y equiparar los contratos de formación",
+      "Bonificaciones en el transporte para menores de 30 años",
+      "Plan de salud mental juvenil; prohibir la publicidad del juego",
+      "Derecho a votar a los 16 y 17 años"
+    ],
+    "paginas": [84, 85, 86]
+  },
+  "deporte": {
+    "postura": "Selecciones gallegas oficiales e igualdad en el deporte.",
+    "medidas": [
+      "Traspasar las competencias del CSD y de las federaciones",
+      "Participación oficial de las selecciones gallegas en competiciones internacionales",
+      "Modificar las sanciones de la Ley del Deporte por exhibir pancartas o banderas",
+      "Igualdad y conciliación para las deportistas que son madres",
+      "Instalaciones deportivas accesibles"
+    ],
+    "paginas": [10, 88]
+  },
+  "animales": null,
+  "ue_exterior": {
+    "postura": "Política pacifista y antiimperialista; contra la militarización de la UE.",
+    "medidas": [
+      "Salida diplomática en Ucrania y fin del envío de armamento español",
+      "Revertir el cambio de posición sobre el Sáhara y apoyar un referéndum de autodeterminación",
+      "Condenar la ocupación israelí y reconocer de forma efectiva el Estado de Palestina",
+      "Rechazar la injerencia de EE. UU. en América Latina y el bloqueo a Cuba",
+      "Oponerse en la UE al desvío de fondos sociales a gasto militar",
+      "Rechazar los tratados comerciales que vulneren la soberanía y los derechos sociales"
+    ],
+    "paginas": [47, 89, 90, 91]
+  }
+}

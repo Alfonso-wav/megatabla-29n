@@ -1,0 +1,256 @@
+{
+  "vivienda": {
+    "postura": "Más vivienda asequible, frenar la especulación y proteger el uso residencial; limitar la compra por extranjeros.",
+    "medidas": [
+      "Fondo estatal de 8 años para cofinanciar vivienda pública y asequible; cesión de suelos y edificios del Estado en Canarias",
+      "Plan estatal de reposición y regeneración de barrios; ayudas a rehabilitación, ascensores y eficiencia",
+      "Incentivos fiscales a pequeños propietarios que pongan viviendas en alquiler asequible, con garantías públicas de cobro",
+      "Línea estatal de vivienda joven, alquiler asequible y cooperativas",
+      "Reformas para limitar la compra de vivienda en Canarias por extranjeros y régimen específico ante la UE; Ley Canaria de Residencia",
+      "Cobertura jurídica para que Canarias y municipios limiten la vivienda vacacional en zonas con presión",
+      "Agilizar trámites de vivienda protegida; incentivos fiscales a la primera vivienda; construcción industrializada"
+    ],
+    "paginas": [10, 11]
+  },
+  "empleo": {
+    "postura": "Empleo estable y mejores salarios con planes específicos mientras Canarias esté por debajo de la media estatal.",
+    "medidas": [
+      "Financiar el Plan Integral de Empleo de Canarias y los programas del REF",
+      "Incentivos fiscales y bonificaciones en cotizaciones ligados a mejoras salariales pactadas",
+      "Bonificación del 50 % de cuotas empresariales en La Palma, La Gomera y El Hierro",
+      "Plan cuatrienal de empleo para menores de 35 años; FP dual y retorno del talento"
+    ],
+    "paginas": [12, 13, 14]
+  },
+  "pensiones": {
+    "postura": "Que los complementos canarios mejoren de forma efectiva las pensiones no contributivas.",
+    "medidas": [
+      "Complementos de renta autonómicos compatibles con las pensiones no contributivas, exentos de tributación y sin computar para reducirlas"
+    ],
+    "paginas": [10]
+  },
+  "fiscalidad": {
+    "postura": "Defensa íntegra del Régimen Económico y Fiscal (REF) canario y de ventajas fiscales para las islas.",
+    "medidas": [
+      "Proteger el REF y rechazar reformas unilaterales del Estado; separar sus recursos de la financiación de servicios públicos",
+      "Mantener la deducción del 60 % en el IRPF en La Palma y extenderla a La Gomera y El Hierro",
+      "Mantener el diferencial fiscal canario para la producción audiovisual",
+      "Corregir cobros indebidos de IVA cuando corresponda el IGIC en comercio electrónico",
+      "Acceso del ISTAC a información tributaria para evaluar el REF"
+    ],
+    "paginas": [8, 12, 13, 21]
+  },
+  "economia": {
+    "postura": "Diversificar la economía canaria y apoyar a autónomos, pymes, cooperativas y un turismo que contribuya más al bienestar.",
+    "medidas": [
+      "Más ayudas estatales a nuevos autónomos y a autónomos con menores rendimientos",
+      "Programas de digitalización e innovación adaptados a la microempresa canaria",
+      "Convenio de infraestructuras turísticas y renovación de destinos maduros",
+      "Orientar el REF hacia inversión productiva, industria y actividades tecnológicas",
+      "Acuerdo con Estado y UE para eliminar barreras al comercio electrónico desde/hacia Canarias",
+      "Actualizar compensaciones por sobrecostes de insularidad y evaluar su efecto en la cesta de la compra",
+      "Economía circular: industria de reparación, reciclaje y nuevos materiales"
+    ],
+    "paginas": [11, 12, 13]
+  },
+  "administracion": {
+    "postura": "Más recursos y capacidad de gasto para cabildos y ayuntamientos, con rendición de cuentas de los compromisos estatales.",
+    "medidas": [
+      "Permitir usar remanentes de tesorería en vivienda, sanidad, educación y bienestar social",
+      "Estabilidad en la participación en tributos del Estado y en el Fondo de Compensación Interterritorial",
+      "Informe público anual sobre obligaciones estatales con Canarias (presupuestado, transferido y ejecutado)"
+    ],
+    "paginas": [20, 21]
+  },
+  "energia": {
+    "postura": "Transición energética que reduzca la dependencia exterior manteniendo la seguridad de suministro.",
+    "medidas": [
+      "Sustituir progresivamente centrales térmicas obsoletas por renovables, almacenamiento y flexibilidad",
+      "Eólica marina en Gran Canaria con consenso social e institucional",
+      "Programa estatal extraordinario de redes eléctricas; ayudas al almacenamiento (incluido bombeo de agua de mar)",
+      "Reformar la retribución de los sistemas eléctricos no peninsulares",
+      "Marco favorable al autoconsumo colectivo y comunidades energéticas",
+      "Red de recarga, electrificación de taxis y flotas de alquiler; combustibles sostenibles (metanol, hidrógeno, SAF)"
+    ],
+    "paginas": [15, 16]
+  },
+  "medio_ambiente": {
+    "postura": "Cuidar el territorio, asegurar el agua y adaptar las islas al cambio climático.",
+    "medidas": [
+      "Traspaso de la gestión del litoral a Canarias",
+      "Programa estatal plurianual de saneamiento y depuración; reutilización de agua depurada",
+      "Compensar el sobrecoste del agua desalada y regenerada",
+      "Fondo estatal de adaptación al calor (arbolado, sombra, refugios climáticos) y equipamientos públicos adaptados",
+      "Aportación estatal para la restauración de la naturaleza y protección de costas frente a la erosión",
+      "Centro Nacional de Vulcanología con sede en La Palma; activación temprana de la UME",
+      "Que la UE adapte sus políticas climáticas de aviación y navegación a la dependencia canaria del transporte"
+    ],
+    "paginas": [15, 16, 17]
+  },
+  "sector_primario": {
+    "postura": "Sostener la producción local y la soberanía alimentaria canaria.",
+    "medidas": [
+      "Defender íntegramente el POSEI y el 100 % de la aportación estatal a ayudas adicionales",
+      "Compensar sobrecostes de energía, piensos, fertilizantes y transporte; apoyo a seguros agrarios y lucha contra plagas",
+      "Financiación para el relevo generacional en agricultura, ganadería y pesca",
+      "Evaluar el impacto de acuerdos comerciales internacionales y salvaguardas; cuotas de atún rojo y patudo para la flota artesanal"
+    ],
+    "paginas": [13]
+  },
+  "infraestructuras": {
+    "postura": "Conectividad que compense la doble insularidad y la lejanía.",
+    "medidas": [
+      "Consolidar el descuento del 75 % para residentes en transporte aéreo y marítimo y vigilar subidas de tarifas",
+      "Revisar las obligaciones de servicio público; conexiones directas entre La Palma, La Gomera y El Hierro",
+      "Quinta libertad aérea para conexiones con terceros países",
+      "Financiación estable para la gratuidad de guaguas y tranvías",
+      "Convenio de 10 años para el Tren de Gran Canaria y proyectos ferroviarios de Tenerife",
+      "Compensar el 100 % del coste real del transporte de mercancías",
+      "Papel del Gobierno canario y cabildos en la gestión de puertos y aeropuertos; cumplimiento de convenios de carreteras"
+    ],
+    "paginas": [8, 9, 17, 18]
+  },
+  "sanidad": {
+    "postura": "Financiación sanitaria que reconozca el coste de atender a ocho islas.",
+    "medidas": [
+      "Compensación estatal específica por los sobrecostes sanitarios de la insularidad",
+      "Formación sanitaria especializada según las necesidades de Canarias",
+      "Apoyo a la movilidad de especialistas entre islas",
+      "Reforzar en los PGE las partidas de salud mental en Canarias"
+    ],
+    "paginas": [9]
+  },
+  "educacion": {
+    "postura": "Educación accesible y de calidad con financiación estable.",
+    "medidas": [
+      "Más financiación estatal para plazas públicas gratuitas de 0 a 3 años",
+      "Recuperar programas estatales de inversión en infraestructuras educativas",
+      "Financiar FP y FP dual; becas que tengan en cuenta el desplazamiento entre islas"
+    ],
+    "paginas": [9, 10, 14]
+  },
+  "ciencia": {
+    "postura": "Que la investigación hecha en Canarias genere oportunidades en las islas.",
+    "medidas": [
+      "Criterios que corrijan la desventaja ultraperiférica en convocatorias de I+D+i",
+      "Financiación plurianual para las universidades públicas canarias; astrofísica, ciencias marinas y biotecnología",
+      "Reforzar PLOCAN; programas de economía azul",
+      "Canarias como banco de pruebas en energía, agua y clima; acceso a Horizon"
+    ],
+    "paginas": [14, 20]
+  },
+  "servicios_sociales": {
+    "postura": "Dependencia, cuidados e ingresos mínimos con respaldo estatal estable.",
+    "medidas": [
+      "Aportación estatal suficiente y estable a la dependencia; estrategia de envejecimiento y cuidados de larga duración",
+      "Que Canarias pueda tramitar y reconocer el Ingreso Mínimo Vital, coordinado con prestaciones autonómicas",
+      "Accesibilidad universal en los programas estatales y europeos para Canarias"
+    ],
+    "paginas": [9, 10]
+  },
+  "familia_infancia": {
+    "postura": "Reducir la pobreza infantil y reforzar la protección de la infancia.",
+    "medidas": [
+      "Programas estatales específicos contra la pobreza infantil mientras Canarias supere la media",
+      "Debate para una política común de infancia: ayudas a la crianza, vivienda para hogares con menores, protección frente a la violencia digital y salud mental infantil"
+    ],
+    "paginas": [9, 10]
+  },
+  "igualdad": {
+    "postura": "Igualdad de derechos y protección frente a la violencia de género en todas las islas.",
+    "medidas": [
+      "Financiación estatal suficiente para aplicar el Pacto de Estado contra la violencia de género teniendo en cuenta la dispersión territorial"
+    ],
+    "paginas": [10]
+  },
+  "lgtbi": null,
+  "inmigracion": {
+    "postura": "Política migratoria solidaria, con responsabilidad estatal y europea en la ruta atlántica y respeto a los derechos humanos.",
+    "medidas": [
+      "Que Estado y UE asuman los costes de salvamento, acogida y atención humanitaria",
+      "Mecanismo de solidaridad territorial obligatorio y automático por umbrales",
+      "Financiación suficiente para los menores extranjeros no acompañados",
+      "Cooperación con Mauritania, Senegal, Marruecos y Cabo Verde; lucha contra las redes",
+      "Gestión de autorizaciones de trabajo para extranjeros por Canarias; combatir los discursos racistas"
+    ],
+    "paginas": [5, 8, 18, 19]
+  },
+  "seguridad": {
+    "postura": "Desplegar la Policía Canaria con financiación estatal.",
+    "medidas": [
+      "Financiar las 1.400 plazas del Cuerpo General de la Policía Canaria en coordinación con las fuerzas estatales"
+    ],
+    "paginas": [10]
+  },
+  "defensa": {
+    "postura": "Recuperar para uso civil espacios militares en Canarias.",
+    "medidas": [
+      "Cese de la actividad militar y cesión del campo de tiro de Pájara (Fuerteventura) y otros terrenos"
+    ],
+    "paginas": [9]
+  },
+  "justicia": null,
+  "democracia": {
+    "postura": "Rechazo a la polarización y compromiso de rendición de cuentas y participación ciudadana.",
+    "medidas": [
+      "Informe anual público de cumplimiento de compromisos",
+      "Apertura del programa a la participación de la sociedad canaria"
+    ],
+    "paginas": [3, 7, 21]
+  },
+  "territorial": {
+    "postura": "Canarias como nación archipelágica; máximo autogobierno en un Estado plurinacional y oposición a la recentralización.",
+    "medidas": [
+      "Calendario verificable de traspasos pendientes del Estatuto (transporte aéreo interinsular, autorizaciones de trabajo)",
+      "Relación bilateral reforzada con el Estado",
+      "Recoger la singularidad canaria en una eventual reforma constitucional",
+      "Financiación autonómica que reconozca población efectiva, fragmentación, pobreza y envejecimiento",
+      "Cumplimiento íntegro de la Agenda Canaria y del Decreto Canarias"
+    ],
+    "paginas": [3, 5, 8, 21]
+  },
+  "lengua_cultura": {
+    "postura": "Dar lugar propio a la cultura canaria en la educación y la vida pública y proyectarla al exterior.",
+    "medidas": [
+      "Ayudas estatales específicas a desplazamientos de artistas y compañías canarias",
+      "Eliminar obstáculos administrativos y fiscales a la circulación de obras",
+      "Atención y retorno de los canarios del exterior"
+    ],
+    "paginas": [4, 19]
+  },
+  "digital": {
+    "postura": "Mejorar la conectividad digital fuera de las grandes áreas urbanas.",
+    "medidas": [
+      "Plan Específico de Telecomunicaciones de Canarias previsto en el Estatuto",
+      "Nuevos cables submarinos y conexiones alternativas"
+    ],
+    "paginas": [17, 20]
+  },
+  "juventud": {
+    "postura": "Que quedarse, formarse fuera y volver sean opciones reales para los jóvenes.",
+    "medidas": [
+      "Plan cuatrienal de empleo para menores de 35 años",
+      "Vivienda para la emancipación (jóvenes, estudiantes, investigadores)",
+      "Vías de retorno del talento"
+    ],
+    "paginas": [11, 14]
+  },
+  "deporte": {
+    "postura": "Que la lejanía no penalice al deporte canario.",
+    "medidas": [
+      "Financiación estatal suficiente para desplazamientos de deportistas y clubes a competiciones oficiales"
+    ],
+    "paginas": [19]
+  },
+  "animales": null,
+  "ue_exterior": {
+    "postura": "Defender la ultraperiferia en la UE y que Canarias participe en la política exterior que le afecta.",
+    "medidas": [
+      "Mantener los fondos específicos RUP en el próximo marco financiero plurianual; aplicar el art. 349 TFUE",
+      "Continuidad de INTERREG; reconocimiento estratégico de la Macaronesia",
+      "Presencia canaria en las relaciones con Marruecos (aguas, recursos, migración)",
+      "Solución al conflicto del Sáhara Occidental conforme a la ONU y derecho del pueblo saharaui a decidir"
+    ],
+    "paginas": [19, 20]
+  }
+}

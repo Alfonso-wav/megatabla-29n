@@ -1,0 +1,347 @@
+{
+  "vivienda": {
+    "postura": "Construir un millón de viviendas liberando suelo y agilizando trámites; derogar la Ley de Vivienda y desalojar a los okupas en 48 horas.",
+    "medidas": [
+      "Nueva Ley del Suelo; publicar las parcelas públicas; vivienda social en suelo dotacional y cambio de uso de oficinas y locales",
+      "Licencias de obra en 3 meses con silencio positivo; proyectos residenciales estratégicos; vivienda industrializada",
+      "Derogar la Ley de Vivienda: eliminar zonas tensionadas e índice de precios",
+      "IVA superreducido del 4 % para rehabilitar vivienda habitual; regeneración urbana con más edificabilidad",
+      "IVA de la primera vivienda del 10 % al 4 % para menores de 40 años y ITP reducido para jóvenes",
+      "Aval público del 20 % para menores de 40 (ampliable a 50) y «Hucha Hogar Joven» (2.000 €/año con deducción del 20 %)",
+      "«Tres años+»: deducción en el IRPF a inquilinos y al propietario que renueve 3 años subiendo por debajo del IPC",
+      "Recuperar la vivienda okupada en 48 horas; el propietario no pagará suministros ni impuestos mientras dure la ocupación"
+    ],
+    "paginas": [53, 54, 55]
+  },
+  "empleo": {
+    "postura": "Que merezca la pena trabajar y emprender, con menos cargas a autónomos y empresas que contratan.",
+    "medidas": [
+      "Cheque de formación en inteligencia artificial para cada trabajador",
+      "Nuevos autónomos sin cuota el primer año (y el segundo si no llegan al SMI); vivienda habitual del autónomo protegida",
+      "Bonificar el 100 % de las cotizaciones por el primer trabajador durante un año y el 50 % por el segundo",
+      "Menor cotización por desempleo para empresas con plantillas estables; publicar mensualmente los fijos discontinuos inactivos",
+      "Incapacidad temporal de hasta el 100 % de la base reguladora en enfermedades graves; combatir el absentismo injustificado",
+      "Incentivos a empresas por trabajadores con hijos; bancos de horas y teletrabajo",
+      "Apoyo a la Economía Social"
+    ],
+    "paginas": [56, 57, 58, 59, 60]
+  },
+  "pensiones": {
+    "postura": "Pensiones como compromiso de Estado: revalorización con el IPC y reconstrucción del Pacto de Toledo.",
+    "medidas": [
+      "Subida anual de las pensiones con el IPC, también garantizada para las futuras",
+      "Reconstruir el Pacto de Toledo",
+      "Incentivar la jubilación activa con deducciones en el IRPF",
+      "Blindar por ley la caja única de la Seguridad Social"
+    ],
+    "paginas": [17, 42, 43]
+  },
+  "fiscalidad": {
+    "postura": "Bajar impuestos a rentas medias y bajas, familias, jóvenes y autónomos, y reducir la deuda.",
+    "medidas": [
+      "Bajar el IRPF a rentas medias y bajas; el SMI quedará exento por ley; deflactar la tarifa",
+      "Jóvenes de 18 a 35 años: reducción del IRPF del 100 %, 75 %, 50 % y 25 % los cuatro primeros años",
+      "IVA del 0 % para alimentos básicos (incluidos carne, pescado y conservas) mientras dure la crisis de inflación",
+      "Autónomos que facturen menos de 85.000 € no cobrarán ni declararán IVA; declaraciones semestrales",
+      "Libertad de amortización en Sociedades para inversión productiva y digital",
+      "Deducción familiar única, reembolsable y de abono mensual",
+      "Estatuto del Contribuyente con derecho al error; trato equivalente a todas las formas de ahorro",
+      "Eliminar el impuesto del 7 % a la producción eléctrica",
+      "Reducir la deuda conforme a las reglas europeas; más competencias para la AIReF"
+    ],
+    "paginas": [13, 56, 59, 60, 61, 71]
+  },
+  "economia": {
+    "postura": "Cerrar la brecha de productividad con Europa, facilitar que las pymes crezcan y atraer grandes inversiones.",
+    "medidas": [
+      "Test de productividad previo a toda nueva norma económica",
+      "Que crecer no penalice a las pymes: nuevos requisitos solo tras 4 años de crecimiento; simplificar hasta 250 trabajadores",
+      "Zonas de Innovación Estratégica (IA, semiconductores, biotecnología, baterías, aeroespacial) con fiscalidad favorable 7 años",
+      "Proyectos industriales de 100 o más empleos declarados de interés nacional, con conexión eléctrica en 6 meses",
+      "Reservas estratégicas de materias primas, alimentos y medicamentos",
+      "Turismo de más valor y menos estacional",
+      "Licencias válidas en todas las comunidades (unidad de mercado, con legitimación de la CNMC)"
+    ],
+    "paginas": [39, 62, 63, 64]
+  },
+  "administracion": {
+    "postura": "Un Estado más pequeño en estructura y más eficaz, que deje de «asfixiar al que cumple».",
+    "medidas": [
+      "Auditoría de todo el gasto en los primeros 100 días; revisión anual de los programas de gasto",
+      "Menos ministerios, altos cargos y asesores; organismos con fecha de caducidad; vender participaciones no estratégicas",
+      "Eliminar tres normas por cada nueva; reducir cargas administrativas un 25 % (35 % para pymes) antes de 2029",
+      "Más declaración responsable y silencio positivo; reconocimiento de oficio de ayudas",
+      "Atención presencial, telefónica y digital garantizada",
+      "Subvenciones prorrogadas solo con evaluación positiva",
+      "Oposiciones como vía única de acceso al empleo público; Plan Nacional de Presencia del Estado (especialmente País Vasco, Navarra y Cataluña)"
+    ],
+    "paginas": [12, 13, 14, 15, 16]
+  },
+  "energia": {
+    "postura": "España potencia energética: mantener la nuclear con neutralidad tecnológica y abaratar la factura.",
+    "medidas": [
+      "Eliminar el calendario de cierre de Almaraz, Ascó, Vandellós, Cofrentes y Trillo; estrategia nuclear y pequeños reactores modulares",
+      "Reformular el PNIEC; todas las tecnologías compiten en igualdad",
+      "Suprimir el impuesto del 7 % a la producción eléctrica",
+      "Tarifa Social Única que sustituya a los bonos eléctrico y térmico; Estatuto del Consumidor Energético",
+      "Plan de choque de 18 meses para desbloquear el acceso a la red; más interconexiones con Europa",
+      "Reforzar el sistema para evitar otro apagón; ninguna central de respaldo cerrará sin alternativa acreditada",
+      "Almacenamiento: baterías e hidroeléctricas reversibles"
+    ],
+    "paginas": [46, 71, 72]
+  },
+  "medio_ambiente": {
+    "postura": "Descarbonización como objetivo «irrenunciable» pero revisando ritmos sin «calendarios imposibles».",
+    "medidas": [
+      "Revisar los ritmos de descarbonización de cada sector y retirar obligaciones que perjudiquen la competitividad",
+      "Pacto Nacional del Agua: hasta 40.000 M€ hasta 2030 en regadíos, desalación y reutilización",
+      "Limpieza de cauces, presas y embalses donde estén justificados, con atención al Mediterráneo",
+      "Reforma de la Ley de Montes para la prevención de incendios todo el año; fiscalidad que premie cuidar el monte",
+      "Pagos a productores por beneficios ambientales (carbono, agua, biodiversidad)",
+      "Economía circular sin obligaciones adicionales; nueva Ley de Costas"
+    ],
+    "paginas": [24, 46, 66, 72, 73]
+  },
+  "sector_primario": {
+    "postura": "Que el mundo rural vuelva a ser atractivo y rentable mediante un Pacto Nacional para el campo, el mar y el monte.",
+    "medidas": [
+      "Pacto Nacional para el Campo, el Mar y el Monte con respaldo del Congreso",
+      "Mantener PAC, pesca y POSEI sin recortes en el marco 2028-2034",
+      "Menos impuestos en el medio rural; repartir fiscalmente los ingresos de una buena cosecha entre varios años",
+      "Seguro de ingresos; protección de ganaderos frente al lobo; reforma de la Ley de la Cadena Alimentaria",
+      "Exigir a las importaciones lo mismo que a los productores españoles; cláusulas de salvaguardia",
+      "Jóvenes: anticipo del 70 % de la ayuda de incorporación; plan para la mujer rural y del mar",
+      "Defensa de la caza; reforma de la política pesquera común y renovación de la flota",
+      "Incentivos contra la despoblación (negocios, vivienda, conectividad)"
+    ],
+    "paginas": [40, 64, 65, 66]
+  },
+  "infraestructuras": {
+    "postura": "Priorizar el mantenimiento y la seguridad, con el mayor plan de infraestructuras en décadas.",
+    "medidas": [
+      "Plan Nacional de Infraestructuras de más de 300.000 M€ en 15 años con el sector privado",
+      "Analizar las más de 1.000 limitaciones temporales de velocidad; plan de atención a viajeros",
+      "Recuperar la fiabilidad del AVE y de Cercanías/Rodalies; indemnizaciones efectivas por retrasos",
+      "Acelerar los corredores Mediterráneo, Atlántico y Ruta de la Plata",
+      "Conservación de 26.500 km de carreteras estatales",
+      "Puertos con electrificación de muelles; ampliación de aeropuertos saturados",
+      "Conexiones regulares para Canarias, Baleares, Ceuta y Melilla"
+    ],
+    "paginas": [13, 24, 42, 45, 46]
+  },
+  "sanidad": {
+    "postura": "Pacto de Estado por la Sanidad Pública, menos listas de espera y más profesionales.",
+    "medidas": [
+      "Plan urgente de reducción de listas de espera con las comunidades autónomas",
+      "Al menos 4.500 médicos más en Atención Primaria; más plazas MIR; ámbito de negociación propio para médicos; guardias más cortas",
+      "Plan Nacional de Salud Mental 2027-2037 con financiación garantizada",
+      "Fondo Estatal de Innovación en Enfermedades Raras y Terapias Avanzadas; acortar plazos de financiación de fármacos",
+      "Deducción en el IRPF por gastos de enfermedades graves y para personas celíacas",
+      "Ley nacional de cuidados paliativos",
+      "Tarjeta e historial sociosanitario únicos; plan sanitario propio para Ceuta y Melilla"
+    ],
+    "paginas": [38, 39, 68, 69, 70, 71]
+  },
+  "educacion": {
+    "postura": "Sustituir la LOMLOE, recuperar la exigencia y garantizar la libertad de elección y la enseñanza en castellano.",
+    "medidas": [
+      "Nuevo marco educativo que sustituya a la LOMLOE; refuerzo en lectura y cálculo en el mismo curso",
+      "Nota mínima para Magisterio, carrera docente y autoridad del profesor",
+      "Libre elección de centro en el municipio; conciertos de al menos 6 años donde haya demanda",
+      "No cerrar los centros de educación especial",
+      "Pasar de curso en la ESO con las asignaturas aprobadas",
+      "Más plazas de FP según un Mapa Nacional; FP dual con reglas comunes",
+      "Beca como derecho por ley; matrícula gratuita en FP de alta demanda",
+      "PAU común; derecho a la enseñanza en castellano; protocolo nacional contra el acoso escolar",
+      "Escuela infantil de 0 a 3 años gratuita al final de la legislatura"
+    ],
+    "paginas": [39, 48, 57, 67, 68]
+  },
+  "ciencia": {
+    "postura": "Atraer y retener talento investigador y premiar la innovación.",
+    "medidas": [
+      "Facilitar el retorno de investigadores; financiación estable de la I+D con una parte ligada a resultados",
+      "Más deducción por I+D+i; compra pública innovadora a startups",
+      "Tributación al 20 % durante 6 años para profesionales de grandes proyectos tecnológicos",
+      "Autonomía universitaria a cambio de rendición de cuentas; menos burocracia de acreditación"
+    ],
+    "paginas": [62, 68]
+  },
+  "servicios_sociales": {
+    "postura": "Dependencia a tiempo, apoyo a la discapacidad y lucha contra la soledad no deseada.",
+    "medidas": [
+      "Pacto de Estado por la Dependencia; aportación estatal del 50 % del coste público",
+      "Deducción del 40 % del gasto en atención profesional a dependientes; el Estado cotizará por el cuidador familiar",
+      "Discapacidad: atención temprana, asistencia personal, pensión compatible con el empleo; jubilación anticipada para personas con síndrome de Down",
+      "Plan contra la soledad no deseada; modernizar el IMSERSO",
+      "Prioridad en ayudas para quienes tengan arraigo real con España (sin basarse solo en la nacionalidad)"
+    ],
+    "paginas": [40, 43, 44]
+  },
+  "familia_infancia": {
+    "postura": "Hacer de España «el mejor país de Europa para formar una familia».",
+    "medidas": [
+      "Deducción familiar reembolsable de abono mensual y mínimos familiares actualizados con la inflación",
+      "El concebido no nacido computará para las ayudas familiares; facilitar la congelación de óvulos y la reproducción asistida",
+      "Ampliar los permisos por nacimiento con más flexibilidad",
+      "Escuela de 0 a 3 años gratuita; más apoyo a familias monoparentales",
+      "Plan urgente contra la pobreza infantil",
+      "Prohibir las redes sociales a menores de 14 años y exigir autorización parental hasta los 16"
+    ],
+    "paginas": [56, 57, 58]
+  },
+  "igualdad": {
+    "postura": "Igualdad «real», sin «trabas ni culpas»: protección efectiva frente a la violencia y revisión de la Ley Trans.",
+    "medidas": [
+      "Pulseras de alejamiento dependientes de Interior; integrar los servicios autonómicos en VioGen",
+      "Rendir cuentas cada año del Pacto de Estado contra la Violencia de Género",
+      "Ley integral contra la trata; protocolos contra la mutilación genital y los matrimonios forzados",
+      "Eliminar obstáculos a la carrera profesional de las mujeres",
+      "Revisar la Ley Trans y eliminar la autodeterminación registral del sexo"
+    ],
+    "paginas": [19, 44]
+  },
+  "lgtbi": {
+    "postura": "Combatir la LGTBIfobia, pero revisar la Ley Trans.",
+    "medidas": [
+      "Continuar la lucha contra la LGTBIfobia y la discriminación por orientación sexual",
+      "Eliminar la libre autodeterminación registral del sexo",
+      "Sexo biológico como criterio para las categorías deportivas femeninas"
+    ],
+    "paginas": [43, 44]
+  },
+  "inmigracion": {
+    "postura": "Recuperar el control de las fronteras: solo vía legal, cupos según capacidad y expulsión de quien delinque.",
+    "medidas": [
+      "Autoridad única para toda la política migratoria",
+      "Más agentes en la frontera sur con apoyo de las Fuerzas Armadas; rechazo en frontera de entradas a nado en Ceuta y Melilla",
+      "Identificación en 7 días y devoluciones sin demora; asilo rápido",
+      "Visados por puntos y cupos anuales por sectores, solo con países que colaboren en los retornos",
+      "Prohibir por ley las regularizaciones masivas; arraigo excepcional",
+      "Compromiso de integración obligatorio (español y Constitución); prohibir burka y niqab en espacios públicos",
+      "Expulsión como regla para condenados por delitos sexuales, de sangre o multirreincidencia; centros de retorno en terceros países",
+      "Menores: determinación de edad en 72 h y prioridad al retorno con sus familias",
+      "Nueva Ley de Nacionalidad más exigente; pérdida por delitos graves para no españoles de origen"
+    ],
+    "paginas": [15, 21, 22, 23, 24, 49, 50]
+  },
+  "seguridad": {
+    "postura": "Hacer cumplir la ley en todo el territorio y endurecer la respuesta penal.",
+    "medidas": [
+      "Unidad central contra el crimen organizado en la frontera sur; litoral andaluz como zona de especial singularidad",
+      "Juicios rápidos contra la multirreincidencia",
+      "Endurecer el delito de desórdenes públicos; agravante por ocultar el rostro; multa mínima de 3.000 € por vandalismo",
+      "Delito de captación de menores para delinquir; más internamiento en la Ley del Menor",
+      "Ampliar la prisión permanente revisable",
+      "Profesión de riesgo y equiparación salarial para Policía y Guardia Civil",
+      "Mando único de protección civil y Ley de Reconstrucción para emergencias"
+    ],
+    "paginas": [17, 18, 19, 20, 25]
+  },
+  "defensa": {
+    "postura": "Defensa como política de Estado, con inversión plurianual y compromiso con la OTAN.",
+    "medidas": [
+      "Ley de programación y financiación de la defensa respaldada por las Cortes",
+      "Más efectivos, profesión de riesgo y mejores retribuciones para militares",
+      "Reforzar contingentes OTAN y el pilar europeo; despliegue en Ceuta, Melilla y Canarias",
+      "Impulso a la industria de defensa: drones, antiaérea, munición, ciberdefensa"
+    ],
+    "paginas": [26]
+  },
+  "justicia": {
+    "postura": "Regenerar la democracia: independencia de los órganos de control y fin de la impunidad.",
+    "medidas": [
+      "Derogar la Ley de Amnistía; nueva Ley del Indulto sin indultos por corrupción, terrorismo o delitos contra la integridad territorial",
+      "Los jueces elegirán a los 12 vocales judiciales del CGPJ; incompatibilidad de 5 años tras cargos políticos",
+      "Fiscal General con mandato único de 5 años y nombramiento con informe vinculante del CGPJ",
+      "Independencia del Tribunal Constitucional; recurso previo de inconstitucionalidad",
+      "Restablecer las penas por malversación; trazabilidad digital de contratos y subvenciones",
+      "Recuperar los delitos de sedición y de convocatoria de referéndum ilegal",
+      "Dos prórrogas presupuestarias obligarán a convocar elecciones; publicar íntegros los pactos de investidura",
+      "Nuevas plazas de jueces y fiscales; registro obligatorio de lobbies"
+    ],
+    "paginas": [16, 20, 28, 29, 30, 31, 32, 34, 36]
+  },
+  "democracia": {
+    "postura": "Derogar la Ley de Memoria Democrática y proteger la independencia de medios públicos y estadísticas.",
+    "medidas": [
+      "Sustituir la Ley de Memoria Democrática por una Ley de Concordia, manteniendo la búsqueda de desaparecidos",
+      "Reformar RTVE y EFE en los primeros 100 días; refundar el CIS; INE independiente",
+      "Proteger la libertad de prensa y el secreto profesional",
+      "Inelegibilidad de condenados por terrorismo; prohibición efectiva de homenajes a etarras",
+      "Más control del voto por correo",
+      "Nueva Ley de Secretos Oficiales con plazos de desclasificación",
+      "Rehabilitar y proteger los símbolos del Estado"
+    ],
+    "paginas": [28, 29, 32, 33, 36, 47]
+  },
+  "territorial": {
+    "postura": "Defensa del Estado de las Autonomías con reglas comunes y sin privilegios bilaterales.",
+    "medidas": [
+      "Nuevo modelo de financiación autonómica multilateral con fondo de nivelación transitorio",
+      "Ninguna comunidad saldrá del régimen común ni habrá regímenes singulares bilaterales",
+      "Sin cesiones en igualdad básica, Hacienda, Seguridad Social, Defensa, exterior o migración a cambio de investiduras",
+      "Unidad de la Agencia Tributaria y caja única de la Seguridad Social",
+      "Cada comunidad responderá de su deuda; nueva financiación local; Estatuto de los Pequeños Municipios",
+      "Nuevo modelo de financiación para Ceuta y Melilla"
+    ],
+    "paginas": [16, 17, 29, 40, 41]
+  },
+  "lengua_cultura": {
+    "postura": "El castellano como lengua común y la cultura como patrimonio compartido.",
+    "medidas": [
+      "Derecho a recibir enseñanza en castellano en todas las etapas",
+      "Castellano como lengua de trabajo en el Congreso (cooficiales en el Senado)",
+      "Administración en la lengua oficial o cooficial que elija el ciudadano",
+      "Cultura sin sesgos ideológicos ni cancelación; nueva Ley de Mecenazgo",
+      "Restituir el Premio Nacional de Tauromaquia; proteger folclore y tradiciones",
+      "Reforzar el Instituto Cervantes; promover las lenguas cooficiales como patrimonio común"
+    ],
+    "paginas": [39, 47, 48, 49]
+  },
+  "digital": {
+    "postura": "Convertir a España en centro de aplicaciones de IA para la economía real y proteger a los menores en internet.",
+    "medidas": [
+      "Aplicaciones de IA listas para pymes y entornos de prueba sin cargas nacionales añadidas",
+      "La AESIA acompañará a las empresas, no solo las vigilará",
+      "Automatizar trámites con IA y supervisión humana",
+      "5G en vías de alta capacidad",
+      "Verificación de edad obligatoria; límites al scroll infinito; prohibir el acceso de menores a contenido adulto y apuestas"
+    ],
+    "paginas": [15, 46, 58, 63]
+  },
+  "juventud": {
+    "postura": "Que los jóvenes puedan emanciparse, con vivienda y menos impuestos.",
+    "medidas": [
+      "Reducción del IRPF para jóvenes de 18 a 35 años durante sus primeros 4 años de declaración",
+      "IVA del 4 %, aval público y «Hucha Hogar Joven» para la primera vivienda",
+      "Plan de empleo, formación y vivienda contra el reclutamiento de jóvenes por las mafias"
+    ],
+    "paginas": [17, 54, 55, 60]
+  },
+  "deporte": {
+    "postura": "Impulsar el deporte español y defender la final del Mundial 2030 en España.",
+    "medidas": [
+      "Financiación acorde y fomento del patrocinio y el mecenazgo",
+      "Corregir los vacíos de cotización de los deportistas de alto nivel",
+      "Defender que la final del Mundial 2030 se juegue en España",
+      "Sexo biológico como criterio para las categorías femeninas"
+    ],
+    "paginas": [44, 49]
+  },
+  "animales": null,
+  "ue_exterior": {
+    "postura": "Política exterior de Estado: atlantismo, peso en Europa y defensa de la integridad territorial.",
+    "medidas": [
+      "Estrategia de Acción Exterior en las Cortes; ningún acuerdo sobre soberanía sin su autorización",
+      "PAC y cohesión sin recortes en el presupuesto europeo 2028-2034",
+      "Equilibrio con Marruecos y Argelia; apoyo a la ONU en el Sáhara Occidental",
+      "Apoyo a Ucrania y sanciones a Rusia; vínculo transatlántico con EE. UU.",
+      "Diálogo con Reino Unido sobre Gibraltar",
+      "Iberoamérica como socio prioritario; transición democrática en Cuba, Nicaragua y Venezuela",
+      "Protección de civiles en Gaza; Irán como elemento desestabilizador",
+      "Cooperación al desarrollo auditada y orientada a reducir la inmigración irregular; refuerzo consular"
+    ],
+    "paginas": [73, 74, 75, 76]
+  }
+}

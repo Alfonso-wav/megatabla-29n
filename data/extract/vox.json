@@ -1,0 +1,291 @@
+{
+  "vivienda": {
+    "postura": "Más construcción y menos regulación, con prioridad nacional para los españoles y mano dura contra la okupación; derogar la Ley de Vivienda.",
+    "medidas": [
+      "Prioridad nacional para acceder a vivienda protegida, social o ayudas al alquiler",
+      "Reforma de la Ley del Suelo: más suelo disponible y menos trabas",
+      "Más inversión pública en vivienda protegida mediante colaboración público-privada",
+      "Derogar la Ley de Vivienda; incentivos fiscales al alquiler de larga duración; regular las viviendas de uso turístico",
+      "Desalojo de viviendas okupadas en menos de 24 horas; tipificar la inquiokupación como estafa",
+      "Prohibir el alquiler a inmigrantes ilegales y controlar el fraude en el empadronamiento",
+      "IVA 0 % y bonificación del 100 % del ITP para la primera vivienda habitual; recuperar la deducción por vivienda habitual",
+      "Fiscalidad agravada para compradores no comunitarios y fondos especulativos"
+    ],
+    "paginas": [19, 20, 21]
+  },
+  "empleo": {
+    "postura": "Trabajo estable y salarios dignos; derogar la legislación laboral del Gobierno de Sánchez.",
+    "medidas": [
+      "Derogar la reforma laboral del Gobierno de Sánchez",
+      "Cuota de autónomos de 0 € si los ingresos no llegan al SMI y progresiva desde 50 € a partir de ese umbral",
+      "Combatir la brecha maternal y reforzar la conciliación con incentivos a empresas"
+    ],
+    "paginas": [7, 10, 11, 45, 46]
+  },
+  "pensiones": {
+    "postura": "Sostenibilidad del sistema a través del crecimiento económico, el empleo y la natalidad.",
+    "medidas": [
+      "Revitalizar la economía, el empleo y los salarios como garantía de las pensiones",
+      "Cotización financiada por el Estado para quienes se dediquen al cuidado de sus hijos"
+    ],
+    "paginas": [8, 9, 44]
+  },
+  "fiscalidad": {
+    "postura": "Rebaja masiva de impuestos compensada con recorte del gasto superfluo y reducción de la deuda.",
+    "medidas": [
+      "Simplificar y bajar el IRPF, con tipos reducidos según el número de hijos",
+      "Rebajar el IVA general y reducido, priorizando productos de primera necesidad",
+      "Reducir el Impuesto de Sociedades",
+      "Rebajar el IGIC y suprimir el AIEM en Canarias; actualizar el complemento de insularidad en Baleares y Canarias",
+      "Fiscalidad mínima en zonas en riesgo de despoblación",
+      "Gravamen sobre las remesas enviadas al extranjero",
+      "Reducción del déficit y de la deuda pública"
+    ],
+    "paginas": [7, 8, 16]
+  },
+  "economia": {
+    "postura": "Reindustrialización y soberanía económica frente al Pacto Verde y la Agenda 2030.",
+    "medidas": [
+      "Plan Nacional de Reindustrialización contra las deslocalizaciones y la competencia desleal",
+      "Revertir la prohibición de motores de combustión y los impuestos al CO2",
+      "Suspender acuerdos internacionales que impidan el desarrollo productivo",
+      "Fin de restricciones a la exploración y explotación de recursos minerales",
+      "Ley de Unidad de Mercado: lo legal en una comunidad lo es en toda España",
+      "Fomento del turismo, especialmente rural y de interior"
+    ],
+    "paginas": [9, 10, 11, 24]
+  },
+  "administracion": {
+    "postura": "Desregulación radical y reducción del tamaño de la Administración.",
+    "medidas": [
+      "Revisión permanente de toda actuación administrativa: lo innecesario se suprime",
+      "Derogar tres normas por cada nueva norma aprobada",
+      "Silencio administrativo positivo y declaración responsable como regla (salvo inmigración y nacionalidad)",
+      "Ventanilla y dato único; fin de la cita previa obligatoria",
+      "Auditoría integral del gasto público; eliminar progresivamente las subvenciones a partidos, sindicatos, patronales y ONG",
+      "Limitar el importe de las multas de tráfico no graves"
+    ],
+    "paginas": [23, 24, 25]
+  },
+  "energia": {
+    "postura": "Energía segura y asequible con apuesta nuclear y bajada de impuestos energéticos.",
+    "medidas": [
+      "Bajada masiva de impuestos a la electricidad; Plan Nacional de Soberanía Energética",
+      "Eliminar el tope a la inversión en redes eléctricas y silencio positivo para autorizaciones",
+      "Derogar el calendario de cierre nuclear y estudiar nuevas centrales junto a las existentes",
+      "Impedir la instalación descontrolada de macroplantas solares y eólicas en suelo agrícola"
+    ],
+    "paginas": [9, 10, 29]
+  },
+  "medio_ambiente": {
+    "postura": "Rechazo a las «imposiciones climáticas» (Pacto Verde, ZBE) y gestión del agua y los montes.",
+    "medidas": [
+      "Derogar el Pacto Verde y las Zonas de Bajas Emisiones",
+      "Limpieza y aprovechamiento de montes; revisar restricciones ambientales que dificultan la prevención de incendios; endurecer penas a incendiarios",
+      "Plan Nacional del Agua con interconexión de cuencas",
+      "Obras contra inundaciones y conservación de cauces"
+    ],
+    "paginas": [25, 29, 53, 54]
+  },
+  "sector_primario": {
+    "postura": "Blindar al sector primario frente a la Agenda 2030, Bruselas y la competencia desleal.",
+    "medidas": [
+      "Rechazo al acuerdo UE-Mercosur; cláusulas espejo y preferencia comunitaria",
+      "Fondo de compensación frente a normativas de Bruselas y catástrofes",
+      "Rechazo a recortar la PAC y reparto con una variable de despoblación",
+      "Revisión de la Política Pesquera Común y sus cuotas",
+      "Declaración responsable y silencio positivo en trámites rurales; refuerzo de seguros agrarios",
+      "Relevo generacional y FP agraria; defensa de la caza"
+    ],
+    "paginas": [28, 29, 30]
+  },
+  "infraestructuras": {
+    "postura": "Plan nacional de infraestructuras que vertebre todo el territorio.",
+    "medidas": [
+      "Más inversión en carreteras, ferrocarril, puertos, nodos logísticos e infraestructuras hidráulicas",
+      "Prioridad a la seguridad ferroviaria, Cercanías y Media Distancia; auditoría de la red",
+      "Modernizar y electrificar líneas convencionales para la España rural",
+      "Mejorar las ayudas al transporte de Baleares y Canarias con la Península"
+    ],
+    "paginas": [8, 53]
+  },
+  "sanidad": {
+    "postura": "Misma atención para todos los españoles, con exclusión de los inmigrantes ilegales salvo urgencia grave.",
+    "medidas": [
+      "Tarjeta sanitaria única e historia clínica compartida",
+      "Que el desconocimiento de lenguas regionales no impida acceder a plazas sanitarias",
+      "Plan nacional de reducción de listas de espera con colaboración público-privada",
+      "Mejora retributiva de profesionales, incentivos a plazas rurales y retorno de sanitarios emigrados",
+      "Red de Centros Nacionales de Oncología; refuerzo de la salud mental y de la salud de las mujeres",
+      "Auditoría del coste de la inmigración en la sanidad pública; fin del turismo sanitario"
+    ],
+    "paginas": [16, 32, 33]
+  },
+  "educacion": {
+    "postura": "Educación centrada en el esfuerzo y el mérito, sin contenidos ideológicos; derogar la LOMLOE.",
+    "medidas": [
+      "Currículo, evaluaciones e inspección unificados; reválidas y EVAU única",
+      "Garantizar la educación en español en todo el territorio",
+      "Libre elección de centro y distrito único",
+      "Derogar la LOMLOE; prohibir móviles en clase y reforzar la autoridad del profesor",
+      "Número máximo por aula de alumnos de otras culturas y aulas de nivelación",
+      "Prohibir burka y niqab en espacios públicos; fin de menús halal y del programa de Lengua Árabe y Cultura Marroquí",
+      "Prioridad nacional en becas y plazas; apuesta por la FP"
+    ],
+    "paginas": [35, 36]
+  },
+  "ciencia": {
+    "postura": "Impulso nacional de la I+D+i y libertad de cátedra en la universidad.",
+    "medidas": [
+      "Más inversión en I+D+i e incentivos fiscales a la innovación empresarial",
+      "Plan de retorno del talento",
+      "Investigación médica independiente de la rentabilidad comercial",
+      "Libertad de cátedra frente a la corrección política"
+    ],
+    "paginas": [8, 33, 36]
+  },
+  "servicios_sociales": {
+    "postura": "Prioridad nacional en las ayudas sociales y refuerzo de la dependencia.",
+    "medidas": [
+      "Acceso preferente de los españoles a ayudas, prestaciones y servicios sociales",
+      "IMV solo para españoles; suprimir ayudas a inmigrantes ilegales",
+      "Más presupuesto para dependencia, residencias y soledad no deseada",
+      "Más bonificaciones para personas con discapacidad y desburocratizar su reconocimiento"
+    ],
+    "paginas": [16, 17, 45]
+  },
+  "familia_infancia": {
+    "postura": "Plan nacional de natalidad y defensa del derecho a la vida desde la concepción.",
+    "medidas": [
+      "Extender los beneficios de familia numerosa a todas las familias desde el primer hijo",
+      "Gratuidad real de la educación de 0 a 3 años",
+      "Bonificación del 100 % de la ayuda en el hogar; menos impuestos a productos infantiles",
+      "Proteger a los menores de la pornografía y la adicción al juego en entornos digitales",
+      "Derecho a la vida hasta la muerte natural; objeción de conciencia sanitaria; cuidados paliativos"
+    ],
+    "paginas": [44, 45]
+  },
+  "igualdad": {
+    "postura": "Derogar las leyes de género, a las que acusa de criminalizar a los hombres, y sustituirlas por normas de protección a las víctimas.",
+    "medidas": [
+      "Derogar las leyes de violencia de género vigentes",
+      "Nuevas normas de protección efectiva a mujeres víctimas de maltrato y agresiones sexuales",
+      "Combatir las denuncias falsas"
+    ],
+    "paginas": [26, 40]
+  },
+  "lgtbi": null,
+  "inmigracion": {
+    "postura": "«Ni uno más»: cierre a nueva inmigración, repatriaciones y remigración.",
+    "medidas": [
+      "Prohibir las regularizaciones masivas; suprimir el arraigo",
+      "Endurecer el acceso a la nacionalidad y ampliar los supuestos de pérdida",
+      "Repatriar a quienes estén en situación ilegal; plan de remigración para quienes vivan de subsidios",
+      "Deportar a quienes cometan delitos graves",
+      "Devolver a los menores no acompañados a sus familias o a sus países",
+      "Retirar subvenciones a ONG que «colaboren con el efecto llamada»; condicionar la cooperación al desarrollo",
+      "Expulsión inmediata de los «invasores» de Ceuta y militarización de su frontera"
+    ],
+    "paginas": [5, 13, 14]
+  },
+  "seguridad": {
+    "postura": "Endurecer las penas y dotar de más medios a policía, Guardia Civil y prisiones.",
+    "medidas": [
+      "Rebajar la edad de responsabilidad penal y ampliar la prisión permanente revisable",
+      "Equiparación salarial y reconocimiento como profesión de riesgo para Policía y Guardia Civil",
+      "Directores de Policía y Guardia Civil que sean profesionales, no políticos",
+      "Combate total al narcotráfico; restablecer el OCON-Sur",
+      "Refuerzo de la protección civil y de la ciberseguridad"
+    ],
+    "paginas": [39, 40, 41]
+  },
+  "defensa": {
+    "postura": "Aumentar la inversión en Defensa y la protección militar de las fronteras.",
+    "medidas": [
+      "Más inversión en Defensa y sueldos dignos para militares; profesión de riesgo",
+      "Participación de las Fuerzas Armadas en la protección de las fronteras",
+      "Militarización de la frontera de Ceuta y Melilla",
+      "Presión internacional para recuperar la soberanía sobre Gibraltar"
+    ],
+    "paginas": [5, 40, 41, 42]
+  },
+  "justicia": {
+    "postura": "Despolitizar la justicia y endurecer la lucha contra la corrupción y los ataques a la unidad nacional.",
+    "medidas": [
+      "Que los 12 vocales judiciales del CGPJ los elijan los jueces",
+      "Limitar el papel del Tribunal Constitucional frente al Supremo",
+      "Recuperar la sedición, agravar la malversación y prohibir indultos por corrupción",
+      "Ilegalizar partidos que atenten contra la unidad de España",
+      "Responsabilidad patrimonial personal de los cargos condenados por corrupción",
+      "Querella contra el Gobierno de Sánchez por su actuación en Ceuta",
+      "Ley contra el enaltecimiento del terrorismo; considerar los crímenes de ETA de lesa humanidad"
+    ],
+    "paginas": [5, 48, 49, 50]
+  },
+  "democracia": {
+    "postura": "Derogar la Ley de Memoria Democrática y proteger los símbolos nacionales y la libertad de expresión.",
+    "medidas": [
+      "Superar la Ley de Memoria Democrática",
+      "Agravar las penas por ofensas a la Bandera, el Escudo, el Himno o la Corona",
+      "Reforma integral de RTVE",
+      "Garantizar la libertad de expresión frente a la «deriva censora»"
+    ],
+    "paginas": [26, 49, 51]
+  },
+  "territorial": {
+    "postura": "España como una sola nación y un solo mercado, con igualdad de servicios en todo el territorio.",
+    "medidas": [
+      "Ley de Unidad de Mercado",
+      "Igualdad en educación, sanidad, seguridad y justicia con independencia del lugar de residencia",
+      "Respuesta penal a los ataques contra la unidad nacional"
+    ],
+    "paginas": [17, 24, 48]
+  },
+  "lengua_cultura": {
+    "postura": "Promoción de la cultura y la historia común española, con el español garantizado en todo el territorio.",
+    "medidas": [
+      "Conservación del patrimonio nacional, especialmente iglesias y monumentos rurales",
+      "Menos impuestos al arte y los espectáculos en vivo; nueva Ley de Mecenazgo",
+      "Defensa y promoción de la tauromaquia",
+      "Proteger las tradiciones religiosas y populares"
+    ],
+    "paginas": [35, 36, 37, 49]
+  },
+  "digital": {
+    "postura": "Sumar a España a la carrera de la inteligencia artificial.",
+    "medidas": [
+      "Impulsar la IA en empresas, pymes y Administración, garantizando la atención presencial",
+      "Formación de trabajadores y jóvenes en IA",
+      "Ciberseguridad y protección de infraestructuras críticas"
+    ],
+    "paginas": [23, 41]
+  },
+  "juventud": {
+    "postura": "Que los jóvenes puedan acceder a un empleo estable, emanciparse y formar una familia.",
+    "medidas": [
+      "Acabar con la precariedad y los bajos salarios de los jóvenes",
+      "Plan de retorno para los españoles emigrados"
+    ],
+    "paginas": [10, 11, 16]
+  },
+  "deporte": {
+    "postura": "El deporte como motor de cohesión nacional.",
+    "medidas": [
+      "Despolitizar el deporte y que las selecciones nacionales representen a España",
+      "Deporte femenino regido por criterios biológicos",
+      "Becas a deportistas, rebajas fiscales y apoyo a clubes y federaciones"
+    ],
+    "paginas": [37]
+  },
+  "animales": null,
+  "ue_exterior": {
+    "postura": "Soberanía nacional frente a injerencias extranjeras y Bruselas.",
+    "medidas": [
+      "Sanciones y revisión de relaciones con Marruecos hasta que respete las fronteras",
+      "Recuperar la soberanía sobre Gibraltar",
+      "Rechazo al acuerdo UE-Mercosur y al Pacto Verde",
+      "Fin de la cooperación al desarrollo con países que no colaboren en el control migratorio"
+    ],
+    "paginas": [5, 14, 28, 41, 42]
+  }
+}

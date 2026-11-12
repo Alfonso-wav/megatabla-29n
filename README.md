@@ -1,0 +1,55 @@
+# Megatabla 29N
+
+Tabla comparativa de los programas electorales para las elecciones generales del
+29 de noviembre de 2026. Cada fila es un partido, cada columna una materia, y cada
+celda la postura y las medidas del partido, con enlace a la página del PDF oficial.
+
+```bash
+npm install
+bash scripts/descargar.sh   # PDFs oficiales → data/raw, texto → data/text
+npm run dev                 # valida datos y arranca en http://localhost:5173
+npm run build               # dist/ estático
+```
+
+## Datos
+
+| Archivo | Contenido |
+|---|---|
+| `data/partidos.json` | Partidos, estado (publicado/pendiente), URL oficial, SHA-256 del PDF |
+| `data/materias.json` | Las 29 materias (unión de los temas de todos los programas) |
+| `data/extract/<id>.json` | Una celda por materia: `{postura, medidas[], paginas[]}` o `null` = NS/NC |
+| `data/text/<id>.pages.txt` | Texto extraído con marcadores de página, para verificar |
+| `data/notas/` | Notas de lectura intermedias |
+
+`scripts/build-data.mjs` falla si a un partido le falta alguna materia o cita una
+página inexistente.
+
+## Añadir un programa cuando se publique
+
+1. Rellenar `url`, `archivo`, `sha256`, `fechaPublicacion`… y `"estado": "publicado"` en `data/partidos.json`.
+2. `bash scripts/descargar.sh`.
+3. Leer el texto y crear `data/extract/<id>.json` con las 29 materias. Si trata un tema
+   nuevo, añadir la materia a `materias.json` y revisar los demás programas para ese tema
+   (grep en `data/text/`): los que no lo mencionen llevan `null`.
+
+Estado a 12/11/2026: publicados PP, Vox, ERC, PNV, BNG y CC; pendientes PSOE, Sumar/Frente Amplio,
+Podemos, Junts, EH Bildu y SALF.
+
+## Publicación
+
+Cada push a `main` valida los datos, compila y publica en GitHub Pages
+(`.github/workflows/pages.yml`). Si un JSON tiene un error (materia que falta, página
+inexistente), el build falla y la web publicada no cambia.
+
+En la versión publicada los números de página enlazan al PDF en la web oficial de cada
+partido. Las copias locales (`data/raw`, `public/programas`) no se suben al repo.
+
+Actualización diaria:
+
+```bash
+node scripts/vigilar.mjs        # ¿algún programa nuevo?
+bash scripts/descargar.sh       # tras añadirlo a data/partidos.json
+# crear data/extract/<id>.json
+npm run data                    # validar
+git add -A && git commit -m "datos: añade programa de X" && git push
+```

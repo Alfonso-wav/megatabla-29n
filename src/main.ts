@@ -81,7 +81,7 @@ const IDIOMA: Record<string, string> = { es: "castellano", ca: "catalán", gl: "
 // ---------- piezas de HTML ----------
 function paginasHTML(p: Partido, paginas: number[]) {
   return `<span class="pags">p. ${paginas
-    .map((n) => `<a href="${enlacePagina(p, n)}" target="_blank" rel="noopener" title="Abrir el programa de ${esc(p.siglas)} en la página ${n}">${n}</a>`)
+    .map((n) => `<a href="${esc(enlacePagina(p, n))}" target="_blank" rel="noopener" title="Abrir el programa de ${esc(p.siglas)} en la página ${n}">${n}</a>`)
     .join(", ")}</span>`;
 }
 
@@ -104,7 +104,7 @@ function partidoTH(p: Partido) {
   return `<th scope="row" class="cab-partido">
     <span class="siglas">${esc(p.siglas)}</span>
     <span class="nombre">${esc(p.nombre)}</span>
-    <a class="fuente" href="${p.copiaLocal ? `${import.meta.env.BASE_URL}programas/${p.archivo}` : p.url}" target="_blank" rel="noopener">Programa · ${fecha(p.fechaPublicacion)}${p.idioma !== "es" ? ` · ${IDIOMA[p.idioma!]}` : ""}</a>
+    <a class="fuente" href="${esc(p.copiaLocal ? `${import.meta.env.BASE_URL}programas/${p.archivo}` : p.url!)}" target="_blank" rel="noopener">Programa · ${fecha(p.fechaPublicacion)}${p.idioma !== "es" ? ` · ${IDIOMA[p.idioma!]}` : ""}</a>
   </th>`;
 }
 
@@ -182,7 +182,7 @@ app.innerHTML = `
       <thead><tr><th>Partido</th><th>Documento</th><th>Publicado</th><th>Págs.</th><th>SHA-256</th></tr></thead>
       <tbody>${publicados
         .map(
-          (p) => `<tr><td>${esc(p.siglas)}</td><td><a href="${esc(p.url!)}" target="_blank" rel="noopener">${esc(p.titulo!)}</a>${p.nota ? `<br><small>${esc(p.nota)}</small>` : ""}</td><td>${fecha(p.fechaPublicacion)}</td><td>${p.paginas ?? ""}</td><td><code title="${p.sha256}">${p.sha256!.slice(0, 12)}…</code></td></tr>`,
+          (p) => `<tr><td>${esc(p.siglas)}</td><td><a href="${esc(p.url!)}" target="_blank" rel="noopener">${esc(p.titulo!)}</a>${p.nota ? `<br><small>${esc(p.nota)}</small>` : ""}</td><td>${fecha(p.fechaPublicacion)}</td><td>${p.paginas ?? ""}</td><td><code title="${esc(p.sha256!)}">${p.sha256!.slice(0, 12)}…</code></td></tr>`,
         )
         .join("")}</tbody>
     </table>

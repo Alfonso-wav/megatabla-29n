@@ -1,0 +1,153 @@
+{
+  "vivienda": {
+    "postura": "Plan de vivienda para zonas despobladas.",
+    "medidas": [
+      "Programa nacional de construcción de viviendas, especialmente en el medio rural",
+      "Ayudas a la rehabilitación vinculadas al alquiler asequible y garantías para propietarios que saquen su vivienda al mercado",
+      "Incentivos a la compra de primera vivienda y alquiler con opción a compra"
+    ],
+    "paginas": [1]
+  },
+  "empleo": {
+    "postura": "Relevo generacional y empleo en territorios escasamente poblados.",
+    "medidas": [
+      "Ayudas directas para que jóvenes asuman negocios y explotaciones cuyos titulares se jubilen",
+      "Cuota reducida permanente de 80 € al mes para autónomos en zonas escasamente pobladas",
+      "Incentivos a la inversión empresarial y a la creación de empleo"
+    ],
+    "paginas": [1]
+  },
+  "pensiones": null,
+  "fiscalidad": {
+    "postura": "Fiscalidad excepcional para Soria dentro de un plan de 10 años contra la despoblación.",
+    "medidas": [
+      "Medidas excepcionales de fiscalidad para residentes, empresas y autónomos",
+      "Ayudas al funcionamiento al máximo legal permitido por la UE"
+    ],
+    "paginas": [1]
+  },
+  "economia": {
+    "postura": "Atraer inversión aprovechando la posición de Soria entre el Henares y el Ebro.",
+    "medidas": [
+      "Puerto seco en el Alto Jalón",
+      "Industrias ligadas a los recursos forestales y transformación de productos agrarios en Soria",
+      "Atracción de profesionales y nómadas digitales"
+    ],
+    "paginas": [1]
+  },
+  "administracion": {
+    "postura": "Descentralizar organismos del Estado a Soria y cubrir las plazas públicas en zonas despobladas.",
+    "medidas": [
+      "Organismos estatales en Soria con personal, recursos y competencias reales",
+      "Academia Nacional de Bomberos Forestales en Soria",
+      "Incentivos económicos, profesionales y de vivienda para atraer y retener empleados públicos"
+    ],
+    "paginas": [1]
+  },
+  "energia": {
+    "postura": "«Energía de Soria para el desarrollo de Soria».",
+    "medidas": [
+      "Inversiones urgentes en redes de transporte y distribución para dar capacidad a los polos industriales",
+      "Compensaciones económicas por la energía generada en la provincia"
+    ],
+    "paginas": [1]
+  },
+  "medio_ambiente": {
+    "postura": "Compensar a los municipios por los beneficios ambientales de sus montes.",
+    "medidas": [
+      "Reconocimiento y compensación económica por los servicios ambientales de los montes",
+      "Aprovechamiento de los recursos forestales"
+    ],
+    "paginas": [1]
+  },
+  "sector_primario": {
+    "postura": "Apoyo a agricultores y ganaderos del medio rural despoblado.",
+    "medidas": [
+      "Menos burocracia y ayudas adaptadas a las dificultades del medio rural despoblado",
+      "Medidas que garanticen la rentabilidad de las explotaciones y el relevo generacional",
+      "Transformación de los productos agrarios en Soria"
+    ],
+    "paginas": [1]
+  },
+  "infraestructuras": {
+    "postura": "Autovías y ferrocarril para acabar con el aislamiento de Soria.",
+    "medidas": [
+      "Terminar la A-11 hasta Valladolid y la A-15 hasta Navarra; autovías Soria–Logroño, Soria–Calamocha, Soria–Segovia y Soria–Burgos",
+      "Electrificación y doble vía Soria–Torralba, más frecuencias a Madrid y reapertura de Soria–Castejón",
+      "Estación de AVE en el sur de Soria y corredor ferroviario Valladolid–Aranda–Soria–Zaragoza",
+      "Modernización de la circunvalación SO-20"
+    ],
+    "paginas": [1]
+  },
+  "sanidad": {
+    "postura": "Acceso seguro al hospital de referencia de Burgos.",
+    "medidas": [
+      "Autovía Soria–Burgos para conectar con el hospital de referencia",
+      "Servicios públicos esenciales a un máximo de 30 minutos"
+    ],
+    "paginas": [1]
+  },
+  "educacion": {
+    "postura": "«Estudiar fuera, volver a Soria».",
+    "medidas": [
+      "Becas especiales de movilidad y residencia",
+      "Prácticas remuneradas"
+    ],
+    "paginas": [1]
+  },
+  "ciencia": null,
+  "servicios_sociales": {
+    "postura": "Servicios públicos garantizados en el medio rural.",
+    "medidas": [
+      "Servicios esenciales a menos de 30 minutos con financiación adaptada a la dispersión y al envejecimiento, incluidos los de las entidades locales"
+    ],
+    "paginas": [1]
+  },
+  "familia_infancia": null,
+  "igualdad": null,
+  "lgtbi": null,
+  "inmigracion": {
+    "postura": "Facilitar la llegada de nómadas digitales a zonas despobladas.",
+    "medidas": [
+      "Ampliar los plazos de autorización de residencia y teletrabajo para quien se establezca en provincias despobladas"
+    ],
+    "paginas": [1]
+  },
+  "seguridad": null,
+  "defensa": {
+    "postura": "Presencia militar de emergencias en Soria.",
+    "medidas": [
+      "Unidad Militar de Emergencias (UME) permanente en Soria"
+    ],
+    "paginas": [1]
+  },
+  "justicia": null,
+  "democracia": null,
+  "territorial": {
+    "postura": "Plan extraordinario de 10 años contra la despoblación con financiación estable.",
+    "medidas": [
+      "Fondo de Inversiones para Soria, similar al de Teruel",
+      "Financiación de los servicios públicos adaptada a la dispersión territorial y al envejecimiento"
+    ],
+    "paginas": [1]
+  },
+  "lengua_cultura": null,
+  "digital": {
+    "postura": "Conectividad digital para todos los municipios.",
+    "medidas": [
+      "Internet de alta velocidad y cobertura móvil de calidad en todos los municipios sorianos"
+    ],
+    "paginas": [1]
+  },
+  "juventud": {
+    "postura": "Retorno de jóvenes y relevo generacional.",
+    "medidas": [
+      "Incentivos al primer empleo y ayudas al retorno de jóvenes titulados a zonas escasamente pobladas",
+      "Ayudas a jóvenes que asuman negocios y explotaciones en traspaso"
+    ],
+    "paginas": [1]
+  },
+  "deporte": null,
+  "animales": null,
+  "ue_exterior": null
+}

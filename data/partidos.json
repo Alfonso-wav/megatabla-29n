@@ -1,5 +1,5 @@
 {
-  "fechaCorte": "2026-11-12",
+  "fechaCorte": "2026-11-13",
   "eleccion": "Elecciones generales del 29 de noviembre de 2026",
   "partidos": [
     {
@@ -92,6 +92,19 @@
       "sha256": "3c1d2babfdc913196459050641053296b3751b8e5d8911b1e9f227da674f39b3",
       "nota": "Documento breve (3 páginas, 14 propuestas). Fecha: detectado el 12/11; la web no indica fecha de publicación."
     },
+    {
+      "id": "soriaya",
+      "nombre": "Soria ¡Ya!",
+      "siglas": "Soria Ya",
+      "estado": "publicado",
+      "titulo": "Programa Generales 2026. Del olvido al futuro",
+      "fechaPublicacion": "2026-11-13",
+      "idioma": "es",
+      "url": "https://soriaya.org/wp-content/uploads/2026/11/ProgramaGenerales_26.pdf",
+      "archivo": "soriaya.pdf",
+      "sha256": "042e8da39561d2008db48e78a6b72fb9309f334038a1d0af67791ceb983c3e9d",
+      "nota": "Documento de una página con 13 bloques de medidas centradas en Soria. Fecha: detectado el 13/11; el PDF indica «noviembre de 2026»."
+    },
     { "id": "psoe", "nombre": "PSOE", "siglas": "PSOE", "estado": "pendiente" },
     { "id": "fa", "nombre": "Frente Amplio (IU, Movimiento Sumar, Más Madrid, Comuns…)", "siglas": "Frente Amplio", "estado": "pendiente" },
     { "id": "podemos", "nombre": "Podemos", "siglas": "Podemos", "estado": "pendiente" },
@@ -103,7 +116,6 @@
     { "id": "adelante", "nombre": "Adelante Andalucía", "siglas": "Adelante", "estado": "pendiente" },
     { "id": "upc", "nombre": "Unidad del Pueblo Canario (NC-BC, Podemos, IUC, Sumar)", "siglas": "UPC", "estado": "pendiente" },
     { "id": "geroabai", "nombre": "Geroa Bai", "siglas": "Geroa Bai", "estado": "pendiente" },
-    { "id": "soriaya", "nombre": "Soria ¡Ya!", "siglas": "Soria Ya", "estado": "pendiente" },
     { "id": "ac", "nombre": "Aliança Catalana", "siglas": "AC", "estado": "pendiente" },
     { "id": "frenteobrero", "nombre": "Frente Obrero", "siglas": "FO", "estado": "pendiente" },
     { "id": "d21", "nombre": "Democracia para el Siglo 21 (Democracia 21, Cs, UCIN)", "siglas": "D21", "estado": "pendiente" },

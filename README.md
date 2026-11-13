@@ -46,7 +46,7 @@ Al pulsar el nombre de un partido se abren sus listas al Congreso en cada circun
 
 ```bash
 node scripts/candidatos.mjs            # BOE → data/candidatos/listas.json (+ correcciones)
-node scripts/candidatos.mjs --enlaces  # además, enlaces a Wikipedia y al Congreso (~25 min, con caché)
+node scripts/candidatos.mjs --enlaces  # además, Congreso, Wikipedia y Wikidata (~1,5 h la primera vez; con caché)
 ```
 
 - Ficha del Congreso: diputados de las legislaturas X-XV, del buscador oficial de congreso.es,
@@ -56,6 +56,11 @@ node scripts/candidatos.mjs --enlaces  # además, enlaces a Wikipedia y al Congr
   (o es diputado según el Congreso). Si dos artículos cumplen, no se enlaza ninguno.
 - Las siglas del BOE se asignan a los partidos de `partidos.json` en la tabla `PARTIDO` del script;
   las que no encajan van a «Otras».
+- Wikidata: para quien no tiene artículo en es.wikipedia se buscan sus etiquetas y alias en cualquier
+  idioma; se enlaza la Wikipedia disponible (es, ca, gl, eu, en) si es un político español y su partido en
+  Wikidata, o el artículo, coincide con la lista. De Wikidata salen también descripción, profesión,
+  formación (P69) y LinkedIn (P6634); LinkedIn no se consulta directamente.
+- Biografía: primeras líneas de la biografía oficial de los datos abiertos del Congreso, sin datos familiares.
 
 ## Publicación
 

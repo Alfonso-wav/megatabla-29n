@@ -1,7 +1,7 @@
 // Listas al Congreso proclamadas (BOE) → data/candidatos/listas.json
 //
 //   node scripts/candidatos.mjs            descarga el XML del BOE y regenera listas.json
-//   node scripts/candidatos.mjs --enlaces  además busca fichas del Congreso y artículos de Wikipedia
+//   node scripts/candidatos.mjs --enlaces  además busca fichas y biografías del Congreso, Wikipedia y Wikidata
 //
 // Fuente: «Candidaturas proclamadas para las elecciones al Congreso de los Diputados y
 // al Senado» (BOE-A-2026-23103) y sus correcciones (data/candidatos/correcciones.json,
@@ -151,11 +151,30 @@ const tokens = (s) => norm(s).split(" ").filter((t) => t && !VACIAS.has(t));
 const espera = (ms) => new Promise((ok) => setTimeout(ok, ms));
 const UA_WIKI = { "User-Agent": "megatabla-29n/0.1 (https://alfonso-wav.github.io/megatabla-29n/)" };
 
-async function json(url, init = {}, tries = 4) {
+// Ritmo máximo por servidor (Wikidata devuelve 429 si se le pide demasiado rápido).
+const INTERVALO = { "www.wikidata.org": 350, "es.wikipedia.org": 150 };
+const turno = {};
+async function esperarTurno(host) {
+  const min = INTERVALO[host] ?? 100;
+  const ahora = Date.now();
+  const t = Math.max(ahora, (turno[host] ?? 0) + min);
+  turno[host] = t;
+  if (t > ahora) await espera(t - ahora);
+}
+
+async function json(url, init = {}, tries = 8) {
+  const host = new URL(url).host;
   for (let i = 0; ; i++) {
     try {
+      await esperarTurno(host);
       const r = await fetch(url, { ...init, headers: { ...UA_WIKI, Accept: "application/json", ...init.headers }, signal: AbortSignal.timeout(30000) });
-      if ((r.status === 429 || r.status >= 500) && i < tries) { await espera(4000 * (i + 1)); continue; }
+      if ((r.status === 429 || r.status >= 500) && i < tries) {
+        const ra = Number(r.headers.get("retry-after"));
+        const ms = (ra > 0 ? ra * 1000 : 5000 * (i + 1)) + 500;
+        turno[host] = Date.now() + ms; // pausa también a los demás trabajadores
+        await espera(ms);
+        continue;
+      }
       if (!r.ok) throw new Error(`HTTP ${r.status} ${url}`);
       return await r.json();
     } catch (e) {
@@ -258,6 +277,128 @@ async function wikipedia(nombre, partido, siglas, denominacion, esDiputado) {
   return ok.length === 1 ? ok[0] : ok.length > 1 ? "ambiguo" : null;
 }
 
+// Partidos en inglés/catalán/gallego, para artículos de otras Wikipedias y etiquetas de Wikidata.
+const AFINIDAD_OTRAS = {
+  pp: /People's Party|Partit Popular/,
+  psoe: /Socialist Workers|Socialists' Party|Partit dels Socialistes/,
+  fa: /United Left|Esquerra Unida|Catalunya en Comú|Galician Left/,
+  junts: /Together for Catalonia|Junts per Catalunya/,
+  erc: /Republican Left of Catalonia/,
+  pnv: /Basque Nationalist/,
+  bng: /Galician Nationalist Bloc|Bloque Nacionalista Galego/,
+  cc: /Canarian Coalition|Coalició Canària/,
+  pacma: /Animalist/,
+  d21: /Citizens|Ciutadans/,
+  pcte: /Communist Party of the Workers of Spain/,
+  ac: /Catalan Alliance/,
+};
+const afinidad = (partido, siglas, denominacion) => {
+  const base =
+    AFINIDAD[partido] ??
+    new RegExp(`\\b(${[siglas, denominacion].map((s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})\\b`, "i");
+  const otra = AFINIDAD_OTRAS[partido];
+  return { test: (t) => base.test(t) || (otra ? otra.test(t) : false) };
+};
+
+// ---------- Wikidata ----------
+const WD = "https://www.wikidata.org/w/api.php?format=json&";
+const WIKIS = ["eswiki", "cawiki", "glwiki", "euwiki", "enwiki"]; // orden de preferencia
+const IDIOMAS = "es|ca|gl|eu|en";
+const qids = (e, p) => (e.claims?.[p] ?? []).map((c) => c.mainsnak?.datavalue?.value?.id).filter(Boolean);
+const valores = (e, p) => (e.claims?.[p] ?? []).map((c) => c.mainsnak?.datavalue?.value).filter((v) => typeof v === "string");
+const texto = (m, ...langs) => langs.map((l) => m?.[l]?.value).find(Boolean);
+
+// Entidades en caché reducida: solo lo que se usa.
+function reducir(e) {
+  const nombres = new Set();
+  for (const l of Object.values(e.labels ?? {})) nombres.add(l.value);
+  for (const a of Object.values(e.aliases ?? {})) for (const x of a) nombres.add(x.value);
+  const sitelinks = {};
+  for (const w of WIKIS) if (e.sitelinks?.[w]) sitelinks[w] = e.sitelinks[w].title;
+  return {
+    nombres: [...nombres],
+    desc: texto(e.descriptions, "es", "ca", "gl", "en"),
+    descEn: texto(e.descriptions, "en"),
+    humano: qids(e, "P31").includes("Q5"),
+    espana: qids(e, "P27").includes("Q29"),
+    ocupacion: qids(e, "P106"),
+    cargos: qids(e, "P39").length,
+    partidos: qids(e, "P102"),
+    estudios: qids(e, "P69"),
+    linkedin: valores(e, "P6634")[0],
+    sitelinks,
+  };
+}
+
+async function entidades(qs, ecache) {
+  const faltan = [...new Set(qs)].filter((q) => !(q in ecache));
+  for (let i = 0; i < faltan.length; i += 50) {
+    const lote = faltan.slice(i, i + 50);
+    const r = await json(`${WD}action=wbgetentities&props=labels|aliases|descriptions|claims|sitelinks&languages=${IDIOMAS}&ids=${lote.join("|")}`);
+    for (const q of lote) ecache[q] = r.entities?.[q]?.claims ? reducir(r.entities[q]) : null;
+  }
+}
+
+// Etiquetas (partidos, universidades, profesiones) en caché aparte.
+async function etiquetas(qs, lcache) {
+  const faltan = [...new Set(qs)].filter((q) => !(q in lcache));
+  for (let i = 0; i < faltan.length; i += 50) {
+    const lote = faltan.slice(i, i + 50);
+    const r = await json(`${WD}action=wbgetentities&props=labels&languages=${IDIOMAS}&ids=${lote.join("|")}`);
+    for (const q of lote) lcache[q] = texto(r.entities?.[q]?.labels, "es", "ca", "gl", "en") ?? null;
+  }
+}
+
+// Consultas de búsqueda por nombre: el completo y «nombre + apellido» probables.
+function consultas(nombre) {
+  const w = nombre.split(/\s+/).filter((x) => !VACIAS.has(norm(x)));
+  const q = new Set([nombre]);
+  if (w.length >= 3) {
+    q.add(`${w[0]} ${w[1]}`);
+    q.add(`${w[0]} ${w[w.length - 2]}`);
+    if (w.length >= 4) q.add(`${w[1]} ${w[2]}`);
+  }
+  return [...q];
+}
+
+const urlWiki = (wiki, titulo) =>
+  `https://${wiki.replace(/wiki$/, "")}.wikipedia.org/wiki/${encodeURIComponent(titulo.replace(/ /g, "_"))}`;
+
+async function extracto(wiki, titulo, xcache) {
+  const k = `${wiki}:${titulo}`;
+  if (!(k in xcache)) {
+    const host = `${wiki.replace(/wiki$/, "")}.wikipedia.org`;
+    const r = await json(
+      `https://${host}/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts|categories&cllimit=max&clshow=!hidden&exintro=1&explaintext=1&titles=${encodeURIComponent(titulo)}`,
+    );
+    const p = r.query?.pages?.[0];
+    xcache[k] = `${p?.extract ?? ""} ${(p?.categories ?? []).map((c) => c.title).join(" ")}`.slice(0, 4000);
+  }
+  return xcache[k];
+}
+
+const ES_POLITICO = (e) =>
+  e.ocupacion.includes("Q82955") || e.cargos > 0 || e.partidos.length > 0 || /pol[íi]tic/i.test(`${e.desc} ${e.descEn}`);
+const ES_ESPANA = (e) => e.espana || /espa|spanish|catal|basque|vasc|galic|galleg|canari|andaluz|andalusian/i.test(`${e.desc} ${e.descEn}`);
+
+// Una entidad es la persona del BOE si: es humana, española y política; alguno de sus nombres
+// (en cualquier idioma) es compatible con el nombre completo del BOE; y su partido en Wikidata
+// coincide con el de la lista o, si Wikidata no lo dice, el artículo de Wikipedia lo menciona.
+async function verificar(q, nombre, p, esDiputado, ecache, lcache, xcache) {
+  const e = ecache[q];
+  if (!e || !e.humano || !ES_POLITICO(e) || !ES_ESPANA(e)) return false;
+  if (!e.nombres.some((x) => tituloCompatible(x, nombre))) return false;
+  const af = afinidad(p.partido, p.siglas, p.denominacion);
+  if (e.partidos.length) {
+    await etiquetas(e.partidos, lcache);
+    if (e.partidos.some((x) => lcache[x] && af.test(lcache[x]))) return true;
+  }
+  const wiki = WIKIS.find((w) => e.sitelinks[w]);
+  if (!wiki) return false;
+  const t = await extracto(wiki, e.sitelinks[wiki], xcache);
+  return af.test(t) || (esDiputado && LEGISLATURA_ES.test(t));
+}
+
 async function enlaces(listas) {
   // Congreso: clave = nombre + apellidos normalizados; se enlaza la ficha de la legislatura más reciente.
   const congreso = {};
@@ -268,10 +409,25 @@ async function enlaces(listas) {
       congreso[k] = { leg: d.idLegislatura, cod: d.codParlamentario, legs: [...(prev?.legs ?? []), d.idLegislatura] };
     else prev.legs.push(d.idLegislatura);
   }
+  const bios = await biografiasCongreso();
 
-  // Caché de búsquedas en Wikipedia para poder reanudar y no repetir peticiones.
-  const fc = join(cache, "wikipedia-cache.json");
-  const wcache = existsSync(fc) ? JSON.parse(readFileSync(fc, "utf8")) : {};
+  const cargar = (n) => (existsSync(join(cache, n)) ? JSON.parse(readFileSync(join(cache, n), "utf8")) : {});
+  const guardar = (n, o) => writeFileSync(join(cache, n), JSON.stringify(o));
+  const wcache = cargar("wikipedia-cache.json"); // nombre → resultado de la búsqueda en es.wikipedia
+  const scache = cargar("wikidata-busquedas.json"); // consulta → [Q…]
+  const ecache = cargar("wikidata-entidades.json"); // Q → entidad reducida
+  const lcache = cargar("wikidata-etiquetas.json"); // Q → etiqueta
+  const xcache = cargar("wikipedia-extractos.json"); // wiki:título → texto
+  const vcache = cargar("wikidata-verificados.json"); // nombre → Q | null | "ambiguo"
+  const guardarTodo = () => {
+    guardar("wikipedia-cache.json", wcache);
+    guardar("wikidata-busquedas.json", scache);
+    guardar("wikidata-entidades.json", ecache);
+    guardar("wikidata-etiquetas.json", lcache);
+    guardar("wikipedia-extractos.json", xcache);
+    guardar("wikidata-verificados.json", vcache);
+  };
+
   const personas = new Map(); // nombre → {partido, siglas, denominacion, titular}
   for (const l of listas)
     for (const [c, titular] of [...l.titulares.map((c) => [c, true]), ...l.suplentes.map((c) => [c, false])]) {
@@ -279,28 +435,75 @@ async function enlaces(listas) {
       if (!prev || (titular && !prev.titular))
         personas.set(c.nombre, { partido: l.partido, siglas: l.siglas, denominacion: l.denominacion, titular });
     }
+  const buscables = [...personas].filter(([n, p]) => p.titular || congreso[norm(n)]);
 
-  // Wikipedia solo para titulares y para cualquiera que haya sido diputado.
-  const cola = [...personas].filter(([n, p]) => (p.titular || congreso[norm(n)]) && !(n in wcache));
-  let hechos = 0;
-  const trabajador = async () => {
-    while (cola.length) {
-      const [n, p] = cola.shift();
-      try {
-        wcache[n] = await wikipedia(n, p.partido, p.siglas, p.denominacion, !!congreso[norm(n)]);
-      } catch (e) {
-        console.warn(`\n${n}: ${e.message}`);
+  // 1) es.wikipedia por nombre completo
+  {
+    const cola = buscables.filter(([n]) => !(n in wcache));
+    let hechos = 0;
+    const trabajador = async () => {
+      while (cola.length) {
+        const [n, p] = cola.shift();
+        try {
+          wcache[n] = await wikipedia(n, p.partido, p.siglas, p.denominacion, !!congreso[norm(n)]);
+        } catch (e) {
+          console.warn(`\n${n}: ${e.message}`);
+        }
+        if (++hechos % 50 === 0) {
+          guardarTodo();
+          process.stdout.write(`\rwikipedia ${hechos} (quedan ${cola.length})   `);
+        }
+        await espera(150);
       }
-      if (++hechos % 50 === 0) {
-        writeFileSync(fc, JSON.stringify(wcache));
-        process.stdout.write(`\rwikipedia ${hechos} (quedan ${cola.length})   `);
-      }
-      await espera(150);
-    }
+    };
+    await Promise.all([trabajador(), trabajador(), trabajador()]);
+    guardarTodo();
+  }
+  const wikiES = (n) => {
+    const w = wcache[n];
+    return w && w !== "ambiguo" && tituloCompatible(decodeURIComponent(w.wikipedia.split("/wiki/")[1]).replace(/_/g, " "), n) ? w : null;
   };
-  await Promise.all([trabajador(), trabajador(), trabajador()]);
-  writeFileSync(fc, JSON.stringify(wcache));
-  process.stdout.write("\n");
+
+  // 2) Wikidata (etiquetas y alias en cualquier idioma) para quien no tiene artículo en es.wikipedia
+  {
+    const cola = buscables.filter(([n]) => !wikiES(n) && !(n in vcache));
+    let hechos = 0;
+    const trabajador = async () => {
+      while (cola.length) {
+        const [n, p] = cola.shift();
+        try {
+          const qs = new Set();
+          for (const c of consultas(n)) {
+            if (!(c in scache)) {
+              const r = await json(`${WD}action=wbsearchentities&type=item&limit=7&language=es&uselang=es&search=${encodeURIComponent(c)}`);
+              scache[c] = (r.search ?? []).map((x) => x.id);
+            }
+            for (const q of scache[c]) qs.add(q);
+          }
+          await entidades([...qs], ecache);
+          const ok = [];
+          for (const q of qs) if (await verificar(q, n, p, !!congreso[norm(n)], ecache, lcache, xcache)) ok.push(q);
+          vcache[n] = ok.length === 1 ? ok[0] : ok.length > 1 ? "ambiguo" : null;
+        } catch (e) {
+          console.warn(`\n${n}: ${e.message}`);
+        }
+        if (++hechos % 50 === 0) {
+          guardarTodo();
+          process.stdout.write(`\rwikidata ${hechos} (quedan ${cola.length})   `);
+        }
+      }
+    };
+    await Promise.all([trabajador(), trabajador(), trabajador()]);
+    guardarTodo();
+    process.stdout.write("\n");
+  }
+
+  // 3) Datos de Wikidata (descripción, estudios, profesión, LinkedIn) de todos los identificados
+  const qDe = (n) => wikiES(n)?.wikidata ?? (vcache[n] && vcache[n] !== "ambiguo" ? vcache[n] : null);
+  const todosQ = [...personas.keys()].map(qDe).filter(Boolean);
+  await entidades(todosQ, ecache);
+  await etiquetas(todosQ.flatMap((q) => [...(ecache[q]?.estudios ?? []), ...(ecache[q]?.ocupacion ?? [])]), lcache);
+  guardarTodo();
 
   // Enlaces manuales (data/candidatos/enlaces-manuales.json) tienen prioridad; null = no enlazar.
   const fm = join(dir, "enlaces-manuales.json");
@@ -308,15 +511,29 @@ async function enlaces(listas) {
   const out = {};
   for (const n of personas.keys()) {
     const e = {};
-    const w = wcache[n];
-    // se revalida lo cacheado por si la regla del título ha cambiado
-    if (w && w !== "ambiguo" && tituloCompatible(decodeURIComponent(w.wikipedia.split("/wiki/")[1]).replace(/_/g, " "), n))
-      Object.assign(e, w);
+    const w = wikiES(n);
+    const q = qDe(n);
+    const ent = q ? ecache[q] : null;
+    if (w) Object.assign(e, w);
+    else if (ent) {
+      const wiki = WIKIS.find((x) => ent.sitelinks[x]);
+      if (wiki) e.wikipedia = urlWiki(wiki, ent.sitelinks[wiki]);
+      e.wikidata = q;
+    }
+    if (ent) {
+      if (ent.desc) e.descripcion = ent.desc;
+      const est = ent.estudios.map((x) => lcache[x]).filter(Boolean);
+      if (est.length) e.estudios = [...new Set(est)];
+      const ocu = ent.ocupacion.filter((x) => x !== "Q82955").map((x) => lcache[x]).filter(Boolean);
+      if (ocu.length) e.ocupacion = [...new Set(ocu)].slice(0, 4);
+      if (ent.linkedin) e.linkedin = `https://www.linkedin.com/in/${encodeURIComponent(ent.linkedin)}`;
+    }
     const c = congreso[norm(n)];
     if (c) {
       e.congreso = fichaCongreso(c.cod, c.leg);
       e.legislaturas = [...new Set(c.legs)].sort((a, b) => a - b);
     }
+    if (bios[norm(n)]) e.biografia = bios[norm(n)];
     if (n in manual) {
       if (manual[n] === null) continue;
       Object.assign(e, manual[n]);
@@ -326,10 +543,59 @@ async function enlaces(listas) {
   const ordenado = Object.fromEntries(Object.entries(out).sort(([a], [b]) => a.localeCompare(b, "es")));
   writeFileSync(join(dir, "enlaces.json"), JSON.stringify(ordenado, null, 1));
   const v = Object.values(out);
-  const amb = Object.values(wcache).filter((x) => x === "ambiguo").length;
+  const cuenta = (f) => v.filter(f).length;
+  const amb = [...Object.values(wcache), ...Object.values(vcache)].filter((x) => x === "ambiguo").length;
   console.log(
-    `enlaces.json: ${v.filter((x) => x.wikipedia).length} con Wikipedia, ${v.filter((x) => x.congreso).length} con ficha del Congreso; ${amb} ambiguos sin enlazar`,
+    `enlaces.json: ${cuenta((x) => x.wikipedia)} con Wikipedia (${cuenta((x) => x.wikipedia && !x.wikipedia.includes("//es."))} en otros idiomas), ` +
+      `${cuenta((x) => x.congreso)} con ficha del Congreso, ${cuenta((x) => x.biografia)} con biografía oficial, ` +
+      `${cuenta((x) => x.estudios)} con estudios, ${cuenta((x) => x.linkedin)} con LinkedIn; ${amb} ambiguos sin enlazar`,
   );
+}
+
+// Biografías oficiales de los diputados (datos abiertos del Congreso, todas las legislaturas disponibles).
+// Se quitan los datos familiares y se guardan las primeras líneas.
+function lineasBiografia(texto) {
+  const partes = texto
+    // salto a mitad de frase: «Escuela de\nCapataces», «técnico\nsuperior»
+    .replace(/\b(de|del|la|las|el|los|y|e|en|por|para|a|con)\n(?=\S)/gi, "$1 ")
+    .replace(/(\S)\n(?=[a-záéíóúñ])/g, "$1 ")
+    .split(/\s{2,}|\s*\n\s*|\.\s+(?=[A-ZÁÉÍÓÚ])/)
+    .map((s) => s.trim().replace(/\.$/, ""))
+    .filter((s) => s.length > 1 && !/^(casad|solter|divorciad|viud|pareja|\d+ hij|.*\bhij[oa]s?\b)/i.test(s));
+  // años sueltos («1995») se unen a la línea siguiente
+  const out = [];
+  for (let i = 0; i < partes.length; i++) {
+    if (/^\d{4}([-–]\d{4})?$/.test(partes[i]) && partes[i + 1]) out.push(`${partes[i]}: ${partes[++i]}`);
+    else if (partes[i].length > 2) out.push(partes[i]);
+  }
+  return out.slice(0, 6);
+}
+
+async function biografiasCongreso() {
+  const f = join(cache, "congreso-biografias-v2.json");
+  if (!existsSync(f)) {
+    const page = await fetch("https://www.congreso.es/es/opendata/diputados", { headers: UA }).then((r) => r.text());
+    const urls = [...new Set([...page.matchAll(/href="([^"]*opendata\/diputados\/(?:DiputadosActivos|DiputadosDeBaja|odsDiputados\d+)__[^"]+\.json)"/g)].map((m) => new URL(m[1], "https://www.congreso.es").href))];
+    const bios = {};
+    for (const u of urls) {
+      let datos = [];
+      try {
+        datos = await json(u, { headers: { "User-Agent": "Mozilla/5.0" } });
+      } catch (e) {
+        console.warn("congreso:", e.message);
+      }
+      for (const d of datos) {
+        if (!d.NOMBRE || !d.BIOGRAFIA) continue;
+        const [ap, nom] = d.NOMBRE.split(",").map((s) => s.trim());
+        const k = norm(`${nom} ${ap}`);
+        if (bios[k]) continue; // la primera URL es la legislatura actual
+        const lineas = lineasBiografia(d.BIOGRAFIA);
+        if (lineas.length) bios[k] = lineas;
+      }
+    }
+    writeFileSync(f, JSON.stringify(bios));
+  }
+  return JSON.parse(readFileSync(f, "utf8"));
 }
 
 // ---------- principal ----------

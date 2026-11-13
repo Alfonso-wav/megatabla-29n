@@ -57,6 +57,15 @@ export interface Enlaces {
   wikidata?: string;
   congreso?: string;
   legislaturas?: number[];
+  linkedin?: string;
+  /** Descripción corta de Wikidata («política española», «abogado y político»…). */
+  descripcion?: string;
+  /** Centros de estudios (Wikidata P69). */
+  estudios?: string[];
+  /** Profesiones (Wikidata P106, sin «político»). */
+  ocupacion?: string[];
+  /** Primeras líneas de la biografía oficial del Congreso (sin datos familiares). */
+  biografia?: string[];
 }
 
 export interface Candidatos {

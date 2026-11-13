@@ -400,6 +400,7 @@ function enlacesHTML(e: Enlaces | undefined, nombre: string) {
   return `<span class="enlaces">${[
     e.wikipedia && a(e.wikipedia, "Wikipedia", `Artículo de ${nombre} en Wikipedia`, "w"),
     e.congreso && a(e.congreso, "Congreso", `Ficha oficial en congreso.es${legs ? ` (diputado/a en la legislatura ${legs})` : ""}`, "c"),
+    e.linkedin && a(e.linkedin, "LinkedIn", `Perfil de LinkedIn de ${nombre} (según Wikidata)`, "l"),
     e.wikidata && a(`https://www.wikidata.org/wiki/${e.wikidata}`, "Wikidata", `${nombre} en Wikidata`, "d"),
   ]
     .filter(Boolean)
@@ -409,7 +410,23 @@ function enlacesHTML(e: Enlaces | undefined, nombre: string) {
 function candidatoHTML(c: Lista["titulares"][number], l: Lista, re: RegExp | null) {
   const e = candidatos!.enlaces[c.nombre];
   const marca = c.partido && c.partido !== l.siglas ? ` <span class="afil" title="Partido según el BOE">${esc(c.partido)}</span>` : "";
-  return `<li value="${c.n}"><span class="cand">${marcar(c.nombre, re)}${marca}</span>${enlacesHTML(e, c.nombre)}</li>`;
+  return `<li value="${c.n}"><span class="cand">${marcar(c.nombre, re)}${marca}</span>${enlacesHTML(e, c.nombre)}${perfilHTML(e)}</li>`;
+}
+
+// Puesto, profesión y formación: Wikidata y, para diputados, la biografía oficial del Congreso.
+function perfilHTML(e: Enlaces | undefined) {
+  if (!e) return "";
+  const lineas: string[] = [];
+  const quien = [e.descripcion, e.ocupacion?.length ? e.ocupacion.join(", ") : ""].filter(Boolean);
+  if (quien.length) lineas.push(`<span class="perfil-q">${esc(quien.join(" · "))}</span>`);
+  if (e.estudios?.length) lineas.push(`<span class="perfil-f"><b>Formación:</b> ${esc(e.estudios.join(", "))}</span>`);
+  const bio = e.biografia?.length
+    ? `<details class="bio"><summary>Biografía en el Congreso</summary><ul>${e.biografia
+        .map((x) => `<li>${esc(x)}</li>`)
+        .join("")}</ul></details>`
+    : "";
+  if (!lineas.length && !bio) return "";
+  return `<div class="perfil">${lineas.join("")}${bio}</div>`;
 }
 
 function listaHTML(l: Lista, p: Partido, re: RegExp | null, abierta: boolean) {
@@ -487,10 +504,11 @@ async function abrirListas(id: string) {
           <div id="listas-cuerpo" class="listas"></div>`
         : `<p class="vacio">No consta ninguna lista de ${esc(p.siglas)} al Congreso entre las candidaturas proclamadas.</p>`
     }
-    <p class="ficha-fuente">Fuente: ${fuente}. Los números son el puesto en la lista.
-      Enlaces a Wikipedia solo cuando el artículo coincide con el nombre completo del BOE, es de un político y menciona su partido
-      (o consta como diputado en los datos del Congreso); si hay dudas no se enlaza, así que pueden faltar.
-      La ficha del Congreso aparece para quienes han sido diputados entre la X y la XV legislatura.</p>`;
+    <p class="ficha-fuente">Fuente de las listas: ${fuente}. Los números son el puesto en la lista.
+      Wikipedia (en cualquier idioma) y Wikidata solo se enlazan cuando el nombre coincide con el del BOE, se trata de un político
+      y su partido coincide con el de la lista (o consta como diputado); si hay dudas no se enlaza, así que pueden faltar.
+      Puesto, profesión, formación y LinkedIn proceden de Wikidata; la ficha y la biografía, de los datos abiertos del Congreso
+      (diputados de la X a la XV legislatura).</p>`;
   pintarListas("");
   const qL = fichaCuerpo.querySelector<HTMLInputElement>("#q-listas");
   let tl: number | undefined;

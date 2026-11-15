@@ -1,5 +1,5 @@
 {
-  "fechaCorte": "2026-11-13",
+  "fechaCorte": "2026-11-15",
   "eleccion": "Elecciones generales del 29 de noviembre de 2026",
   "partidos": [
     {
@@ -105,6 +105,19 @@
       "sha256": "042e8da39561d2008db48e78a6b72fb9309f334038a1d0af67791ceb983c3e9d",
       "nota": "Documento de una página con 13 bloques de medidas centradas en Soria. Fecha: detectado el 13/11; el PDF indica «noviembre de 2026»."
     },
+    {
+      "id": "adelante",
+      "nombre": "Adelante Andalucía",
+      "siglas": "Adelante",
+      "estado": "publicado",
+      "titulo": "Un programa para frenar a las derechas. Programa electoral Generales 29N",
+      "fechaPublicacion": "2026-11-10",
+      "idioma": "es",
+      "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+      "archivo": "adelante.pdf",
+      "sha256": "fde1fe024f94a698e2110c0e25cc569b4d9f3f7272342bdb13dc0c1e7a2d7b43",
+      "nota": "134 páginas: las 29 medidas principales y 719 propuestas en 12 áreas, con reclamaciones por provincia. Fecha: versión del 10/11 según el propio PDF; detectado el 15/11. La medida 9 (supermercados públicos) aún no tiene propuestas que la desarrollen."
+    },
     { "id": "psoe", "nombre": "PSOE", "siglas": "PSOE", "estado": "pendiente" },
     { "id": "fa", "nombre": "Frente Amplio (IU, Movimiento Sumar, Más Madrid, Comuns…)", "siglas": "Frente Amplio", "estado": "pendiente" },
     { "id": "podemos", "nombre": "Podemos", "siglas": "Podemos", "estado": "pendiente" },
@@ -113,7 +126,6 @@
     { "id": "bildu", "nombre": "EH Bildu", "siglas": "Bildu", "estado": "pendiente" },
     { "id": "pacma", "nombre": "Partido Animalista PACMA", "siglas": "PACMA", "estado": "pendiente" },
     { "id": "compromis", "nombre": "Compromís – Front Valencià", "siglas": "Compromís", "estado": "pendiente" },
-    { "id": "adelante", "nombre": "Adelante Andalucía", "siglas": "Adelante", "estado": "pendiente" },
     { "id": "upc", "nombre": "Unidad del Pueblo Canario (NC-BC, Podemos, IUC, Sumar)", "siglas": "UPC", "estado": "pendiente" },
     { "id": "geroabai", "nombre": "Geroa Bai", "siglas": "Geroa Bai", "estado": "pendiente" },
     { "id": "ac", "nombre": "Aliança Catalana", "siglas": "AC", "estado": "pendiente" },

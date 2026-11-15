@@ -1,0 +1,379 @@
+{
+  "vivienda": {
+    "postura": "La vivienda como derecho fundamental exigible: ningún alquiler por encima del 20 % del salario, fuera los fondos de la compra de vivienda y parque público del 9 %.",
+    "medidas": [
+      "Reforma constitucional para llevar el art. 47 a los derechos fundamentales, con recurso de amparo",
+      "Índice estatal para que ningún alquiler supere el 20 % de la renta media de la zona; contratos indefinidos y prórroga sin subida",
+      "Prohibir la compra de vivienda residencial por fondos y sociedades mercantiles (salvo cooperativas y sin ánimo de lucro) y toda compra especulativa",
+      "Parque público en alquiler del 9 % (hasta el 20 % en zonas de más demanda), con un gasto del 1,5 % del PIB y prohibición de vender vivienda pública",
+      "El 100 % de la Sareb e inmuebles vacíos del Estado (Defensa, Adif, Puertos) a alquiler asequible; constructora pública",
+      "Ningún desahucio de hogares vulnerables sin alternativa e ilegalización de las empresas de «desokupación»",
+      "Moratoria de pisos turísticos en zonas tensionadas, cupo por zona e IVA del 21 % al alquiler turístico",
+      "Gran tenedor desde cinco viviendas, zonas tensionadas declaradas de forma automática y fin de las exenciones a las SOCIMI"
+    ],
+    "paginas": [4, 49, 50, 51, 58]
+  },
+  "empleo": {
+    "postura": "Menos horas, mejores sueldos y despido más caro: jornada de 32 horas, fin del turno partido y salarios ligados a la inflación.",
+    "medidas": [
+      "Jornada de 32 horas sin rebaja de sueldo (dos años en grandes empresas, cuatro en pymes) y prohibición del turno partido",
+      "Salarios y salario mínimo indexados a la inflación por ley; subida automática si el convenio se bloquea",
+      "Despido de 50 días por año en el indefinido y 60 en el temporal, con autorización de la Inspección",
+      "Prohibir las horas extra salvo emergencia y abanico salarial máximo de 1 a 5 en cada empresa",
+      "Prevalencia del convenio sectorial y mismo salario en toda la cadena de subcontratación",
+      "Estatutos del trabajo en el campo y de la hostelería, con fin de la subcontratación de camareras de piso",
+      "Bajas pagadas al 100 % desde el primer día y derecho al teletrabajo",
+      "Despido nulo si se sustituyen tareas por IA sin formar y recolocar antes; la automatización cotiza a la Seguridad Social"
+    ],
+    "paginas": [7, 8, 9, 63, 64, 65, 66]
+  },
+  "pensiones": {
+    "postura": "Pensiones 100 % públicas, blindadas en la Constitución y revalorizadas con el IPC real; jubilación a los 64.",
+    "medidas": [
+      "Revalorización con el IPC real garantizada por ley y prohibición de privatizar el sistema",
+      "Pensiones mínimas y no contributivas iguales al SMI neto",
+      "Edad ordinaria de jubilación a los 64 años, anticipada desde los 55 con contrato de relevo y completa con 40 años cotizados",
+      "Cotización sin topes y aportaciones de los impuestos",
+      "Jubilación anticipada en oficios duros (pesca, marisqueo, naval, campo, sanidad desde los 60, conducción profesional)",
+      "Los periodos de cuidado cotizan para la pensión; mejora de la viudedad"
+    ],
+    "paginas": [13, 55]
+  },
+  "fiscalidad": {
+    "postura": "«Revolución fiscal»: que pague más quien más tiene, con impuestos a la riqueza, la tierra, la banca y las eléctricas.",
+    "medidas": [
+      "IRPF más progresivo, con tipos mucho más altos desde 100.000 € y las rentas del capital tributando como las del trabajo",
+      "Impuesto sobre la riqueza y la tierra que sustituye a Patrimonio y grava latifundios y gran propiedad inmobiliaria",
+      "Impuestos permanentes a los beneficios extraordinarios de banca, energéticas y gran distribución",
+      "Sociedades progresivo y tributación de las grandes empresas según su actividad en cada territorio, no según su sede",
+      "Suelo común en Sucesiones y Donaciones contra el dumping fiscal entre comunidades e impuesto de salida a las grandes fortunas",
+      "IVA superreducido para luz, agua, alimentos básicos, productos menstruales y cultura; reducido para crianza y veterinaria",
+      "Impuesto de retorno sanitario sobre los beneficios de la sanidad privada concertada, destinado a investigar el cáncer",
+      "Más inspección del gran fraude y exclusión de la contratación pública de empresas con filiales en paraísos fiscales"
+    ],
+    "paginas": [10, 15, 58, 59, 60, 120]
+  },
+  "economia": {
+    "postura": "Banca y empresas públicas en sectores estratégicos, reindustrialización verde y que la riqueza se quede en Andalucía.",
+    "medidas": [
+      "Banca pública que dé crédito a pymes, autónomos, cooperativas y vivienda pública; aseguradora pública",
+      "Presencia pública en energía, farmacia, alimentación y telecomunicaciones, y servicio funerario público",
+      "Red de supermercados públicos con productos de cercanía y precios justos en origen",
+      "Plan estatal de reindustrialización verde en las comarcas con más paro y transformación en Andalucía de la producción agraria y pesquera",
+      "Las empresas que reciban ayudas y cierren o despidan pierden el acceso a ayudas y contratos públicos",
+      "Autónomos: cuota según ingresos reales (cero sin rendimientos), gestoría pública gratuita y paro equivalente al asalariado",
+      "Plan de turismo para todas y todos: red pública de hoteles y campings, «Imserso» para todas las edades y tasa turística finalista",
+      "Ley de economía social y solidaria y reserva de contratación pública para pymes locales y cooperativas"
+    ],
+    "paginas": [11, 12, 21, 31, 61, 62, 67, 68]
+  },
+  "administracion": {
+    "postura": "Administración cercana, presencial y con personal propio: fin de las externalizaciones y de la tasa de reposición.",
+    "medidas": [
+      "Atención presencial sin cita obligatoria en Seguridad Social, SEPE y Agencia Tributaria; ningún trámite solo digital",
+      "Identidad digital única en lugar de Cl@ve, DNI electrónico y certificado",
+      "Ley de externalizaciones con plan de reinternalización de los servicios públicos y subrogación de plantillas",
+      "Supresión de la tasa de reposición y plan de estabilización del personal temporal conforme a la justicia europea",
+      "Oposiciones con preparación pública y gratuita y sede de examen en cada comunidad",
+      "Oferta de empleo estatal en Andalucía proporcional a su población y traslado de sedes de organismos estatales"
+    ],
+    "paginas": [56, 75, 93]
+  },
+  "energia": {
+    "postura": "Desprivatización de toda la energía: empresa pública renovable, salida del gas y renovables repartidas en lugar de macroplantas.",
+    "medidas": [
+      "Empresa pública de energía renovable con filial andaluza y recuperación pública de redes y grandes centrales",
+      "Fin del sistema marginalista y la luz desvinculada del gas de forma permanente",
+      "Salida del gas del sistema eléctrico en 2030 y ninguna infraestructura gasista nueva",
+      "Prohibido cortar luz y gas a hogares vulnerables; bono social aplicado de oficio y que cubra la refrigeración",
+      "Zonas de exclusión vinculantes y moratoria a macroplantas en suelo rural; ninguna planta solar ni de baterías en el monte",
+      "Fin de las subvenciones a fósiles y nuclear, Andalucía libre de fracking y cierre ordenado de El Cabril",
+      "Autoconsumo y comunidades energéticas, con prioridad a tejados y suelos ya artificializados"
+    ],
+    "paginas": [22, 82, 83]
+  },
+  "medio_ambiente": {
+    "postura": "Ley de emergencia climática con objetivos verificables, el agua como derecho y protección de Doñana y del litoral.",
+    "medidas": [
+      "Ley de emergencia climática con objetivos anuales verificables y un mínimo del 2 % del PIB para políticas ambientales",
+      "Ley del ciclo del agua: caudales ecológicos, freno al regadío intensivo, ni trasvases ni compraventa de derechos y cierre de pozos ilegales",
+      "Gestión pública del ciclo urbano del agua y mínimo vital gratuito",
+      "Ley estatal de Doñana, reconocimiento de su personalidad jurídica y paralización del almacén de gas Marismas",
+      "Moratoria de construcción en el litoral, derribo del Algarrobico y prohibición de construir en zonas inundables",
+      "Bomberos forestales todo el año y fondo de empleo rural para limpiar los montes",
+      "Moratoria a los grandes centros de datos y nunca agua potable para refrigerarlos",
+      "Prohibición de neonicotinoides y macrogranjas; el lobo, de nuevo protegido"
+    ],
+    "paginas": [25, 82, 83, 84, 85, 86]
+  },
+  "sector_primario": {
+    "postura": "Soberanía alimentaria: precios justos en origen, PAC para quien trabaja la tierra y acceso a la tierra para jóvenes y mujeres.",
+    "medidas": [
+      "Prohibición efectiva de la venta a pérdidas y mecanismo de precio garantizado para quien trabaja la tierra",
+      "PAC ligada al empleo y a vivir en el territorio, no a las hectáreas",
+      "Ley de soberanía alimentaria con uso cooperativo de las tierras infrautilizadas y banco público de tierras",
+      "Tope al olivar superintensivo y etiquetado obligatorio del modelo de cultivo del aceite",
+      "Cláusulas espejo en los acuerdos comerciales",
+      "Pesca artesanal, almadrabas y marisqueo: ley de pesca sostenible y modernización de puertos pesqueros",
+      "Agencia pública de temporeros y plan estatal de realojo de los asentamientos de Almería y Huelva",
+      "Plan estatal de desarrollo rural, un cajero en cada pueblo y plan contra la despoblación"
+    ],
+    "paginas": [50, 68, 69, 76, 87]
+  },
+  "infraestructuras": {
+    "postura": "Prioridad al tren convencional y desprivatización ferroviaria: Cercanías en las ocho provincias y tren en todo municipio de más de 20.000 habitantes.",
+    "medidas": [
+      "Revertir la liberalización ferroviaria, fin de las externalizaciones en Adif y Renfe y auditoría independiente tras Adamuz y Urda",
+      "Cercanías o media distancia en todas las localidades de más de 20.000 habitantes en diez años",
+      "Cercanías en las ocho provincias andaluzas, traspaso a la Junta y administradora ferroviaria andaluza",
+      "La mitad de los fondos previstos para nuevas líneas de alta velocidad, a Cercanías, media distancia y mantenimiento",
+      "Corredores Mediterráneo y Atlántico, transversal Huelva–Almería y red logística con Antequera, Algeciras y Linares",
+      "Financiación estatal del transporte andaluz como la de Madrid o Barcelona, abono único andaluz y billete único estatal",
+      "En carreteras, conservación y seguridad antes que nuevas ampliaciones; liberar el peaje de la AP-7 para residentes",
+      "Reclamaciones por provincia: SE-40, Algeciras–Bobadilla, corredor de la Costa del Sol, tren Granada–Motril, A-32"
+    ],
+    "paginas": [5, 6, 78, 79, 80, 124, 126, 128, 130, 131, 133]
+  },
+  "sanidad": {
+    "postura": "Sanidad 100 % pública con suelo de gasto del 8 % del PIB, derogación de la Ley 15/1997 y fin de los conciertos.",
+    "medidas": [
+      "Suelo de gasto sanitario del 8 % del PIB, con 25 % para primaria y 2 % para salud pública",
+      "Derogar la Ley 15/1997, fin de conciertos y externalizaciones e integración de MUFACE, ISFAS y MUGEJU en el SNS",
+      "Ley de garantías de atención primaria: cita en 48 horas, al menos 10 minutos por consulta y 1.500 pacientes por profesional",
+      "Tiempos máximos: 30 días para especialista, 15 para prueba diagnóstica y 120 para cirugía",
+      "Salud mental en un máximo de 15 días, psicología en atención primaria y ley de prevención del suicidio",
+      "Dentista, óptica, podología y nutrición en la cartera pública sin copago",
+      "Farmacéutica pública estatal con sede en Andalucía y compra centralizada de medicamentos",
+      "Ley estatal del cáncer (tratamiento en 21 días) y fin de las guardias de 24 horas"
+    ],
+    "paginas": [14, 16, 36, 37, 38, 39, 40]
+  },
+  "educacion": {
+    "postura": "Todo el dinero público para la escuela pública: una sola red pública y laica, ratios más bajas e Infantil 0-3 gratuita.",
+    "medidas": [
+      "Suelo del 5 % del PIB e inversión por estudiante de la media de la UE (de 6.687 a 8.246 €)",
+      "Una sola red pública: revisar los conciertos y eliminar progresivamente la privada-concertada",
+      "Religión confesional fuera del horario lectivo y del currículo",
+      "Ratios máximas de 15 en Infantil y Primaria, 20 en ESO, 25 en Bachillerato y 12 en FP; fin de la tasa de reposición",
+      "Escuela infantil 0-3 universal, pública y gratuita, con una segunda educadora en cada aula",
+      "Libros y material gratuitos y comedores de gestión directa, gratuitos para rentas medias y bajas",
+      "Plazas públicas de FP para toda la demanda y prácticas remuneradas al menos con el SMI",
+      "Educación afectivo-sexual obligatoria, enfermera y psicólogo en los centros y ley estatal contra el acoso escolar"
+    ],
+    "paginas": [17, 18, 42, 43, 44, 45]
+  },
+  "ciencia": {
+    "postura": "Defensa de la universidad pública: matrícula gratuita, ninguna universidad privada más y carrera investigadora con derechos.",
+    "medidas": [
+      "Matrícula universitaria gratuita de forma progresiva, empezando por el grado",
+      "2 % del PIB para las universidades públicas y 3 % para I+D+i, con al menos el 90 % ejecutado",
+      "Ninguna universidad privada nueva ni un euro público para la privada; fin del falso profesorado asociado",
+      "Estatuto del personal investigador, fin de las becas sin derechos y programa de retorno del talento",
+      "Reparto territorial de los fondos de la AEI y del CSIC según población y nuevos centros del CSIC en Andalucía",
+      "Ciencia abierta, infraestructura pública de computación e IA para la investigación y fuera las pseudoterapias de la sanidad pública"
+    ],
+    "paginas": [19, 47, 48]
+  },
+  "servicios_sociales": {
+    "postura": "Los cuidados como cuarto pilar del bienestar: ley estatal de cuidados, el Estado paga la mitad de la dependencia y renta básica universal.",
+    "medidas": [
+      "Ley estatal de cuidados con red pública de gestión directa y empresa pública andaluza de ayuda a domicilio",
+      "El Estado financia el 50 % de la dependencia hasta el 1,7 % del PIB; valoración en 150 días con silencio positivo",
+      "Estatuto de la cuidadora principal con cotización y prestación ligada al salario mínimo",
+      "Ley estatal de residencias con ratios mínimas de personal y más plazas públicas",
+      "Ley de vida independiente, accesibilidad universal y cuota del 10 % en el empleo público para personas con discapacidad",
+      "Renta básica universal e incondicional igual al umbral de la pobreza",
+      "Ley estatal de servicios sociales con un trabajador social por cada 1.700 habitantes y sustitución del IPREM",
+      "Vivienda primero para las personas sin hogar"
+    ],
+    "paginas": [20, 50, 52, 53, 54, 66]
+  },
+  "familia_infancia": {
+    "postura": "Prestación universal por crianza, plan contra la pobreza infantil y protección de todos los modelos de familia.",
+    "medidas": [
+      "Prestación universal por crianza de 100 a 200 € al mes por hijo hasta los 18 años",
+      "Plan contra la pobreza infantil con el objetivo de reducirla un 40 %",
+      "Familias monoparentales con los derechos de las numerosas y título de familia numerosa desde dos hijos",
+      "Acogimiento familiar primero y centros de protección pequeños y públicos",
+      "Permisos por nacimiento iguales, intransferibles y pagados al 100 % (seis meses y después un año)",
+      "Reducción de jornada por cuidado hasta los 14 años del menor y compensación pública del salario perdido",
+      "Atención temprana de 0 a 6 años como derecho"
+    ],
+    "paginas": [52, 54, 64, 100]
+  },
+  "igualdad": {
+    "postura": "Igualdad real y lucha contra el machismo: Pacto de Estado con presupuesto, permisos iguales y el aborto en la Constitución.",
+    "medidas": [
+      "Pacto de Estado contra la violencia machista con financiación finalista y plurianual que llegue a los ayuntamientos",
+      "Tipificar el feminicidio como delito propio y ley contra la violencia vicaria",
+      "Suspensión cautelar de las visitas del maltratador con orden de alejamiento",
+      "Aborto en centros públicos de todas las provincias, blindado en la Constitución, sin subvenciones a quien acosa a las mujeres",
+      "Ley de igualdad retributiva y paridad obligatoria en instituciones y consejos de administración",
+      "Prohibición de la gestación subrogada y ley integral contra la trata",
+      "Productos menstruales y anticonceptivos gratuitos o según renta, y ley de menopausia"
+    ],
+    "paginas": [27, 40, 98, 99, 100, 101]
+  },
+  "lgtbi": {
+    "postura": "Blindar y aplicar los derechos LGTBIQA+: desarrollo de las leyes trans y LGTBI y plan estatal contra la LGTBIfobia.",
+    "medidas": [
+      "Desarrollo completo de las leyes trans y LGTBI con órganos y presupuesto propios",
+      "Plan estatal contra la LGTBIfobia con protocolos en educación, deporte y residencias",
+      "Reserva del 1 % de las plazas de la AGE para personas trans",
+      "Opción no binaria en el Registro Civil y en los documentos oficiales",
+      "Terapias de conversión tipificadas como delito y prohibición de cirugías no consentidas a menores intersexuales",
+      "Cirugías trans con plazos máximos garantizados y puntos de atención LGTBIQA+ en el medio rural"
+    ],
+    "paginas": [40, 46, 104]
+  },
+  "inmigracion": {
+    "postura": "Derechos para todas las personas: derogación de la Ley de Extranjería, regularización extraordinaria y cierre de los CIE.",
+    "medidas": [
+      "Una nueva ley de derechos en lugar de la Ley de Extranjería",
+      "Regularización extraordinaria en la línea de la ILP «¡Regularización Ya!»",
+      "Cierre de los CIE, empezando por Algeciras, y fin de las devoluciones en caliente",
+      "Vías legales y seguras: visados humanitarios, asilo en embajadas y retirada de las concertinas de Ceuta y Melilla",
+      "Tutela automática de los menores migrantes y reparto solidario entre comunidades",
+      "Empadronamiento efectivo y sanidad universal sin papeles",
+      "Voto local de las personas extranjeras residentes y prohibición de los controles por perfil racial"
+    ],
+    "paginas": [28, 92, 106, 107]
+  },
+  "seguridad": {
+    "postura": "Policía con control democrático y contra el odio, y lucha contra el narcotráfico en el Campo de Gibraltar.",
+    "medidas": [
+      "Control civil independiente de la policía e identificación visible de los agentes",
+      "Prohibir las pelotas de goma y acabar con la presunción de veracidad policial en las sanciones",
+      "Unidades especializadas contra los delitos de odio",
+      "Juzgados especializados contra el blanqueo del narcotráfico en el Campo de Gibraltar y prevención en los barrios",
+      "Policía autonómica andaluza con despliegue progresivo",
+      "Derogar el endurecimiento penal de los pequeños hurtos y la prisión permanente revisable"
+    ],
+    "paginas": [73, 91, 94]
+  },
+  "defensa": {
+    "postura": "No al rearme: reducción del gasto militar, referéndum sobre la OTAN y cierre de las bases de Rota y Morón.",
+    "medidas": [
+      "Rechazo al plan europeo de rearme y al 5 % del PIB de la OTAN; reducción progresiva del gasto militar",
+      "Proceso que termine en un referéndum sobre la permanencia en la OTAN",
+      "Renegociar los convenios de Rota y Morón para cerrar las bases, con plan de empleo alternativo",
+      "Adhesión al Tratado sobre la Prohibición de las Armas Nucleares",
+      "Embargo de armas a Estados que vulneran el derecho internacional, como Israel, Arabia Saudí y Emiratos",
+      "Ningún servicio militar, ni obligatorio ni voluntario, y mesa con las asociaciones de tropa y marinería"
+    ],
+    "paginas": [109, 110]
+  },
+  "justicia": {
+    "postura": "Fin de los privilegios políticos: cobrar lo que se cobraba, sin pagas vitalicias ni aforamientos, y autoridad independiente contra la corrupción.",
+    "medidas": [
+      "Los cargos públicos cobrarán lo mismo que antes de serlo (el salario medio si venían del paro)",
+      "Fin de las pagas vitalicias, cesantías y aforamientos (también del Gobierno y la Corona)",
+      "Autoridad independiente contra la corrupción, protección a quien denuncie y prohibición del indulto por corrupción",
+      "Inhabilitación de 15 años para condenados por corrupción y registro obligatorio de lobbies",
+      "CGPJ elegido por la ciudadanía y Fiscalía General elegida por el Congreso por mayoría reforzada",
+      "Más jueces hasta la media europea y Consejo de Justicia de Andalucía",
+      "Obligación de publicar el programa electoral un mes antes de las elecciones"
+    ],
+    "paginas": [26, 73, 90, 91, 92]
+  },
+  "democracia": {
+    "postura": "Fuera las leyes mordaza, más democracia directa y verdad, justicia y reparación para las víctimas del franquismo.",
+    "medidas": [
+      "Derogar la ley mordaza con anulación de las sanciones y suprimir los delitos de opinión y de ofensa religiosa",
+      "Voto a los 16 años y presupuestos participativos",
+      "Menos firmas para la ILP, referéndum de iniciativa ciudadana y consultas municipales sin autorización del Gobierno",
+      "Disolución de grupos y fundaciones que exalten el fascismo o el franquismo",
+      "Anular los apartados de la Ley de Amnistía de 1977 que impiden investigar los crímenes del franquismo",
+      "Exhumaciones con tutela judicial, banco público de ADN y nueva ley de secretos oficiales",
+      "Estado laico: revertir las inmatriculaciones de la Iglesia y patronato público para la Mezquita de Córdoba",
+      "RTVE independiente y descentralizada y prohibido que los bancos controlen medios"
+    ],
+    "paginas": [29, 30, 92, 94, 95, 96, 108]
+  },
+  "territorial": {
+    "postura": "Andalucía, nacionalidad histórica, con financiación justa sin ordinalidad y pago de la deuda histórica; horizonte confederal.",
+    "medidas": [
+      "Sistema de financiación sin ordinalidad, con población ajustada por criterios sociales y fondo transitorio de nivelación",
+      "Al menos el 55 % del IRPF y el 70 % del IVA y los impuestos especiales para las comunidades",
+      "Pago de la deuda histórica del Estatuto y condonación de la deuda causada por la infrafinanciación",
+      "Andalucía, nacionalidad histórica con el máximo nivel de autogobierno; modelo confederal como horizonte",
+      "Traspaso de Cercanías, la cuenca del Guadalquivir, la Inspección de Trabajo, las prestaciones por desempleo, prisiones y becas",
+      "Inversión estatal según población y ejecutada, con informe anual al Congreso",
+      "Senado territorial y nueva financiación local; derogar la reforma local de 2013"
+    ],
+    "paginas": [23, 24, 72, 73, 75, 76, 92]
+  },
+  "lengua_cultura": {
+    "postura": "Defender la cultura andaluza y a quien la hace, el flamenco y el respeto a las hablas andaluzas.",
+    "medidas": [
+      "Estatuto del artista completo adaptado a la intermitencia e inspección contra los pagos en negro en la cultura",
+      "Institución de las hablas andaluzas y presencia normalizada en los medios públicos estatales",
+      "Apoyo a la escritura en andaluz (como la EPA), sin carácter obligatorio",
+      "Reconocimiento del flamenco como patrimonio andaluz en la enseñanza reglada y la promoción exterior",
+      "Devolución de la Dama de Baza y los Murillo de Sevilla",
+      "Entrada gratuita a museos y monumentos estatales para menores de 26 años",
+      "Fondo Estatal de Cultura pagado por las grandes tecnológicas; el romanó y el caló, lenguas protegidas"
+    ],
+    "paginas": [111, 114, 115, 118]
+  },
+  "digital": {
+    "postura": "Soberanía digital: software libre en las administraciones, nube pública y control de los algoritmos.",
+    "medidas": [
+      "Software libre y estándares abiertos como norma en todas las administraciones",
+      "Infraestructura pública de nube y de datos para la información sanitaria, educativa y administrativa",
+      "Registro público y auditoría independiente de los algoritmos e IA que usan las administraciones",
+      "Restringir la recogida masiva de datos y la publicidad basada en perfiles",
+      "Transparencia en los filtros automáticos de selección de personal y ningún despido decidido por un algoritmo sin revisión humana",
+      "Redes de telecomunicaciones renovadas en el medio rural y plataformas educativas públicas con software libre"
+    ],
+    "paginas": [46, 65, 76, 116]
+  },
+  "juventud": {
+    "postura": "Emancipación y participación de la juventud: voto a los 16, vivienda asequible y empleo estable.",
+    "medidas": [
+      "Voto a los 16 años",
+      "Bono Alquiler Joven también para habitaciones y pisos compartidos",
+      "Deducción en el IRPF por emanciparse y por la primera vivienda",
+      "Garantía Juvenil que termine en empleo estable y escuelas taller para quien dejó los estudios",
+      "Espacios de bienestar emocional para jóvenes en barrios y pueblos",
+      "Plan retorno para los andaluces emigrados que quieran volver"
+    ],
+    "paginas": [39, 45, 51, 59, 65, 76, 92]
+  },
+  "deporte": {
+    "postura": "Selecciones deportivas andaluzas oficiales y deporte en igualdad.",
+    "medidas": [
+      "Reforma de la Ley del Deporte para que las selecciones andaluzas compitan de forma oficial",
+      "Igualdad en premios y contratos del deporte femenino y más presencia en RTVE",
+      "Más horas de educación física y programas para personas con discapacidad",
+      "Plan estatal de carrera para deportistas de alto nivel con contratos públicos y estudios compatibles"
+    ],
+    "paginas": [117]
+  },
+  "animales": {
+    "postura": "Protección animal sin excepciones y transición hasta la abolición de la tauromaquia.",
+    "medidas": [
+      "Ley de bienestar animal sin excepciones, incluidos perros de caza, animales de producción y festejos",
+      "IVA reducido en veterinaria y red pública de clínicas veterinarias",
+      "Derogar la Ley 18/2013 de la tauromaquia como patrimonio, ni un euro público para los toros e IVA general",
+      "Prohibido que los menores de 16 años asistan o participen en festejos taurinos",
+      "Fin de las granjas peleteras y de los cetáceos en cautividad",
+      "Periodos de caza más cortos y prohibición de criar y soltar especies para cazarlas",
+      "Nulas las cláusulas de alquiler que prohíben animales; víctimas de violencia de género con sus animales en las casas de acogida"
+    ],
+    "paginas": [50, 98, 120, 121]
+  },
+  "ue_exterior": {
+    "postura": "Política exterior de paz y justicia para Palestina, el Sáhara y el Rif.",
+    "medidas": [
+      "Ruptura de relaciones con Israel, embargo total de armas y suspensión del acuerdo de asociación UE-Israel",
+      "Apoyo a la causa por genocidio ante la Corte Internacional de Justicia y a la UNRWA",
+      "Volver a la posición anterior a 2022 sobre el Sáhara y apoyo a la autodeterminación saharaui y del Rif",
+      "Prioridad a la negociación en Ucrania y recuperación de la jurisdicción universal",
+      "Ayuda oficial al desarrollo del 0,7 % de la renta nacional en la legislatura",
+      "Ley de diligencia debida para las empresas en toda su cadena de suministro",
+      "Acuerdo con Gibraltar que proteja a los trabajadores transfronterizos"
+    ],
+    "paginas": [32, 64, 109, 126]
+  }
+}

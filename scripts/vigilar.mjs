@@ -3,9 +3,8 @@
 //   node scripts/vigilar.mjs
 const WEBS = {
   psoe: ["https://www.psoe.es", "https://www.psoe.es/transparencia/informacion-politica-organizativa/programa/"],
-  fa: ["https://frenteamplio.es", "https://sumar.info", "https://izquierdaunida.org", "https://masmadrid.org"],
   podemos: ["https://podemos.info"],
-  salf: ["https://alvise.es", "https://seacabolafiesta.es"],
+  salf: ["https://alvise.es", "https://seacabolafiesta.es", "https://www.seacabolafiesta.com"],
   junts: ["https://junts.cat"],
   bildu: ["https://ehbildu.eus"],
   pacma: ["https://pacma.es"],

@@ -1,0 +1,370 @@
+{
+  "vivienda": {
+    "postura": "«Casas para vivir, no para especular»: 1 % del PIB al año para 1,5 millones de viviendas públicas, alquiler topado al 25 % de la renta y vivienda como derecho fundamental.",
+    "medidas": [
+      "Parque público de 1,5 millones de viviendas en 12 años con el 1 % del PIB anual (unos 17.000 M€); alquiler público máximo de 600 € para 80 m²",
+      "Tope del alquiler en zonas tensionadas: lo menor entre el 25 % de la renta media del barrio y el índice SERPAVI, con rebaja extra del 30 % en grandes ciudades",
+      "Prohibir la compra de vivienda que no sea para residir o alquilar a precio regulado; vetada a fondos, SOCIMI, bancos e inmobiliarias",
+      "Expropiación por fases de las viviendas de grandes tenedores corporativos (primero los de más de 1.000) y toda la Sareb a Casa 47",
+      "Extinguir en 3 años las licencias de pisos turísticos en zonas tensionadas; IVA del 21 % y recargo de IBI de hasta el 150 %",
+      "Contrato de alquiler indefinido por defecto y prohibición de los algoritmos de fijación de rentas",
+      "Ningún desahucio de personas vulnerables sin alternativa; dación en pago e hipoteca pública a tipo fijo",
+      "Reforma constitucional del art. 47 para hacer de la vivienda un derecho fundamental con recurso de amparo"
+    ],
+    "paginas": [7, 10, 11, 12, 13, 14, 15, 19]
+  },
+  "empleo": {
+    "postura": "«Trabajar para vivir»: 37,5 horas ya y camino a 32 sin bajar sueldo, SMI blindado al 60 % del salario medio y democracia en las empresas.",
+    "medidas": [
+      "Jornada de 37,5 horas de inmediato (35 en el sector público) y reducción progresiva hasta 32 horas semanales sin rebaja salarial",
+      "SMI fijado por ley en el 60 % del salario medio neto, sin absorción por pluses",
+      "Gravamen del 30 % a empresas de más de 50 M€ que suban beneficios sin subir salarios al ritmo de la inflación",
+      "Despido improcedente que repare el daño real y autorización administrativa previa para los despidos colectivos",
+      "Jornada continua como norma general y registro horario digital con acceso remoto de la Inspección",
+      "Ley Rider universal: presunción de laboralidad en plataformas y control sindical de los algoritmos",
+      "Prestación por desempleo al 80 % los seis primeros meses y Plan de Empleo Garantizado para parados de larga duración",
+      "Plantillas en los consejos de administración (un tercio o la mitad según tamaño) y reparto obligatorio del 10 % del beneficio"
+    ],
+    "paginas": [7, 51, 52, 53, 54, 55, 115]
+  },
+  "pensiones": {
+    "postura": "Pensiones públicas blindadas en la Constitución, revalorizadas con el IPC y nunca por debajo del SMI; jubilación de vuelta a los 65.",
+    "medidas": [
+      "Reforma constitucional para garantizar pensión pública, revalorización con el IPC, mínimo igual al SMI y prohibición de privatizar",
+      "Edad ordinaria de jubilación de nuevo a los 65 años",
+      "Jubilación a los 60 en oficios penosos (construcción, limpieza, ayuda a domicilio, camareras de piso, pesca)",
+      "Sin coeficientes reductores en la jubilación anticipada involuntaria con más de 40 años cotizados",
+      "Subir más las pensiones mínimas y no contributivas y reforzar el complemento de brecha de género",
+      "Destope progresivo de las bases máximas y aportación extra de las empresas más automatizadas"
+    ],
+    "paginas": [57, 58]
+  },
+  "fiscalidad": {
+    "postura": "«Que pague el 1 % para que se beneficie el 99 %»: tipo mínimo real del 20 % en Sociedades, impuesto a los ultrarricos y rebaja de IRPF e IVA a rentas bajas.",
+    "medidas": [
+      "Tipo mínimo efectivo del 20 % en Sociedades para grandes grupos y fin de la consolidación fiscal",
+      "Tasa Zucman: 3 % anual sobre patrimonios de más de 50 M€, sin bonificaciones autonómicas",
+      "Impuesto de Grandes Fortunas desde 1 M€ (mínimo del 2 %) e impuesto estatal a herencias de más de 1 M€, con límite efectivo de 10 M€ por heredero",
+      "IRPF cero para quien cobra el SMI, rebaja hasta 27.000 € y tipos de hasta el 52 % desde 300.000 €; rentas del capital como las del trabajo",
+      "Gravámenes estructurales a banca y energéticas, depósitos bancarios al 1 % y «tasa Google» al 15 %",
+      "IVA progresivo de la luz (del 0 % al 21 %), IVA reducido en peluquería y veterinaria y cero en productos sin gluten",
+      "Impuestos al lujo (aviones privados, yates), al queroseno nacional y a las transacciones financieras",
+      "Duplicar en cuatro años la plantilla de la Agencia Tributaria"
+    ],
+    "paginas": [8, 44, 45, 46, 47, 48]
+  },
+  "economia": {
+    "postura": "Estado emprendedor: banca pública, empresas públicas fuertes, control de márgenes y precios, y límites al poder de los grandes grupos.",
+    "medidas": [
+      "Banca Pública Estatal con Correos (Banco Postal), el ICO y el 18 % público de CaixaBank; pagos instantáneos gratuitos al estilo Pix",
+      "La SEPI como Agencia Industrial Pública con capacidad para crear empresas y entrar en sectores estratégicos; acción de oro en empresas clave",
+      "Topes de precio en la cesta básica, impuesto a márgenes excesivos en alimentación y CNMC con poder para fijar precios máximos",
+      "Prohibir los precios personalizados según el perfil del cliente y obligar a remunerar los depósitos según el tipo del BCE",
+      "Empresa pública de materias primas estratégicas y Navantia como motor de reindustrialización",
+      "Fondos colectivos de trabajadores (tipo Meidner) y participación obligatoria de la plantilla en el capital",
+      "Vetar fusiones que reduzcan competencia y prohibir que el capital riesgo compre hospitales, residencias o colegios",
+      "Contratación pública con al menos un 51 % de criterios sociales y ambientales; reservas para la economía social"
+    ],
+    "paginas": [56, 57, 80, 81, 84, 85, 94, 115, 116, 117]
+  },
+  "administracion": {
+    "postura": "Administración con más capacidad propia, menos temporalidad y trámites automáticos, y uso transparente de la IA.",
+    "medidas": [
+      "Bajar la temporalidad del sector público al 8 % y subidas salariales con cláusula de garantía del poder adquisitivo",
+      "Recuperar capacidades técnicas propias (análisis, contratación, tecnología, inspección) y dirección pública profesional",
+      "Principio de «una sola vez» e interoperabilidad entre administraciones, con atención presencial obligatoria",
+      "IMV y bonos sociales concedidos de oficio cruzando datos fiscales y de Seguridad Social",
+      "Inventario público de los sistemas de IA de la administración y derecho a revisión humana de las resoluciones",
+      "Agencia de Evaluación de Políticas Públicas independiente y 30 % más de recursos para las oficinas de extranjería"
+    ],
+    "paginas": [22, 100, 101, 120]
+  },
+  "energia": {
+    "postura": "Energía pública y barata: redes de distribución públicas, comercializadora pública, tres horas de luz gratis al día y renovables con retorno local.",
+    "medidas": [
+      "Titularidad pública de las redes de distribución eléctrica y de gas, y gestión pública de los saltos de agua que caduquen",
+      "Comercializadora pública con tarifa social y tres horas diarias de luz gratis en la franja solar para todos los hogares",
+      "Sacar nuclear e hidráulica del precio marginalista y auditar los costes reales de cada tecnología",
+      "Placas solares obligatorias en todos los tejados comunitarios útiles antes de 2030, adelantadas por el Estado sin intereses",
+      "Fondo Generacional de la Energía con el 30 % público de las nuevas renovables; el 20 % del capital de los parques, para vecinos y ayuntamientos",
+      "Renovables al 81 % en 2030 y al 100 % en 2040; cierre de Almaraz en 2027-2028",
+      "Retirar el apoyo al H2Med y destinar sus 7.000 M€ a redes, almacenamiento y electrificación industrial"
+    ],
+    "paginas": [8, 56, 60, 62, 63, 64]
+  },
+  "medio_ambiente": {
+    "postura": "El 3,5 % del PIB anual a la transición ecológica, neutralidad climática en 2050 y el agua como bien público.",
+    "medidas": [
+      "Recortar emisiones un 38 % en 2035 y un 85 % en 2040 respecto a 1990, con presupuestos de carbono vinculantes",
+      "Vicepresidencia Ejecutiva de Transición Ecológica y Asamblea Ciudadana por el Clima permanente",
+      "Prohibir la publicidad de combustibles fósiles, como se hizo con el tabaco",
+      "Ciclo del agua 100 % público, mínimo vital gratuito y canon a regadío industrial y a centros de datos",
+      "Moratoria a nuevos embalses, trasvases y megabalsas; prohibido edificar en zonas inundables y en los primeros 500 m del litoral",
+      "Agencia Estatal de Prevención y Adaptación Climática, un árbol por cada tres vecinos y red de refugios climáticos",
+      "Proteger el 30 % del territorio y del Mediterráneo; estrategia contra los grandes incendios forestales",
+      "Ley contra la obsolescencia programada y fin progresivo de los plásticos de un solo uso"
+    ],
+    "paginas": [60, 61, 69, 70, 71, 72, 73, 74]
+  },
+  "sector_primario": {
+    "postura": "Transición agroecológica: PAC para explotaciones familiares, ganadería extensiva y pesca artesanal frente a la industrial.",
+    "medidas": [
+      "Ley de Futuro de la Agricultura, la Ganadería y la Alimentación como pacto de Estado",
+      "Un 25 % de superficie ecológica en 2030 y el 100 % en 2050",
+      "PAC sin derechos históricos ni pagos por hectárea y sin ayudas a fondos de inversión y grandes sociedades",
+      "Banco público de tierras con techo de superficie por comprador y prioridad para jóvenes",
+      "Pago por servicios ambientales a quien cuida el monte y misión de 6 millones de hectáreas con agricultura regenerativa",
+      "Prohibir la venta a pérdidas en origen y la especulación con futuros de alimentos",
+      "Fin progresivo de la flota industrial y de la pesca de arrastre en favor de la artesanal",
+      "Más indemnizaciones a la ganadería extensiva por daños de fauna salvaje"
+    ],
+    "paginas": [56, 71, 74, 87, 88, 89, 90]
+  },
+  "infraestructuras": {
+    "postura": "Tren público y transporte barato: abono único estatal, Renfe y Adif unidos y alta velocidad sin operadores privados.",
+    "medidas": [
+      "Abono único estatal: Cercanías a 20 €/mes (10 € para menores de 26 y gratis para menores de 16) y grandes descuentos en el resto",
+      "Transporte público gratuito en Canarias, Illes Balears, Ceuta y Melilla",
+      "Fusionar Adif y Renfe en un operador público único y revertir la liberalización de la alta velocidad",
+      "Triplicar la inversión en Cercanías y traspasar Rodalies a la Generalitat",
+      "Electrificar toda la red antes de 2030 y llevar al tren el 80 % de las mercancías",
+      "Destinar al ferrocarril los 13.000 M€ previstos para ampliar aeropuertos; prohibir vuelos con alternativa de tren de 2,5 h",
+      "Priorizar los corredores Mediterráneo, Atlántico y Cantábrico-Mediterráneo y conexiones que no pasen por Madrid",
+      "El Estado asume la reconstrucción de las infraestructuras dañadas por la DANA"
+    ],
+    "paginas": [65, 66, 68, 105, 106, 107]
+  },
+  "sanidad": {
+    "postura": "Sanidad 100 % pública y de gestión directa con un suelo del 8 % del PIB, ampliada a dental, visión, audición y salud mental.",
+    "medidas": [
+      "Suelo del 8 % del PIB para la sanidad pública y el 25 % del gasto sanitario para Atención Primaria",
+      "Derogar la Ley 15/1997 y hacer de la gestión pública directa la norma, con planes para internalizar lo privatizado",
+      "Cobertura dental para al menos la mitad de la población, gafas y lentillas gratis para todas las edades y audífonos públicos",
+      "Fondo específico de salud mental y mínimo de 10 profesionales por 100.000 habitantes",
+      "Integrar MUFACE, MUGEJU e ISFAS en el Sistema Nacional de Salud",
+      "Empresa farmacéutica 100 % pública",
+      "Derecho al aborto en la Constitución y garantizado en centros públicos de todas las comunidades",
+      "Fumar prohibido en terrazas y playas, empaquetado genérico e impuestos a refrescos azucarados y ultraprocesados"
+    ],
+    "paginas": [26, 27, 28, 29, 30]
+  },
+  "educacion": {
+    "postura": "Educación pública blindada con el 7 % del PIB, gratuita de 0 años a la universidad y sin fondos públicos para la concertada a la larga.",
+    "medidas": [
+      "Ley de Financiación Educativa con un suelo del 7 % del PIB en 2030",
+      "Hoja de ruta para que el 100 % de los fondos públicos vaya a la escuela pública; cuotas prohibidas en la concertada mientras exista",
+      "Ratios máximas por ley: 15 en Primaria y FP, 20 en Secundaria y 23 en Bachillerato",
+      "Escuela 0-3 universal y gratuita y comedor gratis en Infantil y Primaria públicas",
+      "Becas hasta el 0,44 % del PIB, becas-salario y el doble de becas obligatorias para familias vulnerables",
+      "Máximo de 18 horas lectivas en Secundaria y 23 en Primaria, y Estatuto del Docente",
+      "Inmersión en catalán garantizada en Cataluña y plan estatal de lenguas cooficiales",
+      "Mismos requisitos para la universidad privada que para la pública y expansión presencial de la UNED"
+    ],
+    "paginas": [7, 25, 31, 32, 33]
+  },
+  "ciencia": {
+    "postura": "I+D+i al 3 % del PIB en 2030 y al 4 % después, con carrera investigadora estable y ciencia abierta.",
+    "medidas": [
+      "I+D+i al 3 % del PIB en 2030 y al 4 % en la década siguiente, con presupuesto plurianual",
+      "Un 15 % más para todos los programas de la Agencia Estatal de Investigación",
+      "Al menos el 1 % del PIB autonómico para las universidades públicas y precios hacia la gratuidad",
+      "Más ayudas FPI y FPU, recuperar las Margarita Salas y eliminar la figura de profesor sustituto",
+      "Reforma de la ANECA para que deje de ser un filtro de acceso",
+      "Consejo Ciudadano de Ciencia en el Congreso y redes de transferencia hacia pymes"
+    ],
+    "paginas": [33, 80, 81]
+  },
+  "servicios_sociales": {
+    "postura": "Acabar con la pobreza: IMV automático y más alto, dependencia al 1,7 % del PIB y escudo social permanente.",
+    "medidas": [
+      "IMV concedido de oficio y camino al 60 % de la renta mediana autonómica; extendido a jóvenes de 18 a 30 años",
+      "Dependencia del 0,8 % al 1,7 % del PIB en 2030, el doble de ayuda a domicilio y «derecho al respiro» de un mes al año",
+      "Prohibir los cortes de luz, agua y gas a hogares vulnerables y bono social automático",
+      "Subir el IPREM 100 € hasta un suelo de 700 € y actualizarlo cada año con el IPC",
+      "Pensiones mínimas y no contributivas al nivel del umbral de la pobreza",
+      "Ayuda de 1.000 € durante dos años a 1,4 millones de hogares vulnerables, pagada con el gravamen energético",
+      "Ley de Profesiones de los Servicios Sociales y Plan Estratégico Estatal de servicios sociales",
+      "Pleno desarrollo de la Ley 4/2026 de derechos de las personas con discapacidad"
+    ],
+    "paginas": [21, 22, 23, 25, 26, 44]
+  },
+  "familia_infancia": {
+    "postura": "Prestación universal de 200 € al mes por menor contra la pobreza infantil, permisos más largos y fin de la tutela en centros para los más pequeños.",
+    "medidas": [
+      "Prestación Universal por Crianza de 200 €/mes por cada menor de 18 años, sin requisito de renta, implantada en tres fases",
+      "Permiso por nacimiento de 20 semanas por progenitor (el doble en monoparentales) y permiso parental de 10 semanas pagadas",
+      "Ley de Familias con «personas de referencia» elegidas libremente para permisos y cuidados",
+      "Inversión en infancia del 1,5 % al 2,4 % del PIB",
+      "Prohibir el acogimiento residencial de menores de 6 años y eliminarlo para los de menos de 10 en 2030",
+      "Modelo Barnahus en todo el Estado y prueba preconstituida hasta los 18 años",
+      "Ley de protección digital de menores: sin funciones adictivas para menores de 16 y responsabilidad penal de las plataformas"
+    ],
+    "paginas": [7, 21, 24, 25, 40, 41, 42]
+  },
+  "igualdad": {
+    "postura": "Feminismo como proyecto de país: el 5 % del presupuesto a igualdad, consentimiento en el centro y cuidados como pilar del bienestar.",
+    "medidas": [
+      "Al menos el 5 % del presupuesto no financiero del Estado a políticas de igualdad y un 10 % más cada año contra la violencia machista",
+      "El consentimiento explícito como eje de los delitos sexuales («solo sí es sí»)",
+      "Suspensión cautelar automática de visitas del progenitor investigado por violencia machista o vicaria",
+      "Ley Integral contra la Trata con 250 M€ y despenalizar a quienes ejercen la prostitución, garantizando sus derechos",
+      "Listas electorales en cremallera como mínimo, permitiendo mujeres consecutivas en puestos de salida",
+      "Transparencia salarial completa (Directiva 2023/970) y plan de choque en sectores feminizados",
+      "Pacto de Estado por los Cuidados"
+    ],
+    "paginas": [37, 38, 39, 40, 123]
+  },
+  "lgtbi": {
+    "postura": "Desplegar la Ley Trans, reconocer a las personas no binarias y combatir la LGTBIfobia.",
+    "medidas": [
+      "Despliegue efectivo de la Ley Trans y reconocimiento legal de las personas no binarias",
+      "Observatorio Estatal contra la LGTBIfobia y estrategia en deporte, cultura, empleo y educación",
+      "Atención sanitaria trans despatologizada y basada en el consentimiento informado",
+      "Prohibir intervenciones irreversibles no urgentes sobre personas intersexuales sin su consentimiento",
+      "Reconocer la diversidad familiar en filiación, prestaciones y servicios",
+      "Acceso a PrEP y PEP en un máximo de tres meses, también en zonas rurales"
+    ],
+    "paginas": [123, 124]
+  },
+  "inmigracion": {
+    "postura": "Regularización estable, vías legales y seguras, cierre de los CIE y ley integral contra el racismo.",
+    "medidas": [
+      "Culminar la regularización extraordinaria de 2026 y crear un procedimiento permanente de regularización",
+      "Cerrar los Centros de Internamiento de Extranjeros",
+      "Derogar el «rechazo en frontera» y rechazar los centros de retorno en terceros países",
+      "Cita en extranjería en un máximo de siete días y fin de la reventa de citas",
+      "Pedir asilo en embajadas y Agencia de Asilo unificada con plazos estrictos",
+      "Voto de los residentes extranjeros en las municipales",
+      "Ley integral contra el racismo y Estatuto del Pueblo Gitano",
+      "Devolver la nacionalidad española a los saharauis nacidos antes de 1977 y a sus hijos"
+    ],
+    "paginas": [126, 127, 128]
+  },
+  "seguridad": {
+    "postura": "Seguridad preventiva y con derechos: derogar la Ley Mordaza, control externo de la policía y Guardia Civil desmilitarizada.",
+    "medidas": [
+      "Derogación completa de la Ley Mordaza y multas proporcionales a los ingresos",
+      "Prohibir las pelotas de goma y los controles de identidad por perfil racial; identificación visible de los agentes",
+      "Órgano externo e independiente que investigue malos tratos y abusos policiales",
+      "Desmilitarizar la Guardia Civil y no aplicarle el Código Penal Militar en tareas policiales",
+      "Equiparación salarial pendiente y reconocimiento de profesión de riesgo para Policía Nacional y Guardia Civil",
+      "Mossos, Ertzaintza y Policía Foral en los organismos internacionales de cooperación policial"
+    ],
+    "paginas": [142, 143, 144, 145]
+  },
+  "defensa": {
+    "postura": "Seguridad humana frente al «discurso belicista»: no al 5 % de la OTAN, menos gasto militar y desarme nuclear.",
+    "medidas": [
+      "Rechazar el objetivo del 5 % del PIB en gasto militar y reducir las partidas militares",
+      "Convertir los recintos militares extranjeros en polos tecnológicos y de emergencias civiles",
+      "Firmar el Tratado sobre la Prohibición de las Armas Nucleares y blindar por ley que no haya armas nucleares en España",
+      "Embargo automático de armas a Estados investigados por la Corte Penal Internacional y ley de embargo total a Israel",
+      "Autonomía estratégica europea al servicio de la ciudadanía y no de la industria armamentística"
+    ],
+    "paginas": [130, 131, 135]
+  },
+  "justicia": {
+    "postura": "Desbloquear el CGPJ, más jueces y una justicia digital, con mano dura contra la corrupción.",
+    "medidas": [
+      "Si no hay acuerdo en dos meses, elegir los vocales del CGPJ por mayoría absoluta",
+      "Plan para alcanzar la media europea de jueces y fiscales por habitante en dos legislaturas",
+      "Incompatibilidad total de los jueces con actividades remuneradas privadas y acceso a la carrera con becas según renta",
+      "Ley de justicia digital con interoperabilidad obligatoria y más justicia gratuita",
+      "Oficina Independiente contra la Corrupción y veto de veinte años a la contratación pública para los condenados",
+      "Decomiso preventivo sin condena y fin de la atenuante de dilaciones indebidas en corrupción",
+      "Ley de grupos de interés y agendas públicas de reuniones con lobbies"
+    ],
+    "paginas": [141, 142, 148, 149]
+  },
+  "democracia": {
+    "postura": "República federal y plurinacional, más derechos en la Constitución, laicidad y memoria democrática.",
+    "medidas": [
+      "Horizonte de una República Federal en la que se elija la Jefatura del Estado",
+      "Blindar en la Constitución pensiones, vivienda, salud, aborto y medio ambiente; reformar el art. 135",
+      "Sistema electoral proporcional a nivel nacional y voto a los 16 años",
+      "Iniciativa legislativa popular con 250.000 firmas",
+      "Derogar los delitos contra los sentimientos religiosos, las injurias a la Corona y el enaltecimiento del terrorismo",
+      "Revisar los Acuerdos con la Santa Sede, eliminar la financiación pública a las confesiones y recuperar los bienes inmatriculados",
+      "Cerrar las fundaciones franquistas, resignificar Cuelgamuros y Ley sobre Bebés Robados",
+      "Ley de Libertad de Conciencia y regulación de la objeción de conciencia"
+    ],
+    "paginas": [42, 140, 141, 142, 145, 146, 147, 150]
+  },
+  "territorial": {
+    "postura": "Federalismo plurinacional con derecho a decidir, financiación autonómica con 38.000 M€ más y fin del dumping fiscal.",
+    "medidas": [
+      "Cambio de modelo territorial en sentido federal y plurinacional, con derecho a decidir mediante referéndum",
+      "Nueva financiación autonómica con al menos un 2,3 % del PIB adicional (unos 38.000 M€)",
+      "Condonación de deuda autonómica condicionada a no bajar impuestos a las rentas altas",
+      "Mínimo común en Patrimonio y Sucesiones: las rebajas autonómicas, con recursos propios",
+      "Participación de los ayuntamientos en los tributos del Estado hasta el 2,5 % del PIB y nueva Ley de Gobiernos Locales",
+      "Ayuntamientos saneados libres de usar sus remanentes y regla de gasto más flexible",
+      "Senado como verdadera cámara territorial; traspaso a Cataluña de la Inspección de Trabajo y Rodalies"
+    ],
+    "paginas": [54, 103, 104, 105, 109, 110, 111, 140]
+  },
+  "lengua_cultura": {
+    "postura": "La cultura como derecho, con un suelo del 0,2 % del PIB, y plena oficialidad práctica de las lenguas cooficiales.",
+    "medidas": [
+      "Suelo del 0,2 % del PIB para cultura y Ley del Sistema Público de la Cultura",
+      "Ley del plurilingüismo para relacionarse con el Estado en cualquier lengua cooficial",
+      "Ayudas para contenido digital en lenguas cooficiales y apoyo a la lengua romaní",
+      "Derogar la ley que protege la tauromaquia como patrimonio cultural",
+      "Desarrollo completo del Estatuto del Artista y apoyo a salas de música pequeñas y medianas",
+      "Biblioteca pública obligatoria en municipios de más de 2.000 habitantes y gastos de envío mínimos en la venta de libros a distancia"
+    ],
+    "paginas": [32, 34, 35, 36, 141]
+  },
+  "digital": {
+    "postura": "Poner límites al poder de las grandes plataformas: algoritmos transparentes, interoperabilidad y soberanía digital pública.",
+    "medidas": [
+      "Multas a las plataformas de hasta el 6 % de su facturación mundial y cárcel para directivos que desobedezcan órdenes de retirada",
+      "Derecho a elegir el sistema de recomendación, sin scroll infinito, e interoperabilidad obligatoria entre plataformas",
+      "Derecho al seudónimo: identificación real solo por orden judicial",
+      "Prohibir los chatbots que simulan vínculos afectivos y las cajas de recompensa en videojuegos",
+      "Nube soberana para los datos sensibles del Estado y entrada en el consorcio europeo de software libre",
+      "Centros de datos con renovables adicionales, sin refrigeración por agua en sequía y con «tasa nube» para los municipios",
+      "Comité de empresa con poder de veto sobre la IA que organiza o vigila el trabajo"
+    ],
+    "paginas": [82, 83, 115, 119, 120, 121]
+  },
+  "juventud": {
+    "postura": "Emancipación juvenil con vivienda, empleo estable y participación: primera Ley estatal de Juventud y voto a los 16.",
+    "medidas": [
+      "Primera Ley estatal de Juventud y Pacto de Estado: derechos socioeconómicos, participación, salud mental y justicia intergeneracional",
+      "Voto a los 16 años",
+      "Plan de Emancipación Juvenil y IMV para jóvenes de 18 a 30 años sin exigir emancipación previa",
+      "Cercanías a 10 €/mes para menores de 26 años",
+      "Estatuto de las personas en prácticas contra el trabajo gratuito"
+    ],
+    "paginas": [22, 42, 55, 65]
+  },
+  "deporte": null,
+  "animales": {
+    "postura": "Bienestar animal como «pilar de la ética pública»: fin del dinero público a la tauromaquia, zoos en transición y ganadería sin jaulas.",
+    "medidas": [
+      "Incluir en la Ley 7/2023 a perros de caza, animales de trabajo y ganaderos; penas más duras por maltrato",
+      "Derogar la Ley 18/2013 de la tauromaquia y suprimir toda subvención taurina, incluida la de la PAC",
+      "Convertir los zoos en centros de recuperación y acabar con los cetáceos en cautividad",
+      "Ninguna macrogranja nueva, fin de las jaulas y cierre de las granjas peleteras y del foie gras por alimentación forzada",
+      "Protección estricta del lobo en todo el territorio, sin control letal",
+      "IVA veterinario al 10 % y la veterinaria como profesión sanitaria",
+      "Plan de Abandono Cero, nulidad de las cláusulas que prohíben mascotas en el alquiler y fin de las peleas de gallos"
+    ],
+    "paginas": [75, 76, 77, 78]
+  },
+  "ue_exterior": {
+    "postura": "Política exterior de paz y derecho internacional: embargo a Israel, autodeterminación saharaui, cooperación al 0,7 % y una Europa social.",
+    "medidas": [
+      "Ley de embargo integral y permanente de armas a Israel y suspensión del Acuerdo de Asociación UE-Israel",
+      "Retirar el apoyo al plan de autonomía marroquí y defender un referéndum saharaui con opción de independencia",
+      "Ayuda al desarrollo del 0,27 % al 0,7 % de la renta nacional bruta",
+      "Recuperar plenamente la jurisdicción universal y apoyar a la Corte Penal Internacional",
+      "Superar el Pacto de Estabilidad y ampliar el mandato del BCE al pleno empleo y la transición ecológica, con financiación directa a los Estados",
+      "Mayoría cualificada en vez de unanimidad en política exterior europea cuando haya derechos humanos en juego",
+      "Recurso ante el TJUE contra el Reglamento europeo de Retornos de 2026",
+      "Fondo Soberano Europeo de la IA y ecocidio como crimen internacional"
+    ],
+    "paginas": [130, 131, 132, 133, 135, 136, 137, 138]
+  }
+}

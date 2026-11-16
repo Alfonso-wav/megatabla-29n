@@ -1,5 +1,5 @@
 {
-  "fechaCorte": "2026-11-15",
+  "fechaCorte": "2026-11-16",
   "eleccion": "Elecciones generales del 29 de noviembre de 2026",
   "partidos": [
     {
@@ -118,8 +118,20 @@
       "sha256": "fde1fe024f94a698e2110c0e25cc569b4d9f3f7272342bdb13dc0c1e7a2d7b43",
       "nota": "134 páginas: las 29 medidas principales y 719 propuestas en 12 áreas, con reclamaciones por provincia. Fecha: versión del 10/11 según el propio PDF; detectado el 15/11. La medida 9 (supermercados públicos) aún no tiene propuestas que la desarrollen."
     },
+    {
+      "id": "fa",
+      "nombre": "Frente Amplio (IU, Movimiento Sumar, Más Madrid, Comuns…)",
+      "siglas": "Frente Amplio",
+      "estado": "publicado",
+      "titulo": "Programa electoral Frente Amplio",
+      "fechaPublicacion": "2026-11-16",
+      "idioma": "es",
+      "url": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf",
+      "archivo": "fa.pdf",
+      "sha256": "df6e4d967a3a41386656273c32c2df3edc6681b6ee047b190b2ebb91f1a36f04",
+      "nota": "151 páginas en 18 capítulos, con seis «grandes transformaciones» en la introducción. Fecha: detectado el 16/11 a través de la web de IU, que lo enlazó ese día; el PDF no indica fecha. No trae propuestas de deporte."
+    },
     { "id": "psoe", "nombre": "PSOE", "siglas": "PSOE", "estado": "pendiente" },
-    { "id": "fa", "nombre": "Frente Amplio (IU, Movimiento Sumar, Más Madrid, Comuns…)", "siglas": "Frente Amplio", "estado": "pendiente" },
     { "id": "podemos", "nombre": "Podemos", "siglas": "Podemos", "estado": "pendiente" },
     { "id": "salf", "nombre": "Se Acabó La Fiesta", "siglas": "SALF", "estado": "pendiente" },
     { "id": "junts", "nombre": "Junts per Catalunya", "siglas": "Junts", "estado": "pendiente" },

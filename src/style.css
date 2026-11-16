@@ -198,6 +198,9 @@ a { color: var(--accent); }
   border-bottom: 1px solid var(--line);
   outline: none;
 }
+@media (pointer: fine) { .marco { cursor: grab; } }
+.marco.arrastrando { cursor: grabbing; user-select: none; }
+.marco.arrastrando * { cursor: grabbing; }
 .marco table { border-collapse: separate; border-spacing: 0; }
 .marco th, .marco td {
   vertical-align: top;

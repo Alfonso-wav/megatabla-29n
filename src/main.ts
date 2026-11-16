@@ -361,6 +361,92 @@ function abrirFicha(td: HTMLElement) {
     </nav>`;
   if (!ficha.open) ficha.showModal();
 }
+// Arrastrar la tabla con el ratón; al soltar sigue deslizándose según la velocidad
+// del gesto y frena poco a poco. En táctil se deja el desplazamiento nativo.
+let arrastrado = false;
+{
+  const UMBRAL = 5; // px antes de considerar que es arrastre y no clic
+  const FRICCION = 0.95; // por fotograma de 16 ms
+  let activo = false;
+  let x0 = 0, y0 = 0, sl0 = 0, st0 = 0;
+  let vx = 0, vy = 0, tPrev = 0, xPrev = 0, yPrev = 0;
+  let raf = 0;
+
+  const parar = () => cancelAnimationFrame(raf);
+
+  marco.addEventListener("pointerdown", (e) => {
+    if (e.pointerType !== "mouse" || e.button !== 0) return;
+    if ((e.target as HTMLElement).closest("input, select, textarea, label")) return;
+    parar();
+    activo = true;
+    arrastrado = false;
+    x0 = xPrev = e.clientX;
+    y0 = yPrev = e.clientY;
+    sl0 = marco.scrollLeft;
+    st0 = marco.scrollTop;
+    vx = vy = 0;
+    tPrev = e.timeStamp;
+  });
+
+  marco.addEventListener("pointermove", (e) => {
+    if (!activo) return;
+    const dx = e.clientX - x0, dy = e.clientY - y0;
+    if (!arrastrado) {
+      if (Math.hypot(dx, dy) < UMBRAL) return;
+      arrastrado = true;
+      marco.setPointerCapture(e.pointerId);
+      marco.classList.add("arrastrando");
+      window.getSelection()?.removeAllRanges();
+    }
+    marco.scrollLeft = sl0 - dx;
+    marco.scrollTop = st0 - dy;
+    const dt = Math.max(1, e.timeStamp - tPrev);
+    // media suavizada de la velocidad en px/ms
+    vx = 0.8 * ((xPrev - e.clientX) / dt) + 0.2 * vx;
+    vy = 0.8 * ((yPrev - e.clientY) / dt) + 0.2 * vy;
+    xPrev = e.clientX;
+    yPrev = e.clientY;
+    tPrev = e.timeStamp;
+  });
+
+  const soltar = (e: PointerEvent) => {
+    if (!activo) return;
+    activo = false;
+    marco.classList.remove("arrastrando");
+    if (!arrastrado) return;
+    if (e.timeStamp - tPrev > 80) vx = vy = 0; // se paró antes de soltar
+    let t = performance.now();
+    const paso = (ahora: number) => {
+      const dt = Math.min(50, ahora - t);
+      t = ahora;
+      marco.scrollLeft += vx * dt;
+      marco.scrollTop += vy * dt;
+      const f = Math.pow(FRICCION, dt / 16);
+      vx *= f;
+      vy *= f;
+      if (Math.abs(vx) > 0.02 || Math.abs(vy) > 0.02) raf = requestAnimationFrame(paso);
+    };
+    raf = requestAnimationFrame(paso);
+  };
+  marco.addEventListener("pointerup", soltar);
+  marco.addEventListener("pointercancel", soltar);
+  marco.addEventListener("wheel", parar, { passive: true });
+  marco.addEventListener("dragstart", (e) => e.preventDefault()); // enlaces e imágenes
+
+  // Tras un arrastre, el clic no abre fichas ni enlaces.
+  marco.addEventListener(
+    "click",
+    (e) => {
+      if (arrastrado) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        arrastrado = false;
+      }
+    },
+    true,
+  );
+}
+
 marco.addEventListener("click", (e) => {
   const el = e.target as HTMLElement;
   if (el.closest("a")) return; // los enlaces de página abren el PDF

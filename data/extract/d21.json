@@ -1,0 +1,75 @@
+{
+  "vivienda": {
+    "postura": "Sin política de vivienda propia: solo destina a vivienda el dinero que se recupere al despedir cargos de libre designación.",
+    "medidas": [
+      "Todo el dinero recuperado con la revisión de los nombramientos «de carnet» irá a vivienda"
+    ],
+    "paginas": [4]
+  },
+  "empleo": null,
+  "pensiones": null,
+  "fiscalidad": null,
+  "economia": null,
+  "administracion": {
+    "postura": "«Limpieza política integral»: acabar con el clientelismo en la Administración con mérito y capacidad y despidos de cargos de carnet.",
+    "medidas": [
+      "Reducción del 90% de los asesores: máximo 4 por ministro, 7 por vicepresidente y 20 en el gabinete del Presidente",
+      "Publicar nombres, funciones, currículos y salarios de todos los asesores de todas las administraciones",
+      "Todos los cargos de la Administración y empresas públicas por mérito y capacidad; libre designación solo para secretarios de Estado",
+      "Inspección en 6 meses de todos los nombramientos de libre designación por un Tribunal Administrativo Independiente y despido de los que no cumplan",
+      "Evaluación pública de eficacia, impacto y coste de todos los programas de gasto, en un único Portal de Evaluación",
+      "Balance anual del Presidente ante el Parlamento: qué prometió y qué cumplió cada ministerio"
+    ],
+    "paginas": [3, 4, 11]
+  },
+  "energia": null,
+  "medio_ambiente": null,
+  "sector_primario": null,
+  "infraestructuras": null,
+  "sanidad": null,
+  "educacion": null,
+  "ciencia": null,
+  "servicios_sociales": null,
+  "familia_infancia": null,
+  "igualdad": null,
+  "lgtbi": null,
+  "inmigracion": null,
+  "seguridad": null,
+  "defensa": null,
+  "justicia": {
+    "postura": "Programa centrado en la corrupción y la despolitización de la justicia y los órganos de control.",
+    "medidas": [
+      "Delito de enchufismo (reforma del art. 405 del Código Penal) e inhabilitación de quien nombre sin mérito y capacidad",
+      "Juzgados especializados en corrupción, según el modelo de los de violencia de género; los casos de una comunidad se juzgarán en una comunidad vecina",
+      "La IGAE con los medios de la Agencia Tributaria (cruce de datos, IA) e Interventor General con mandato de 6 años irrevocable",
+      "Doblar los recursos de la Fiscalía Anticorrupción y crear una Oficina Anticorrupción con multas de hasta el 10% de la facturación o de los ingresos del partido",
+      "Responsabilidad penal del cargo que no denuncie corrupción conocida; control de toda la contratación pública con IA",
+      "Partidos responsables civiles subsidiarios y sin financiación pública si sus dirigentes están investigados por corrupción",
+      "Delitos de corrupción imprescriptibles e inhabilitación de por vida",
+      "Vocales judiciales del CGPJ elegidos por los jueces; Fiscal General elegido por el Gobierno de una terna del Congreso (3/5)",
+      "Sin políticos en los organismos independientes (10 años) ni en la carrera judicial y fiscal (20 años); sorteo si el Congreso bloquea nombramientos",
+      "Eliminar los aforamientos de diputados y senadores y limitar el del Gobierno a los actos del cargo",
+      "Código ético obligatorio, reforma de la Ley de Conflictos de Interés según la OCDE y prohibir que los cargos paguen cuota a su partido"
+    ],
+    "paginas": [3, 4, 5, 6, 7, 8, 9, 12]
+  },
+  "democracia": {
+    "postura": "«Devolver el poder al ciudadano»: rendición de cuentas de los representantes, asambleas ciudadanas y listas desbloqueadas.",
+    "medidas": [
+      "Diputados y senadores obligados a una jornada de reuniones abiertas en su circunscripción cada dos semanas, con registro público",
+      "Asamblea anual «Cara a Cara con la Ciudadanía», elegida por sorteo, para preguntar al Presidente",
+      "Asambleas ciudadanas por sorteo, activables con firmas del 1% del censo, cuyas propuestas irían a referéndum consultivo",
+      "Sin sueldo para los parlamentarios que falten a plenos y comisiones; sin sueldo para el Gobierno si no presenta presupuestos y cese tras un año",
+      "Límite de dos mandatos u ocho años en un mismo cargo público",
+      "Reforma de la Ley Electoral con listas desbloqueadas y abiertas"
+    ],
+    "paginas": [10, 11, 12, 13]
+  },
+  "territorial": null,
+  "lengua_cultura": null,
+  "digital": null,
+  "juventud": null,
+  "deporte": null,
+  "animales": null,
+  "ue_exterior": null
+}

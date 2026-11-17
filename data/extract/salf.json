@@ -1,0 +1,287 @@
+{
+  "vivienda": {
+    "postura": "«Tu primera casa, un 35% más barata» por ley, a base de quitar impuestos, liberar suelo y acelerar licencias; desalojo de okupas en 48 horas.",
+    "medidas": [
+      "Primera vivienda un 35% más barata garantizada por ley: ITP y AJD al 0% e IVA al 4% devuelto en la renta",
+      "Ley de neutralidad: la recaudación por vivienda no puede crecer más que el IPC",
+      "Desalojo policial de okupas en 48 horas y lanzamiento de inquiokupas en 30 días, sin excepción por vulnerabilidad",
+      "Todo el suelo de la Sareb y del Estado a concurso en 12 meses para vivienda protegida en propiedad (100.000 en obra en 2030)",
+      "Licencias en 1-3 meses con silencio positivo; licencia automática en 15 días para vivienda industrializada",
+      "Las SOCIMI con más de 100 viviendas tributan al 25%",
+      "Aval público del 20% de la entrada para menores de 40 en su primera vivienda",
+      "Seguro público de impago de 12 meses para propietarios que alquilen sin exigir avales",
+      "Eliminación total del IBI, sin compensar a los ayuntamientos",
+      "Registro único de alquiler turístico, sin prohibiciones"
+    ],
+    "paginas": [4, 5, 6, 7]
+  },
+  "empleo": {
+    "postura": "«Trabajar tiene que salir a cuenta»: menos cuña fiscal, contrato único y cuota cero de autónomos.",
+    "medidas": [
+      "Bajar la cuña fiscal del 41% al 29%; cero cotización del trabajador en el salario mínimo",
+      "Contrato único indefinido con indemnización creciente de 12 a 33 días y mochila austriaca del 1,53%",
+      "Eliminación total de la cuota de autónomos, IVA de caja y licencia de actividad en 24 horas",
+      "Contra el absentismo: alta de las mutuas a los 15 días con revisión del INSS en 72 horas",
+      "Las bajas por enfermedad, pagadas por la Seguridad Social desde el primer día",
+      "Cotización cero dos años por contratar a menores de 30 y mayores de 50",
+      "Los fijos discontinuos sin actividad contarán como parados",
+      "Fin de la prestación al rechazar dos ofertas adecuadas; el Ingreso Mínimo baja 50 céntimos por euro ganado",
+      "Oposiciones anónimas y digitales con tribunales sorteados y grabados"
+    ],
+    "paginas": [4, 12, 30, 31, 32]
+  },
+  "pensiones": {
+    "postura": "«Las de hoy, blindadas. Las de mañana, a tu nombre»: sistema mixto con cuenta individual para los menores de 45.",
+    "medidas": [
+      "Revalorización con el IPC y prohibición de recortes con rango constitucional",
+      "Menores de 45: el 2% del salario a una cuenta individual obligatoria y heredable (comisión máxima 0,3%)",
+      "Mochila austriaca del 1,53% a cargo de la empresa",
+      "Jubilación activa con el 100% de la pensión; con 40 años cotizados, jubilación sin penalización",
+      "Pensión mínima de 1.000 € en 14 pagas con 35 años cotizados",
+      "Fin de las pensiones especiales de políticos y prebendas de expresidentes",
+      "Fondo de Reserva gestionado como fondo soberano independiente del Gobierno",
+      "Autónomos con libertad de base de cotización",
+      "Carta anual con la pensión estimada y cuentas de la Seguridad Social separadas de las transferencias del Estado"
+    ],
+    "paginas": [4, 20, 21]
+  },
+  "fiscalidad": {
+    "postura": "Rebaja fiscal de unos 80.000 M€ financiada con recortes de gasto: nadie paga IRPF por los primeros 35.000 €.",
+    "medidas": [
+      "Mínimo exento de IRPF de 35.000 € en 2030 (15.000 en 2027), más 5.000 € por hijo para cada progenitor",
+      "Deflactación anual del IRPF con el IPC por ley",
+      "Impuesto de Sociedades al 20%, 15% para beneficio reinvertido y 10% para empresas nuevas",
+      "Suprimir Sucesiones, Donaciones, Patrimonio y el impuesto a las grandes fortunas",
+      "IVA del 4% para la luz y el agua",
+      "Regla de oro: ninguna rebaja sin ahorro certificado por la AIReF; déficit cero en 2030",
+      "Carga de la prueba para Hacienda, intereses de demora simétricos y la mitad de los inspectores dedicados a políticos y empresas subvencionadas",
+      "Tres quintos del Congreso para subir impuestos y techo constitucional a la presión fiscal y la deuda",
+      "Ley de Devolución del Rescate: los bancos herederos de las cajas pagan 4.700 M€ al año durante 15 años"
+    ],
+    "paginas": [12, 13, 14, 15, 16]
+  },
+  "economia": {
+    "postura": "Libertad económica: menos regulación, unidad de mercado y defensa del dinero en efectivo.",
+    "medidas": [
+      "«Una norma entra, dos salen»: por cada regulación nueva sobre empresas, dos derogadas",
+      "Unidad de mercado real: lo que vale en una comunidad vale en todas",
+      "Pago en efectivo sin límite como derecho constitucional; veto al tope europeo de 10.000 € y el euro digital nunca sustituirá al efectivo",
+      "Rebaja de Sociedades e incentivos a la reinversión y a las startups",
+      "Prioridad a la industria nacional de defensa"
+    ],
+    "paginas": [13, 14, 15, 31, 38]
+  },
+  "administracion": {
+    "postura": "«Nuestro Gobierno cabe en una mesa»: de 22 a 10 ministerios y recorte de estructuras para financiar la rebaja fiscal.",
+    "medidas": [
+      "10 ministerios y una vicepresidencia; la mitad de los altos cargos (823 → 450) y de 1.255 a 400 asesores",
+      "Suprimir el Senado, el Consejo de Estado, los consejos económicos y sociales, las diputaciones y la publicidad institucional",
+      "Eliminar las subvenciones a sindicatos y patronal y reducir un 50% las de los partidos",
+      "Cerrar entes públicos sin función y gestión mancomunada obligatoria en municipios de menos de 5.000 habitantes",
+      "Contratación pública 100% electrónica con subasta inversa; todo gasto de más de 1.000 € publicado en 24 horas",
+      "Límite de 15 años en cargos públicos remunerados"
+    ],
+    "paginas": [2, 3, 16, 29]
+  },
+  "energia": {
+    "postura": "Abaratar la luz por la vía fiscal y asegurar el gas argelino.",
+    "medidas": [
+      "IVA de la luz del 21% al 4% y supresión del impuesto a la producción eléctrica",
+      "Tratado de amistad con Argelia y contratos de gas a largo plazo"
+    ],
+    "paginas": [13, 38]
+  },
+  "medio_ambiente": {
+    "postura": "Contra el Pacto Verde europeo, por su coste para el campo.",
+    "medidas": [
+      "Veto español al Pacto Verde y a la Ley de Restauración de la Naturaleza"
+    ],
+    "paginas": [35]
+  },
+  "sector_primario": {
+    "postura": "«Lo que se come en España se produce en España»: veto a Mercosur y al recorte de la PAC.",
+    "medidas": [
+      "Veto a Mercosur y al recorte del 20% de la PAC en el Consejo de la UE",
+      "Ministerio propio de Agricultura, Pesca y Alimentación"
+    ],
+    "paginas": [3, 35]
+  },
+  "infraestructuras": {
+    "postura": "Sin plan de infraestructuras; solo el transporte de residentes en Canarias.",
+    "medidas": [
+      "Pagar a las compañías en 30 días el descuento de residente del 75% en avión y barco"
+    ],
+    "paginas": [36]
+  },
+  "sanidad": {
+    "postura": "Una central de compras única para pagar más a los profesionales y garantizar plazos máximos de espera.",
+    "medidas": [
+      "Central de compras sanitarias única con precios públicos (ahorro de 6.000 M€ al año)",
+      "60 días para operarse, 30 para el especialista y 48 horas para el médico de familia; si no, centro privado pagado por el sistema",
+      "Subida del 20% a médicos y del 10% al resto de profesionales; 30.000 € de complemento en plazas rurales",
+      "Tarjeta, historia clínica y receta únicas en toda España",
+      "10.000 camas y 1.500 UCI más",
+      "Tarjeta sanitaria solo para españoles y residentes legales con cotización; urgencias para todos",
+      "Copago cero para pensiones mínimas, crónicos y menores de 3 años",
+      "Un psicólogo clínico por cada 10.000 habitantes y atención en 15 días",
+      "Gerentes de hospital por concurso de méritos"
+    ],
+    "paginas": [22, 23, 24]
+  },
+  "educacion": {
+    "postura": "«El Estado no es dueño de tus hijos»: ley pactada para 20 años, castellano garantizado y cheque escolar.",
+    "medidas": [
+      "Ley educativa aprobada y reformable solo por dos tercios; contenidos mínimos comunes al 100% y selectividad única",
+      "Derecho exigible a la enseñanza en castellano en toda España, con Alta Inspección que sanciona",
+      "MIR docente: dos años de prácticas pagadas y examen nacional",
+      "Profesor autoridad pública y un 10% más de sueldo",
+      "Cheque escolar para pública, concertada y privada",
+      "Contenidos fijados por un Consejo Académico independiente; neutralidad ideológica en el aula",
+      "Mismo temario de Historia en toda España; Economía y Constitución obligatorias en Secundaria",
+      "FP remunerada desde los 15 y fin del aprobado automático; 5.000 auxiliares nativos de inglés y B2 pagado"
+    ],
+    "paginas": [33, 34]
+  },
+  "ciencia": {
+    "postura": "Financiar las universidades según la inserción laboral de sus titulados.",
+    "medidas": [
+      "Universidades financiadas en parte por la inserción laboral de sus titulados",
+      "Beca-salario de 2.000 € para FP superior en sectores con déficit"
+    ],
+    "paginas": [34]
+  },
+  "servicios_sociales": {
+    "postura": "Ayudas condicionadas a la residencia legal y al empleo.",
+    "medidas": [
+      "Sin prestaciones no contributivas, ayuda al alquiler ni vivienda pública sin cinco años de residencia legal y cotización",
+      "El Ingreso Mínimo baja 50 céntimos por cada euro ganado; se pierde la prestación al rechazar dos ofertas",
+      "Copago farmacéutico cero para pensiones mínimas y enfermos crónicos"
+    ],
+    "paginas": [19, 23, 32]
+  },
+  "familia_infancia": {
+    "postura": "«El Estado que cobra por tener hijos no puede hablar de natalidad».",
+    "medidas": [
+      "5.000 € más de mínimo exento de IRPF por hijo para cada progenitor",
+      "Medicamentos gratis para menores de 3 años",
+      "Test de paternidad gratuito al nacer, salvo renuncia de ambos progenitores",
+      "Prioridad a familias con hijos en el seguro público de impago de alquiler"
+    ],
+    "paginas": [7, 12, 23, 24]
+  },
+  "igualdad": null,
+  "lgtbi": null,
+  "inmigracion": {
+    "postura": "«Solo legal»: expulsión en 48 horas, fin de las regularizaciones y moratoria para países que no colaboren.",
+    "medidas": [
+      "Ejecutar el 100% de las órdenes de expulsión en 90 días, con internamiento hasta la salida",
+      "Derogar la regularización de 2026 y prohibir por ley orgánica las regularizaciones masivas",
+      "Sin ayuda, visados ni preferencias comerciales para países que no readmitan a sus nacionales en 72 horas",
+      "Moratoria de inmigración durante la legislatura para países que no colaboren contra la trata; para el resto, visados con contrato y cupo anual votado en el Congreso",
+      "Cupos preferentes para Hispanoamérica; nacionalidad con diez años de residencia y examen",
+      "Pérdida de la residencia por condena de más de un año y de la nacionalidad para dobles nacionales por delitos graves",
+      "Prueba de edad radiológica y dental a los menores antes de entrar en un centro",
+      "Ilegalizar los Hermanos Musulmanes, prohibir la financiación extranjera de mezquitas y expulsar a imanes que prediquen contra la Constitución",
+      "Prohibir el burka y el niqab en el espacio público",
+      "Tasa del 2% a las remesas hacia países que no readmiten"
+    ],
+    "paginas": [4, 17, 18, 19]
+  },
+  "seguridad": {
+    "postura": "«Todo para el honrado; cárcel para el delincuente»: macrocárcel, cumplimiento íntegro y legítima defensa ampliada.",
+    "medidas": [
+      "Macrocárcel de máxima seguridad sin permisos ni tercer grado para asesinos, violadores, narcos, terroristas y corruptos",
+      "Cumplimiento íntegro para delitos graves; prisión permanente revisable por violación a menores",
+      "Registro público de agresores sexuales reincidentes, pulsera de por vida y castración química voluntaria",
+      "Los extranjeros condenados cumplirán la pena en su país y tendrán vetada la entrada de por vida",
+      "Equiparación salarial de Policía y Guardia Civil con los Mossos en dos años y jubilación a los 60",
+      "Plan Estrecho: la Armada y el Ejército del Aire contra el narcotráfico",
+      "Presunción de legítima defensa en el domicilio o negocio, también con armas de fuego, y licencia de armas sin trabas",
+      "Triplicar la UCO, UDEF y UDYCO (3.000 investigadores más)",
+      "Protección penal reforzada para vigilantes de seguridad privada"
+    ],
+    "paginas": [8, 9, 10, 11]
+  },
+  "defensa": {
+    "postura": "El 2% del PIB, gastado en industria española y en los militares; refuerzo de Ceuta, Melilla y Canarias.",
+    "medidas": [
+      "Mili voluntaria de 6 a 12 meses para jóvenes de 18 a 30, con 1.600 € al mes y ventajas fiscales",
+      "5.000 militares y 1.000 guardias civiles más en Ceuta y Melilla; defensa antiaérea y antidrón en cada isla canaria",
+      "Doble plus de residencia, libre de IRPF, para los destinados en Canarias, Ceuta y Melilla",
+      "Retribuciones de los militares equiparadas a la Guardia Civil y carrera militar hasta la jubilación",
+      "Prioridad a la industria nacional de defensa"
+    ],
+    "paginas": [9, 37, 38]
+  },
+  "justicia": {
+    "postura": "Corrupción imprescriptible, sin tercer grado ni indultos, y jueces elegidos sin políticos.",
+    "medidas": [
+      "Delitos de corrupción de cargos públicos imprescriptibles y sin tercer grado, indulto ni permisos",
+      "Devolver el triple de lo robado y decomiso del patrimonio no justificado; empresas corruptoras 15 años sin contratar",
+      "El 15% de lo recuperado para el denunciante",
+      "Fiscal General elegido por 3/5 del Congreso; Anticorrupción pasa de 29 a 100 fiscales",
+      "Suprimir el Tribunal Constitucional y crear una sala del Supremo elegida por jueces",
+      "CGPJ elegido por jueces, antigüedad o sorteo; delito dar instrucciones a un juez",
+      "Acción popular blindada en la Constitución y fin de los 17.621 aforamientos",
+      "2.000 jueces y 1.500 fiscales más y juicios rápidos en 72 horas",
+      "Cinco años de incompatibilidad para pasar a empresas reguladas o presidir órganos de control"
+    ],
+    "paginas": [10, 25, 26, 27, 28]
+  },
+  "democracia": {
+    "postura": "Prohibir las amnistías en la Constitución y que el líder del partido responda con su sueldo del cumplimiento del programa.",
+    "medidas": [
+      "Prohibición constitucional de las amnistías e indultos solo a petición del tribunal sentenciador",
+      "Cláusula de penalización: el sueldo de Alvise Pérez bloqueado en el Banco de España hasta comprobar en 2030 que votó las 119 medidas",
+      "Registro de agentes extranjeros y prohibición de financiación extranjera de partidos, medios y ONG políticas",
+      "Despolitización de la educación y prohibición de propaganda en el aula"
+    ],
+    "paginas": [4, 26, 34, 39]
+  },
+  "territorial": {
+    "postura": "Financiación autonómica con criterios iguales para todas, sin condonaciones de deuda; régimen fiscal especial para Ceuta, Melilla y Canarias.",
+    "medidas": [
+      "Financiación autonómica con criterios objetivos iguales para todas las comunidades",
+      "Ninguna condonación de deuda entre administraciones, salvo catástrofe",
+      "Recortar el «sobrecoste autonómico» por duplicidades (57.000 M€) y suprimir las diputaciones",
+      "Ceuta y Melilla: 0% de IRPF, Sociedades y cotizaciones; puerto franco",
+      "Canarias: deducción de 1.000 € en el IRPF y Zona Especial Canaria al 0%"
+    ],
+    "paginas": [14, 16, 36]
+  },
+  "lengua_cultura": {
+    "postura": "Castellano garantizado en la enseñanza en toda España.",
+    "medidas": [
+      "Derecho a la enseñanza en castellano exigible por la familia",
+      "Selectividad única y en castellano en toda España",
+      "Historia de España común en todo el territorio"
+    ],
+    "paginas": [33, 34]
+  },
+  "digital": null,
+  "juventud": {
+    "postura": "Acceso a la vivienda y al empleo para jóvenes con avales públicos y menos cotizaciones.",
+    "medidas": [
+      "Aval público del 20% de la entrada para menores de 40 en su primera vivienda",
+      "Mili voluntaria con 1.600 € al mes, puntos en oposiciones y 50.000 € de mínimo exento de IRPF durante 10 años",
+      "Cotización cero durante dos años por contratar a menores de 30",
+      "FP dual con contrato y el 50% del salario de convenio"
+    ],
+    "paginas": [6, 9, 31]
+  },
+  "deporte": null,
+  "animales": null,
+  "ue_exterior": {
+    "postura": "«España primero»: referéndum para renegociar con la UE (y salir si se niega) y dureza con Marruecos.",
+    "medidas": [
+      "Referéndum de renegociación con la UE y, si Bruselas se niega, segundo referéndum de salida",
+      "Bloqueo comercial total a Marruecos si bloquea un puerto español o usa la inmigración como ataque",
+      "Retirar la carta de 2022 sobre el Sáhara, volver a la posición de la ONU y tratado de amistad con Argelia",
+      "Gibraltar: negociar la cosoberanía y el fin del paraíso fiscal",
+      "Comunidad Hispánica de naciones con libre comercio y cupos preferentes",
+      "Ayuda al desarrollo condicionada a la readmisión de inmigrantes (ahorro de 4.500 M€)",
+      "Hermanos Musulmanes en la lista terrorista con las penas máximas"
+    ],
+    "paginas": [35, 36, 37, 38, 39]
+  }
+}

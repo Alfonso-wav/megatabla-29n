@@ -2,18 +2,13 @@
 // parezcan el programa del 29N. No descarga nada: solo avisa para revisar a mano.
 //   node scripts/vigilar.mjs
 const WEBS = {
-  psoe: ["https://www.psoe.es", "https://www.psoe.es/transparencia/informacion-politica-organizativa/programa/"],
-  podemos: ["https://podemos.info"],
-  salf: ["https://alvise.es", "https://seacabolafiesta.es", "https://www.seacabolafiesta.com"],
+  podemos: ["https://podemos.info", "https://pazcasaytrabajo.es"],
   junts: ["https://junts.cat"],
-  bildu: ["https://ehbildu.eus"],
-  pacma: ["https://pacma.es"],
-  compromis: ["https://compromis.net"],
+  compromis: ["https://compromis.net", "https://frontvalencia.org"],
   upc: ["https://www.nuevacanarias.org"],
   geroabai: ["https://geroabai.eus"],
   ac: ["https://aliancacatalana.cat"],
   frenteobrero: ["https://frenteobrero.es"],
-  d21: ["https://democracia21.es"],
   pcte: ["https://pcte.es"],
 };
 const PISTA = /(programa|program|propuestas|propostes)/i;

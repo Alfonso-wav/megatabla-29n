@@ -1,0 +1,540 @@
+{
+  "vivienda": {
+    "postura": "La vivienda como «quinto pilar del Estado del bienestar»: derecho fundamental en la Constitución, un 1% del PIB al año y un parque público estatal de 100.000 viviendas.",
+    "medidas": [
+      "Reformar la Constitución para que la vivienda sea un derecho fundamental exigible",
+      "Movilizar cada año un 1% del PIB para el acceso a la vivienda",
+      "Parque público estatal de 100.000 viviendas a través de CASA 47, con protección permanente",
+      "Plan Estatal de Vivienda 2026-2030: al menos una cuarta parte de la vivienda nueva, pública o protegida",
+      "Impuesto progresivo a las viviendas de fondos y grandes tenedores que estén vacías, sean turísticas o se alquilen a precios abusivos",
+      "Impuesto sobre solares residenciales ociosos",
+      "Contratos de alquiler más largos y congelación temporal de las rentas que superen el índice de referencia",
+      "Seguro público de impago para que los jóvenes accedan al alquiler",
+      "Ampliar el programa TU CASA: préstamos sin intereses de hasta 50.000 € para la primera vivienda",
+      "Recargo municipal opcional sobre las pernoctaciones en viviendas turísticas",
+      "Ley de proveedores sociales de vivienda e industrialización de la construcción",
+      "Protección permanente frente a desahucios de vulnerables, pagada por la Administración y no por el pequeño propietario"
+    ],
+    "paginas": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  "empleo": {
+    "postura": "«Que la gente gane más»: completar la reducción de jornada, blindar el SMI y reforzar la protección frente al despido.",
+    "medidas": [
+      "Completar la jornada de 37,5 horas e incentivar las 35 por negociación colectiva",
+      "SMI por ley por encima del 60% del salario medio",
+      "Registro horario digital fiable contra las horas extra ilegales",
+      "Reformar el despido improcedente según la Carta Social Europea y recuperar los salarios de tramitación",
+      "Contrato a tiempo parcial que supere el 80% de la jornada, considerado a jornada completa",
+      "Estatuto del Becario y prestación por desempleo para becarios",
+      "Evaluación obligatoria de riesgos psicosociales y nueva Ley de Prevención de Riesgos Laborales",
+      "Ley de Negociación Colectiva y participación de los trabajadores en la gestión de las empresas",
+      "Plan Nuevo Rumbo para mayores de 45 e itinerario Mujer 45+",
+      "Pacto de Estado por los salarios y reparto de beneficios con las plantillas"
+    ],
+    "paginas": [
+      37,
+      38,
+      41,
+      42,
+      43
+    ]
+  },
+  "pensiones": {
+    "postura": "Consolidar las reformas que garantizan el poder adquisitivo, con más ingresos para la Seguridad Social y menos brecha de género.",
+    "medidas": [
+      "Blindar en la Constitución el sistema público de pensiones y su revalorización con el IPC",
+      "Nuevas fuentes de financiación ligadas a la automatización y acelerar la cuota de solidaridad",
+      "Culminar la separación de fuentes: el Estado paga las prestaciones no contributivas",
+      "Un año adicional cotizado por cada hijo y refuerzo del complemento de brecha de género",
+      "Mejorar los coeficientes reductores por penosidad y reducir las penalizaciones a la jubilación anticipada involuntaria",
+      "Baja especial al 75% de la base reguladora para personas con cáncer",
+      "Orfandad del 20% al 30% y mutuas integradas en la gestión pública"
+    ],
+    "paginas": [
+      39,
+      40,
+      41,
+      89
+    ]
+  },
+  "fiscalidad": {
+    "postura": "Fiscalidad progresiva: más impuestos a «ultrarricos», grandes tecnológicas y rentas altas del capital, y alivio a las rentas bajas.",
+    "medidas": [
+      "Rentas del capital hasta un tipo máximo del 35% por encima de 300.000 €",
+      "Impuestos adicionales a las grandes tecnológicas y a la IA, además de la tasa Google",
+      "Tasa a los viajes de lujo: megayates, jets privados y billetes en business",
+      "Ley de Salarios Justos: más Sociedades para cotizadas con brecha salarial superior a 100 a 1",
+      "Tasa Tobin del 0,2% al 0,4%",
+      "Mínimo por descendiente convertido en crédito fiscal reembolsable",
+      "Deducción en el IRPF que se active con las subidas de precios",
+      "Senda fiscal con déficit y deuda decrecientes; nuevo plan fiscal ante Bruselas en 2027",
+      "Impuesto mínimo global a las grandes fortunas"
+    ],
+    "paginas": [
+      37,
+      47,
+      48,
+      49,
+      107
+    ]
+  },
+  "economia": {
+    "postura": "«Prosperidad compartida»: inversión productiva y reindustrialización tras los fondos europeos, con el Fondo España Crece.",
+    "medidas": [
+      "Fondo España Crece de 120.000 M€ para inversión productiva",
+      "Ley de Industria y Autonomía Estratégica",
+      "Cuenta de Ahorro e Inversión para llevar el ahorro del ladrillo a la inversión productiva",
+      "«Régimen 20» para homogeneizar requisitos y facilitar que las empresas operen en todo el territorio",
+      "Mantener la participación del Estado en sectores estratégicos",
+      "Autoridad de Defensa del Cliente Financiero: reclamaciones gratuitas en 90 días",
+      "Más poderes a la CNMC para que las rebajas de IVA lleguen al precio final",
+      "Bono social único y automático para luz, gas, transporte, telecomunicaciones y agua"
+    ],
+    "paginas": [
+      13,
+      14,
+      15,
+      38,
+      39
+    ]
+  },
+  "administracion": {
+    "postura": "Una Administración «que resuelva problemas»: atención sin cita previa y prestaciones en 30 días.",
+    "medidas": [
+      "Atención presencial o telefónica sin cita previa obligatoria y oficinas itinerantes rurales",
+      "Ninguna administración pedirá un documento que ya tenga",
+      "Aviso por SMS o correo de cada notificación electrónica",
+      "Ventanilla digital única para ciudadanos y empresas",
+      "Nueva Ley de Función Pública contra la temporalidad",
+      "Supervisor independiente de cargas administrativas",
+      "Descentralizar sedes del Estado fuera de las grandes ciudades"
+    ],
+    "paginas": [
+      15,
+      18,
+      71,
+      101,
+      102
+    ]
+  },
+  "energia": {
+    "postura": "Las renovables como autonomía estratégica y energía barata: 81% de generación renovable en 2030.",
+    "medidas": [
+      "81% de generación eléctrica renovable en 2030, en Zonas de Aceleración Renovable",
+      "Hoja de ruta para abandonar los combustibles fósiles y plan nacional de bombeo hidroeléctrico",
+      "Más redes, almacenamiento, hidrógeno renovable e interconexiones con Francia",
+      "Mantener el cierre nuclear hasta 2035 con transición justa en las comarcas",
+      "Reforma del mercado eléctrico europeo",
+      "Autoconsumo y eficiencia en hogares, pymes e industria; Plan Social para el Clima",
+      "Nueva Ley de Minas"
+    ],
+    "paginas": [
+      65,
+      66
+    ]
+  },
+  "medio_ambiente": {
+    "postura": "Pacto de Estado frente a la emergencia climática: adaptación, agua garantizada y protección de la biodiversidad.",
+    "medidas": [
+      "Agencia Estatal de Protección Civil y Emergencias y centro estatal de predicción de fenómenos extremos",
+      "Ley de Adaptación al Cambio Climático y Fondo Nacional de Resiliencia Climática",
+      "Acceso al agua potable y mínimo vital, blindados en la Constitución; bancos públicos de agua",
+      "Modernizar regadíos sin aumentar el consumo y más desalación y reutilización",
+      "Proteger el 30% de los ecosistemas y el 10% de las áreas marinas de forma estricta",
+      "Restauración de Doñana, el Mar Menor, la Albufera, el Delta del Ebro y las Tablas de Daimiel",
+      "Vertido de residuos por debajo del 30% en 2030 y derecho a la reparación",
+      "Más medios estatales contra incendios y gestión forestal en mosaico",
+      "Defender el Pacto Verde Europeo y la Ley de Restauración de la Naturaleza"
+    ],
+    "paginas": [
+      66,
+      67,
+      68,
+      72,
+      73
+    ]
+  },
+  "sector_primario": {
+    "postura": "Una PAC fuerte para las explotaciones profesionales y familiares y reciprocidad en las importaciones.",
+    "medidas": [
+      "Defender una PAC suficiente y la reciprocidad en estándares ambientales, sanitarios y laborales",
+      "Ley de Agricultura Familiar y Profesional: modernización, seguros agrarios, cooperativas y relevo generacional",
+      "Evitar la concentración de tierras fértiles en manos de fondos; bancos de tierras para jóvenes",
+      "Compensar la ganadería extensiva y la agricultura regenerativa",
+      "Plan de Transición Justa para la pesca y reparto justo de cuotas",
+      "«País de los 30 minutos» y mecanismo de garantía rural en leyes y presupuestos",
+      "Titularidad compartida de las explotaciones para mujeres rurales"
+    ],
+    "paginas": [
+      69,
+      70,
+      79
+    ]
+  },
+  "infraestructuras": {
+    "postura": "Tras las tragedias ferroviarias de 2026, seguridad y mantenimiento de la red como prioridad.",
+    "medidas": [
+      "Pacto de Estado por la Seguridad Ferroviaria, la Atención a las Víctimas y la Justicia",
+      "19.000 M€ para conservación y mantenimiento ferroviario en 2026-2030",
+      "ERTMS de nivel 2 en la línea Madrid-Sevilla y calendario para el resto de la red",
+      "Dirección técnica en Adif y Renfe y más plantilla de seguridad",
+      "Culminar los corredores Mediterráneo y Atlántico y modernizar Cercanías y Media Distancia",
+      "Reparar 5.000 km de carreteras estatales (1.629 M€)",
+      "Desarrollo de la Ley de Movilidad Sostenible, transporte público asequible y apoyo a la movilidad juvenil"
+    ],
+    "paginas": [
+      19,
+      20,
+      21,
+      71
+    ]
+  },
+  "sanidad": {
+    "postura": "«La sanidad pública, la gran prioridad»: acabar con las listas de espera y ampliar la cartera.",
+    "medidas": [
+      "Financiación sanitaria en torno al 7% del PIB",
+      "Plan Sonríe: tratamientos dentales básicos públicos para adultos y ayuda de hasta 200 € al año mientras tanto",
+      "Gestión directa como modalidad preferente y Ley de Buen Gobierno del SNS",
+      "Atención psicológica gratuita con primera consulta en 30 días",
+      "Nuevo contrato social con los profesionales sanitarios",
+      "Ampliar el Plan VEO a otros grupos vulnerables",
+      "Ley de Salud Digital y receta electrónica común",
+      "Regular vapeadores y bolsas de nicotina y prohibir sabores",
+      "Ayudas para el sobrecoste de los productos sin gluten"
+    ],
+    "paginas": [
+      49,
+      50,
+      51
+    ]
+  },
+  "educacion": {
+    "postura": "Educación pública y gratuita de 0 a 18 años como motor de igualdad.",
+    "medidas": [
+      "Universalizar la educación de 0 a 3 años con más escuelas infantiles públicas",
+      "Más becas y límite máximo de alumnos por aula",
+      "Estatuto del Docente y plan de bienestar docente",
+      "Abandono escolar temprano por debajo del 10% antes de 2030",
+      "Un orientador por cada 250 estudiantes",
+      "Comedor gratuito para el alumnado en pobreza o exclusión",
+      "Más plazas públicas de FP y titulaciones en IA, ciberseguridad, energía y microelectrónica",
+      "Coeducación y educación afectivo-sexual obligatorias en todas las etapas"
+    ],
+    "paginas": [
+      51,
+      52,
+      53,
+      83
+    ]
+  },
+  "ciencia": {
+    "postura": "Dar un salto de escala en ciencia e innovación y en soberanía tecnológica.",
+    "medidas": [
+      "Inversión pública en I+D hasta el 1,25% del PIB y el 1,5% en 2035",
+      "Estrategia Deep Tech 2026-2030 y refuerzo del CDTI",
+      "Estatuto del Personal Investigador y programa ATRAE",
+      "Marco de protección de los neuroderechos y primera Ley de Actividades Espaciales",
+      "Estrategia de IA para la Ciencia",
+      "Matrícula gratuita del primer curso de grado en la universidad pública",
+      "Becas Erasmus de 1.000-1.500 € al mes según renta y complementos para primera generación universitaria",
+      "Ley de Equidad en el Acceso a la Universidad Pública y requisitos más exigentes para las privadas"
+    ],
+    "paginas": [
+      16,
+      17,
+      54
+    ]
+  },
+  "servicios_sociales": {
+    "postura": "Blindar el «cuarto pilar» del Estado del bienestar con una ley estatal de servicios sociales.",
+    "medidas": [
+      "Primera Ley de Servicios Sociales con una cartera común pactada con las comunidades",
+      "Aplicar la reforma de discapacidad y dependencia (Ley 4/2026) para reducir las listas de espera",
+      "Ayuda a domicilio como servicio público esencial",
+      "Atención integral a personas con ELA de grado III+ sin copagos",
+      "Plan «A Tu Lado»: ayudas para ascensores y visitas a domicilio a partir de los 80 años",
+      "Suelo público para cooperativas de vivienda sénior",
+      "Automatizar el Ingreso Mínimo Vital y adaptar sus cuantías al coste de la crianza",
+      "Housing First contra el sinhogarismo",
+      "Cuidadoras principales remuneradas al nivel del SMI"
+    ],
+    "paginas": [
+      38,
+      57,
+      58,
+      80
+    ]
+  },
+  "familia_infancia": {
+    "postura": "Una prestación por crianza universal para todos los hogares con menores.",
+    "medidas": [
+      "Prestación estatal por crianza para los 8 millones de menores, financiada con impuestos a grandes patrimonios",
+      "Cuenta de Futuro: 1.000 € al nacer invertidos en fondos públicos, disponibles a los 18 años",
+      "Juzgados especializados en violencia contra la infancia y modelo Barnahus en todo el territorio",
+      "Apoyo a productos y cuidados en los primeros 1.000 días",
+      "Cuatro semanas de permiso parental pagadas al 100% y una semana más si los permisos no se solapan",
+      "Ley de Familias y protección de las familias monoparentales",
+      "Figura de la «unión de amistad» en el Código Civil"
+    ],
+    "paginas": [
+      40,
+      56,
+      57,
+      89
+    ]
+  },
+  "igualdad": {
+    "postura": "«El negacionismo mata»: más feminismo frente a la ola reaccionaria.",
+    "medidas": [
+      "Blindar el aborto en la Constitución (reforma del artículo 43)",
+      "Ley Orgánica contra la Violencia Vicaria",
+      "Ley Orgánica contra la Trata y Ley Orgánica Abolicionista de la prostitución",
+      "Delito específico de deepfakes sexuales e inclusión de la violencia digital en la ley de violencia de género",
+      "Registro público de deudores de pensiones de alimentos",
+      "Ayudas a huérfanos de la violencia de género hasta los 26 años",
+      "Ley de Usos del Tiempo de Trabajo y estrategia contra la feminización de la pobreza",
+      "Reforzar la prohibición de la gestación subrogada"
+    ],
+    "paginas": [
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+    ]
+  },
+  "lgtbi": {
+    "postura": "Seguir liderando los derechos LGTBI, con la ley trans como suelo común en todo el país.",
+    "medidas": [
+      "Ley 4/2023 como suelo de derechos en todas las comunidades",
+      "Penalizar las terapias de conversión en el Código Penal",
+      "Inclusión laboral de las personas trans y continuidad de los tratamientos hormonales",
+      "Atención al chemsex en la estrategia de adicciones",
+      "Máxima protección jurídica al matrimonio igualitario",
+      "Campaña contra el estigma del VIH (I=I)"
+    ],
+    "paginas": [
+      89,
+      97
+    ]
+  },
+  "inmigracion": {
+    "postura": "Migración «ordenada, legal y segura» e integración con derechos y obligaciones.",
+    "medidas": [
+      "Plan de Integración y Ciudadanía 2026-2030 con 500 M€",
+      "Más vías legales de protección internacional, reasentamiento y visados humanitarios",
+      "Acogida digna con prioridad del interés superior del menor no acompañado",
+      "Unidad de Apoyo a la Infancia Migrante para emergencias",
+      "Desarrollar la Ley Zerolo y la Autoridad para la Igualdad de Trato",
+      "Política migratoria europea basada en la solidaridad y la lucha contra las mafias"
+    ],
+    "paginas": [
+      57,
+      92,
+      93,
+      110
+    ]
+  },
+  "seguridad": {
+    "postura": "Una seguridad ciudadana «democrática»: más agentes y una nueva ley que sustituya a la «Ley Mordaza».",
+    "medidas": [
+      "Nueva Ley de Seguridad Ciudadana que sustituya a la LO 4/2015, con cámaras corporales en Policía y Guardia Civil",
+      "Más efectivos redistribuidos según población y dispersión, con refuerzo de la seguridad rural",
+      "Servicio estatal de atención a víctimas de ciberestafas y más responsabilidad de bancos y operadoras",
+      "Primer Plan Nacional Integral contra el Narcotráfico y refuerzo en el Campo de Gibraltar",
+      "Sin Código Penal Militar para la Guardia Civil en funciones policiales",
+      "Estatuto básico de los bomberos",
+      "Desalojo de viviendas ocupadas en 48 horas y juicios rápidos por ocupación"
+    ],
+    "paginas": [
+      99,
+      100
+    ]
+  },
+  "defensa": {
+    "postura": "Rechazo al 5% del PIB en gasto militar («somos aliados, no vasallos») y apuesta por la defensa europea.",
+    "medidas": [
+      "No aceptar el 5% del PIB en defensa",
+      "Unión Europea de la Defensa y compras conjuntas",
+      "Modernizar las Fuerzas Armadas, también en espacio y ciberdefensa",
+      "Más medios para los servicios de inteligencia y para la UME",
+      "Atención psicológica al personal desplegado en misiones",
+      "España como Estado observador del Tratado sobre la Prohibición de las Armas Nucleares"
+    ],
+    "paginas": [
+      88,
+      105,
+      108,
+      110,
+      113
+    ]
+  },
+  "justicia": {
+    "postura": "Una justicia que llegue a tiempo, una Fiscalía más autónoma y una ley de integridad pública.",
+    "medidas": [
+      "Juicios por despido y desahucio en un máximo de tres meses",
+      "Nueva Ley de Enjuiciamiento Criminal con la instrucción en manos de la Fiscalía",
+      "Fiscal General con mandato de cinco años y sin instrucciones del Gobierno en casos concretos",
+      "Más jueces y fiscales y regularización de los sustitutos",
+      "Acceso a la carrera judicial con pruebas anónimas, preparación pública y prohibición de financiación privada de las asociaciones",
+      "Nueva ley de justicia gratuita",
+      "Ley Orgánica de Integridad Pública y Agencia Independiente de Integridad",
+      "Ley de lobbies con registro obligatorio y huella normativa",
+      "Suprimir los aforamientos para delitos ajenos al cargo"
+    ],
+    "paginas": [
+      90,
+      100,
+      102
+    ]
+  },
+  "democracia": {
+    "postura": "Más democracia frente a la ultraderecha: reformas constitucionales sociales, memoria democrática y control de las plataformas.",
+    "medidas": [
+      "Reformar la Constitución para proteger la salud, la vivienda, las pensiones, el agua y la seguridad climática",
+      "Escaño ciudadano sin voto en Congreso y Senado y menos firmas para la iniciativa legislativa popular",
+      "Voto a los 16 años",
+      "Completar las exhumaciones y el censo de víctimas y resignificar Cuelgamuros",
+      "Eliminar entidades que hagan apología de la dictadura",
+      "Pacto de Estado contra los discursos y delitos de odio",
+      "Responsabilidad penal de los directivos de plataformas y delito de manipulación algorítmica",
+      "Facilitar el voto exterior y estudiar una circunscripción exterior"
+    ],
+    "paginas": [
+      89,
+      90,
+      93,
+      96,
+      98,
+      112
+    ]
+  },
+  "territorial": {
+    "postura": "Un Estado autonómico que funcione mejor con cooperación, sin recentralizar ni fragmentar.",
+    "medidas": [
+      "Nuevo sistema de financiación autonómica con 21.000 M€ adicionales",
+      "Asumir parte de la deuda autonómica (83.000 M€)",
+      "Senado territorial con circunscripciones autonómicas",
+      "Conferencia de Presidentes con periodicidad fija y ley de cooperación interadministrativa",
+      "Reformar la Ley de Bases de Régimen Local y la financiación local",
+      "Desarrollar el REF de Canarias y un plan integral para Ceuta y Melilla"
+    ],
+    "paginas": [
+      60,
+      61,
+      91,
+      92
+    ]
+  },
+  "lengua_cultura": {
+    "postura": "La cultura como derecho y sector estratégico, y reconocimiento de la pluralidad lingüística.",
+    "medidas": [
+      "Ley General de Cultura y reforma de la ley de mecenazgo",
+      "Estatuto del Artista y pago a los creadores por el uso de sus obras en la IA",
+      "Abono de cine de 15 € al mes para menores de 25 años",
+      "Lenguas cooficiales en las Cortes y en la atención de la Administración del Estado",
+      "Oficialidad del catalán, el euskera y el gallego en la UE",
+      "Ampliar la red del Instituto Cervantes"
+    ],
+    "paginas": [
+      91,
+      103,
+      111
+    ]
+  },
+  "digital": {
+    "postura": "Una tecnología con reglas: protección de los menores y «democracia frente a los tecnooligarcas».",
+    "medidas": [
+      "Edad mínima de 16 años para las redes sociales, con verificación de edad pública y anónima",
+      "Cuentas de menores invisibles por defecto para adultos desconocidos",
+      "Restringir los chatbots de IA a menores de 16 sin consentimiento parental",
+      "Ley de gobernanza de la IA: etiquetado obligatorio y prohibición de deepfakes no consentidos",
+      "Carta de Derechos Digitales con rango de ley y Ley de Transparencia Algorítmica",
+      "Poderes a la CNMC para aplicar la ley europea de servicios digitales",
+      "Hoja de ruta del 6G, banda ancha universal y estrategia de ciberseguridad poscuántica",
+      "Ecosistema nacional de microelectrónica y semiconductores"
+    ],
+    "paginas": [
+      18,
+      94,
+      95,
+      96
+    ]
+  },
+  "juventud": {
+    "postura": "Emancipación, participación y justicia intergeneracional.",
+    "medidas": [
+      "Voto a los 16 años y ley del Consejo de la Juventud",
+      "Defensor de las Generaciones Futuras",
+      "Estatuto del Becario y plan de retorno del talento joven",
+      "Seguro público de impago de alquiler para jóvenes",
+      "Bono Cultural Joven y abono de cine para menores de 25"
+    ],
+    "paginas": [
+      31,
+      42,
+      43,
+      90,
+      91,
+      103
+    ]
+  },
+  "deporte": {
+    "postura": "El deporte como derecho, herramienta de salud y sector económico.",
+    "medidas": [
+      "Desplegar el Estatuto del Deportista",
+      "Estrategia contra el sedentarismo con receta deportiva en atención primaria",
+      "Profesionalización del fútbol femenino e igualdad en los órganos deportivos",
+      "Plan Estratégico del Deporte Español y financiación del deporte olímpico y paralímpico",
+      "Legado social del Mundial 2030"
+    ],
+    "paginas": [
+      55,
+      56
+    ]
+  },
+  "animales": {
+    "postura": "Consolidar la ley de bienestar animal: tolerancia cero al maltrato y abandono cero.",
+    "medidas": [
+      "Retirar la financiación pública a prácticas que amparen el maltrato",
+      "Transformar zoológicos y parques marinos hacia la conservación y la educación",
+      "Incluir a los animales en la legislación sobre violencia vicaria",
+      "Estrategia Estatal de abandono cero",
+      "Rescate de animales en las emergencias de protección civil"
+    ],
+    "paginas": [
+      73
+    ]
+  },
+  "ue_exterior": {
+    "postura": "Multilateralismo y derecho internacional frente a la «internacional ultra»; una UE política y fiscal.",
+    "medidas": [
+      "Reformar la ONU y limitar el veto en el Consejo de Seguridad",
+      "0,7% de la renta nacional bruta en Ayuda Oficial al Desarrollo",
+      "Solución de dos Estados en Israel y Palestina y sanciones de la UE a quien la obstaculice",
+      "Política exterior feminista y primera mujer secretaria general de la ONU",
+      "Unión política y fiscal y fin de la unanimidad en la UE",
+      "Mecanismo Soberano Europeo de deuda común",
+      "Ampliación de la UE a los Balcanes Occidentales",
+      "Ceuta y Melilla en la Unión Aduanera; desplegar el acuerdo de Gibraltar preservando la posición sobre la soberanía",
+      "Apoyo a la soberanía de Ucrania"
+    ],
+    "paginas": [
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+    ]
+  }
+}

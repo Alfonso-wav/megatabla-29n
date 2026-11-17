@@ -37,8 +37,8 @@ página inexistente.
    nuevo, añadir la materia a `materias.json` y revisar los demás programas para ese tema
    (grep en `data/text/`): los que no lo mencionen llevan `null`.
 
-Estado a 16/11/2026: publicados PP, Vox, ERC, PNV, BNG, CC, Existe, Soria Ya, Adelante Andalucía y Frente Amplio; pendientes PSOE,
-Podemos, Junts, EH Bildu y SALF.
+Estado a 17/11/2026: publicados PP, PSOE, Vox, Frente Amplio, ERC, PNV, BNG, CC, Existe, Soria Ya, Adelante Andalucía, EH Bildu, SALF, PACMA y D21;
+pendientes Podemos (solo ha publicado cinco medidas en pazcasaytrabajo.es), Junts y el resto.
 
 ## Listas de candidatos
 

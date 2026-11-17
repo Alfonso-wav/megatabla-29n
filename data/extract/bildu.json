@@ -1,0 +1,303 @@
+{
+  "vivienda": {
+    "postura": "Romper con el mercado especulativo: prórroga automática de los alquileres, fin de los desahucios sin alternativa y prohibición de la compra especulativa.",
+    "medidas": [
+      "Contratos de alquiler con prórroga automática",
+      "Prohibición estructural de desahucios de personas vulnerables sin alternativa habitacional, con compensación estatal",
+      "Prohibir la compra especulativa de vivienda a fondos, empresas con ánimo de lucro y grandes tenedores",
+      "Extranjeros multipropietarios: dos años empadronados antes de comprar y uso como vivienda habitual o alquiler regulado",
+      "Tope permanente del 2% a la actualización anual de las rentas",
+      "IVA del 21% al alquiler turístico de corta duración y prohibir la publicidad de pisos turísticos ilegales",
+      "Eliminar las SOCIMI y sus ventajas fiscales",
+      "Financiación estatal para ayuntamientos que declaren zonas tensionadas",
+      "Ayudas a la rehabilitación condicionadas a mantener a los inquilinos y limitar el alquiler"
+    ],
+    "paginas": [5, 6, 18]
+  },
+  "empleo": {
+    "postura": "Salarios dignos y semana de 32 horas, con un Marco Vasco y Navarro de Relaciones Laborales.",
+    "medidas": [
+      "Jornada de 32 horas o de 4 días sin reducción salarial (pymes, 35 horas primero y 3 años de transición)",
+      "SMI propio por comunidad autónoma, con el estatal como mínimo, y referencia de la Carta Social Europea",
+      "Despido improcedente de al menos 45 días, salarios de tramitación y autorización administrativa previa para los ERE",
+      "Registro horario digital obligatorio y recargo legal de las horas extra",
+      "Periodo de prueba máximo de 3 meses (titulados) y 1 mes (resto) sin convenio",
+      "Equiparación plena de las empleadas de hogar y revisión del régimen de internas",
+      "Transferencia completa de la Inspección de Trabajo y de las políticas pasivas de empleo a Navarra",
+      "Reconocimiento del Marco Vasco y Navarro de Relaciones Laborales"
+    ],
+    "paginas": [6, 7]
+  },
+  "pensiones": {
+    "postura": "Sistema público blindado y pensiones suficientes, con la Seguridad Social transferida a Euskadi y Navarra.",
+    "medidas": [
+      "Rechazar recortes, privatización o retraso de la edad de jubilación; revalorización anual con el IPC",
+      "Pensiones mínimas de al menos 1.220 €, ligadas al SMI",
+      "Subida de al menos el 15% de las pensiones de viudedad y no contributivas",
+      "Jubilación sin penalización con 40 años cotizados",
+      "Transferencia del régimen económico de la Seguridad Social a las instituciones vascas y navarras"
+    ],
+    "paginas": [7, 8]
+  },
+  "fiscalidad": {
+    "postura": "Que las grandes empresas aporten lo que deben, con nuevos impuestos concertados con las haciendas forales.",
+    "medidas": [
+      "Impuesto permanente a las energéticas, concertado con las haciendas forales",
+      "Más presión fiscal a la banca y a las grandes fortunas",
+      "Nuevo impuesto sobre los beneficios de las grandes distribuidoras alimentarias",
+      "Gravamen permanente a los beneficios extraordinarios energéticos",
+      "Fin de las subvenciones a los fósiles: equiparar el impuesto de hidrocarburos y gravar el queroseno",
+      "Gravamen a los vuelos privados y tasa finalista a los billetes de avión",
+      "Derogar la reforma del artículo 135 de la Constitución y las reglas fiscales que limitan la inversión local"
+    ],
+    "paginas": [14, 18]
+  },
+  "economia": {
+    "postura": "Intervención pública en la formación de precios y reindustrialización ecosocial apoyada en el modelo cooperativo vasco.",
+    "medidas": [
+      "Mecanismo para obligar a energéticas y alimentarias a absorber parte de las subidas de costes con sus márgenes",
+      "Límites temporales a los precios de la luz, el gas, los combustibles, el transporte y los productos básicos en emergencias",
+      "Control de precios y márgenes de las grandes distribuidoras y lucha contra la reduflación",
+      "«Made in Europe»: ayudas y contratación pública condicionadas a descarbonización, empleo digno y valor añadido",
+      "Impulso legislativo a la economía social y a las cooperativas industriales; recuperación de empresas en crisis por sus trabajadores"
+    ],
+    "paginas": [8, 9, 16]
+  },
+  "administracion": {
+    "postura": "Atención presencial garantizada y conocimiento del euskera en la Administración del Estado en Euskadi y Navarra.",
+    "medidas": [
+      "Canales presenciales obligatorios para cualquier trámite mientras exista brecha digital",
+      "Procedimientos abreviados para prestaciones por desempleo y ayudas a colectivos vulnerables",
+      "Control del comercio fraudulento de citas presenciales",
+      "Exigir el euskera en los servicios de la Administración del Estado en Araba, Bizkaia, Gipuzkoa y Navarra",
+      "Que las administraciones vascas y navarras decidan las subidas salariales de su plantilla sin límites estatales"
+    ],
+    "paginas": [12, 13]
+  },
+  "energia": {
+    "postura": "Acelerar la descarbonización con electrificación y renovables con retorno local, manteniendo el calendario de cierre nuclear.",
+    "medidas": [
+      "Revisar al alza el PNIEC y adelantar la descarbonización a 2045 como tarde",
+      "Despliegue renovable rápido con participación pública y comunitaria, compatible con la soberanía alimentaria",
+      "Mantener el calendario de cierre nuclear del PNIEC",
+      "Objetivos vinculantes de electrificación y refuerzo de redes y almacenamiento",
+      "Reformar el mercado eléctrico marginalista y recuperar el tope al gas en crisis",
+      "Impulso al autoconsumo y a las comunidades energéticas; bono social automático"
+    ],
+    "paginas": [8, 9, 15, 16]
+  },
+  "medio_ambiente": {
+    "postura": "Transición ecosocial urgente ante la emergencia climática, con adaptación desde la comarca.",
+    "medidas": [
+      "Estrategia de adaptación «de abajo arriba», con la comarca como unidad",
+      "Reducción urgente de los combustibles fósiles en todos los sectores",
+      "Ayudas para sustituir calderas fósiles por bombas de calor y rehabilitación energética hasta el 100% para rentas bajas",
+      "Centros de datos condicionados a criterios de sostenibilidad energética y de agua",
+      "Desmantelar el polígono de tiro de las Bardenas, espacio protegido"
+    ],
+    "paginas": [15, 16, 18, 21, 28]
+  },
+  "sector_primario": {
+    "postura": "Soberanía alimentaria: política agraria y pesquera propias de Euskal Herria dentro de la UE.",
+    "medidas": [
+      "Renacionalizar y territorializar la PAC para una política agraria vasca propia",
+      "Regionalizar la Política Pesquera Común",
+      "Seguridad Social Alimentaria y precios justos en origen",
+      "Compra pública de alimentos sostenibles y de proximidad en comedores escolares, hospitales y residencias",
+      "Reforzar la Ley de la Cadena Alimentaria y su Observatorio",
+      "Sello «ECOREGENERATIVA» y expansión de la producción ecológica"
+    ],
+    "paginas": [16, 17]
+  },
+  "infraestructuras": {
+    "postura": "Transferencia de ferrocarril, puertos y aeropuertos, y «más tren para la movilidad cotidiana» en lugar de alta velocidad donde sea posible.",
+    "medidas": [
+      "Transferir a la CAPV y Navarra las competencias ferroviarias, aeroportuarias y portuarias",
+      "Renovar las vías como alternativa a la alta velocidad en el corredor navarro y la conexión con Burgos («una plataforma, tres servicios»)",
+      "Reforzar Cercanías y Media Distancia y las conexiones con Ipar Euskal Herria",
+      "Objetivos de trasvase de mercancías de la carretera al tren",
+      "Mantener las rebajas al transporte público, gestionadas por las instituciones vascas",
+      "Ayudas al coche eléctrico según renta, leasing social y fin de las ayudas a híbridos"
+    ],
+    "paginas": [9, 17, 18]
+  },
+  "sanidad": {
+    "postura": "Asumir las competencias sanitarias que quedan en el Estado y frenar la privatización.",
+    "medidas": [
+      "Ampliar la cartera común con salud bucodental y visual para colectivos vulnerables",
+      "Gratuidad de productos de higiene menstrual y de preservativos en farmacias",
+      "Restringir la publicidad de ultraprocesados y bebidas azucaradas a menores",
+      "Reformar la ley de eutanasia para incluir el sufrimiento psíquico y evitar la intromisión judicial",
+      "Derogar la Ley 15/1997 que permite la gestión privada de la sanidad",
+      "Farmacia pública con las comunidades autónomas",
+      "Reservar el 53% de las plazas MIR, EIR y PIR en Euskadi a quienes dominen las dos lenguas, y transferir la formación sanitaria especializada",
+      "Nuevo modelo de salud mental centrado en los determinantes sociales"
+    ],
+    "paginas": [10, 11]
+  },
+  "educacion": {
+    "postura": "Un sistema educativo propio para Euskal Herria: público, inclusivo, laico, euskaldun y soberano.",
+    "medidas": [
+      "Bajada de ratios aprovechando el descenso de la natalidad",
+      "Estabilizar y mejorar las condiciones del profesorado",
+      "Inversión progresiva hasta el 6% del PIB, según la UNESCO",
+      "Reforzar la atención al alumnado con necesidades educativas especiales"
+    ],
+    "paginas": [11, 12]
+  },
+  "ciencia": null,
+  "servicios_sociales": {
+    "postura": "Mantener y reforzar el escudo social y avanzar hacia un sistema de cuidados universal y gratuito.",
+    "medidas": [
+      "Prohibición permanente de cortar suministros básicos a hogares vulnerables",
+      "Bonos sociales eléctrico y térmico automáticos",
+      "Subir el IPREM con el IPC y un aumento extraordinario",
+      "Transferencia integral del Ingreso Mínimo Vital; mientras tanto, más cuantía y acceso",
+      "Cuidados universales y gratuitos, con menos privatización",
+      "Prestaciones de dependencia con efecto desde la fecha de solicitud y copago solo de alojamiento y manutención",
+      "Cumplimiento real de la cuota de reserva de empleo para personas con discapacidad"
+    ],
+    "paginas": [7, 12, 13]
+  },
+  "familia_infancia": {
+    "postura": "Conciliación igualitaria y permisos como derecho de la infancia.",
+    "medidas": [
+      "Ampliar los permisos de las familias monoparentales al tiempo de dos progenitores",
+      "Permisos de maternidad preparto y puerperal universales y retribuidos",
+      "Prestaciones de crianza autonómicas compatibles con el IMV",
+      "Mejores prestaciones por cuidado de menores con cáncer u otras enfermedades graves",
+      "Cumplimiento íntegro de la directiva europea de conciliación"
+    ],
+    "paginas": [13, 14]
+  },
+  "igualdad": {
+    "postura": "Blindar los derechos conquistados por las mujeres frente a la ofensiva reaccionaria.",
+    "medidas": [
+      "Blindar el derecho al aborto y perímetros de protección frente al acoso en las clínicas",
+      "Reconocer y penalizar la violencia vicaria",
+      "Prevenir la violencia sexual digital",
+      "Combatir los discursos antifeministas y revisar los recursos de protección a las víctimas",
+      "Prevenir la violencia obstétrica"
+    ],
+    "paginas": [10, 19]
+  },
+  "lgtbi": {
+    "postura": "Ningún retroceso en los derechos LGTBIQ+, especialmente en la despatologización trans.",
+    "medidas": [
+      "Prohibir las terapias de conversión",
+      "Reforzar la investigación de los delitos de odio, también en redes sociales",
+      "Campañas de prevención de ITS y VIH en educación y ocio",
+      "Desarrollar el artículo 50 de la ley trans sobre documentos de personas extranjeras"
+    ],
+    "paginas": [19]
+  },
+  "inmigracion": {
+    "postura": "Regularización, nueva Ley de Extranjería basada en derechos humanos y un modelo vasco de acogida propio.",
+    "medidas": [
+      "Regularización efectiva y estable y nueva Ley de Extranjería",
+      "Rechazo al Pacto Europeo de Migración y Asilo, las devoluciones sumarias y los CIE",
+      "Acceso a sanidad, educación, vivienda y protección social sea cual sea la situación administrativa",
+      "Derecho de voto para los residentes de origen extranjero",
+      "Más personal en las oficinas de extranjería de Euskadi y Navarra",
+      "Transferencia integral de las competencias de migración"
+    ],
+    "paginas": [14, 20]
+  },
+  "seguridad": {
+    "postura": "Acabar con la «Ley Mordaza» y replegar a Policía y Guardia Civil de Euskadi y Navarra.",
+    "medidas": [
+      "Reformar la Ley de Seguridad Ciudadana: fin de las pelotas de goma y de las sanciones por interpretación policial",
+      "Desobediencia de grave a leve, con criterios objetivos",
+      "Repliegue de las Fuerzas y Cuerpos de Seguridad del Estado de Euskadi y Navarra, en favor de Ertzaintza y Policía Foral",
+      "Retirar condecoraciones a agentes implicados en vulneraciones de derechos humanos"
+    ],
+    "paginas": [22, 27]
+  },
+  "defensa": {
+    "postura": "No a la OTAN, rechazo al aumento del gasto militar y una seguridad europea independiente de EEUU.",
+    "medidas": [
+      "Rechazar el aumento del gasto en defensa que exige la OTAN y el envío de armas",
+      "Salida de Euskal Herria de la OTAN, según el referéndum de 1986",
+      "Cerrar el polígono de tiro de las Bardenas, con planes de reconversión",
+      "Impedir el uso de Rota y Morón por EEUU y la salida de las tropas estadounidenses de Europa",
+      "Adhesión al Tratado sobre la Prohibición de las Armas Nucleares"
+    ],
+    "paginas": [28]
+  },
+  "justicia": {
+    "postura": "Fin de las medidas de excepción penitenciarias y justicia en euskera.",
+    "medidas": [
+      "Aplicar la legislación penitenciaria ordinaria a todos los presos, de forma individualizada",
+      "Exigir el euskera también en la Administración de Justicia en Euskadi y Navarra"
+    ],
+    "paginas": [12, 27]
+  },
+  "democracia": {
+    "postura": "Superar el «Régimen del 78» con libertades plenas y una memoria que reconozca a todas las víctimas.",
+    "medidas": [
+      "Despenalizar las injurias a la Corona y a las instituciones, la ofensa a los sentimientos religiosos y limitar el enaltecimiento del terrorismo",
+      "Delimitar el «discurso de odio» para que proteja a colectivos vulnerables",
+      "Ampliar la Ley de Memoria Democrática a víctimas del franquismo, la tortura, la guerra sucia y la ultraderecha",
+      "Derogar la Ley de Secretos Oficiales",
+      "Reforma de la publicidad institucional: sin fondos para la desinformación y con medios en euskera, catalán y gallego"
+    ],
+    "paginas": [22, 23, 27]
+  },
+  "territorial": {
+    "postura": "Reconocimiento de Euskal Herria como nación y del derecho a decidir; ampliar el autogobierno y el Concierto.",
+    "medidas": [
+      "Reconocer el Estado como plurinacional y a Euskal Herria como nación",
+      "Derecho a decidir del pueblo vasco y respeto a los nuevos estatus que refrende la sociedad vasca",
+      "Transferir todas las competencias pendientes del Estatuto y del Amejoramiento",
+      "Nuevas competencias: migración, Seguridad Social, desempleo, puertos y aeropuertos, energía y relaciones laborales",
+      "Ampliar el Concierto y el Convenio y un nuevo cálculo del Cupo y la Aportación",
+      "Concertar con las haciendas forales cualquier nuevo impuesto estatal"
+    ],
+    "paginas": [18, 23, 24]
+  },
+  "lengua_cultura": {
+    "postura": "Garantizar los derechos lingüísticos en euskera y proteger la creación cultural en lenguas cooficiales.",
+    "medidas": [
+      "Atención en euskera en todas las administraciones del Estado",
+      "Más euskera en plataformas digitales y audiovisuales",
+      "Oficialidad del euskera, el catalán y el gallego en la UE",
+      "Reconocimiento del asturiano y el aragonés",
+      "Al menos el 15% del Fondo de Protección de la Cinematografía para proyectos en lenguas cooficiales",
+      "Definición estricta de «productor independiente» y cuotas para mujeres, jóvenes y lenguas cooficiales"
+    ],
+    "paginas": [25]
+  },
+  "digital": {
+    "postura": "IA bajo control democrático y soberanía digital europea, con el euskera presente en los modelos.",
+    "medidas": [
+      "Transparencia y auditoría de las decisiones automatizadas según el Reglamento europeo de IA",
+      "Infraestructuras y computación propias; participación vasca en EuroHPC; prioridad al software libre",
+      "Reducir la jornada sin bajar el sueldo aprovechando la IA",
+      "Financiar tecnologías lingüísticas y modelos de lenguaje en euskera",
+      "Desactivar por defecto la recomendación algorítmica por perfiles para menores"
+    ],
+    "paginas": [16, 20, 21]
+  },
+  "juventud": null,
+  "deporte": {
+    "postura": "Selecciones vascas oficiales en competiciones internacionales.",
+    "medidas": [
+      "Cambiar la ley para que las selecciones de Euskal Herria compitan internacionalmente",
+      "Eliminar las sanciones a deportistas que no quieran ir con la selección española"
+    ],
+    "paginas": [26]
+  },
+  "animales": null,
+  "ue_exterior": {
+    "postura": "Diálogo y derecho internacional frente a las guerras; aislamiento de Israel y autodeterminación del Sáhara.",
+    "medidas": [
+      "Seguridad europea autónoma de EEUU, según el principio de seguridad indivisible y la OSCE",
+      "Romper el acuerdo UE-Israel, embargo total de armas y fin de las relaciones comerciales con empresas israelíes",
+      "Revertir el giro sobre el Sáhara y apoyar su autodeterminación",
+      "Fin del bloqueo de EEUU a Cuba",
+      "Defensa del multilateralismo y del derecho internacional",
+      "Reforma del mercado eléctrico europeo"
+    ],
+    "paginas": [9, 28, 29]
+  }
+}

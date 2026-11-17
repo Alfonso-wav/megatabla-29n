@@ -1,0 +1,260 @@
+{
+  "vivienda": {
+    "postura": "Más vivienda social en compra y alquiler e incentivos a los pequeños propietarios que alquilen por debajo del precio medio.",
+    "medidas": [
+      "Ampliar el parque de vivienda social y acordar con los bancos el alquiler social de sus viviendas vacías",
+      "Bonificación del 100% en el IRPF o exención del IBI a quien alquile un 10-15% por debajo del precio medio de la zona",
+      "Rebajas temporales del ITP y del IVA para compradores de primera vivienda",
+      "Registro obligatorio del alquiler por habitaciones y de temporada",
+      "Recargos fiscales a la compra de vivienda por fondos y no residentes",
+      "Reformar la LAU para anular las cláusulas que prohíben animales de compañía"
+    ],
+    "paginas": [69, 70]
+  },
+  "empleo": {
+    "postura": "Empleo justo y de calidad, con igualdad salarial, conciliación y menos estacionalidad.",
+    "medidas": [
+      "Planes de igualdad en las empresas y medidas contra la brecha salarial",
+      "Plan nacional de formación, empleo y accesibilidad para personas con discapacidad",
+      "Oferta turística alternativa para reducir la estacionalidad del empleo",
+      "Reconversión de la industria y de la construcción hacia modelos sostenibles",
+      "Bonificaciones fiscales, asesoramiento gratuito y menos trabas para emprendedores, autónomos y pymes",
+      "Reforzar la negociación en salud laboral y las competencias de los delegados de prevención"
+    ],
+    "paginas": [57, 64, 65, 66, 67, 68, 69]
+  },
+  "pensiones": null,
+  "fiscalidad": {
+    "postura": "Fiscalidad verde sobre los productos de origen animal y lucha contra el fraude fiscal.",
+    "medidas": [
+      "Impuesto climático a los productos de origen animal y a las explotaciones ganaderas según sus emisiones",
+      "Reducir el IVA de los servicios veterinarios y deducciones fiscales por sus gastos",
+      "Controles fiscales más rigurosos contra un fraude estimado en el 6% del PIB",
+      "Sistema unificado de evaluación de la eficacia del gasto público en todas las administraciones"
+    ],
+    "paginas": [30, 37, 39, 72]
+  },
+  "economia": {
+    "postura": "Reactivar un tejido productivo «ético y sostenible» y apoyar a pymes y autónomos.",
+    "medidas": [
+      "Reconversión de centros industriales con I+D+i",
+      "Más bonificaciones fiscales a emprendedores, startups y empresas innovadoras",
+      "Censo y portal de empresas de nueva creación",
+      "Estrategia nacional de turismo sostenible y Observatorio de Turismo y Sostenibilidad",
+      "Fin a la obsolescencia programada y productos duraderos y reparables"
+    ],
+    "paginas": [44, 45, 51, 67, 68, 69]
+  },
+  "administracion": {
+    "postura": "Transparencia en la gestión pública y fin del uso partidista de los cargos de libre designación.",
+    "medidas": [
+      "Publicar la ejecución presupuestaria con el mismo detalle que los presupuestos",
+      "Libre designación solo para el nivel superior de cada administración",
+      "Evaluación unificada de la eficacia del gasto público"
+    ],
+    "paginas": [72, 73]
+  },
+  "energia": {
+    "postura": "Modelo energético renovable y eficiente, con menos consumo y comunidades energéticas locales.",
+    "medidas": [
+      "Objetivos de clima y energía más ambiciosos y renovables integradas en urbanismo, edificación y transporte",
+      "Edificios de consumo casi nulo y sistemas alternativos de calefacción y refrigeración",
+      "Comunidades energéticas cooperativas, sobre todo en zonas rurales",
+      "Garantizar el acceso a la energía de los hogares vulnerables"
+    ],
+    "paginas": [34, 54, 55]
+  },
+  "medio_ambiente": {
+    "postura": "Frenar el cambio climático cambiando la energía y la alimentación: no a las macrogranjas y fomento de la dieta vegetal.",
+    "medidas": [
+      "Moratoria a nuevas macrogranjas y ampliaciones; límites estatales al tamaño de las explotaciones y fin de las subvenciones",
+      "Etiquetado de huella de carbono y aviso en las carnes procesadas cancerígenas según la OMS",
+      "Fin de las campañas institucionales de promoción de productos animales",
+      "Prohibir el glifosato y otros plaguicidas peligrosos",
+      "Áreas protegidas en al menos el 30% del territorio en 2030",
+      "Prohibir las granjas de pulpos y la venta de carne y aletas de tiburón",
+      "Norma para proteger la fauna de las infraestructuras humanas",
+      "Ley nacional contra la contaminación acústica y lumínica y prohibición de la pirotecnia",
+      "Ríos vivos y ahorro efectivo de agua"
+    ],
+    "paginas": [33, 37, 38, 39, 40, 41, 42, 43, 45, 46, 47, 48, 52, 53]
+  },
+  "sector_primario": {
+    "postura": "Agricultura ecológica y local frente a las subvenciones a ganadería y pesca.",
+    "medidas": [
+      "Más subvenciones a la agricultura en detrimento de la ganadería y la pesca",
+      "Ayudas directas redistribuidas hacia explotaciones pequeñas y sostenibles",
+      "Canales cooperativos de comercialización al margen de las multinacionales",
+      "Comedores públicos abastecidos con producto local y ecológico",
+      "Contra las piscifactorías",
+      "Plan de recuperación rural con asesoramiento integral para quien quiera vivir y emprender en el campo"
+    ],
+    "paginas": [40, 43, 44, 68, 70]
+  },
+  "infraestructuras": {
+    "postura": "Movilidad basada en energías limpias, transporte público y bicicleta.",
+    "medidas": [
+      "Reducir la demanda de transporte urbano y favorecer el desplazamiento a pie, en bici y en transporte público",
+      "Fomento del teletrabajo para reducir el tráfico",
+      "Medidas obligatorias de protección de la fauna en carreteras, vías y balsas"
+    ],
+    "paginas": [35, 36, 48]
+  },
+  "sanidad": {
+    "postura": "Sanidad pública, universal y sin copago, con más salud mental, bucodental y nutrición.",
+    "medidas": [
+      "Reintegrar al sistema público los servicios privatizados y reforzar la atención primaria",
+      "Oposición al copago",
+      "Dietistas-nutricionistas en la sanidad pública",
+      "Más psiquiatras y psicólogos y estrategia de prevención del suicidio",
+      "Incorporar la salud bucodental a la sanidad pública"
+    ],
+    "paginas": [55, 56, 57, 58]
+  },
+  "educacion": {
+    "postura": "Pacto de Estado por una educación pública, laica y de calidad.",
+    "medidas": [
+      "Más becas y plazas públicas suficientes de 0 a 3 años",
+      "Libros de texto gratuitos y transporte y comedor gratis para familias vulnerables",
+      "Menos alumnos por profesor en todas las etapas",
+      "Opción de menú 100% vegetal en todos los comedores escolares",
+      "Revisar los conciertos con la enseñanza privada",
+      "Respeto y empatía hacia los animales como objetivo educativo transversal",
+      "Contenidos sobre diversidad sexual, de género y familiar"
+    ],
+    "paginas": [24, 59, 60, 61, 62]
+  },
+  "ciencia": {
+    "postura": "I+D+i orientada al bien común y fin de la experimentación con animales.",
+    "medidas": [
+      "Más inversión en I+D+i y en ayudas predoctorales y postdoctorales",
+      "Acceso libre a la investigación financiada con fondos públicos",
+      "Estrategia nacional para acabar con la experimentación animal y financiar métodos sustitutivos",
+      "Fomento de productos «plant-based»"
+    ],
+    "paginas": [29, 71, 72]
+  },
+  "servicios_sociales": {
+    "postura": "Equidad social: garantizar alimentación, agua y energía y más recursos para mayores y personas con discapacidad.",
+    "medidas": [
+      "Estrategia Nacional de Seguridad Alimentaria y Nutrición con economatos sociales",
+      "Garantizar el acceso al agua de las personas vulnerables",
+      "Más centros de día y plazas en residencias públicas y programas contra la soledad",
+      "Accesibilidad física y cognitiva (lectura fácil, pictogramas)",
+      "Acceso de animales de compañía a residencias y albergues para personas sin hogar"
+    ],
+    "paginas": [19, 54, 79, 80, 81]
+  },
+  "familia_infancia": {
+    "postura": "Conciliación con apoyo a las familias y protección de la infancia frente a la tauromaquia.",
+    "medidas": [
+      "Planes de apoyo a las familias con ayudas económicas y servicios",
+      "Prohibir la presencia de menores en espectáculos taurinos, como pide la ONU",
+      "Plazas públicas suficientes de 0 a 3 años"
+    ],
+    "paginas": [60, 65, 77, 78]
+  },
+  "igualdad": {
+    "postura": "Igualdad real en el empleo y medidas específicas contra la violencia machista.",
+    "medidas": [
+      "Programas de prevención en todas las etapas educativas y protocolos de detección en sanidad",
+      "Unidades policiales especializadas 24 horas y unidades de valoración forense",
+      "Reconocer legalmente la violencia vicaria ejercida sobre los animales",
+      "Más casas de acogida y que admitan a los animales de las víctimas",
+      "Candidaturas con al menos la mitad de mujeres"
+    ],
+    "paginas": [19, 64, 75, 76, 77]
+  },
+  "lgtbi": {
+    "postura": "Contra toda discriminación por diversidad sexual, de género y familiar.",
+    "medidas": [
+      "Prevenir el acoso LGTBIfóbico en los centros educativos",
+      "Servicios de apoyo a jóvenes LGTBI+ y programas de atención psicológica",
+      "Reconocer a las familias LGTBI+ en las políticas familiares"
+    ],
+    "paginas": [80]
+  },
+  "inmigracion": {
+    "postura": "Acogida digna y acceso unificado a derechos para migrantes y refugiados.",
+    "medidas": [
+      "Acceso unificado a educación, sanidad y alojamiento",
+      "Más plazas de acogida, con atención a los menores no acompañados",
+      "Campañas contra la xenofobia y el racismo",
+      "Homologación de títulos más ágil"
+    ],
+    "paginas": [67, 81]
+  },
+  "seguridad": {
+    "postura": "Unidades policiales especializadas en protección animal y en violencia machista.",
+    "medidas": [
+      "Unidades especializadas en protección animal en las Fuerzas y Cuerpos de Seguridad del Estado",
+      "Unidades policiales de violencia machista disponibles las 24 horas"
+    ],
+    "paginas": [23, 76]
+  },
+  "defensa": null,
+  "justicia": {
+    "postura": "Penas efectivas contra el maltrato animal y medidas contra la corrupción.",
+    "medidas": [
+      "Suprimir la multa como alternativa a la prisión por maltrato animal y más de cinco años de prisión en el tipo agravado",
+      "Unidad especializada en protección animal en la Fiscalía General del Estado",
+      "Eliminar los aforamientos",
+      "Ley de Transparencia efectiva y más control de la contratación pública",
+      "Formación especializada en violencia machista para jueces, fiscales y forenses"
+    ],
+    "paginas": [22, 23, 72, 73, 77]
+  },
+  "democracia": {
+    "postura": "Democracia «real y participativa»: ley electoral proporcional y más iniciativa popular.",
+    "medidas": [
+      "Circunscripción única, sin barrera electoral y con reparto proporcional",
+      "Sin firmas para avalar candidaturas y subvención por voto aunque no se obtenga escaño",
+      "Igualdad de acceso de todos los partidos a los medios públicos",
+      "ILP con menos firmas, sin materias excluidas y toma en consideración obligatoria",
+      "Despolitizar los medios de comunicación públicos",
+      "Publicar las cuentas electorales de los partidos en tres meses"
+    ],
+    "paginas": [73, 74, 75]
+  },
+  "territorial": null,
+  "lengua_cultura": {
+    "postura": "Cultura accesible y asequible y apoyo a la creación artística.",
+    "medidas": [
+      "Más enseñanza artística en los centros públicos",
+      "Subvenciones a creadores y entidades culturales e incentivos al cine",
+      "Estrategia de Turismo Cultural",
+      "Apoyo a las bibliotecas como centros culturales",
+      "Fin de la financiación pública de los festejos taurinos"
+    ],
+    "paginas": [6, 10, 62, 63]
+  },
+  "digital": null,
+  "juventud": {
+    "postura": "Formación y ocio alternativo para la juventud.",
+    "medidas": [
+      "FP adaptada al mercado laboral y becas que eviten el abandono temprano de los estudios",
+      "Ocio nocturno alternativo: cursos, talleres y festivales gratuitos o baratos los fines de semana",
+      "Espacios para la creación artística joven (locales de ensayo, exposiciones)"
+    ],
+    "paginas": [66, 81, 82]
+  },
+  "deporte": null,
+  "animales": {
+    "postura": "Eje central del programa: una «Ley Cero» de protección de todos los animales, sin excepciones, y abolición de la tauromaquia y la caza.",
+    "medidas": [
+      "Nueva Ley de Bienestar y Protección de los Animales sin exclusiones, también para perros de caza",
+      "Prohibir la compraventa de animales de compañía y esterilización obligatoria",
+      "Abandono y sacrificio cero y método CER para colonias felinas",
+      "Abolir la tauromaquia y todos los festejos con animales; fin de zoológicos y acuarios",
+      "Oposición a la caza, prohibir el uso de animales para cazar y proteger al lobo y al zorro",
+      "Prohibir granjas peleteras, jaulas en ganadería, amputaciones no curativas, foie gras y sacrificio sin aturdimiento (halal y kosher)",
+      "Límites al transporte de animales y etiquetado del sistema de cría y sacrificio",
+      "Dirección General de Bienestar Animal y reconocimiento legal de los santuarios",
+      "Penas de prisión efectivas por maltrato y protección de los invertebrados",
+      "Ley de Grandes Simios y fin de la experimentación con animales",
+      "Clínicas veterinarias como centros sanitarios y rebaja del IVA veterinario"
+    ],
+    "paginas": [7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 22, 25, 26, 27, 29, 30]
+  },
+  "ue_exterior": null
+}

@@ -1,5 +1,5 @@
 {
-  "fechaCorte": "2026-11-16",
+  "fechaCorte": "2026-11-17",
   "eleccion": "Elecciones generales del 29 de noviembre de 2026",
   "partidos": [
     {
@@ -131,18 +131,78 @@
       "sha256": "516c5c6caaa04d0bd6f28770a49ae312f79ff3ebcf48967db66adc4ce2335424",
       "nota": "151 páginas en 18 capítulos, con seis «grandes transformaciones» en la introducción. Fecha: detectado el 16/11 a través de la web de IU, que lo enlazó ese día; el PDF no indica fecha. No trae propuestas de deporte. El PDF se actualizó el 17/11 (cultura: del 0,2 % del PIB al 2 % del gasto público; nuevas medidas de autónomos y salarios)."
     },
-    { "id": "psoe", "nombre": "PSOE", "siglas": "PSOE", "estado": "pendiente" },
+    {
+      "id": "psoe",
+      "nombre": "PSOE",
+      "siglas": "PSOE",
+      "estado": "publicado",
+      "titulo": "La fuerza de seguir avanzando. Programa elecciones generales 29 noviembre 2026",
+      "fechaPublicacion": "2026-11-15",
+      "idioma": "es",
+      "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+      "archivo": "psoe.pdf",
+      "sha256": "e9c8341339538b550641b6ddb1c3fdfeef7fda6a8a1a4be9e8d6a44cbc229bf5",
+      "nota": "114 páginas y 500 compromisos numerados. Presentado el 15/11. La web del PSOE bloquea las descargas automáticas (Incapsula): la copia local se obtuvo del repositorio jynus/programas-electorales-29n-generales-2026, que la descargó de esa misma URL y publica el mismo SHA-256."
+    },
+    {
+      "id": "salf",
+      "nombre": "Se Acabó La Fiesta",
+      "siglas": "SALF",
+      "estado": "publicado",
+      "titulo": "Contrato electoral simplificado. Generales 2026",
+      "fechaPublicacion": "2026-11-17",
+      "idioma": "es",
+      "url": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf",
+      "archivo": "salf.pdf",
+      "sha256": "073425b9522da77608a0399923c2e0d3b9153776e8a0436ac8f0aea794b7893b",
+      "nota": "40 páginas: 10 compromisos con 119 medidas y una «cláusula de penalización» sobre el sueldo de Alvise Pérez. Fecha: detectado el 17/11; el PDF no indica fecha. No trata igualdad, LGTBI, digitalización, deporte ni animales."
+    },
+    {
+      "id": "bildu",
+      "nombre": "EH Bildu",
+      "siglas": "Bildu",
+      "estado": "publicado",
+      "titulo": "Programa. Garantía y derechos",
+      "fechaPublicacion": "2026-11-16",
+      "idioma": "es",
+      "url": "https://ehbildu.eus/media/dokumentuak/posibleegin-programa-cas.pdf",
+      "archivo": "bildu.pdf",
+      "sha256": "ceb655c9c8ebb036a15fa7829865d6e2d178525eb7db92629d702ac5e8d16047",
+      "nota": "30 páginas en tres bloques: derechos y libertades, reconocimiento nacional y autogobierno, y paz y convivencia. Versión en castellano; hay otra en euskera (posibleegin-programa-eus.pdf). Fecha: Naiz lo enlazó el 16/11."
+    },
+    {
+      "id": "pacma",
+      "nombre": "Partido Animalista PACMA",
+      "siglas": "PACMA",
+      "estado": "publicado",
+      "titulo": "Programa electoral Elecciones Generales 29N 2026",
+      "fechaPublicacion": "2026-11-17",
+      "idioma": "es",
+      "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+      "archivo": "pacma.pdf",
+      "sha256": "6009e569e3bfd4f607b8831ade1d1ef33cbbda6033805e3ebc331d4dd0e30a1d",
+      "nota": "82 páginas en tres bloques: animales (la mitad del programa), medio ambiente y personas. Fecha: detectado el 17/11; el PDF no indica fecha. No trata pensiones, defensa, modelo territorial, digitalización, deporte ni política exterior."
+    },
+    {
+      "id": "d21",
+      "nombre": "Democracia para el Siglo 21 (Democracia 21, Cs, UCIN)",
+      "siglas": "D21",
+      "estado": "publicado",
+      "titulo": "España Limpia",
+      "fechaPublicacion": "2026-11-17",
+      "idioma": "es",
+      "url": "https://democracia21.es/docs/espana-limpia-democracia21.pdf",
+      "archivo": "d21.pdf",
+      "sha256": "bfa89b7218cd6a76d0eff86a1f6aad0a2e8c7c14a5d88f18ea002658bab4e1de",
+      "nota": "13 páginas dedicadas solo a regeneración: clientelismo, corrupción, independencia de las instituciones, aforamientos y sistema electoral. El resto de materias, NS/NC. Fecha: detectado el 17/11; el PDF no indica fecha."
+    },
     { "id": "podemos", "nombre": "Podemos", "siglas": "Podemos", "estado": "pendiente" },
-    { "id": "salf", "nombre": "Se Acabó La Fiesta", "siglas": "SALF", "estado": "pendiente" },
     { "id": "junts", "nombre": "Junts per Catalunya", "siglas": "Junts", "estado": "pendiente" },
-    { "id": "bildu", "nombre": "EH Bildu", "siglas": "Bildu", "estado": "pendiente" },
-    { "id": "pacma", "nombre": "Partido Animalista PACMA", "siglas": "PACMA", "estado": "pendiente" },
     { "id": "compromis", "nombre": "Compromís – Front Valencià", "siglas": "Compromís", "estado": "pendiente" },
     { "id": "upc", "nombre": "Unidad del Pueblo Canario (NC-BC, Podemos, IUC, Sumar)", "siglas": "UPC", "estado": "pendiente" },
     { "id": "geroabai", "nombre": "Geroa Bai", "siglas": "Geroa Bai", "estado": "pendiente" },
     { "id": "ac", "nombre": "Aliança Catalana", "siglas": "AC", "estado": "pendiente" },
     { "id": "frenteobrero", "nombre": "Frente Obrero", "siglas": "FO", "estado": "pendiente" },
-    { "id": "d21", "nombre": "Democracia para el Siglo 21 (Democracia 21, Cs, UCIN)", "siglas": "D21", "estado": "pendiente" },
     { "id": "pcte", "nombre": "Partido Comunista de los Trabajadores de España", "siglas": "PCTE", "estado": "pendiente" },
     { "id": "otros", "nombre": "Resto de candidaturas proclamadas (Escaños en Blanco, Partido Humanista, Falange, etc.)", "siglas": "Otras", "estado": "pendiente" }
   ]

@@ -565,7 +565,7 @@ Sistema universitario, UNED y universidades privadas
 DERECHOS SOCIALES PARA UNA VIDA DIGNA
 2.6. La cultura como derecho
 Financiación y modernización del sector público cultural
-● Suelo de inversión pública del 0,2 % del PIB: Garantizaremos por ley una asignación presupuestaria mínima continuada destinada a la cultura de al menos el 0,2 % del PIB estatal.
+● Inversión en cultura del 2 % del gasto público: Alcanzaremos durante la legislatura el objetivo de destinar a cultura el 2 % del gasto total del conjunto de las administraciones públicas, tal y como recomienda la Unión Europea.
 ● Ley del Sistema Público de la Cultura: Desarrollaremos el mandato del artículo 149.2 de la Constitución, estableciendo las responsabilidades del Estado en materia cultural, un suelo mínimo de inversión pública estatal, garantía de los derechos culturales, mecanismos estables de financiación y cooperación con las comunidades autónomas, respetando sus competencias.
 ● Trabajaremos para la aprobación de la Ley del Cine y de la Cultura Audiovisual cuya tramitación fue interrumpida por la convocatoria electoral. Dicha Ley tiene como objetivo la actualización de la normativa de 2007 a la realidad cultural y tecnológica de 2026, así como el fortalecimiento de toda la cadena de valor industrial y creativa del sector audiovisual. Una de sus medidas más relevantes es, además, la protección de los productores independientes en el contexto de la emergencia de las grandes plataformas.
 ● Ley de Archivos para proteger el patrimonio, mejorar la gestión documental y seguir trabajando en el cumplimiento íntegro de la Ley de Memoria Democrática de 2022.
@@ -777,14 +777,16 @@ Subir los salarios y mejorar las condiciones de trabajo
 ● Suelo legal del SMI al 60 % del salario medio neto: Garantizaremos por ley una subida progresiva del Salario Mínimo Interprofesional (SMI) manteniendo un suelo permanente equivalente al 60 % del salario medio neto de la economía.
 ● Igualdad salarial en contratas y subcontratas: Igualación de las retribuciones de las personas trabajadoras de contratas y subcontratas con las que perciben en la empresa principal quienes realizan tareas similares.
 ● Prohibición de absorción y compensación del SMI: Aclararemos con urgencia las reglas de fijación del SMI imponiendo la prohibición explícita de que pueda ser absorbido o compensado mediante complementos o pluses salariales.
+● Cláusulas de revisión salarial ligadas al IPC: Modificaremos el Estatuto de los Trabajadores para que los convenios colectivos incluyan obligatoriamente cláusulas de revisión salarial que preserven el poder adquisitivo. Cuando el convenio no las prevea, las retribuciones pactadas se revisarán de forma subsidiaria conforme al IPC: si suben los precios, suben los salarios.
 ● Observatorio de Márgenes Empresariales y cláusulas de revisión: Envío de la información del Observatorio de Márgenes Empresariales (adaptada por sector y territorio) a las mesas de negociación de los convenios y obligatoriedad de incluir cláusulas de revisión salarial para preservar el poder adquisitivo mediante una modificación del Estatuto de los Trabajadores que introduzca una previsión de aplicación subsidiaria que obligue a revisar conforme al IPC las retribuciones pactadas en el convenio colectivo. La evolución de los márgenes se debe traducir en mejoras salariales y de condiciones para las plantillas.
 ● Prevalencia del convenio sectorial y ultraactividad indefinida: Consolidaremos la ultraactividad indefinida de los convenios, limitaremos la inaplicación a situaciones económicas graves acreditadas y extenderemos la prioridad del convenio sectorial sobre el de empresa en materia de jornada, horario y distribución del tiempo de trabajo salvo cuando el convenio colectivo de empresa establezca condiciones más favorables.
 ● Participación en beneficios y derecho preferente de adquisición: Mecanismos para la participación de las plantillas en los beneficios de la empresa y derecho preferente de adquisición a favor de las plantillas ante el cierre o venta de empresas viables para constituir cooperativas o sociedades laborales (con apoyo del ICO o ICF).
-● Gravamen sobre beneficios no compartidos: Crearemos un gravamen estatal para las empresas con una cifra de facturación superior a 50 millones de euros cuyo beneficio crezca mientras los salarios de su plantilla se quedan atrás. Se aplicará sobre el beneficio de explotación que supere la media de los tres ejercicios anteriores cuando la subida salarial de la plantilla no alcance la de referencia: la inflación del año o, si es mayor, la pactada en el Acuerdo para el Empleo y la Negociación Colectiva (AENC) vigente. El tipo será del 30 %; la empresa que suba los salarios lo que marca la referencia no pagará nada.
-● Exigiremos a las empresas que reciban subvenciones, ayudas o contratos públicos que cumplan el convenio sectorial de referencia y que la diferencia entre la retribución más alta y la más baja no supere la ratio que fije la ley.
+● Gravamen sobre beneficios no compartidos: Crearemos un gravamen estatal para las empresas con una cifra de facturación superior a 50 millones de euros cuyo beneficio crezca mientras los salarios de su plantilla se quedan atrás. Se aplicará sobre el beneficio de explotación que supere la media de los tres ejercicios anteriores cuando la subida salarial de la plantilla no alcance la de referencia: la inflación del año o, si es mayor, la pactada en el Acuerdo para el Empleo y la
 === p.52 ===
 58
 SALARIOS Y PENSIONES DIGNOS Y PRECIOS ASEQUIBLES
+Negociación Colectiva (AENC) vigente. El tipo será del 30 %; la empresa que suba los salarios lo que marca la referencia no pagará nada.
+● Exigiremos a las empresas que reciban subvenciones, ayudas o contratos públicos que cumplan el convenio sectorial de referencia y que la diferencia entre la retribución más alta y la más baja no supere la ratio que fije la ley.
 ● Priorizaremos en la contratación pública a las empresas con convenio colectivo aplicable, representación sindical efectiva y órganos de participación de la plantilla.
 Tiempo de trabajo, registro de jornada digital y jornada continua
 ● Registro de jornada digital, interoperable y con acceso remoto: Implantaremos un registro horario digital, fiable e interoperable que recoja la jornada real y sus interrupciones, garantizando el acceso remoto en tiempo real para la Inspección de Trabajo sin desplazamientos previos.
@@ -794,11 +796,11 @@ Tiempo de trabajo, registro de jornada digital y jornada continua
 ● Regulación de la gestión algorítmica y auditoría sindical: Derecho a la revisión humana de cualquier despido o sanción decidido por algoritmos, acceso de la representación legal a los parámetros y evaluaciones de impacto del algoritmo, y derecho a auditorías independientes pagadas por la empresa.
 ● Evaluación de impacto en salud y prohibición de datos sensibles: Reconoceremos por ley la gestión algorítmica como factor de riesgo laboral con evaluación previa obligatoria, y prohibiremos el tratamiento de datos emocionales, biométricos y videovigilancia permanente en teletrabajo.
 ● Haremos de la introducción de sistemas de inteligencia artificial una materia de negociación obligatoria, siguiendo el proceso del Acuerdo marco europeo sobre digitalización de 2020, con comisiones paritarias de algoritmos en los convenios.
-Despido, contratación y protección a los trabajadores
-● Despido reparador y disuasorio: Reformaremos la indemnización por despido improcedente para que repare el daño real causado a la persona trabajadora y disuada de los despidos injustificados, en línea con el artículo 24 de la Carta Social Europea revisada y con lo concluido por el Comité Europeo de Derechos Sociales sobre el sistema español de indemnización tasada.
 === p.53 ===
 PROGRAMA ELECTORAL FRENTE AMPLIO
 59
+Despido, contratación y protección a los trabajadores
+● Despido reparador y disuasorio: Reformaremos la indemnización por despido improcedente para que repare el daño real causado a la persona trabajadora y disuada de los despidos injustificados, en línea con el artículo 24 de la Carta Social Europea revisada y con lo concluido por el Comité Europeo de Derechos Sociales sobre el sistema español de indemnización tasada.
 ● Autorización previa y compensación por despido tecnológico: Recuperaremos la autorización administrativa previa para despidos colectivos (o devolución de ayudas públicas en empresas con beneficios) y estableceremos un compromiso de cotización adicional a la Seguridad Social para empresas que despidan por implantar IA o automatización.
 ● Excluiremos de la contratación pública a las empresas condenadas por delitos contra la seguridad de los trabajadores, e impediremos que la reducción de la sanción por pago inmediato se aplique cuando haya accidentes de trabajo o enfermedades profesionales.
 ● Protección de trabajadores fijos discontinuos: Garantizaremos el llamamiento por orden y tiempo y el cómputo de toda la antigüedad, y modificaremos la regulación vigente para limitar las facultades del convenio colectivo al desarrollar los derechos que el Estatuto de los Trabajadores reconoce a las personas fijas discontinuas.
@@ -808,11 +810,10 @@ PROGRAMA ELECTORAL FRENTE AMPLIO
 Protección por desempleo e inserción laboral
 ● Incremento de la prestación contributiva y topes: Elevaremos el porcentaje de la prestación contributiva por desempleo del 70 % al 80 % de la base reguladora durante los primeros seis meses (y 70 % el resto) y subiremos un 25 % los topes máximos.
 ● Ampliación de cobertura y Plan de Empleo Garantizado: Ampliaremos la cobertura por desempleo y cese de actividad de autónomos para carreras discontinuas, y desplegaremos el Plan de Empleo Garantizado priorizando parados de larga duración y jóvenes.
-● Estableceremos como objetivo central de la política económica que la tasa de paro converja con la media europea y que existan suficientes empleos disponibles para las personas que deseen trabajar. A pesar de que la reforma laboral ha dado lugar a las cifras más altas de personas trabajando y de empleo estable, España tiene que enfrentar ahora el desafío de eliminar otra anomalía histórica: la de tener una tasa de paro muy superior a la media europea. El objetivo de la legislatura será converger con esta tasa de paro, que se sitúa en el 7 %, y alcanzar una tasa de empleo superior
 === p.54 ===
 60
 SALARIOS Y PENSIONES DIGNOS Y PRECIOS ASEQUIBLES
-al 70 %. Es posible, si se pone en marcha una estrategia integrada de políticas económicas y políticas de empleo orientadas plenamente a este objetivo.
+● Estableceremos como objetivo central de la política económica que la tasa de paro converja con la media europea y que existan suficientes empleos disponibles para las personas que deseen trabajar. A pesar de que la reforma laboral ha dado lugar a las cifras más altas de personas trabajando y de empleo estable, España tiene que enfrentar ahora el desafío de eliminar otra anomalía histórica: la de tener una tasa de paro muy superior a la media europea. El objetivo de la legislatura será converger con esta tasa de paro, que se sitúa en el 7 %, y alcanzar una tasa de empleo superior al 70 %. Es posible, si se pone en marcha una estrategia integrada de políticas económicas y políticas de empleo orientadas plenamente a este objetivo.
 ● Estableceremos el día 25 de cada mes como fecha de abono de las prestaciones y los subsidios por desempleo, equiparándola a la fecha habitual de pago de las pensiones.
 Derechos sindicales, delegado compartido para microempresas e inspección
 ● Delegado sindical compartido para microempresas (≤ 6 trabajadores): Reformaremos la LOLS para que plantillas de microempresas (de 6 o menos empleados) elijan un delegado sindical compartido por cada grupo de 50 a 100 negocios del mismo sector y territorio.
@@ -822,12 +823,12 @@ Prevención de riesgos psicosociales, salud laboral y mutuas
 ● Reglamento de Riesgos Psicosociales y CoPsoQ-istas21: Aprobación en máximo seis meses del reglamento de riesgos psicosociales obligando a evaluarlos mediante métodos validados (CoPsoQ-istas21) e interviniendo sobre la organización del trabajo.
 ● Prohibición del presentismo y pluses de asistencia: Incluiremos el presentismo como riesgo psicosocial y prohibiremos los pluses de asistencia que penalicen bajas médicas o algoritmos que castiguen ausencias justificadas.
 ● Implementaremos la autojustificación con declaración responsable de la ausencia laboral por problema leve de salud que no necesite atención sanitaria, con un máximo de 3 días consecutivos y un total de 6 días al año, como permiso remunerado.
-● Control exclusivo de bajas por la sanidad pública: Garantizaremos por ley que las altas, bajas y confirmaciones por contingencias comunes correspondan en exclusiva a la sanidad pública, rechazando ampliar competencias a las mutuas.
-● Responsabilidad en subcontratación y acoso OIT 190: Responsabilidad de la empresa principal en la seguridad de toda la cadena de subcontratación y desarrollo de protocolos contra el acoso sexual y LGTBIfóbico (Convenio 190 OIT).
-● Garantizaremos que las prestaciones por accidente de trabajo y enfermedad profesional sean suficientes y adecuadas al salario real de la persona trabajadora.
 === p.55 ===
 PROGRAMA ELECTORAL FRENTE AMPLIO
 61
+● Control exclusivo de bajas por la sanidad pública: Garantizaremos por ley que las altas, bajas y confirmaciones por contingencias comunes correspondan en exclusiva a la sanidad pública, rechazando ampliar competencias a las mutuas.
+● Responsabilidad en subcontratación y acoso OIT 190: Responsabilidad de la empresa principal en la seguridad de toda la cadena de subcontratación y desarrollo de protocolos contra el acoso sexual y LGTBIfóbico (Convenio 190 OIT).
+● Garantizaremos que las prestaciones por accidente de trabajo y enfermedad profesional sean suficientes y adecuadas al salario real de la persona trabajadora.
 ● Reforzaremos el control público de las mutuas, con transparencia sobre sus resultados, revisión pública de las altas en contingencias profesionales y participación sindical efectiva en sus órganos de control.
 ● Aumentaremos la protección de las personas trabajadoras frente a los riesgos climáticos desarrollando estándares laborales obligatorios para proteger a las personas trabajadoras frente a olas de calor y otros impactos, incluyendo adecuación de horarios, protocolos de hidratación, descanso y mecanismos de cese de actividad climática para autónomos y asalariados en alertas extremas.
 Teletrabajo, formación, prácticas y trabajo del hogar
@@ -836,11 +837,11 @@ Teletrabajo, formación, prácticas y trabajo del hogar
 ● Formación Profesional y recualificación ante cambios tecnológicos: Formación dentro de la jornada laboral y planes de recualificación profesional vinculados a la automatización.
 ● Equiparación plena del trabajo del hogar: Prevención de riesgos laborales efectiva, inspección de trabajo e itinerario de profesionalización en el sector del hogar y cuidados.
 Hacia una jornada laboral máxima de 32 horas semanales sin reducción salarial
-● Implantación inmediata a 37,5 horas en 2026 y 35 horas en el sector público, prohibiendo la compensación mediante horas extraordinarias y exigiendo la subida proporcional del salario hora en contratos a tiempo parcial.
-● Reduciremos la jornada laboral limitando el tiempo de trabajo efectivo de forma progresiva hasta las 32 horas semanales. Esta propuesta pretende una reducción y reparto equitativo del tiempo de trabajo, evitando situaciones de desempleo, subempleo y sobreexplotación, así como garantizar el derecho a un uso del tiempo marcado por las necesidades sociales y colectivas que haga realidad, con carácter general, el principio de adaptación del trabajo a la persona.
 === p.56 ===
 62
 SALARIOS Y PENSIONES DIGNOS Y PRECIOS ASEQUIBLES
+● Implantación inmediata a 37,5 horas en 2026 y 35 horas en el sector público, prohibiendo la compensación mediante horas extraordinarias y exigiendo la subida proporcional del salario hora en contratos a tiempo parcial.
+● Reduciremos la jornada laboral limitando el tiempo de trabajo efectivo de forma progresiva hasta las 32 horas semanales. Esta propuesta pretende una reducción y reparto equitativo del tiempo de trabajo, evitando situaciones de desempleo, subempleo y sobreexplotación, así como garantizar el derecho a un uso del tiempo marcado por las necesidades sociales y colectivas que haga realidad, con carácter general, el principio de adaptación del trabajo a la persona.
 4.2. Precios asequibles y control de márgenes
 Fijación de precios máximos en la cesta básica de alimentos
 ● Intervención y regulación de precios alimentarios: Estableceremos mecanismos de control de precios en alimentos básicos de consumo diario con la fijación de topes máximos en la cesta saludable y condicionados a situaciones de emergencia o abuso acreditado.
@@ -849,12 +850,13 @@ Fijación de precios máximos en la cesta básica de alimentos
 ● Transparencia de costes y Fondo de Estabilización: Mejoraremos la transparencia informativa sobre costes y márgenes en la distribución, junto a la creación de un Fondo de Estabilización de Productos Alimenticios Básicos para amortiguar la volatilidad derivada de fluctuaciones en las cosechas.
 ● Prohibición de la especulación financiera en alimentos: Prohibiremos operar en los mercados de futuros de productos alimenticios a todo operador que no sea acreditado como productor directo.
 Sector energético, carburantes y reforma del sistema eléctrico
-● Excepción ibérica y control de carburantes: Recuperaremos la excepción ibérica para el gas a nivel estatal y propondremos ante la Unión Europea fijar un tope al gas ante subidas extraordinarias en el mercado internacional, junto con la limitación legal de los márgenes en la distribución de carburantes.
-● Auditoría pública de costes de generación eléctrica: Ejecutaremos una auditoría pública sobre los costes reales de cada una de las tecnologías de generación eléctrica en España para fijar retribuciones basadas en costes reales.
-● Reforma de la Ley del Sistema Eléctrico y fin del sistema marginalista: Modificación legislativa para excluir a las tecnologías nuclear e hidroeléctrica del sistema marginalista de fijación de precios, fijando un precio máximo retributivo para ambas y eliminando los beneficios caídos del cielo (windfall profits).
+● Excepción ibérica y control de carburantes: Recuperaremos la excepción ibérica para el gas a nivel estatal y propondremos ante la Unión Europea fijar un tope al
 === p.57 ===
 PROGRAMA ELECTORAL FRENTE AMPLIO
 63
+gas ante subidas extraordinarias en el mercado internacional, junto con la limitación legal de los márgenes en la distribución de carburantes.
+● Auditoría pública de costes de generación eléctrica: Ejecutaremos una auditoría pública sobre los costes reales de cada una de las tecnologías de generación eléctrica en España para fijar retribuciones basadas en costes reales.
+● Reforma de la Ley del Sistema Eléctrico y fin del sistema marginalista: Modificación legislativa para excluir a las tecnologías nuclear e hidroeléctrica del sistema marginalista de fijación de precios, fijando un precio máximo retributivo para ambas y eliminando los beneficios caídos del cielo (windfall profits).
 Supervisión de mercados, fiscalización por la CNMC y protección de las personas consumidoras
 ● Monitorización permanente por la CNMC: Mandato explícito a la Comisión Nacional de los Mercados y la Competencia (CNMC) para monitorizar de forma pública y permanente los precios y márgenes en los sectores de energía, alimentación, transporte, comunicaciones y sector financiero.
 ● Facultades interventoras de la CNMC: Concederemos facultades legales a la CNMC para fijar precios máximos de forma directa en cualquiera de dichos sectores estratégicos cuando detecte o prevea prácticas y márgenes abusivos.
@@ -863,14 +865,14 @@ Supervisión de mercados, fiscalización por la CNMC y protección de las person
 ● Remuneración mínima obligatoria de depósitos bancarios: Obligación legal para las entidades de crédito de remunerar los depósitos a la vista de los hogares en función del tipo de intervención fijado por el Banco Central Europeo (BCE), compartiendo el beneficio del depósito de reservas en el Banco de España.
 4.3. Pensiones públicas dignas
 Blindaje constitucional del carácter público de las pensiones, de su revalorización y pensión mínima igual al SMI
-● Reforzaremos el nivel de protección constitucional por la vía del procedimiento ordinario de reforma constitucional (artículo 167 CE). Para ello, ubicaremos el derecho a la pensión pública y su revalorización automática con arreglo al IPC, que ninguna sea inferior al SMI y que no se privatice la gestión de las pensiones públicas en la Sección 2.ª del Capítulo II del Título I («De los derechos y deberes de los ciudadanos»), elevando significativamente su rango normativo y garantizando su aplicabilidad inmediata sin necesidad de convocar elecciones.
-Reducir edad de jubilación y eliminar la penalización por jubilación anticipada a quienes han cotizado más de 40 años
-● Devolveremos la edad de jubilación a los 65 años, que nos fue arrebatada sin diálogo ni justificación en la reforma realizada en 2011.
-● Reduciremos la edad de jubilación en determinados oficios y profesiones por su especial penosidad. Construcción, limpieza, ayuda a domicilio, camareras de piso
+● Reforzaremos el nivel de protección constitucional por la vía del procedimiento ordinario de reforma constitucional (artículo 167 CE). Para ello, ubicaremos el derecho a la pensión pública y su revalorización automática con arreglo al IPC, que ninguna sea inferior al SMI y que no se privatice la gestión de las pensiones pú-
 === p.58 ===
 64
 SALARIOS Y PENSIONES DIGNOS Y PRECIOS ASEQUIBLES
-y la pesca deben poder acceder a los 60 años por su especial esfuerzo físico y el elevado riesgo de siniestralidad.
+blicas en la Sección 2.ª del Capítulo II del Título I («De los derechos y deberes de los ciudadanos»), elevando significativamente su rango normativo y garantizando su aplicabilidad inmediata sin necesidad de convocar elecciones.
+Reducir edad de jubilación y eliminar la penalización por jubilación anticipada a quienes han cotizado más de 40 años
+● Devolveremos la edad de jubilación a los 65 años, que nos fue arrebatada sin diálogo ni justificación en la reforma realizada en 2011.
+● Reduciremos la edad de jubilación en determinados oficios y profesiones por su especial penosidad. Construcción, limpieza, ayuda a domicilio, camareras de piso y la pesca deben poder acceder a los 60 años por su especial esfuerzo físico y el elevado riesgo de siniestralidad.
 ● Eliminaremos los coeficientes reductores en las jubilaciones anticipadas de quienes han cotizado más de 40 años y tienen que acogerse a la misma de manera involuntaria.
 Auditoría pública e independiente de las cuentas de la Seguridad Social
 ● Publicaremos de inmediato el informe de auditoría independiente sobre las cuentas de la Seguridad Social (1967-2019) previsto en la Ley 21/2021.
@@ -1241,10 +1243,10 @@ Autónomos, pymes
 y economía social
 === p.92 ===
 8.1. Simplificación burocrática, digitalización, protección a las pymes y fiscalidad
-● Transposición del IVA franquiciado y régimen simplificado: Transpondremos de inmediato la directiva europea del IVA franquiciado para autónomos y pequeñas empresas. Aquellos que facturen menos de 85.000 euros anuales quedarán exentos de liquidaciones periódicas y solo tendrán que presentar una declaración informativa anual. Estableceremos además un régimen de cotización adecuado y una tributación simplificada para autónomos y socios cooperativistas de rentas bajas.
-● Apoyaremos a las personas trabajadoras autónomas en situación de bajos ingresos con un régimen específico de cotización. Cuando los ingresos reales percibidos por la persona trabajadora autónoma sean inferiores al SMI anual por causas objetivas, tales como las condiciones del mercado o el inicio de actividad, se podrá acoger a una cotización fija bonificada sin pérdida de derechos de protección.
+● Transposición del IVA franquiciado y régimen simplificado: Transpondremos de inmediato la directiva europea del IVA franquiciado para autónomos y pequeñas empresas. Aquellos que facturen menos de 85.000 euros anuales podrán optar por quedar exentos de liquidaciones periódicas y presentar una única declaración informativa anual en lugar de las trimestrales. Estableceremos además una tributación simplificada para autónomos y socios cooperativistas de rentas bajas.
+● Tarifa plana mientras se ingrese menos del SMI: Vincularemos la tarifa plana de 88 euros a los ingresos y no al tiempo. Hoy se pierde a los dos años; la mantendremos mientras los ingresos reales de la persona trabajadora autónoma sean inferiores al SMI anual, sin pérdida de derechos de protección, para que nadie empiece a pagar más antes de que su negocio sea sólido.
 ● Plena efectividad del IVA de caja: Haremos plenamente operativo el régimen del IVA de caja, impidiendo de forma efectiva que las grandes empresas limiten o bloqueen su aplicación práctica a pymes y autónomos.
-● Ventanilla única, digitalización y acompañamiento: Reforzaremos la ventanilla única administrativa y aceleraremos la digitalización para reducir trabas y trámites burocráticos, ofreciendo servicios públicos de acompañamiento para la modernización de pequeñas y medianas empresas.
+● Ventanilla única, digitalización y acompañamiento: Reforzaremos la ventanilla única administrativa y aceleraremos la digitalización para reducir trabas y trámites burocráticos, ofreciendo servicios públicos de acompañamiento para la modernización de pequeñas y medianas empresas. Unificaremos las ayudas a pymes y autónomos en una convocatoria única, con plazos máximos de resolución breves. Crearemos un Kit Digital para la economía social basado en software libre.
 ● Pondremos en marcha un Plan Nacional de Adopción de Inteligencia Artificial y tecnologías digitales para pymes, autónomos y entidades de la economía social, con acompañamiento técnico, acceso a la capacidad de computación pública y a espacios de datos y prioridad para las soluciones de código abierto condicionado a la prohibición de despedir y con el objetivo de que en 2030 el 90 % de las pymes alcance al menos una intensidad digital básica.
 ● Reforma de la Ley de Segunda Oportunidad: Reformaremos de forma integral la Ley de Segunda Oportunidad con el fin de evitar que las personas emprendedoras queden condenadas a una situación de ruina permanente tras el fracaso de un proyecto empresarial.
 ● Régimen sancionador contra la morosidad comercial: Aplicaremos un régimen sancionador efectivo para hacer cumplir la ley de morosidad, erradicando los retrasos en los pagos por parte de grandes corporaciones y administraciones públicas que merman la liquidez de pymes y autónomos.
@@ -1253,7 +1255,7 @@ y economía social
 104
 AUTÓNOMOS, PYMES Y ECONOMÍA SOCIAL
 ● Defensa de la competencia bancaria: Garantizaremos la competencia real en el sector financiero, evitando mayores procesos de concentración bancaria y protegiendo a las entidades con vocación explícita de financiación a la economía real.
-● Protección del alquiler comercial en la LAU: Reformaremos la Ley de Arrendamientos Urbanos (LAU) para proteger a autónomos y pequeñas empresas frente a subidas abusivas en los alquileres de locales y frenar la especulación inmobiliaria. Garantizaremos contratos mínimos de 5 años, un límite legal a las subidas anuales y el derecho a la renovación del contrato (con indemnización por expulsión para especulación). En zonas tensionadas por el turismo, los grandes tenedores deberán sujetarse a un índice de precios de referencia.
+● Protección del alquiler comercial en la LAU: Reformaremos la Ley de Arrendamientos Urbanos (LAU) para proteger a autónomos y pequeñas empresas frente a subidas abusivas en los alquileres de locales y frenar la especulación inmobiliaria. Garantizaremos contratos mínimos de 5 años, un límite legal a las subidas anuales y el derecho a la renovación del contrato (con indemnización por expulsión para especulación). En zonas tensionadas, los grandes tenedores deberán sujetarse a un índice de precios de referencia.
 8.2. Energía a precios justos
 ● Agrupación de compras energéticas, autoconsumo y almacenamiento: Facilitaremos que las pymes se agrupen para negociar de forma colectiva contratos de electricidad a largo plazo, equiparando su capacidad negociadora a la de las grandes empresas, e impulsando instalaciones de autoconsumo y sistemas de almacenamiento energético.
 ● Ayudas a la descarbonización de flotas: Concederemos ayudas y programas específicos para la descarbonización y renovación ecológica de las flotas de vehículos de pymes y trabajadores autónomos.

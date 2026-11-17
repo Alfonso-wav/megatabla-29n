@@ -4233,4 +4233,4 @@ programa.adelanteandalucia.org
 El programa completo, con buscador, y cada propuesta lista para compartir.
 PROGRAMA ELECTORAL
 GENERALES 29N
-Programa electoral de Adelante Andalucía para las elecciones generales del 29 de noviembre de 2026. Versión del 2026-11-10. Tipografías: Fraunces y Work Sans (SIL Open Font License), Clash Display (ITF Free Font License).
+Programa electoral de Adelante Andalucía para las elecciones generales del 29 de noviembre de 2026. Versión del 2026-11-16. Tipografías: Fraunces y Work Sans (SIL Open Font License), Clash Display (ITF Free Font License).

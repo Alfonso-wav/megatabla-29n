@@ -38,8 +38,8 @@
       "idioma": "ca",
       "url": "https://www.esquerrarepublicana.cat/documents/e2026-programa.pdf",
       "archivo": "erc.pdf",
-      "sha256": "61728d162a6e88d492d44a0b0994effb31f9e4abb85ebf8aea715d870a9b2e04",
-      "nota": "Original en catalán; resúmenes traducidos al castellano. La numeración salta de la medida 167 a la 198."
+      "sha256": "f0b6d8e0bf7fc6a75206ac4a6b0b7e0e31745b147fae86d341916562d6a433fd",
+      "nota": "Original en catalán; resúmenes traducidos al castellano. La numeración salta de la medida 167 a la 198. El PDF se actualizó el 17/11: corrige la numeración (las medidas 198-258 pasan a 168-227) y retoca la de telecomunicaciones."
     },
     {
       "id": "pnv",
@@ -115,8 +115,8 @@
       "idioma": "es",
       "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
       "archivo": "adelante.pdf",
-      "sha256": "fde1fe024f94a698e2110c0e25cc569b4d9f3f7272342bdb13dc0c1e7a2d7b43",
-      "nota": "134 páginas: las 29 medidas principales y 719 propuestas en 12 áreas, con reclamaciones por provincia. Fecha: versión del 10/11 según el propio PDF; detectado el 15/11. La medida 9 (supermercados públicos) aún no tiene propuestas que la desarrollen."
+      "sha256": "9edf2c74216c3d68319355de782e979307f2bad8b545ea3cffb53c2113065494",
+      "nota": "134 páginas: las 29 medidas principales y 719 propuestas en 12 áreas, con reclamaciones por provincia. Fecha: versión del 10/11 según el propio PDF; detectado el 15/11. La medida 9 (supermercados públicos) aún no tiene propuestas que la desarrollen. Actualizado el 16/11 según el propio PDF; solo cambia la fecha de versión."
     },
     {
       "id": "fa",
@@ -128,8 +128,8 @@
       "idioma": "es",
       "url": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf",
       "archivo": "fa.pdf",
-      "sha256": "df6e4d967a3a41386656273c32c2df3edc6681b6ee047b190b2ebb91f1a36f04",
-      "nota": "151 páginas en 18 capítulos, con seis «grandes transformaciones» en la introducción. Fecha: detectado el 16/11 a través de la web de IU, que lo enlazó ese día; el PDF no indica fecha. No trae propuestas de deporte."
+      "sha256": "516c5c6caaa04d0bd6f28770a49ae312f79ff3ebcf48967db66adc4ce2335424",
+      "nota": "151 páginas en 18 capítulos, con seis «grandes transformaciones» en la introducción. Fecha: detectado el 16/11 a través de la web de IU, que lo enlazó ese día; el PDF no indica fecha. No trae propuestas de deporte. El PDF se actualizó el 17/11 (cultura: del 0,2 % del PIB al 2 % del gasto público; nuevas medidas de autónomos y salarios)."
     },
     { "id": "psoe", "nombre": "PSOE", "siglas": "PSOE", "estado": "pendiente" },
     { "id": "podemos", "nombre": "Podemos", "siglas": "Podemos", "estado": "pendiente" },

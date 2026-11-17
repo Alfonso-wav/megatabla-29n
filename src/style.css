@@ -447,3 +447,91 @@ a.enl:hover { background: var(--accent-soft); }
   .barra { position: static; }
   .marco { max-height: none; }
 }
+
+/* ---------- test «Averigua tu partido» ---------- */
+.btn-test {
+  margin-top: 14px;
+  font: 600 15px var(--sans);
+  padding: 9px 16px;
+  border: 0;
+  border-radius: 6px;
+  background: var(--accent);
+  color: var(--surface);
+  cursor: pointer;
+}
+.btn-test:hover { filter: brightness(1.1); }
+.btn-test:focus-visible, .btn-primario:focus-visible, .btn-sec:focus-visible, .test-opciones button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.btn-primario, .btn-sec {
+  font: 600 14px var(--sans);
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btn-primario { border: 0; background: var(--accent); color: var(--surface); }
+.btn-sec { border: 1px solid var(--line-strong); background: var(--surface-2); color: var(--ink); }
+.btn-sec:disabled { opacity: 0.45; cursor: default; }
+.test-notas { padding-left: 18px; color: var(--ink-2); }
+.test-acciones, .test-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.test-nav { justify-content: space-between; border-top: 1px solid var(--line); padding-top: 14px; }
+.test-progreso { height: 4px; background: var(--surface-2); border-radius: 2px; margin: 0 28px 14px 0; overflow: hidden; }
+.test-progreso span { display: block; height: 100%; background: var(--accent); transition: width 0.2s; }
+dialog h2.test-afirmacion { font-size: 22px; min-height: 2.4em; margin: 6px 0 18px; }
+.test-opciones { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.test-opciones button {
+  font: 600 14px/1.2 var(--sans);
+  padding: 12px 6px;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+}
+.test-opciones button:hover { background: var(--accent-soft); }
+.test-opciones button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+@media (max-width: 560px) {
+  .test-opciones { grid-template-columns: 1fr; }
+  dialog h2.test-afirmacion { font-size: 19px; min-height: 0; }
+}
+.test-imp { display: inline-flex; gap: 6px; align-items: center; margin-top: 12px; font-size: 14px; color: var(--ink-2); }
+.test-explica { color: var(--ink-2); font-size: 14px; }
+.test-lista { display: flex; flex-direction: column; gap: 4px; margin: 14px 0; }
+.test-res { border: 1px solid var(--line); border-radius: 6px; }
+.test-res[open] { border-color: var(--line-strong); }
+.test-res summary {
+  display: grid;
+  grid-template-columns: 70px 1fr 48px 58px;
+  gap: 10px;
+  align-items: center;
+  padding: 8px 10px;
+  cursor: pointer;
+  list-style: none;
+}
+.test-res summary::-webkit-details-marker { display: none; }
+.test-siglas { font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.test-barra { height: 12px; background: var(--surface-2); border-radius: 3px; overflow: hidden; }
+.test-barra span { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+.test-pct { font: 600 16px var(--sans); font-variant-numeric: tabular-nums; text-align: right; }
+.test-n { font-size: 12px; color: var(--ink-3); text-align: right; }
+.test-detalle { list-style: none; padding: 4px 12px 10px; margin: 0; border-top: 1px solid var(--line); }
+.test-detalle li { padding: 8px 0; border-bottom: 1px solid var(--line); margin: 0; }
+.test-detalle li:last-child { border-bottom: 0; }
+.test-detalle li.sin { color: var(--ink-3); }
+.test-q { margin: 0 0 4px; font-weight: 600; font-size: 14px; }
+.test-q-pos { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 0; font-size: 13px; color: var(--ink-2); }
+.test-acuerdo { margin-left: auto; font-weight: 700; font-variant-numeric: tabular-nums; }
+.test-acuerdo[data-nivel="alto"] { color: #2e7d4f; }
+.test-acuerdo[data-nivel="bajo"] { color: #b3412e; }
+.test-nota { margin: 4px 0 0; font-size: 13px; color: var(--ink-2); }
+.test-imp-tag { font: 600 11px var(--sans); text-transform: uppercase; letter-spacing: 0.04em; color: var(--accent); }
+.test-escasos { font-size: 13px; color: var(--ink-2); }
+@media (max-width: 560px) {
+  .test-res summary { grid-template-columns: 56px 1fr 44px; }
+  .test-n { display: none; }
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .test-acuerdo[data-nivel="alto"] { color: #7fcf9c; }
+  :root:not([data-theme="light"]) .test-acuerdo[data-nivel="bajo"] { color: #ef8f7c; }
+}

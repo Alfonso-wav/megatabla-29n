@@ -85,11 +85,36 @@ if (existsSync(listasF)) {
 } else {
   writeFileSync(join(root, "src/generated/candidatos.json"), JSON.stringify({ listas: [], enlaces: {} }));
 }
+// Test «Averigua tu partido»: cada postura debe apoyarse en una celda no vacía del programa.
+const testF = join(root, "data/test/preguntas.json");
+if (existsSync(testF)) {
+  const T = JSON.parse(readFileSync(testF, "utf8"));
+  const pubIds = new Set(partidos.filter((p) => p.estado === "publicado").map((p) => p.id));
+  const vistos = new Set();
+  for (const q of T.preguntas) {
+    if (vistos.has(q.id)) errors.push(`test: pregunta repetida ${q.id}`);
+    vistos.add(q.id);
+    if (!q.texto) errors.push(`test.${q.id}: falta el texto`);
+    if (!ids.has(q.materia)) errors.push(`test.${q.id}: materia desconocida ${q.materia}`);
+    for (const [pid, [v, nota, mat]] of Object.entries(q.pos)) {
+      const m = mat ?? q.materia;
+      if (!pubIds.has(pid)) errors.push(`test.${q.id}: partido no publicado ${pid}`);
+      else if (!celdas[pid][m]) errors.push(`test.${q.id}.${pid}: la celda ${m} es NS/NC, no puede justificar la postura`);
+      if (![-2, -1, 1, 2].includes(v)) errors.push(`test.${q.id}.${pid}: valor ${v} fuera de la escala`);
+      if (!nota) errors.push(`test.${q.id}.${pid}: falta la justificación`);
+    }
+  }
+  writeFileSync(join(root, "src/generated/test.json"), JSON.stringify({ preguntas: T.preguntas }));
+  console.log(`test.json: ${T.preguntas.length} preguntas`);
+} else {
+  writeFileSync(join(root, "src/generated/test.json"), JSON.stringify({ preguntas: [] }));
+}
+
 if (errors.length) {
   console.error(errors.join("\n"));
   process.exit(1);
 }
 
-const pub = partidos.filter((p) => p.estado === "publicado");
+const pub =partidos.filter((p) => p.estado === "publicado");
 const nsnc = pub.reduce((n, p) => n + materias.filter((m) => celdas[p.id][m.id] === null).length, 0);
 console.log(`tabla.json: ${pub.length} programas × ${materias.length} materias, ${nsnc} celdas NS/NC`);

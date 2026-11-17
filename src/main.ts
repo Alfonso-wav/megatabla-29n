@@ -1,6 +1,7 @@
 import "./style.css";
 import data from "./generated/tabla.json";
 import type { Candidatos, Celda, Enlaces, Lista, Materia, Partido, Tabla } from "./types";
+import { esc, paginasHTML } from "./util";
 
 const tabla = data as Tabla;
 const { materias, partidos, celdas } = tabla;
@@ -42,9 +43,6 @@ function guardar() {
 }
 
 // ---------- utilidades ----------
-const esc = (s: string) =>
-  s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
-
 const sinTildes = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
 const VARIANTES: Record<string, string> = {
@@ -70,21 +68,12 @@ const coincide = (c: Celda, re: RegExp | null) => {
   return ok;
 };
 
-const enlacePagina = (p: Partido, n: number) =>
-  p.copiaLocal ? `${import.meta.env.BASE_URL}programas/${p.archivo}#page=${n}` : `${p.url}#page=${n}`;
-
 const fecha = (iso?: string) =>
   iso ? new Date(iso + "T12:00:00").toLocaleDateString("es-ES", { day: "numeric", month: "short" }) : "";
 
 const IDIOMA: Record<string, string> = { es: "castellano", ca: "catalán", gl: "gallego" };
 
 // ---------- piezas de HTML ----------
-function paginasHTML(p: Partido, paginas: number[]) {
-  return `<span class="pags">p. ${paginas
-    .map((n) => `<a href="${esc(enlacePagina(p, n))}" target="_blank" rel="noopener" title="Abrir el programa de ${esc(p.siglas)} en la página ${n}">${n}</a>`)
-    .join(", ")}</span>`;
-}
-
 function celdaHTML(p: Partido, m: Materia, re: RegExp | null) {
   const c = celdas[p.id][m.id];
   if (c === null) return `<td class="nsnc" data-p="${p.id}" data-m="${m.id}"><span>NS/NC</span></td>`;
@@ -174,6 +163,7 @@ app.innerHTML = `
   <div class="titulo">
     <h1>Megatabla 29N</h1>
     <p>Qué proponen los partidos en las <strong>elecciones generales del 29 de noviembre de 2026</strong>, materia por materia, según sus programas electorales oficiales.</p>
+    <button type="button" id="abrir-test" class="btn-test">Averigua tu partido <span aria-hidden="true">›</span></button>
   </div>
   <dl class="cifras">
     <div><dt>Programas publicados</dt><dd>${publicados.length}<small> / ${partidos.filter((p) => p.id !== "otros").length} candidaturas</small></dd></div>
@@ -191,6 +181,7 @@ app.innerHTML = `
       <li><strong>NS/NC:</strong> el programa no menciona la materia. Se ha comprobado buscando palabras clave en el texto completo.</li>
       <li><strong>Celdas:</strong> cada una resume en una frase la postura del partido y enumera sus medidas concretas. Son resúmenes, no citas literales; el número de página abre el PDF original en esa página para comprobarlo.</li>
       <li><strong>Candidatos:</strong> pulsa el nombre de un partido para ver sus listas al Congreso en cada circunscripción, tal como las proclamó el BOE, con enlaces a Wikipedia y a la ficha oficial del Congreso cuando la identificación es segura.</li>
+      <li><strong>Test «Averigua tu partido»:</strong> la postura de cada partido en cada afirmación se ha codificado a mano a partir de su celda de esta tabla, con la misma página de referencia. Si el programa no se pronuncia, esa pregunta no cuenta para ese partido.</li>
       <li><strong>Traducción:</strong> los programas de ERC (catalán) y BNG (gallego) se han resumido en castellano.</li>
       <li><strong>Pendientes:</strong> ${pendientes.map((p) => esc(p.siglas)).join(", ")} no habían publicado su programa a la fecha de corte. Aparecen como «no publicado», no como NS/NC, para no confundir «no lo dice» con «aún no lo ha presentado».</li>
     </ul>
@@ -607,6 +598,12 @@ async function abrirListas(id: string) {
 marco.addEventListener("click", (e) => {
   const b = (e.target as HTMLElement).closest<HTMLElement>("button[data-listas]");
   if (b) void abrirListas(b.dataset.listas!);
+});
+
+// Test «Averigua tu partido», cargado bajo demanda.
+document.querySelector("#abrir-test")!.addEventListener("click", async () => {
+  const { abrirTest } = await import("./test");
+  abrirTest();
 });
 
 pintar();

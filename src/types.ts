@@ -11,7 +11,7 @@ export interface Partido {
   estado: "publicado" | "pendiente";
   titulo?: string;
   fechaPublicacion?: string;
-  idioma?: "es" | "ca" | "gl";
+  idioma?: "es" | "ca" | "va" | "gl";
   url?: string;
   archivo?: string;
   sha256?: string;

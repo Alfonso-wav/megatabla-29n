@@ -1,5 +1,5 @@
 {
-  "fechaCorte": "2026-11-17",
+  "fechaCorte": "2026-11-22",
   "eleccion": "Elecciones generales del 29 de noviembre de 2026",
   "partidos": [
     {
@@ -196,14 +196,94 @@
       "sha256": "bfa89b7218cd6a76d0eff86a1f6aad0a2e8c7c14a5d88f18ea002658bab4e1de",
       "nota": "13 páginas dedicadas solo a regeneración: clientelismo, corrupción, independencia de las instituciones, aforamientos y sistema electoral. El resto de materias, NS/NC. Fecha: detectado el 17/11; el PDF no indica fecha."
     },
-    { "id": "podemos", "nombre": "Podemos", "siglas": "Podemos", "estado": "pendiente" },
-    { "id": "junts", "nombre": "Junts per Catalunya", "siglas": "Junts", "estado": "pendiente" },
-    { "id": "compromis", "nombre": "Compromís – Front Valencià", "siglas": "Compromís", "estado": "pendiente" },
-    { "id": "upc", "nombre": "Unidad del Pueblo Canario (NC-BC, Podemos, IUC, Sumar)", "siglas": "UPC", "estado": "pendiente" },
-    { "id": "geroabai", "nombre": "Geroa Bai", "siglas": "Geroa Bai", "estado": "pendiente" },
-    { "id": "ac", "nombre": "Aliança Catalana", "siglas": "AC", "estado": "pendiente" },
-    { "id": "frenteobrero", "nombre": "Frente Obrero", "siglas": "FO", "estado": "pendiente" },
-    { "id": "pcte", "nombre": "Partido Comunista de los Trabajadores de España", "siglas": "PCTE", "estado": "pendiente" },
-    { "id": "otros", "nombre": "Resto de candidaturas proclamadas (Escaños en Blanco, Partido Humanista, Falange, etc.)", "siglas": "Otras", "estado": "pendiente" }
+    {
+      "id": "podemos",
+      "nombre": "Podemos",
+      "siglas": "Podemos",
+      "estado": "publicado",
+      "titulo": "Así de básico: Paz, casa y trabajo. Programa electoral",
+      "fechaPublicacion": "2026-11-17",
+      "idioma": "es",
+      "url": "https://podemos.info/wp-content/uploads/2026/11/29N-programa-Podemos.-Paz-casa-y-trabajo.pdf",
+      "archivo": "podemos.pdf",
+      "sha256": "086211fb272f0eeceddfa630796e58e5f4910e81efb0385a43b563a2e3f097fb",
+      "nota": "141 páginas y 442 medidas numeradas en seis bloques: vivienda, precios, paz, trabajo, vida y planeta, y república plurinacional. Las páginas de pazcasaytrabajo.es están fechadas el 17/11; el PDF es idéntico (mismo SHA-256) en podemos.info y en pazcasaytrabajo.es. No tiene apartado de juventud ni de financiación autonómica."
+    },
+    {
+      "id": "junts",
+      "nombre": "Junts per Catalunya",
+      "siglas": "Junts",
+      "estado": "publicado",
+      "titulo": "Catalunya al centre. Programa electoral 29N",
+      "fechaPublicacion": "2026-11-18",
+      "idioma": "ca",
+      "url": "https://www.tualcentre.cat/app/uploads/2026/11/PROGRAMA-ELECTORAL_JUNTS_29N.pdf",
+      "archivo": "junts.pdf",
+      "sha256": "cde2c5f3f30b66c72dd4f4bae3d22e9f6bc3e0ee4362da72f9e32e85129374b6",
+      "nota": "90 páginas en tres bloques (derechos y libertades, bienestar, estructuras y modelo productivo), con «competencias a proteger» y «a reclamar» en cada capítulo y un anexo de iniciativas de la legislatura. Original en catalán; resúmenes traducidos al castellano. Publicado en tualcentre.cat, la web de campaña."
+    },
+    {
+      "id": "compromis",
+      "nombre": "Compromís – Front Valencià",
+      "siglas": "Compromís",
+      "estado": "publicado",
+      "titulo": "Programa electoral Compromís – Front Valencià",
+      "fechaPublicacion": "2026-11-18",
+      "idioma": "va",
+      "url": "https://compromis.net/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-FRONTVALENCIA.pdf",
+      "archivo": "compromis.pdf",
+      "sha256": "b62b06d43821397fbf7d6f65f992e13e44087c9e042808fbbc171b3f83ff212b",
+      "nota": "57 páginas en siete prioridades. Original en valenciano; resúmenes traducidos al castellano. El mismo PDF está en frontvalencia.org, que publica además un programa reducido."
+    },
+    {
+      "id": "geroabai",
+      "nombre": "Geroa Bai",
+      "siglas": "Geroa Bai",
+      "estado": "publicado",
+      "titulo": "Defiéndete. Guk, Nafarroa. Bases políticas",
+      "fechaPublicacion": "2026-11-18",
+      "idioma": "es",
+      "url": "https://estaticosgn-cdn.deia.eus/gn/public/content/file/original/2026/1118/09/programa-electoral-de-geroa-bai-para-el-29-n-c8e7203.pdf",
+      "archivo": "geroabai.pdf",
+      "sha256": "4e011dc660957ebac66666844fc65ff2f069633ea5254a524c7aad1c34e20c0c",
+      "nota": "14 páginas de bases políticas, sin medidas detalladas en la mayoría de materias. No está en geroabai.eus: el enlace es la copia que publicó Noticias de Navarra el 18/11."
+    },
+    {
+      "id": "frenteobrero",
+      "nombre": "Frente Obrero",
+      "siglas": "FO",
+      "estado": "publicado",
+      "titulo": "Un programa para recuperar España",
+      "fechaPublicacion": "2026-11-19",
+      "idioma": "es",
+      "url": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+      "archivo": "frenteobrero.pdf",
+      "sha256": "7b9f423f2c1ada187b6f42ed8dbf4e025356254d7a6b81830e114b818ef2e282",
+      "nota": "64 páginas en 21 capítulos. El propio documento dice que «no pretende ser un programa electoral» sino el programa político del partido, y no menciona estas elecciones. Fecha: el servidor lo da por modificado el 19/11."
+    },
+    {
+      "id": "upc",
+      "nombre": "Unidad del Pueblo Canario (NC-BC, Podemos, IUC, Sumar)",
+      "siglas": "UPC",
+      "estado": "pendiente"
+    },
+    {
+      "id": "ac",
+      "nombre": "Aliança Catalana",
+      "siglas": "AC",
+      "estado": "pendiente"
+    },
+    {
+      "id": "pcte",
+      "nombre": "Partido Comunista de los Trabajadores de España",
+      "siglas": "PCTE",
+      "estado": "pendiente"
+    },
+    {
+      "id": "otros",
+      "nombre": "Resto de candidaturas proclamadas (Escaños en Blanco, Partido Humanista, Falange, etc.)",
+      "siglas": "Otras",
+      "estado": "pendiente"
+    }
   ]
 }

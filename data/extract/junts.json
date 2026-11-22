@@ -1,0 +1,376 @@
+{
+  "vivienda": {
+    "postura": "Más oferta y seguridad jurídica, no topes: desalojo de okupas en 48 horas, que la Administración pague al pequeño propietario y vivienda de la SAREB para la Generalitat.",
+    "medidas": [
+      "Desalojar las ocupaciones ilegales en un máximo de 48 horas mediante juicio inmediato; desalojo policial inmediato si se detecta en el momento",
+      "Si un inquilino vulnerable no paga, la Administración abona la deuda al propietario en dos meses con fondos del Estado",
+      "Prohibir hasta 2028 que bancos, fondos de inversión y gestoras de activos compren viviendas",
+      "Recuperar la deducción del 15% en el IRPF por alquiler, por hipoteca y por la cuenta vivienda",
+      "IVA del 5% para la vivienda nueva habitual y la vivienda social",
+      "Ceder sin coste a la Generalitat y los ayuntamientos todas las viviendas y el suelo de la SAREB y Casa 47 en Cataluña",
+      "Derogar los artículos de la Ley de Vivienda sobre contención de precios y zonas tensionadas",
+      "Condicionar los beneficios fiscales de las SOCIMI a promover alquiler asequible",
+      "Aval público para la entrada del primer piso de los menores de 35 y Bono Joven convertido en renta de emancipación"
+    ],
+    "paginas": [9, 16, 17, 18, 60]
+  },
+  "empleo": {
+    "postura": "Salario mínimo catalán, más libertad para hacer horas extra y menos cargas a autónomos y pymes.",
+    "medidas": [
+      "SMI catalán propio que avance hacia el 60% del salario medio catalán",
+      "Ampliar el límite de horas extraordinarias voluntarias y mejorar su tratamiento fiscal",
+      "Plan contra el absentismo laboral y más colaboración de las mutuas con la sanidad pública",
+      "Frenar las subidas de cuotas de autónomos y cotizar por rendimientos reales",
+      "Cuota cero para autónomos jóvenes los tres primeros años",
+      "Estatuto del becario con remuneración digna",
+      "Traspaso a Cataluña de las prestaciones por desempleo y de la Seguridad Social",
+      "Facilitar que los jóvenes de 16 y 17 años aprendan un oficio",
+      "Se opuso a imponer por ley la jornada de 37,5 horas"
+    ],
+    "paginas": [61, 68, 69, 70, 88]
+  },
+  "pensiones": {
+    "postura": "Traspaso de la Seguridad Social a Cataluña y pensiones según el IPC catalán; mínimas hasta 1.400 € en 14 pagas.",
+    "medidas": [
+      "Revalorizar las pensiones cada año según el IPC catalán",
+      "Subir las pensiones mínimas y de viudedad hasta igualarlas al salario mínimo catalán (1.400 € en 14 pagas)",
+      "Pensión íntegra sin penalización por jubilación anticipada con 40 años cotizados, con carácter retroactivo",
+      "Agencia Catalana de Protección Social con la gestión de la Seguridad Social",
+      "Fomentar los planes de pensiones complementarios o de empresa",
+      "Contar como cotizado el tiempo dedicado a cuidar familiares dependientes"
+    ],
+    "paginas": [57, 58, 68, 70]
+  },
+  "fiscalidad": {
+    "postura": "Concierto económico catalán fuera de la LOFCA y menos impuestos a familias, autónomos y pymes; eliminar sucesiones.",
+    "medidas": [
+      "Ley del Concierto Económico Catalán: la Agencia Tributaria de Cataluña recauda todos los impuestos",
+      "Publicar cada año las balanzas fiscales y condonar el 100% de la deuda de la Generalitat con el FLA",
+      "Deflactar el IRPF, bajar los primeros tramos y subir los mínimos personales y familiares",
+      "Eliminar el impuesto de sucesiones y donaciones",
+      "IVA franquiciado para autónomos de menos de 85.000 € y pagar el IVA al cobrar las facturas",
+      "IVA de la luz y el gas al 10%, de la peluquería al 10% y de la teleasistencia y residencias al 4%",
+      "Acelerar la rebaja de sociedades para pymes, microempresas y cooperativas",
+      "Recurrir deudas con Hacienda sin pagarlas antes ni aportar avales",
+      "En la legislatura frenó el impuesto a las energéticas y un nuevo impuesto a las mutuas sanitarias"
+    ],
+    "paginas": [10, 67, 68, 69, 88]
+  },
+  "economia": {
+    "postura": "Menos burocracia y más apoyo a pymes, industria y exportación, con la gestión de los recursos desde Cataluña.",
+    "medidas": [
+      "Que Cataluña reciba ayudas industriales según su peso productivo y las gestione la Generalitat",
+      "Defender automoción, química, agroalimentación, salud y tecnologías digitales",
+      "Traspaso del Consorcio de la Zona Franca y autoridad única con el Puerto de Barcelona",
+      "Facilitar el relevo de las empresas familiares y combatir la morosidad",
+      "Consolidar el aplazamiento de Verifactu",
+      "Contratación pública más accesible para pymes y autónomos",
+      "Revisar los umbrales legales que penalizan el crecimiento de las pymes"
+    ],
+    "paginas": [69, 70]
+  },
+  "administracion": {
+    "postura": "Simplificación radical: silencio positivo, principio «una sola vez» y transparencia de las inversiones del Estado en Cataluña.",
+    "medidas": [
+      "Principio «una sola vez» obligatorio en toda la Administración del Estado",
+      "Silencio administrativo positivo y declaración responsable como norma",
+      "Caducidad automática o indemnización si el Estado incumple los plazos",
+      "Portal de Transparencia de las inversiones del Estado en Cataluña y publicar el tiempo medio de cada trámite",
+      "Ley de atención presencial que prohíba la cita previa obligatoria",
+      "Eliminar la tasa de reposición en servicios esenciales y hacer fijos a los interinos en abuso de temporalidad",
+      "Prolongación voluntaria del servicio activo hasta los 72 años",
+      "Garantizar la independencia del CIS",
+      "Exigir el catalán a los empleados del Estado en Cataluña"
+    ],
+    "paginas": [29, 30, 31, 32]
+  },
+  "energia": {
+    "postura": "Descarbonización según el plan europeo, más renovables y autoconsumo, y revisar el cierre nuclear si las renovables no bastan.",
+    "medidas": [
+      "Revisar el calendario de cierre de las nucleares catalanas para garantizar el suministro",
+      "Abrir los nudos de evacuación a nuevos proyectos renovables",
+      "Ampliar el autoconsumo compartido de 5 a 100 km",
+      "Igualar los peajes de acceso de media tensión que perjudican a las pymes catalanas",
+      "Bioenergía, redes de calor y frío e inyección de biometano en la red de gas",
+      "Recuperar la autorización de líneas de transporte y de plantas de cualquier potencia",
+      "Tipo 0% del impuesto sobre la producción eléctrica sin déficit de tarifa"
+    ],
+    "paginas": [68, 76, 77, 78]
+  },
+  "medio_ambiente": {
+    "postura": "Neutralidad climática antes de 2050 sin decrecimiento; seguridad hídrica con desalación y regeneración.",
+    "medidas": [
+      "Reducir más del 55% las emisiones antes de 2030 y neutralidad antes de 2050",
+      "Desaladoras, agua regenerada y pérdidas en las redes por debajo del 10%",
+      "Traspaso a la Generalitat de la parte catalana de la cuenca del Ebro",
+      "Sistema de depósito, devolución y retorno de envases",
+      "Bonificaciones fiscales para el autoconsumo solar de hogares y pymes"
+    ],
+    "paginas": [81, 82]
+  },
+  "sector_primario": {
+    "postura": "Soberanía alimentaria: rebajas fiscales directas, gasóleo profesional y nada de exigencias por encima de las de la UE.",
+    "medidas": [
+      "Traspaso de todas las competencias agrarias, ganaderas, forestales y pesqueras que retiene el Estado",
+      "Gasóleo profesional agrario con fiscalidad reducida en origen",
+      "Que la normativa estatal no imponga requisitos más exigentes que la UE, también en fitosanitarios y drones",
+      "Que las ayudas tributen como indemnizaciones y no como ingresos",
+      "Cláusulas espejo en los acuerdos comerciales, como UE-Mercosur",
+      "Aplicación estricta de la Ley de la cadena alimentaria",
+      "Reformar Agroseguro y mejorar la cotización de los autónomos agrarios",
+      "Exención fiscal al transmitir o arrendar fincas a jóvenes agricultores",
+      "Regionalización de la PAC"
+    ],
+    "paginas": [73, 74, 75, 86]
+  },
+  "infraestructuras": {
+    "postura": "Traspaso íntegro de Rodalies, del aeropuerto del Prat, de los puertos y de las carreteras estatales.",
+    "medidas": [
+      "Traspaso inmediato del 100% de Rodalies y Media Distancia con vías, estaciones y presupuestos pendientes",
+      "Plan de choque contra retrasos y averías con auditorías externas",
+      "El Prat fuera del modelo de AENA, como hub intercontinental gestionado desde Cataluña",
+      "Corredor Mediterráneo en vía independiente con ancho europeo, no un tercer carril",
+      "Traspaso de las carreteras y autopistas estatales",
+      "Inversiones en la N-260, N-230 y N-240"
+    ],
+    "paginas": [10, 71, 72, 86]
+  },
+  "sanidad": {
+    "postura": "Defensa del modelo sanitario catalán, 25% del gasto para primaria y formación MIR y acceso a Medicina decididos en Cataluña.",
+    "medidas": [
+      "Avanzar hacia el 8% del PIB en gasto sanitario y el 25% en atención primaria",
+      "Distrito universitario propio y traspaso de la formación sanitaria especializada (plazas MIR)",
+      "Traspaso de la titularidad de hospitales estatales como Vall d'Hebron o Bellvitge",
+      "Clasificar a las enfermeras en el grupo A1",
+      "Incorporar más rápido los medicamentos aprobados en la UE, como los del Alzheimer",
+      "Financiar la investigación en Alzheimer y enfermedades neurodegenerativas",
+      "Defender el modelo catalán: red diversa de proveedores con garantía pública"
+    ],
+    "paginas": [50, 51, 52]
+  },
+  "educacion": {
+    "postura": "Inmersión en catalán como línea roja, 6% del PIB en educación y mismos recursos para pública y concertada.",
+    "medidas": [
+      "Defender el catalán como lengua vehicular frente a leyes y tribunales",
+      "Llegar al 6% del PIB en educación",
+      "Actualizar los módulos de la concertada a sus costes reales",
+      "Financiación estatal de 0 a 3 años",
+      "Gratuidad universal de la educación postobligatoria (16-18) en público y concertado",
+      "Traspaso de las becas de comedor y transporte"
+    ],
+    "paginas": [9, 19, 53, 54]
+  },
+  "ciencia": {
+    "postura": "Más autonomía y financiación para universidades y centros de investigación; I+D al 3% del PIB.",
+    "medidas": [
+      "Subir la inversión universitaria del 0,40% al 0,6% del PIB en cinco años",
+      "Avanzar hacia el 3% del PIB en I+D",
+      "Eliminar la tasa de reposición en las universidades",
+      "Devolver el 100% del IVA de la investigación",
+      "Más fondos para ALBA, el Barcelona Supercomputing Center y el CNAG",
+      "Casilla en el IRPF para destinar impuestos a I+D",
+      "Traspaso total de las becas y becas salario"
+    ],
+    "paginas": [54, 55, 60, 70]
+  },
+  "servicios_sociales": {
+    "postura": "Prevención y autonomía antes que asistencia; que el Estado pague el 50% de la dependencia y Cataluña gestione el IMV.",
+    "medidas": [
+      "Aportación estatal del 50% del gasto en dependencia que fija la Ley 4/2026",
+      "Gestión catalana del Ingreso Mínimo Vital y coordinación con la renta garantizada",
+      "Compatibilizar gradualmente las prestaciones con el trabajo",
+      "Copago de los apoyos progresivo y exento por debajo de 2,5 veces el IPREM",
+      "Financiar la asistencia personal y la vida independiente de las personas con discapacidad",
+      "Voto autónomo y secreto para las personas ciegas",
+      "Atención presencial y en catalán a los mayores en bancos y administraciones"
+    ],
+    "paginas": [38, 39, 44, 45, 57]
+  },
+  "familia_infancia": {
+    "postura": "Deducciones por hijos que lleguen a las rentas bajas y equiparar las familias monoparentales a las numerosas.",
+    "medidas": [
+      "Deducciones por hijos reembolsables para las rentas bajas",
+      "Equiparar las familias monoparentales a las numerosas en beneficios estatales",
+      "Fondo para la emancipación de los jóvenes extutelados",
+      "Permisos de cuidado individuales y retribuidos, también ajustados en familias monoparentales",
+      "Auditorías algorítmicas y verificación de edad en las plataformas para proteger a los menores"
+    ],
+    "paginas": [33, 45, 46, 61]
+  },
+  "igualdad": {
+    "postura": "Feminismo de oportunidades: igualdad salarial, que la maternidad no penalice y respuesta a la violencia digital.",
+    "medidas": [
+      "Reforzar la igualdad salarial y la transparencia retributiva",
+      "Que los periodos de cuidado no rebajen la pensión",
+      "Prueba preconstituida para evitar la revictimización",
+      "Cerrar los vacíos legales sobre imágenes íntimas manipuladas con IA",
+      "Retirada rápida de contenidos íntimos difundidos sin consentimiento",
+      "Defender la competencia exclusiva de la Generalitat en políticas de género"
+    ],
+    "paginas": [32, 33, 34]
+  },
+  "lgtbi": {
+    "postura": "Muro contra cualquier retroceso: aprobar el delito de terapias de conversión y defender el matrimonio igualitario y la Ley Trans.",
+    "medidas": [
+      "Recuperar y aprobar la ley que tipifica como delito las terapias de conversión",
+      "Votar contra cualquier iniciativa que cuestione el matrimonio igualitario",
+      "Oponerse a derogar o recortar la Ley Trans y la Ley de igualdad de trato",
+      "Ley de reparación de las personas LGTBI víctimas de la dictadura",
+      "Asilo para las personas perseguidas por su orientación o identidad"
+    ],
+    "paginas": [35, 36, 37]
+  },
+  "inmigracion": {
+    "postura": "«Limitar, gobernar e integrar en catalán»: competencias en inmigración para la Generalitat, contra regularizaciones masivas y burka prohibido.",
+    "medidas": [
+      "Ley de delegación a la Generalitat de permisos, expulsiones, CIE y documentación",
+      "Mossos en el control fronterizo de puertos y aeropuertos; 26.800 agentes en 2032",
+      "Oponerse a las regularizaciones masivas por decreto",
+      "Exigir el conocimiento del catalán para el arraigo y la renovación de permisos",
+      "Prohibir en el espacio público el niqab y el burka (no el hiyab)",
+      "Que el padrón acredite la residencia real y que la ocupación ilegal no permita empadronarse",
+      "Contratación en origen planificada según las necesidades",
+      "Que el reparto de menores migrantes tenga en cuenta el esfuerzo de acogida de Cataluña",
+      "Que las resoluciones de retorno se cumplan sin expedientes eternos, distinguiendo asilo, trata y menores"
+    ],
+    "paginas": [9, 47, 48, 49, 84]
+  },
+  "seguridad": {
+    "postura": "Modelo nacional de seguridad catalán: Mossos como policía integral, aplicar la ley de multirreincidencia y derogar la «ley mordaza».",
+    "medidas": [
+      "Aplicar la Ley Orgánica 1/2026 contra la multirreincidencia que impulsó Junts",
+      "Derogar la Ley de Seguridad Ciudadana y prohibir o limitar las pelotas de goma",
+      "Plenas competencias de los Mossos: armas y explosivos, seguridad privada, puertos, aeropuertos y tráfico",
+      "Más capacidad de investigación contra narcotráfico y robos organizados",
+      "Que los ayuntamientos puedan instar el desalojo de ocupaciones conflictivas",
+      "Proteger el modelo catalán de bomberos voluntarios"
+    ],
+    "paginas": [14, 21, 22, 23, 84]
+  },
+  "defensa": {
+    "postura": "Defensa europea complementaria de la OTAN y retorno industrial para Cataluña de la inversión en defensa.",
+    "medidas": [
+      "Una Cataluña independiente dentro de la UE y la OTAN",
+      "Defensa europea más integrada, complementaria de la OTAN",
+      "Retorno industrial en Cataluña al menos proporcional a su peso en el PIB",
+      "Que la Generalitat se siente en el Consejo de Seguridad Nacional",
+      "Investigar los abusos y muertes durante el servicio militar obligatorio"
+    ],
+    "paginas": [15, 24, 26, 28]
+  },
+  "justicia": {
+    "postura": "Soberanía judicial catalana, suprimir la Audiencia Nacional y despolitizar el CGPJ y el acceso a la carrera.",
+    "medidas": [
+      "TSJC como última instancia y Consejo de Justicia de Cataluña",
+      "Suprimir la Audiencia Nacional",
+      "Cese efectivo de los vocales del CGPJ al acabar su mandato",
+      "Acceso a la judicatura según el modelo alemán, sin oposiciones memorísticas",
+      "Suprimir los aforamientos y las puertas giratorias entre judicatura y política",
+      "Quitar al Tribunal de Cuentas sus competencias jurisdiccionales",
+      "Reformar la malversación, los desórdenes públicos y la rebelión",
+      "Derogar la prisión permanente revisable",
+      "Catalán como requisito para jueces y fiscales en Cataluña"
+    ],
+    "paginas": [12, 13, 14, 15]
+  },
+  "democracia": {
+    "postura": "Derecho a la autodeterminación, reforma de los delitos de expresión y derogación de la Ley de Secretos Oficiales.",
+    "medidas": [
+      "Garantizar la autodeterminación de Cataluña por todos los medios democráticos",
+      "Suprimir el delito de injurias, restringir el enaltecimiento del terrorismo y reformar los delitos de odio",
+      "Derogar el artículo 384 bis de la LECrim",
+      "Derogar la Ley de Secretos Oficiales",
+      "Investigar el caso Pegasus",
+      "Voto a los 16 años y reformar el voto exterior",
+      "Eliminar la obligación de jurar o prometer el cargo"
+    ],
+    "paginas": [12, 13, 14, 61]
+  },
+  "territorial": {
+    "postura": "Independencia como objetivo y, mientras, ganar soberanía: concierto económico, traspasos y nada de recentralización.",
+    "medidas": [
+      "Concierto económico y salida del régimen común",
+      "No entrar en ningún Gobierno español; «primero se cumple y después se vota»",
+      "Derogar de forma pactada la LRSAL y desplegar las veguerías",
+      "Que los ayuntamientos puedan invertir siempre sus superávits",
+      "Modelo propio de financiación local para Cataluña"
+    ],
+    "paginas": [5, 10, 68, 82, 83, 84]
+  },
+  "lengua_cultura": {
+    "postura": "El catalán, «espina dorsal de la nación»: lengua preferente de las administraciones, oficial en la UE y presente en el audiovisual.",
+    "medidas": [
+      "Ley de función pública estatal que exija el catalán al personal del Estado en Cataluña",
+      "Oficialidad del catalán en la UE",
+      "Más sanciones a empresas y plataformas que no atiendan ni etiqueten en catalán",
+      "Recuperar el BOE en catalán",
+      "Nuevo mandato marco de RTVE, 2Cat íntegramente en catalán y cuadruplicar el presupuesto de Sant Cugat",
+      "Rebaja del IVA cultural y aplicar el Estatuto del Artista",
+      "Detener el traslado de las pinturas de Sixena desde el MNAC",
+      "Traspaso del Archivo de la Corona de Aragón y retorno de los papeles de Salamanca"
+    ],
+    "paginas": [15, 19, 20, 24, 25]
+  },
+  "digital": {
+    "postura": "Soberanía digital catalana: telecomunicaciones, ciberseguridad e IA gestionadas desde Cataluña y el catalán obligatorio en las plataformas.",
+    "medidas": [
+      "Traspaso de la regulación de telecomunicaciones y del espectro para obligar a cubrir el 100% con 5G",
+      "Obligar a las grandes plataformas y modelos de IA a ofrecer el catalán",
+      "Agencia Catalana de Gobernanza de la IA",
+      "La Agencia de Ciberseguridad de Cataluña como autoridad en NIS2",
+      "Centros de datos con renovables y circuitos de agua cerrados",
+      "Reformar la propiedad intelectual para que los autores sepan si su obra entrena IA y cobren"
+    ],
+    "paginas": [25, 79, 80]
+  },
+  "juventud": {
+    "postura": "Que los jóvenes no tengan que irse: IRPF exento el primer año de trabajo, vivienda y voto a los 16.",
+    "medidas": [
+      "Exención total del IRPF estatal el primer año de trabajo para menores de 35, 75% el segundo y 50% el tercero",
+      "Bonificar la contratación indefinida de menores de 35",
+      "Cuota cero de autónomos tres años",
+      "Distrito universitario propio",
+      "Becas de «segunda oportunidad» para jóvenes que ni estudian ni trabajan",
+      "Productos menstruales, anticonceptivos y preservativos gratis hasta los 35",
+      "Voto a los 16 años"
+    ],
+    "paginas": [59, 60, 61, 62]
+  },
+  "deporte": {
+    "postura": "Selecciones catalanas en competiciones internacionales y fiscalidad favorable al deporte.",
+    "medidas": [
+      "Reconocimiento internacional de las selecciones y del Comité Olímpico de Cataluña",
+      "Eliminar la sanción a los deportistas que no acuden a la selección española",
+      "Que exhibir la estelada en los estadios no se sancione",
+      "Rebaja del IVA de cuotas y clases deportivas",
+      "Deducción en el IRPF por cuotas de clubes, licencias y gimnasios",
+      "Deducción del 100% del patrocinio a clubes federados"
+    ],
+    "paginas": [63, 64, 65]
+  },
+  "animales": {
+    "postura": "Tolerancia cero con el maltrato, IVA veterinario reducido y derogar la tauromaquia como patrimonio cultural.",
+    "medidas": [
+      "Reformar el Código Penal para tipificar el abuso sexual de animales y revisar las penas",
+      "Rebajar el IVA veterinario y deducción en el IRPF por gastos veterinarios",
+      "Permiso retribuido por enfermedad grave o muerte de un animal de la familia",
+      "Derogar la declaración de la tauromaquia como patrimonio cultural",
+      "Prohibir el transporte marítimo internacional de animales vivos",
+      "Modificar la Ley 7/2023 para proteger a los perros de caza y respetar el marco catalán",
+      "Inversión en métodos alternativos a la experimentación animal"
+    ],
+    "paginas": [41, 42]
+  },
+  "ue_exterior": {
+    "postura": "Europeísta y atlantista: apoyo militar a Ucrania, derecho de Israel a defenderse y solución de dos estados.",
+    "medidas": [
+      "Apoyo plurianual humanitario, financiero y militar a Ucrania, incluida la integridad de Crimea",
+      "Derecho de Israel a existir y defenderse; condena de Hamás y Hezbolá",
+      "Solución de dos estados y gobernanza palestina desvinculada de Hamás",
+      "Combatir el antisemitismo y rechazar los boicots indiscriminados",
+      "Cataluña en las delegaciones españolas ante el Consejo de la UE",
+      "Exigir el 0,7% de cooperación en 2030"
+    ],
+    "paginas": [26, 27, 28]
+  }
+}

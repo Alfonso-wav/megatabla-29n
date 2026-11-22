@@ -1,0 +1,293 @@
+{
+  "vivienda": {
+    "postura": "La vivienda no es una mercancía: construcción masiva de vivienda pública, contra fondos y pisos turísticos, y prioridad para los «españoles autóctonos».",
+    "medidas": [
+      "Construir vivienda pública de calidad y asequible",
+      "Medidas contra la especulación de bancos, fondos buitre y grandes rentistas, la gentrificación y los pisos turísticos",
+      "Paralizar los desahucios de familias trabajadoras vulnerables hasta tener alternativa habitacional; dación en pago en todos los casos",
+      "Acabar con las mafias de la okupación, los narcopisos y los «inquiokupas»; no permitir en ningún caso la okupación de viviendas de particulares",
+      "Enfocar el acceso a la vivienda pública hacia los españoles autóctonos",
+      "Reducir la inmigración, también por la presión sobre la vivienda"
+    ],
+    "paginas": [45, 46]
+  },
+  "empleo": {
+    "postura": "«Los trabajadores primero»: más salario, menos temporalidad, derogar las reformas laborales y recuperar un movimiento obrero combativo.",
+    "medidas": [
+      "Subida general de los salarios ligada al coste de la vida",
+      "Representación obligatoria de los trabajadores en todas las empresas de diez o más trabajadores",
+      "Prohibir las ETT y restringir los contratos temporales y fijos-discontinuos",
+      "Derogar las reformas laborales que abarataron el despido y dieron prioridad al convenio de empresa",
+      "Derogar el Real Decreto 17/1977, que limita el derecho a huelga",
+      "Endurecer las penas por contratar extranjeros en situación irregular, sobre todo en el campo",
+      "Eliminar la cuota de los autónomos que no llegan al SMI, cuotas más bajas y acabar con los falsos autónomos",
+      "Más control de las horas extra y de la prevención de riesgos"
+    ],
+    "paginas": [8, 9]
+  },
+  "pensiones": {
+    "postura": "Pensiones públicas dignas; rechaza que la inmigración sea la solución y apuesta por reindustrializar y aumentar la natalidad.",
+    "medidas": [
+      "Revertir la subida de la edad de jubilación y fijar la edad de retiro según el puesto",
+      "Subir las pensiones no contributivas y mínimas",
+      "Calcular la pensión con los mejores años cotizados",
+      "Más empleo y lucha contra la economía sumergida para sostener el sistema"
+    ],
+    "paginas": [48, 49]
+  },
+  "fiscalidad": {
+    "postura": "Sistema fiscal progresivo: menos impuestos para trabajadores, autónomos y pequeño comercio, más para rentas altas y grandes empresas.",
+    "medidas": [
+      "Bajar el IRPF a las rentas bajas y subirlo a las altas con más tramos y tipos",
+      "Llevar todos los bienes de primera necesidad al IVA superreducido",
+      "Subir sociedades y patrimonio a las grandes empresas",
+      "Centralizar sucesiones y patrimonio, suprimir sus bonificaciones y eliminar sucesiones para las rentas bajas",
+      "Multas y, si es necesario, expropiación a las empresas que defrauden o tributen fuera",
+      "Suprimir las subvenciones «ideológicas» y los entes públicos ineficaces"
+    ],
+    "paginas": [18, 19]
+  },
+  "economia": {
+    "postura": "Reindustrializar España y nacionalizar los sectores estratégicos, fuera de las «imposiciones de Bruselas».",
+    "medidas": [
+      "Reindustrialización con prioridad a las industrias estratégicas y a los recursos propios",
+      "Estrategia industrial independiente de la UE",
+      "Nacionalización de los sectores estratégicos",
+      "Cambiar el turismo de «ocio destructivo» por turismo de calidad y rural",
+      "Industria farmacéutica nacional"
+    ],
+    "paginas": [13, 43]
+  },
+  "administracion": {
+    "postura": "Menos burocracia y cargos políticos; fusión de ayuntamientos.",
+    "medidas": [
+      "Eliminar puestos y cargos inoperantes o duplicados",
+      "Promover la fusión de ayuntamientos"
+    ],
+    "paginas": [56]
+  },
+  "energia": {
+    "postura": "Soberanía energética con más nuclear: poner fin a la «transición ecológica» y regular los precios.",
+    "medidas": [
+      "Poner fin a la «transición ecológica»",
+      "Regular de inmediato la factura de la luz y los combustibles",
+      "Frenar el cierre de centrales en plena capacidad",
+      "Ampliar y modernizar el parque nuclear y explotar el uranio nacional",
+      "Renovables como complemento de la nuclear, con más I+D",
+      "Medidas contra los oligopolios energéticos y las puertas giratorias"
+    ],
+    "paginas": [15, 16]
+  },
+  "medio_ambiente": {
+    "postura": "Rechaza la Agenda 2030 y el «lobby ecologista»; propone planes hidrológicos y de biodiversidad.",
+    "medidas": [
+      "Planes hidrográficos para repartir el agua y acabar con la sequía; fin del derribo de presas",
+      "Limpieza y mantenimiento de ríos, lagos y embalses",
+      "Planes de recuperación de la biodiversidad y de lucha contra las especies invasoras"
+    ],
+    "paginas": [37, 38]
+  },
+  "sector_primario": {
+    "postura": "Romper con la PAC y los tratados comerciales; reparto de tierras sin uso y cooperativas.",
+    "medidas": [
+      "Romper con la PAC y los tratados internacionales que limitan la producción",
+      "Expropiar las tierras sin usar de grandes terratenientes y repartirlas entre agricultores y cooperativas",
+      "Prohibir los parques solares en tierras de cultivo",
+      "Fomentar las cooperativas agrarias y la concentración parcelaria",
+      "Defender las aguas españolas de pesca frente a otros países; pesca sostenible y piscifactorías",
+      "La caza y el control de la fauna, competencia del Estado, apoyada en cazadores locales"
+    ],
+    "paginas": [37, 38]
+  },
+  "infraestructuras": null,
+  "sanidad": {
+    "postura": "Sanidad pública, gratuita y centralizada; fin de la externalización y privatización.",
+    "medidas": [
+      "Centralizar y unificar el Sistema Nacional de Salud",
+      "Acabar con la externalización y la privatización; más control de las mutuas",
+      "Más centros de atención primaria, sobre todo en zonas rurales y barrios obreros",
+      "Recursos para reducir las listas de espera",
+      "Dental, fisioterapia y oftalmología gratuitas",
+      "Más personal en salud mental",
+      "Medicamentos con receta más baratos y gratuitos en casos de especial necesidad"
+    ],
+    "paginas": [42, 43]
+  },
+  "educacion": {
+    "postura": "Educación pública gratuita, sin subvenciones a la privada, menos digitalización en las aulas y fuera el islam y las «teorías anticientíficas».",
+    "medidas": [
+      "Educación gratuita en todos los niveles, incluida la superior para las rentas bajas, con becas",
+      "Comedor escolar gratuito",
+      "Frenar la educación digital; limitar ciertas tecnologías a menores de 16 años",
+      "Eliminar las subvenciones a la escuela privada",
+      "Prácticas de FP y universidad remuneradas",
+      "Derecho a estudiar en castellano o en las lenguas cooficiales",
+      "Dejar al islam y las «teorías anticientíficas» (como la teoría queer) fuera de la escuela pública",
+      "Mejorar la educación de los niños con discapacidad"
+    ],
+    "paginas": [21, 22]
+  },
+  "ciencia": {
+    "postura": "Frenar la fuga de cerebros y sacar a las empresas privadas de la universidad.",
+    "medidas": [
+      "Evitar la fuga de cerebros de trabajadores cualificados",
+      "Expulsar a las empresas privadas de la universidad y de la FP; reestructurar los consejos sociales"
+    ],
+    "paginas": [22]
+  },
+  "servicios_sociales": {
+    "postura": "Plazas públicas en residencias y atención pública a las adicciones.",
+    "medidas": [
+      "Asegurar plazas públicas en residencias de mayores",
+      "Integrar los centros de desintoxicación en la sanidad pública",
+      "Facilitar el pago de deudas a quien no pueda afrontarlas y combatir la usura"
+    ],
+    "paginas": [19, 29, 43]
+  },
+  "familia_infancia": {
+    "postura": "Elevar la natalidad por encima de dos hijos por mujer, en lugar de recurrir a la inmigración.",
+    "medidas": [
+      "Planes estatales de natalidad con ventajas fiscales y ayudas para familias numerosas",
+      "Guarderías públicas y gratuitas",
+      "Ampliar los permisos de maternidad y paternidad y obligar a las empresas a flexibilizar horarios y teletrabajo",
+      "Prohibir en los organismos públicos la propaganda «contraria a la familia y la natalidad»"
+    ],
+    "paginas": [34, 35]
+  },
+  "igualdad": {
+    "postura": "Contrario al feminismo «en todas sus formas»; niega que exista violencia de género estructural y pide suprimir el Ministerio de Igualdad.",
+    "medidas": [
+      "Derogar las leyes de discriminación positiva y suprimir los cupos",
+      "Suprimir el Ministerio de Igualdad y destinar su presupuesto a fines sociales",
+      "Planes contra la trata y la explotación sexual; la prostitución, industria a combatir",
+      "Prohibir y perseguir los vientres de alquiler, también los contratados fuera de España",
+      "Que la maternidad no perjudique la carrera laboral ni los estudios"
+    ],
+    "paginas": [31, 32]
+  },
+  "lgtbi": {
+    "postura": "Derogar la Ley Trans para proteger a los menores del «adoctrinamiento queer».",
+    "medidas": [
+      "Derogar la Ley Trans"
+    ],
+    "paginas": [32]
+  },
+  "inmigracion": {
+    "postura": "Freno a la inmigración «masiva», legal e ilegal: deportaciones, revisión de nacionalidades y retorno de inmigrantes.",
+    "medidas": [
+      "Control absoluto de las fronteras terrestres y marítimas",
+      "Expulsión inmediata de los inmigrantes irregulares y de los que delincan de forma reiterada; sin regularización para quien entró ilegalmente",
+      "Suspender la concesión de nacionalidades hasta revisar las de los últimos 20 años; primar el ius sanguinis",
+      "Retirar la nacionalidad a los nacionalizados que cometan delitos graves",
+      "Expulsar a los radicales islámicos; prohibir el hiyab en lugares y puestos públicos y no subvencionar actividades islámicas",
+      "Sancionar a las ONG que eludan la legalidad",
+      "Centros en países cercanos para clasificar y deportar a quien intente entrar ilegalmente",
+      "Restringir el asilo y expulsar a quien se le deniegue",
+      "Fomentar el retorno de los españoles emigrados"
+    ],
+    "paginas": [51, 52, 53, 54]
+  },
+  "seguridad": {
+    "postura": "Policía al servicio del pueblo: depurar mandos, sindicación en la Guardia Civil y suprimir las policías autonómicas.",
+    "medidas": [
+      "Depurar los mandos policiales corruptos o «reaccionarios»",
+      "Derecho de sindicación en la Guardia Civil",
+      "Equiparar los sueldos de los cuerpos policiales y la Guardia Civil",
+      "Integrar las policías autonómicas en la Policía Nacional",
+      "Penas altas contra el narcotráfico",
+      "Medios modernos para Policía y Guardia Civil"
+    ],
+    "paginas": [29, 54, 56, 61]
+  },
+  "defensa": {
+    "postura": "Salida de la OTAN y fuera las bases extranjeras; democratizar el ejército y retirarse de las misiones en el exterior.",
+    "medidas": [
+      "Salida inmediata de la OTAN y refuerzo del ejército propio",
+      "Expulsar todas las bases militares extranjeras y recuperar Gibraltar",
+      "Libertad de reunión, sindicación y afiliación política para los militares",
+      "Acabar con el cese de contrato a los 45 años sin alternativa laboral",
+      "Fin de las misiones en el extranjero «que defienden intereses ajenos»"
+    ],
+    "paginas": [11, 63]
+  },
+  "justicia": {
+    "postura": "Independencia judicial real y penas más duras por corrupción, también para los partidos.",
+    "medidas": [
+      "Que el Gobierno no elija miembros de ningún órgano judicial; prioridad a la carrera judicial en los órganos superiores",
+      "Justicia gratuita de calidad",
+      "Más penas por corrupción, también a los partidos como personas jurídicas, y devolución íntegra de lo robado",
+      "Prohibir el indulto por corrupción"
+    ],
+    "paginas": [58, 59]
+  },
+  "democracia": {
+    "postura": "Proceso constituyente hacia una «República encaminada al socialismo»; contra la censura y los «delitos de odio» que persiguen opiniones.",
+    "medidas": [
+      "Proceso constituyente: «no hay solución posible dentro de los marcos actuales»",
+      "República en lugar de la monarquía",
+      "Derogar la normativa que ataque libertades por motivos ideológicos",
+      "Control del Estado sobre las grandes plataformas digitales para que no favorezcan unos discursos sobre otros",
+      "Medios públicos independientes del Gobierno"
+    ],
+    "paginas": [6, 40, 56]
+  },
+  "territorial": {
+    "postura": "Unidad de España contra todo independentismo; autonomías simétricas con el mismo régimen fiscal y recentralización.",
+    "medidas": [
+      "Mismas competencias y mismo régimen fiscal para todas las comunidades autónomas",
+      "Centralizar sanidad, educación y emergencias",
+      "Contra todos los procesos de independencia"
+    ],
+    "paginas": [56]
+  },
+  "lengua_cultura": {
+    "postura": "Defensa de la cultura española frente a la «sustitución cultural», el multiculturalismo y la «cultura woke».",
+    "medidas": [
+      "Impulsar una producción cultural propia frente a la cultura importada",
+      "Acceso libre y gratuito a museos, patrimonio, bibliotecas y filmotecas",
+      "Construir y rehabilitar espacios culturales en barrios obreros y zonas rurales",
+      "Bajar los impuestos de libros y material artístico",
+      "Limitar la publicidad de apuestas, alcohol y pornografía",
+      "Acabar con el «uso político de las lenguas»"
+    ],
+    "paginas": [22, 25, 26]
+  },
+  "digital": {
+    "postura": "Regular la IA y limitar la tecnología a los menores; control estatal de las grandes plataformas.",
+    "medidas": [
+      "Regular y controlar el desarrollo y uso de la IA",
+      "Limitar el acceso a determinadas tecnologías a los menores de 16 años",
+      "Control del Estado sobre las grandes plataformas para garantizar neutralidad"
+    ],
+    "paginas": [21, 40]
+  },
+  "juventud": {
+    "postura": "Una juventud «combativa y disciplinada» frente a la cultura del consumo: empleo, vivienda juvenil y lucha contra la droga.",
+    "medidas": [
+      "Combinar el final de los estudios con prácticas laborales para reducir el paro juvenil",
+      "Parques de vivienda juvenil y ayudas a la emancipación",
+      "Ceder locales abandonados a asociaciones juveniles",
+      "Detección de drogodependencias en escuelas y universidades"
+    ],
+    "paginas": [28, 29]
+  },
+  "deporte": {
+    "postura": "Deporte de base alejado de los negocios y las apuestas.",
+    "medidas": [
+      "Clubes deportivos e instalaciones deportivas para toda la población",
+      "Fomentar el deporte desde la escuela pública"
+    ],
+    "paginas": [22, 25, 26]
+  },
+  "animales": null,
+  "ue_exterior": {
+    "postura": "Salida de la UE y de la OTAN para recuperar la soberanía; firmeza con Marruecos y autodeterminación del Sáhara.",
+    "medidas": [
+      "Salida de la Unión Europea",
+      "Defender sin reservas la autodeterminación del pueblo saharaui",
+      "Delimitar las aguas archipelágicas",
+      "Recuperar Gibraltar"
+    ],
+    "paginas": [11]
+  }
+}

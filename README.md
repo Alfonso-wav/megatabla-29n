@@ -37,8 +37,10 @@ página inexistente.
    nuevo, añadir la materia a `materias.json` y revisar los demás programas para ese tema
    (grep en `data/text/`): los que no lo mencionen llevan `null`.
 
-Estado a 17/11/2026: publicados PP, PSOE, Vox, Frente Amplio, ERC, PNV, BNG, CC, Existe, Soria Ya, Adelante Andalucía, EH Bildu, SALF, PACMA y D21;
-pendientes Podemos (solo ha publicado cinco medidas en pazcasaytrabajo.es), Junts y el resto.
+Estado a 22/11/2026: publicados PP, PSOE, Vox, Frente Amplio, ERC, PNV, BNG, CC, Existe, Soria Ya, Adelante Andalucía, EH Bildu, SALF, PACMA, D21,
+Podemos, Junts, Compromís, Geroa Bai y Frente Obrero; pendientes UPC, Aliança Catalana, PCTE y el resto.
+Geroa Bai no lo ha subido a su web: se enlaza la copia de Noticias de Navarra. El de Frente Obrero es su
+programa político general, no uno específico para el 29N (lo dice el propio documento).
 
 ## Listas de candidatos
 

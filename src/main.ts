@@ -71,7 +71,7 @@ const coincide = (c: Celda, re: RegExp | null) => {
 const fecha = (iso?: string) =>
   iso ? new Date(iso + "T12:00:00").toLocaleDateString("es-ES", { day: "numeric", month: "short" }) : "";
 
-const IDIOMA: Record<string, string> = { es: "castellano", ca: "catalán", gl: "gallego" };
+const IDIOMA: Record<string, string> = { es: "castellano", ca: "catalán", va: "valenciano", gl: "gallego" };
 
 // ---------- piezas de HTML ----------
 function celdaHTML(p: Partido, m: Materia, re: RegExp | null) {

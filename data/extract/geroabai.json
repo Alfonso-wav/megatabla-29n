@@ -1,0 +1,147 @@
+{
+  "vivienda": {
+    "postura": "Señala la vivienda como el gran reto de estas elecciones y critica que las iniciativas del Gobierno central no hayan llegado a la gente; no concreta medidas.",
+    "medidas": [
+      "Reconoce que es una competencia compartida con las comunidades autónomas, pero exige respuesta de la «izquierda plural» en los próximos cuatro años"
+    ],
+    "paginas": [4, 11]
+  },
+  "empleo": {
+    "postura": "Valora la subida del salario mínimo, pero denuncia que los sueldos medios siguen estancados y la clase media se ha empobrecido.",
+    "medidas": [
+      "Reforzar la economía doméstica y «empoderar a la clase media» como respuesta a la ultraderecha"
+    ],
+    "paginas": [4, 11]
+  },
+  "pensiones": null,
+  "fiscalidad": {
+    "postura": "Defensa del Convenio Económico de Navarra como herramienta básica del autogobierno frente a una «nueva gamazada».",
+    "medidas": [
+      "Mantener el Convenio Económico frente a la propuesta de Vox de suprimir Concierto y Convenio",
+      "Políticas públicas de reparto de la riqueza"
+    ],
+    "paginas": [4, 9]
+  },
+  "economia": {
+    "postura": "Critica que la legislatura acabe sin ningún presupuesto aprobado; el Gobierno no presentó ninguno de los cuatro proyectos.",
+    "medidas": [
+      "Gobiernos estables capaces de aprobar presupuestos y repartir la riqueza"
+    ],
+    "paginas": [4, 11]
+  },
+  "administracion": null,
+  "energia": {
+    "postura": "Exige cerrar la posición de Navarra en la planificación eléctrica 2030.",
+    "medidas": [
+      "Defender en las Cortes la posición de Navarra en la planificación eléctrica 2030"
+    ],
+    "paginas": [12]
+  },
+  "medio_ambiente": {
+    "postura": "Reforzar las políticas frente al cambio climático como parte del combate a la ultraderecha.",
+    "medidas": [
+      "Reforzar las políticas contra el cambio climático"
+    ],
+    "paginas": [14]
+  },
+  "sector_primario": {
+    "postura": "Exige al Estado que cumpla sus compromisos con el regadío navarro.",
+    "medidas": [
+      "Cumplimiento de las obligaciones del Estado en regadío en Navarra"
+    ],
+    "paginas": [7, 12]
+  },
+  "infraestructuras": {
+    "postura": "Navarra, «castigada por el bipartidismo» en infraestructuras: exige la conexión del tren de altas prestaciones con la Y vasca por Ezkio.",
+    "medidas": [
+      "Conexión de la red ferroviaria de altas prestaciones con la Y vasca por Ezkio, no por el trazado más barato",
+      "Cumplimiento de las obligaciones del Estado en infraestructuras ferroviarias en Navarra",
+      "Aclarar el mantenimiento y la seguridad de las vías tras las tragedias ferroviarias"
+    ],
+    "paginas": [7, 11, 12]
+  },
+  "sanidad": null,
+  "educacion": {
+    "postura": "Reclama la transferencia a Navarra de la competencia de becas.",
+    "medidas": [
+      "Transferencia de la competencia de becas a Navarra"
+    ],
+    "paginas": [12]
+  },
+  "ciencia": null,
+  "servicios_sociales": {
+    "postura": "Defensa del Estado del bienestar y de los servicios públicos frente a «los recortes que se avecinan».",
+    "medidas": [
+      "Reforzar el Estado del bienestar como forma de defender la democracia"
+    ],
+    "paginas": [4, 11]
+  },
+  "familia_infancia": null,
+  "igualdad": {
+    "postura": "Frente al negacionismo de la violencia de género, reforzar la protección de las mujeres víctimas.",
+    "medidas": [
+      "Reforzar las políticas públicas de protección de mujeres víctimas de maltrato"
+    ],
+    "paginas": [14]
+  },
+  "lgtbi": {
+    "postura": "Mantener los derechos civiles conquistados por el colectivo LGTBI.",
+    "medidas": [
+      "Mantener vigentes los derechos LGTBI frente a la ultraderecha"
+    ],
+    "paginas": [14]
+  },
+  "inmigracion": {
+    "postura": "Navarra debe «seguir siendo tierra de acogida».",
+    "medidas": [
+      "Seguir siendo tierra de acogida"
+    ],
+    "paginas": [14]
+  },
+  "seguridad": null,
+  "defensa": null,
+  "justicia": {
+    "postura": "Reconoce que la corrupción y el lawfare explican buena parte del malestar ciudadano; no plantea medidas concretas.",
+    "medidas": [
+      "Buena gestión política como forma de reforzar la democracia"
+    ],
+    "paginas": [11]
+  },
+  "democracia": {
+    "postura": "Derogar la «franquista» Ley de Secretos Oficiales y reforzar la memoria; frenar a la ultraderecha en las urnas.",
+    "medidas": [
+      "Reconocer el daño causado por la Ley de Secretos Oficiales y resolver casos como el de Mikel Zabalza",
+      "Reforzar las políticas de memoria",
+      "Evitar en el Senado una mayoría que permita a PP y Vox una reforma constitucional contra los derechos históricos"
+    ],
+    "paginas": [7, 9, 14]
+  },
+  "territorial": {
+    "postura": "Navarra como sujeto político con relación bilateral con el Estado; defensa del Amejoramiento y del Convenio Económico.",
+    "medidas": [
+      "Cumplir la bilateralidad y las transferencias previstas en la LORAFNA",
+      "Mantener el Convenio Económico y los derechos históricos frente a una reforma constitucional",
+      "Rechazo a las «exclusiones ordenadas en Madrid» de una lista navarra conjunta"
+    ],
+    "paginas": [7, 9]
+  },
+  "lengua_cultura": {
+    "postura": "Denuncia las amenazas a las lenguas oficiales y el desprecio a la realidad plurinacional; defiende la pluralidad como eje de la convivencia.",
+    "medidas": [
+      "Reconocimiento de la realidad plurinacional del Estado y protección de las lenguas oficiales"
+    ],
+    "paginas": [14]
+  },
+  "digital": null,
+  "juventud": null,
+  "deporte": null,
+  "animales": null,
+  "ue_exterior": {
+    "postura": "Más voz para Navarra en la UE en las materias de competencia foral.",
+    "medidas": [
+      "Representación del Gobierno de Navarra con voz y voto en las instituciones europeas que deciden sobre competencias forales (como el Ecofin)",
+      "Presencia reglada de Navarra en las reuniones con la UE sobre materias de su competencia"
+    ],
+    "paginas": [7, 12]
+  }
+}

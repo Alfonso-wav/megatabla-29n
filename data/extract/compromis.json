@@ -1,0 +1,393 @@
+{
+  "vivienda": {
+    "postura": "Prohibir que fondos y sociedades especulativas compren vivienda, expropiar a grandes tenedores y destinar el 1% del PIB a vivienda pública.",
+    "medidas": [
+      "Prohibir la compra de viviendas a sociedades especulativas y fondos buitre, también mediante sociedades interpuestas",
+      "Nueva ley de expropiación a grandes fondos y tenedores, empezando por los de más de 1.000 viviendas y bajando hasta 50",
+      "1% del PIB anual a adquisición y promoción de vivienda protegida pública o cooperativa",
+      "Alquiler indefinido como régimen ordinario",
+      "Prohibición temporal de la compraventa a no residentes en zonas tensionadas",
+      "Prohibir los algoritmos y la IA que coordinen precios de alquiler, con multas de hasta el 10% del beneficio mundial",
+      "Que los ayuntamientos puedan declarar zonas tensionadas",
+      "Suprimir los privilegios fiscales de las SOCIMI",
+      "Gravamen del 10% del valor catastral a partir de la tercera vivienda y subida progresiva del IBI",
+      "Exención del ITP para la primera vivienda de menos de 350.000 €",
+      "Fondo estatal que capte 18.000 M€ de ahorro privado para vivienda asequible",
+      "Prohibir por ley los desahucios sin alternativa habitacional"
+    ],
+    "paginas": [5, 6]
+  },
+  "empleo": {
+    "postura": "Semana laboral de cuatro días (32 horas) sin bajar sueldo y SMI al 60% del salario medio.",
+    "medidas": [
+      "Jornada de 32 horas en cuatro días sin reducción salarial",
+      "SMI por ley al 60% del salario medio, sin absorber complementos",
+      "Recuperar la indemnización de 45 días por año y los salarios de tramitación",
+      "Actualización salarial automática durante la ultraactividad de los convenios",
+      "Reducir un 50% los domingos y festivos laborables en el comercio",
+      "Prácticas remuneradas que no sustituyan plantilla",
+      "Reforzar la Inspección de Trabajo",
+      "Autónomos: IVA franquiciado por debajo de 85.000 €, cese de actividad con un año de pérdidas, cuota bonificada desde el primer día de baja por enfermedad grave y eliminación progresiva de los módulos"
+    ],
+    "paginas": [7, 8]
+  },
+  "pensiones": {
+    "postura": "Volver a la jubilación a los 65 años, revalorización con el IPC garantizada en la Constitución y no contributivas a 800 €.",
+    "medidas": [
+      "Edad de jubilación a los 65 años",
+      "Eliminar los coeficientes reductores para quien jubila anticipadamente con 40 años cotizados",
+      "Destopar la base máxima de cotización",
+      "Revalorización conforme al coste de la vida garantizada en la Constitución",
+      "Suprimir la desgravación de los planes privados y las ventajas de PIAS y SIALP",
+      "Pensiones no contributivas a 800 €",
+      "Compensación a quienes tributaron doblemente por las mutualidades anteriores a 1979",
+      "Reconocer los periodos de cuidados en la pensión y reforzar el complemento de brecha de género"
+    ],
+    "paginas": [8, 9, 46]
+  },
+  "fiscalidad": {
+    "postura": "Más progresividad: deflactar el IRPF a rentas bajas, gravar grandes fortunas, oligopolios, rentas financieras, aviación y robots.",
+    "medidas": [
+      "Deflactar el IRPF por debajo de 30.000 €",
+      "Mantener y ampliar el impuesto a las grandes fortunas, hacia la «tasa Zucman»",
+      "Impuesto sobre los beneficios de las empresas oligopolísticas",
+      "Rentas del capital con la misma progresividad que las del trabajo",
+      "Recortar las deducciones por amortización y por alquiler de inmuebles",
+      "Eliminar los privilegios fiscales de la aviación (6.000 M€/año) para el tren y un impuesto a sus emisiones de NOx",
+      "Impuesto a las empresas por el uso de robots que sustituyan trabajadores",
+      "Bajar el IVA de productos de salud, higiene femenina, peluquería, productos para celíacos, cultura y veterinaria; subirlo a lujo y productos nocivos",
+      "Más plantilla en la AEAT contra el fraude"
+    ],
+    "paginas": [17, 18]
+  },
+  "economia": {
+    "postura": "«Democratizar la economía»: trabajadores en los consejos de administración, banca pública y más Estado en sectores estratégicos.",
+    "medidas": [
+      "Participación de los trabajadores en los consejos de administración de las grandes empresas",
+      "Banca pública de inversión y crédito para pymes, cooperativas y familias",
+      "Participaciones públicas o empresas estatales en sectores estratégicos",
+      "Hojas de ruta para la cerámica, el calzado, el juguete y la automoción",
+      "Nueva Ley de Industria y Autonomía Estratégica",
+      "Oposición a nuevas fusiones bancarias",
+      "Regular los alquileres comerciales contra la gentrificación comercial y ayudas al pequeño comercio",
+      "Turismo: Pacto de Estado por un turismo sostenible, regular pisos turísticos y cruceros, impedir que los hoteles subcontraten la limpieza de habitaciones"
+    ],
+    "paginas": [18, 19, 20, 24, 25]
+  },
+  "administracion": {
+    "postura": "Más transparencia, gestión pública frente a la privatización y fin de la tasa de reposición.",
+    "medidas": [
+      "Rendición de cuentas anual de los ministros ante el Parlamento",
+      "Publicar trimestralmente la ejecución presupuestaria de ministerios, Casa Real, CGPJ, partidos y sindicatos",
+      "Ley estatal de lobbies y reforma de la Ley de Transparencia",
+      "Publicar las declaraciones completas de bienes de los altos cargos",
+      "Eliminar la tasa de reposición y convocar oposiciones periódicas, más prácticas y menos memorísticas",
+      "Diferencias salariales entre grupos de funcionarios de 1 a 3 como máximo",
+      "Atención presencial y revisión humana de las decisiones automatizadas"
+    ],
+    "paginas": [33, 34, 35]
+  },
+  "energia": {
+    "postura": "Energía pública: empresa pública eléctrica, Red Eléctrica 100% pública y cierre nuclear según el calendario.",
+    "medidas": [
+      "Reducir el peso del mercado marginalista con contratos a precio fijo para renovables",
+      "Sacar de la factura el impuesto eléctrico y los cargos y financiarlos con los Presupuestos",
+      "Empresa pública de generación, distribución y comercialización",
+      "Recuperar progresivamente la titularidad pública de las grandes eléctricas",
+      "Red Eléctrica 100% pública",
+      "Mantener el calendario de cierre nuclear sin prórrogas",
+      "Prohibir los cortes de suministro y reformar el bono social",
+      "Separar la energía de la CNMC en una nueva Comisión Nacional de la Energía",
+      "Electrificación del 100% en 2030 y abandono de los fósiles en 2040",
+      "Fondo de rehabilitación energética con préstamos al 0%"
+    ],
+    "paginas": [26, 27, 28]
+  },
+  "medio_ambiente": {
+    "postura": "Filtro climático vinculante en todas las políticas, restauración de ecosistemas y adaptación tras la DANA.",
+    "medidas": [
+      "«Marco Verde»: filtro climático vinculante que impida iniciativas que aumenten las emisiones",
+      "Plan estatal de emergencia por la biodiversidad en el primer año",
+      "Prohibir la publicidad y el patrocinio de empresas de combustibles fósiles",
+      "Revertir la reforma de la Ley de Costas de 2013 y plan contra la regresión de la costa valenciana",
+      "Caudales ambientales de la Albufera como condición para cualquier trasvase o concesión; trasvases solo excepcionales",
+      "Impedir construir en zonas inundables",
+      "Refugios climáticos a menos de 10 minutos a pie y 30% de cobertura arbórea urbana en 2040",
+      "Más medios para AEMET, Protección Civil y la UME, reforma de ES-Alert y fondo de reconstrucción para víctimas de catástrofes"
+    ],
+    "paginas": [25, 26, 28, 29, 30, 31, 32]
+  },
+  "sector_primario": {
+    "postura": "Precios justos en la cadena alimentaria, PAC adaptada al Mediterráneo y controles a las importaciones.",
+    "medidas": [
+      "Estatuto de las personas agricultoras y ganaderas profesionales",
+      "Etiquetado que indique qué parte del precio va al productor",
+      "Reforzar la Ley de la cadena alimentaria para que los precios cubran los costes",
+      "Controles en origen para que las importaciones cumplan las normas europeas",
+      "PAC adaptada a la agricultura mediterránea, priorizando a los profesionales",
+      "IVA reducido para insumos y maquinaria agraria",
+      "Regadío prioritario tras el abastecimiento humano en la planificación hidrológica",
+      "Calendarios de reducción de pesticidas y fertilizantes de síntesis",
+      "Compensar al sector pesquero por la subida del combustible"
+    ],
+    "paginas": [21, 22, 23]
+  },
+  "infraestructuras": {
+    "postura": "Prioridad al tren de cercanías y mercancías, Corredor Mediterráneo y freno a ampliaciones de puertos y aeropuertos.",
+    "medidas": [
+      "Plan de Cercanías del País Valenciano de 1.500 M€ con 58 trenes nuevos y actuaciones línea a línea",
+      "Tren de la Costa Gandia-Oliva-Dénia y Avant Alicante-Valencia en una hora",
+      "Acelerar el Corredor Mediterráneo con calendario y presupuesto",
+      "Paralizar la ampliación norte del puerto de Valencia y las de los aeropuertos de Valencia y Alicante",
+      "Reestructurar ADIF y revertir la privatización encubierta",
+      "Limitar los vuelos nacionales con alternativa en tren de menos de 2 h 30",
+      "Proteger el taxi y limitar las VTC",
+      "Autoridad Metropolitana de Transporte con 50 M€ estatales"
+    ],
+    "paginas": [12, 13, 50, 51, 52]
+  },
+  "sanidad": {
+    "postura": "Blindar la sanidad pública derogando la Ley 15/1997 y ampliar la cartera con dental y oftalmología.",
+    "medidas": [
+      "Derogar la Ley 15/1997 para impedir la privatización de la gestión",
+      "Acceso universal sin discriminación por origen o situación administrativa",
+      "Financiación mínima, ratios y listas de espera máximas por ley en atención primaria",
+      "Pacto estatal por la salud mental",
+      "Suprimir el copago farmacéutico de los pensionistas",
+      "Incluir oftalmología, podología, nutrición y odontología en la cartera",
+      "Industria farmacéutica pública",
+      "Prohibir fumar en terrazas y playas y las bebidas energéticas a menores de 16 años",
+      "Plan estatal de investigación en salud de las mujeres"
+    ],
+    "paginas": [9, 10, 45]
+  },
+  "educacion": {
+    "postura": "Hacia el 7% del PIB en educación, concertada subsidiaria de la pública y comedor gratuito y universal.",
+    "medidas": [
+      "Avanzar hacia una inversión educativa del 7% del PIB",
+      "Prohibir ceder suelo público para centros privados",
+      "Concertada realmente subsidiaria de la pública",
+      "Red pública y gratuita de 0 a 3 años",
+      "Comedor escolar gratuito y universal en la LOE",
+      "Más plazas de FP pública y nueva ley de FP",
+      "Escuela pública laica, sin enseñanza confesional",
+      "Coeducación y educación afectivo-sexual en todas las etapas"
+    ],
+    "paginas": [10, 11, 39, 47]
+  },
+  "ciencia": {
+    "postura": "Más del 3% del PIB en I+D con cláusula de no retroceso y carrera investigadora estable.",
+    "medidas": [
+      "Superar el 3% del PIB en I+D",
+      "Cláusula de no retroceso del gasto científico en crisis",
+      "Carrera investigadora pública estable, sin contratos precarios encadenados",
+      "Becas pagadas a principio de curso y tasas universitarias según renta",
+      "Limitar la proliferación de universidades privadas",
+      "Planificar los centros de datos con agua regenerada y renovables"
+    ],
+    "paginas": [16, 17, 20, 21]
+  },
+  "servicios_sociales": {
+    "postura": "Ley estatal de servicios sociales, ayuda a domicilio como servicio esencial y Estado al 50% de la dependencia.",
+    "medidas": [
+      "Ley básica estatal de servicios sociales con ratios mínimas y límites a la privatización",
+      "Ayuda a domicilio como servicio público esencial",
+      "Estatuto de las personas cuidadoras",
+      "Reformar el Ingreso Mínimo Vital para ampliar su cobertura",
+      "Que el Estado financie el 50% de la dependencia",
+      "Cuentas de pago básicas para todos",
+      "Estrategia contra la soledad no deseada"
+    ],
+    "paginas": [11, 41, 50]
+  },
+  "familia_infancia": {
+    "postura": "Prestación universal por crianza de 200 € mensuales por hijo y equiparar a las familias monoparentales.",
+    "medidas": [
+      "Prestación universal de crianza de 200 €/mes por hijo, mayor en familias monoparentales",
+      "Ley estatal de familias monoparentales equiparada a las numerosas",
+      "Retribuir progresivamente las ocho semanas de permiso por cuidado de hijos",
+      "Ley de protección de la infancia en entornos digitales",
+      "Reformar la Ley del Menor para priorizar la reinserción",
+      "Plan Corresponsables y extraescolares universales"
+    ],
+    "paginas": [15, 41, 42]
+  },
+  "igualdad": {
+    "postura": "Feminismo en salud, pensiones y educación; aborto garantizado en la pública y lucha contra la explotación sexual y reproductiva.",
+    "medidas": [
+      "Aborto gratuito y accesible en la red pública, con regulación de la objeción de conciencia",
+      "Reforzar la prohibición de la gestación subrogada y de su publicidad",
+      "Plan estatal contra la explotación sexual y la trata, sin sancionar a las mujeres prostituidas",
+      "Revisar los protocolos de valoración del riesgo y reforzar los juzgados de violencia sobre la mujer",
+      "Protección frente a la violencia vicaria",
+      "Formación obligatoria en género de jueces y fiscales"
+    ],
+    "paginas": [37, 45, 46, 47, 48]
+  },
+  "lgtbi": {
+    "postura": "Blindar la Ley Trans y el matrimonio igualitario y tipificar como delito las terapias de conversión.",
+    "medidas": [
+      "Tipificar como delito las terapias de conversión",
+      "Blindar la Ley Trans y el matrimonio igualitario",
+      "Avanzar en los derechos de las personas trans y no binarias",
+      "Pacto de Estado contra los delitos de odio",
+      "Plan contra el acoso escolar LGTBIQ+",
+      "Formación obligatoria en diversidad en la Administración, la justicia y las fuerzas de seguridad"
+    ],
+    "paginas": [44, 48, 49]
+  },
+  "inmigracion": {
+    "postura": "Regularización y derechos para quien vive aquí, cierre de los CIE y empadronamiento obligatorio.",
+    "medidas": [
+      "Vías de regularización y facilidades para la autorización de trabajo",
+      "Eliminar los CIE",
+      "Prohibir las devoluciones ilegales encubiertas",
+      "Empadronamiento obligatorio sin importar la situación administrativa",
+      "Derecho de voto para las personas migrantes",
+      "Prohibir las identificaciones policiales por perfil étnico",
+      "Llevar al TJUE el Pacto Europeo de Migración y Asilo"
+    ],
+    "paginas": [45, 56]
+  },
+  "seguridad": {
+    "postura": "Derogar la «ley mordaza», abolir las pelotas de goma y derecho de sindicación para las fuerzas de seguridad.",
+    "medidas": [
+      "Derogar la Ley de Seguridad Ciudadana",
+      "Abolir las pelotas de goma",
+      "Derecho de sindicación de las fuerzas de seguridad y supresión de la justicia militar",
+      "Formularios obligatorios en las identificaciones policiales",
+      "Revisar la respuesta ante ciberataques a infraestructuras críticas"
+    ],
+    "paginas": [38, 45]
+  },
+  "defensa": {
+    "postura": "Una defensa europea que sustituya a la OTAN, auditar el gasto militar y que no se haga a costa de los servicios públicos.",
+    "medidas": [
+      "Unión Europea de la Defensa que sustituya el marco de la OTAN",
+      "Auditar todo el gasto en Defensa y publicar los resultados",
+      "Que el aumento del gasto militar no recorte servicios públicos",
+      "Evitar compras de armamento que no respondan a necesidades reales",
+      "Prohibir la venta de armas a países que vulneren los derechos humanos"
+    ],
+    "paginas": [54, 55]
+  },
+  "justicia": {
+    "postura": "Acceso a la carrera judicial menos memorístico, CGPJ independiente, fin de los aforamientos y supresión de la Sala Penal de la Audiencia Nacional.",
+    "medidas": [
+      "Acceso a la judicatura con un modelo práctico, como el alemán",
+      "CGPJ elegido por mérito y capacidad y Fiscal General ratificado por el Congreso",
+      "Suprimir la Sala Penal de la Audiencia Nacional",
+      "Eliminar los aforamientos",
+      "Oficina antifraude y protección de los denunciantes de corrupción",
+      "Prohibir que la Administración contrate con empresas que usen paraísos fiscales",
+      "Prohibir la condonación de deudas a las fundaciones de los partidos",
+      "Reforzar la justicia gratuita"
+    ],
+    "paginas": [33, 35, 36, 37]
+  },
+  "democracia": {
+    "postura": "Voto a los 16, más referéndums, derogar la Ley de Amnistía de 1977 y la de Secretos Oficiales, y Estado laico.",
+    "medidas": [
+      "Voto a los 16 años",
+      "Impulsar los referéndums y una ley de participación ciudadana",
+      "Reformar el artículo 135 de la Constitución para quitar la prioridad absoluta a la deuda",
+      "Derogar la Ley de Secretos Oficiales",
+      "Derogar la Ley de Amnistía de 1977 y retirar los símbolos franquistas",
+      "Reparar a quienes sufrieron la confiscación de dinero por el franquismo",
+      "Estado laico: fin de los acuerdos con la Santa Sede y de la financiación de la Iglesia, cobro del IBI y derogar el delito de ofensa religiosa"
+    ],
+    "paginas": [35, 38, 39, 40]
+  },
+  "territorial": {
+    "postura": "Acabar con la infrafinanciación valenciana: concierto económico o recaudación propia, condonación de la deuda e inversiones según la población.",
+    "medidas": [
+      "Concierto económico «responsable» o un sistema en el que la Generalitat recaude la mayor parte de los tributos",
+      "Condonar la deuda histórica de la Generalitat causada por la infrafinanciación",
+      "Fondo transitorio de nivelación con la media hasta la reforma",
+      "Inversión estatal acorde con el peso poblacional, sobre todo en Alicante",
+      "Transferir costas, puertos, aeropuertos, cercanías, IMV e inspección de trabajo",
+      "Estado plurinacional y reforma del Senado",
+      "Recuperar el derecho civil valenciano",
+      "Suprimir las diputaciones provinciales y reconocer las comarcas",
+      "Ley de Sedes del Estado para descentralizar organismos"
+    ],
+    "paginas": [50, 52, 53]
+  },
+  "lengua_cultura": {
+    "postura": "Oficialidad del valenciano en la UE, requisito lingüístico en la función pública estatal y reciprocidad de las televisiones.",
+    "medidas": [
+      "Ley de plurilingüismo de la Administración y requisito lingüístico en la función pública estatal en territorios bilingües",
+      "Que jueces y fiscales acrediten conocer la lengua oficial propia",
+      "Oficialidad del valenciano en la UE",
+      "Etiquetado bilingüe en los territorios con dos lenguas",
+      "Reciprocidad de las televisiones autonómicas y programación completa en valenciano en RTVE",
+      "Más financiación para las instituciones culturales valencianas y desarrollo del Estatuto del Artista",
+      "Retorno de la Dama de Elche a Elche",
+      "Bono Cultural Joven de 16 a 30 años"
+    ],
+    "paginas": [13, 14, 15, 38, 39]
+  },
+  "digital": {
+    "postura": "Regulación estricta de la IA, transparencia de algoritmos y medidas contra los patrones adictivos.",
+    "medidas": [
+      "Normas de transparencia algorítmica y contra los patrones adictivos de las plataformas",
+      "Regulación estricta de la IA, protección frente a deepfakes y prohibir los asistentes que creen dependencia emocional",
+      "Estatuto de la Información y sanciones por desinformación",
+      "Consejo Estatal de Medios Audiovisuales",
+      "5G en todo el territorio y derecho al pago en efectivo",
+      "Contra los precios dinámicos y personalizados en servicios digitales"
+    ],
+    "paginas": [15, 16, 23, 24]
+  },
+  "juventud": {
+    "postura": "Emancipación con vivienda asequible, deducción por alquiler y empleo joven estable.",
+    "medidas": [
+      "Deducción estatal en el IRPF por alquiler para jóvenes con rentas de hasta 33.000 €",
+      "Cupo de alquiler por debajo del mercado para jóvenes y residencias asequibles",
+      "Cooperativas en cesión de uso sobre suelo público",
+      "Reformar la Garantía Juvenil para priorizar contratos indefinidos y a jornada completa",
+      "Microcréditos para proyectos empresariales jóvenes",
+      "Ley de participación juvenil y Consejos de la Juventud independientes",
+      "Más restricciones a la publicidad de las apuestas"
+    ],
+    "paginas": [42, 43, 44]
+  },
+  "deporte": {
+    "postura": "Receta deportiva en los centros de salud y becas deportivas para rentas bajas.",
+    "medidas": [
+      "Programa de receta deportiva en los centros de salud",
+      "Exigir residencia fiscal en España a los deportistas que reciban ayudas públicas",
+      "Compatibilizar el deporte de élite con la universidad",
+      "Becas deportivas para jóvenes de familias con rentas bajas"
+    ],
+    "paginas": [15, 45]
+  },
+  "animales": {
+    "postura": "Suprimir las corridas con muerte del animal, prohibir la caza con perros y moratoria de macrogranjas.",
+    "medidas": [
+      "Suprimir los espectáculos taurinos con muerte y sufrimiento del animal y sus subvenciones",
+      "Derogar la ley que declara la tauromaquia patrimonio cultural",
+      "Incluir a los perros de caza en la Ley de Bienestar Animal y prohibir la caza con perros",
+      "Moratoria de nuevas macrogranjas e impulso de su cierre",
+      "Plan para eliminar las jaulas en las granjas",
+      "Red pública de servicios veterinarios para familias vulnerables",
+      "Endurecer las penas por maltrato animal",
+      "Opciones veganas en los comedores públicos"
+    ],
+    "paginas": [40]
+  },
+  "ue_exterior": {
+    "postura": "Multilateralismo, apoyo a Palestina y Ucrania, ruptura con Israel y una UE más federal sin el Pacto de Estabilidad.",
+    "medidas": [
+      "Romper relaciones diplomáticas y comerciales con Israel",
+      "Más apoyo al pueblo palestino y salida negociada a la invasión rusa de Ucrania",
+      "Referéndum de autodeterminación en el Sáhara Occidental",
+      "Democratizar la ONU con una Asamblea Parlamentaria",
+      "Centro Internacional de Resolución de Disputas en Alicante",
+      "Fin de la unanimidad en política exterior y fiscal en la UE y presupuesto europeo del 2% de la RNB",
+      "Suprimir el Pacto de Estabilidad y Crecimiento",
+      "0,7% para cooperación blindado por ley"
+    ],
+    "paginas": [54, 55, 56]
+  }
+}

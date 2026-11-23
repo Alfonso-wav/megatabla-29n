@@ -2,9 +2,8 @@
 // parezcan el programa del 29N. No descarga nada: solo avisa para revisar a mano.
 //   node scripts/vigilar.mjs
 const WEBS = {
-  upc: ["https://www.nuevacanarias.org"],
-  ac: ["https://aliancacatalana.cat"],
-  pcte: ["https://pcte.es"],
+  // El manifiesto de UPC (6 págs.) solo se ha pasado a la prensa (04/11).
+  upc: ["https://www.nuevacanarias.org", "https://www.nuevacanariasbc.org/programa/"],
 };
 // Algunas webs (podemos.info) devuelven 403 a un User-Agent mínimo.
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36";

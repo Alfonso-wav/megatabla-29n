@@ -1,0 +1,244 @@
+{
+  "vivienda": {
+    "postura": "«La vivienda no es un negocio»: prohibir todo desahucio de hogares trabajadores, bajar los alquileres a la mitad y expropiar sin indemnización la vivienda vacía de bancos y fondos.",
+    "medidas": [
+      "Prohibición de todo desahucio de hogares trabajadores de su vivienda habitual, con o sin contrato y sea quien sea el propietario",
+      "Bajada inmediata del 50 % de los alquileres y después precios máximos ligados a los salarios medios de la zona; contratos indefinidos por defecto",
+      "Alquiler social obligatorio (máximo 15 % de los ingresos) si el propietario es banco, fondo o gran tenedor",
+      "Limitar la vivienda turística al 0,5 % de las viviendas de cada localidad",
+      "Parque público permanente de alquiler de al menos el 10 % de las viviendas; prohibido vender o descalificar vivienda protegida",
+      "Expropiación sin indemnización de las viviendas vacías y especulativas de bancos, fondos y grandes tenedores",
+      "Ninguna ejecución hipotecaria de la vivienda habitual; dación en pago a elección del hogar",
+      "Prohibir los cortes de agua, luz y calefacción a hogares trabajadores"
+    ],
+    "paginas": [11, 12]
+  },
+  "empleo": {
+    "postura": "Salarios por encima de los precios, 35 horas ya como paso a las 30 y despido mucho más difícil, con control obrero en las empresas.",
+    "medidas": [
+      "Revisión salarial automática según el IPC real, sin topes; subidas lineales iguales para todas las categorías",
+      "Jornada de 35 horas sin reducción salarial, como paso hacia las 30; tope de 1.540 horas anuales",
+      "Cinco semanas de vacaciones retribuidas",
+      "Contrato fijo tras 6 meses de contratos encadenados en 12; prohibición de las ETT y de los falsos autónomos",
+      "Readmisión obligatoria, a elección del trabajador, ante el despido injustificado",
+      "Prohibir los despidos colectivos en empresas con beneficios; autorización previa e informe vinculante de los trabajadores para cualquier ERE",
+      "Acceso de los representantes a las cuentas y veto suspensivo ante externalizaciones, cambios de turnos o algoritmos",
+      "Asamblea en horario laboral (10 h al año) y consultas vinculantes antes de firmar convenios o ERE"
+    ],
+    "paginas": [7, 8, 9, 21]
+  },
+  "pensiones": {
+    "postura": "Jubilación a los 60 años (55 en trabajos penosos) y ninguna pensión por debajo del salario mínimo.",
+    "medidas": [
+      "Jubilación ordinaria a los 60 años sin penalización; a los 55 en trabajos penosos, peligrosos o tóxicos",
+      "Ninguna pensión por debajo del salario mínimo",
+      "Revalorización automática con el IPC real y recuperación de lo perdido",
+      "Fin de los incentivos fiscales a los planes privados y a los fondos de pensiones de empleo"
+    ],
+    "paginas": [7, 14]
+  },
+  "fiscalidad": null,
+  "economia": {
+    "postura": "Propiedad estatal bajo control obrero de los sectores estratégicos y planificación económica orientada a las necesidades sociales.",
+    "medidas": [
+      "Propiedad estatal bajo control obrero de energía, transporte, telecomunicaciones y capacidades industriales esenciales",
+      "Intervención y paso a propiedad estatal de las empresas viables que sus dueños quieran cerrar",
+      "Ningún cierre o deslocalización como decisión exclusivamente privada; devolución de ayudas si se incumplen compromisos",
+      "Política industrial planificada con empresas estatales",
+      "Precios máximos para una cesta de productos básicos y márgenes máximos para la gran distribución"
+    ],
+    "paginas": [9, 10, 15]
+  },
+  "administracion": {
+    "postura": "Plantillas públicas suficientes y estables, y gestión pública directa de los servicios externalizados.",
+    "medidas": [
+      "Plantillas públicas suficientes y estables: necesidad permanente, empleo permanente",
+      "Recuperar los servicios externalizados y privatizados mediante gestión pública directa"
+    ],
+    "paginas": [13]
+  },
+  "energia": {
+    "postura": "Energía en propiedad estatal bajo control obrero y ningún corte de suministro a hogares trabajadores.",
+    "medidas": [
+      "Propiedad estatal del sector energético bajo mecanismos de control obrero",
+      "Prohibición de cualquier corte de agua, electricidad o calefacción a hogares trabajadores"
+    ],
+    "paginas": [10, 11]
+  },
+  "medio_ambiente": null,
+  "sector_primario": {
+    "postura": "Alianza de jornaleros y pequeños productores contra la gran distribución y la agroindustria.",
+    "medidas": [
+      "Plenos derechos laborales y sindicales en el campo, la pesca y la industria alimentaria; mismos derechos para los migrantes",
+      "Cumplimiento efectivo de la prohibición de comprar por debajo del coste de producción",
+      "Capacidades públicas de almacenamiento, transformación y distribución de alimentos",
+      "Bancos públicos de tierras y recuperación de tierras abandonadas",
+      "Precio en origen visible junto al de venta",
+      "Servicios, transporte y vivienda para vivir en el medio rural con los mismos derechos que en la ciudad"
+    ],
+    "paginas": [15]
+  },
+  "infraestructuras": {
+    "postura": "Transporte en propiedad estatal y sin subcontratas en el diseño y mantenimiento de infraestructuras.",
+    "medidas": [
+      "Propiedad estatal bajo control obrero del transporte y las telecomunicaciones",
+      "Prohibición completa de las subcontratas en el diseño y mantenimiento de infraestructuras de transporte"
+    ],
+    "paginas": [10, 14]
+  },
+  "sanidad": {
+    "postura": "Ni una privatización más: derogar la Ley 15/1997 y reforzar la sanidad pública, sobre todo la atención primaria.",
+    "medidas": [
+      "Derogar la Ley 15/1997 y prohibir nuevos conciertos, concesiones y externalizaciones",
+      "25 % del gasto sanitario para atención primaria; refuerzo de salud mental y bucodental",
+      "Capacidades públicas en medicamentos, productos sanitarios e investigación farmacéutica"
+    ],
+    "paginas": [13]
+  },
+  "educacion": {
+    "postura": "Educación exclusivamente pública, gratuita y laica, integrando la concertada en una red única.",
+    "medidas": [
+      "Sistema educativo exclusivamente público, gratuito, laico e inclusivo en todas las etapas",
+      "Integrar los centros concertados en una red pública única",
+      "Bajar las ratios",
+      "Gratuidad también de materiales, transporte, comedor y residencia",
+      "Beca-salario igual al salario mínimo para estudiantes de familias trabajadoras"
+    ],
+    "paginas": [13, 14, 16]
+  },
+  "ciencia": {
+    "postura": "Plazas estables para investigadores y ningún euro de I+D pública para fines militares.",
+    "medidas": [
+      "Fin de los contratos por proyecto encadenados: plazas estables para el personal investigador",
+      "Pasar los fondos de I+D militar a salud, energía, alimentación y medio ambiente"
+    ],
+    "paginas": [18]
+  },
+  "servicios_sociales": {
+    "postura": "Red pública universal de cuidados con gestión directa, y prestaciones nunca inferiores al salario mínimo.",
+    "medidas": [
+      "Red pública universal de cuidados: escuelas infantiles, ayuda a domicilio, centros de día, residencias y dependencia",
+      "Gestión pública directa de los cuidados, con empleo estable",
+      "Prestación por desempleo mientras dure el paro, nunca inferior al salario mínimo",
+      "Baja médica pagada al 100 % desde el primer día"
+    ],
+    "paginas": [14]
+  },
+  "familia_infancia": {
+    "postura": "Permiso de nacimiento de 52 semanas y plaza pública de 0 a 3 años.",
+    "medidas": [
+      "Permiso por nacimiento de 52 semanas, igual, intransferible y pagado al 100 %",
+      "Plaza pública de 0 a 3 años que enlace con el permiso",
+      "Nulidad y readmisión automática de todo despido hasta que el hijo cumpla 3 años"
+    ],
+    "paginas": [17]
+  },
+  "igualdad": {
+    "postura": "Igualdad real para las mujeres trabajadoras: salario, jornada completa, cuidados públicos y recursos frente a la violencia machista; abolicionista.",
+    "medidas": [
+      "Igual salario por trabajo de igual valor",
+      "Derecho a pasar a jornada completa para toda trabajadora a tiempo parcial",
+      "Vivienda, ingresos, empleo y atención suficientes para las mujeres que sufren violencia",
+      "Todas las interrupciones del embarazo en hospitales públicos",
+      "Prohibición de la prostitución y el proxenetismo",
+      "Rechazo de la gestación subrogada"
+    ],
+    "paginas": [17]
+  },
+  "lgtbi": {
+    "postura": "Protección de las personas LGTB frente al despido, el acoso y la discriminación en la vivienda.",
+    "medidas": [
+      "Protección frente al despido, el acoso laboral y la discriminación en el acceso a la vivienda, también en empresas de menos de 50 trabajadores"
+    ],
+    "paginas": [20]
+  },
+  "inmigracion": {
+    "postura": "Regularización permanente, cierre de los CIE y mismos derechos para trabajadores migrantes y nacionales.",
+    "medidas": [
+      "Mecanismo permanente de regularización para todos los trabajadores sin papeles",
+      "Cierre de los CIE y fin de las devoluciones en caliente y de las identificaciones por perfil étnico",
+      "Mismos derechos para trabajadores migrantes y nacionales"
+    ],
+    "paginas": [15, 20]
+  },
+  "seguridad": {
+    "postura": "Derogar la «ley mordaza» y acabar con la impunidad policial.",
+    "medidas": [
+      "Derogar la Ley de Seguridad Ciudadana y anular las sanciones por huelgas y protestas",
+      "Prohibir las pelotas de goma y las tanquetas en huelgas y manifestaciones; investigación independiente de la actuación policial",
+      "Ilegalizar las empresas de desocupación y perseguir los desalojos ilegales"
+    ],
+    "paginas": [20]
+  },
+  "defensa": {
+    "postura": "No al rearme: salir de la OTAN, recuperar las bases y reconvertir la industria militar.",
+    "medidas": [
+      "Reducir el gasto militar y anular los Programas Especiales de Modernización",
+      "Salida de la OTAN y ruptura de los acuerdos sobre bases extranjeras",
+      "Reconvertir la industria militar a producción civil manteniendo el empleo",
+      "Regreso de las tropas desplegadas en el exterior"
+    ],
+    "paginas": [19]
+  },
+  "justicia": null,
+  "democracia": {
+    "postura": "Ilegalizar las organizaciones fascistas, derogar los delitos de opinión y ampliar los derechos sindicales.",
+    "medidas": [
+      "Ilegalizar las organizaciones fascistas y franquistas y disolver las fundaciones que enaltecen la dictadura",
+      "Derogar los delitos de injurias a la Corona y a las instituciones y de ultraje a símbolos",
+      "Derogar la Ley de Convivencia Universitaria",
+      "Derecho a elegir representante también en empresas de menos de seis trabajadores; limitar los servicios mínimos abusivos"
+    ],
+    "paginas": [20, 21]
+  },
+  "territorial": null,
+  "lengua_cultura": {
+    "postura": "Cultura gratuita y cercana en los barrios obreros y el medio rural.",
+    "medidas": [
+      "Una biblioteca pública en cada barrio, abierta tardes y fines de semana",
+      "Museos y equipamientos públicos gratuitos; precio máximo en la cultura subvencionada",
+      "Convenio y cotización en todo trabajo cultural contratado por las administraciones"
+    ],
+    "paginas": [18]
+  },
+  "digital": {
+    "postura": "Las nuevas tecnologías y los algoritmos de organización del trabajo se negocian con la plantilla.",
+    "medidas": [
+      "Veto suspensivo de los representantes ante sistemas algorítmicos de organización del trabajo",
+      "Si la tecnología permite producir lo mismo en menos tiempo, menos jornada y no menos empleo",
+      "Telecomunicaciones en propiedad estatal"
+    ],
+    "paginas": [9, 10]
+  },
+  "juventud": {
+    "postura": "«No es una lucha generacional»: derechos desde el primer día, fin de las prácticas abusivas y vivienda para jóvenes.",
+    "medidas": [
+      "Toda actividad en la empresa, también las prácticas, cotiza desde el primer día",
+      "Prohibir las prácticas extracurriculares; compensación no inferior al salario mínimo",
+      "Reservar un tercio del parque público de alquiler a jóvenes trabajadores",
+      "Fin de las dobles escalas salariales por edad",
+      "Un centro juvenil público en cada barrio",
+      "Prohibir las casas de apuestas, el juego en línea y su publicidad"
+    ],
+    "paginas": [16]
+  },
+  "deporte": {
+    "postura": "Instalaciones deportivas públicas en los barrios y gratuitas para menores y parados.",
+    "medidas": [
+      "Uso gratuito de las instalaciones deportivas públicas para menores y personas desempleadas",
+      "Abrir patios y polideportivos escolares por las tardes y los fines de semana"
+    ],
+    "paginas": [16, 18]
+  },
+  "animales": null,
+  "ue_exterior": {
+    "postura": "Salir de la OTAN y de la Unión Europea; embargo total a Israel y reconocimiento de la RASD.",
+    "medidas": [
+      "Salida de España de la OTAN y de la Unión Europea",
+      "Embargo militar total a Israel y ruptura de relaciones diplomáticas, militares y comerciales",
+      "Reconocer la República Árabe Saharaui Democrática y referéndum de autodeterminación",
+      "Solidaridad con los pueblos que luchan contra la ocupación y el colonialismo"
+    ],
+    "paginas": [19]
+  }
+}

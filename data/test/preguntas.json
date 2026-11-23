@@ -15,7 +15,8 @@
     "bildu": [2, "Tope permanente del 2 % a la actualización anual de las rentas y zonas tensionadas."],
     "podemos": [2, "Rebaja del 40 % de los alquileres por ley."],
     "junts": [-2, "Derogar la contención de precios y las zonas tensionadas."],
-    "compromis": [1, "Que los ayuntamientos declaren zonas tensionadas para controlar los precios."]
+    "compromis": [1, "Que los ayuntamientos declaren zonas tensionadas para controlar los precios."],
+    "pcte": [2, "Bajar los alquileres un 50 % y fijar precios máximos ligados a los salarios."]
    }
   },
   {
@@ -30,7 +31,8 @@
     "adelante": [-1, "Ilegalizar las empresas de «desokupación»; ningún desahucio de hogares vulnerables sin alternativa."],
     "podemos": [-1, "Prohibir los desalojos extrajudiciales y las empresas de desokupación."],
     "junts": [2, "Desalojo de las ocupaciones ilegales en un máximo de 48 horas."],
-    "frenteobrero": [2, "No permitir en ningún caso la okupación de viviendas de particulares."]
+    "frenteobrero": [2, "No permitir en ningún caso la okupación de viviendas de particulares."],
+    "pcte": [-2, "Prohibir todo desahucio de hogares trabajadores, con o sin contrato, e ilegalizar las empresas de desocupación."]
    }
   },
   {
@@ -49,7 +51,8 @@
     "podemos": [2, "Prohibir comprar vivienda que no sea para vivir; expropiación de uso a grandes tenedores."],
     "junts": [2, "Prohibir hasta 2028 que bancos y fondos compren vivienda."],
     "compromis": [2, "Prohibir que fondos y sociedades especulativas compren vivienda."],
-    "frenteobrero": [1, "Luchar contra la especulación de bancos y fondos buitre."]
+    "frenteobrero": [1, "Luchar contra la especulación de bancos y fondos buitre."],
+    "pcte": [2, "Expropiar sin indemnización la vivienda vacía de bancos, fondos y grandes tenedores."]
    }
   },
   {
@@ -118,7 +121,8 @@
     "bildu": [2, "Jornada de 32 horas o de 4 días sin reducción salarial."],
     "podemos": [2, "Jornada de 30 horas semanales sin reducir salario."],
     "junts": [-1, "Se opuso a la jornada de 37,5 horas; más horas extra voluntarias."],
-    "compromis": [2, "Semana de 32 horas en cuatro días sin bajar sueldo."]
+    "compromis": [2, "Semana de 32 horas en cuatro días sin bajar sueldo."],
+    "pcte": [2, "Jornada de 35 horas sin reducir salario, como paso hacia las 30."]
    }
   },
   {
@@ -135,7 +139,8 @@
     "salf": [-2, "Contrato único con indemnización creciente de 12 a 33 días y mochila austriaca."],
     "podemos": [2, "45 días por año, opción de readmisión y autorización previa de los ERE."],
     "compromis": [2, "Recuperar los 45 días por año y los salarios de tramitación."],
-    "frenteobrero": [1, "Derogar las reformas laborales que abarataron el despido."]
+    "frenteobrero": [1, "Derogar las reformas laborales que abarataron el despido."],
+    "pcte": [2, "Readmisión obligatoria y prohibir los ERE en empresas con beneficios."]
    }
   },
   {
@@ -151,7 +156,8 @@
     "bildu": [-2, "Rechazo a cualquier privatización del sistema."],
     "podemos": [-2, "Eliminar las desgravaciones a los planes privados y de empleo."],
     "junts": [1, "Fomentar planes de pensiones complementarios o de empresa."],
-    "compromis": [-2, "Suprimir la desgravación a los planes privados."]
+    "compromis": [-2, "Suprimir la desgravación a los planes privados."],
+    "pcte": [-2, "Fin de los incentivos fiscales a los planes privados y de empleo."]
    }
   },
   {
@@ -165,7 +171,8 @@
     "bildu": [1, "Rechazo a retrasar la edad de jubilación; jubilación sin penalización con 40 años cotizados."],
     "podemos": [2, "Adelantar la edad ordinaria de jubilación a los 63 años."],
     "compromis": [2, "Volver a la jubilación a los 65 años."],
-    "frenteobrero": [1, "Revertir la subida de la edad de jubilación."]
+    "frenteobrero": [1, "Revertir la subida de la edad de jubilación."],
+    "pcte": [2, "Jubilación ordinaria a los 60 años."]
    }
   },
   {
@@ -242,7 +249,8 @@
     "podemos": [2, "Derogar la Ley 15/1997 y prohibir la externalización."],
     "junts": [-1, "Defiende el modelo catalán con proveedores diversos y garantía pública."],
     "compromis": [2, "Derogar la Ley 15/1997."],
-    "frenteobrero": [2, "Acabar con la externalización y la privatización."]
+    "frenteobrero": [2, "Acabar con la externalización y la privatización."],
+    "pcte": [2, "Derogar la Ley 15/1997 y prohibir nuevos conciertos."]
    }
   },
   {
@@ -260,7 +268,8 @@
     "podemos": [2, "Moratoria a nuevos conciertos y reabsorción en la red pública."],
     "junts": [-2, "Mismos recursos para pública y concertada."],
     "compromis": [1, "Que la concertada sea realmente subsidiaria de la pública."],
-    "frenteobrero": [2, "Eliminar las subvenciones a la escuela privada."]
+    "frenteobrero": [2, "Eliminar las subvenciones a la escuela privada."],
+    "pcte": [2, "Integrar la concertada en una red pública única."]
    }
   },
   {
@@ -299,7 +308,8 @@
     "junts": [1, "Más prevención, protección y reparación ante la violencia machista."],
     "compromis": [2, "Reforzar los juzgados de violencia sobre la mujer y la protección de víctimas."],
     "geroabai": [1, "Reforzar la protección de las mujeres víctimas de maltrato."],
-    "frenteobrero": [-2, "Niega que exista violencia de género estructural y suprimiría Igualdad."]
+    "frenteobrero": [-2, "Niega que exista violencia de género estructural y suprimiría Igualdad."],
+    "pcte": [1, "Vivienda, ingresos y atención para las mujeres que sufren violencia machista."]
    }
   },
   {
@@ -352,7 +362,8 @@
     "podemos": [2, "Procedimiento permanente de regularización por arraigo."],
     "junts": [-2, "Contra las regularizaciones masivas por decreto."],
     "compromis": [2, "Vías de regularización para quien vive aquí."],
-    "frenteobrero": [-2, "Sin regularización para quien entró ilegalmente."]
+    "frenteobrero": [-2, "Sin regularización para quien entró ilegalmente."],
+    "pcte": [2, "Mecanismo permanente de regularización para todos los trabajadores sin papeles."]
    }
   },
   {
@@ -372,7 +383,8 @@
     "podemos": [-2, "Cerrar los CIE y derogar la Ley de Extranjería."],
     "junts": [1, "Que las resoluciones de retorno se cumplan sin expedientes eternos."],
     "compromis": [-2, "Eliminar los CIE."],
-    "frenteobrero": [2, "Expulsión inmediata de los irregulares y de quienes delincan."]
+    "frenteobrero": [2, "Expulsión inmediata de los irregulares y de quienes delincan."],
+    "pcte": [-2, "Cerrar los CIE y acabar con las devoluciones en caliente."]
    }
   },
   {
@@ -391,7 +403,8 @@
     "bildu": [-2, "Rechazar el aumento del gasto en defensa que exige la OTAN."],
     "podemos": [-2, "Revertir el rearme y congelar el gasto militar."],
     "compromis": [-1, "Que el gasto militar no recorte servicios públicos y auditarlo."],
-    "frenteobrero": [1, "Reforzar el ejército propio tras salir de la OTAN."]
+    "frenteobrero": [1, "Reforzar el ejército propio tras salir de la OTAN."],
+    "pcte": [-2, "Reducir el gasto militar y anular los Programas Especiales de Modernización."]
    }
   },
   {
@@ -407,7 +420,8 @@
     "podemos": [-2, "Salir de la OTAN y cerrar Rota y Morón."],
     "junts": [1, "Una Cataluña independiente dentro de la OTAN."],
     "compromis": [-1, "Una defensa europea que sustituya a la OTAN."],
-    "frenteobrero": [-2, "Salida inmediata de la OTAN."]
+    "frenteobrero": [-2, "Salida inmediata de la OTAN."],
+    "pcte": [-2, "Salida de España de la OTAN."]
    }
   },
   {
@@ -491,7 +505,8 @@
     "pp": [-1, "Endurecer el delito de desórdenes públicos y agravante por ocultar el rostro."],
     "podemos": [2, "Derogar la Ley de Seguridad Ciudadana y prohibir las pelotas de goma."],
     "junts": [2, "Derogar la Ley de Seguridad Ciudadana."],
-    "compromis": [2, "Derogar la «ley mordaza»."]
+    "compromis": [2, "Derogar la «ley mordaza»."],
+    "pcte": [2, "Derogar la Ley de Seguridad Ciudadana y anular sus sanciones."]
    }
   },
   {
@@ -567,7 +582,8 @@
     "psoe": [1, "Sanciones de la UE a quien obstaculice la solución de dos Estados."],
     "podemos": [2, "Embargo de armas efectivo, sin excepciones."],
     "junts": [-1, "Defiende el derecho de Israel a defenderse y rechaza los boicots indiscriminados."],
-    "compromis": [2, "Romper relaciones con Israel y prohibir la venta de armas a quien vulnera los derechos humanos."]
+    "compromis": [2, "Romper relaciones con Israel y prohibir la venta de armas a quien vulnera los derechos humanos."],
+    "pcte": [2, "Embargo militar total y ruptura de relaciones con Israel."]
    }
   },
   {
@@ -584,7 +600,8 @@
     "salf": [1, "Retirar la carta de 2022 y volver a la posición de la ONU."],
     "podemos": [2, "Referéndum de autodeterminación y reconocer la RASD."],
     "compromis": [2, "Referéndum de autodeterminación en el Sáhara Occidental."],
-    "frenteobrero": [2, "Defender sin reservas la autodeterminación saharaui."]
+    "frenteobrero": [2, "Defender sin reservas la autodeterminación saharaui."],
+    "pcte": [2, "Reconocer la RASD y referéndum de autodeterminación."]
    }
   },
   {
@@ -598,7 +615,8 @@
     "psoe": [-2, "Unión política y fiscal y fin de la unanimidad en la UE."],
     "junts": [-2, "Europeísta: una Cataluña independiente dentro de la UE."],
     "compromis": [-2, "Más poder al Parlamento Europeo y un presupuesto europeo mayor."],
-    "frenteobrero": [2, "Salida de la Unión Europea."]
+    "frenteobrero": [2, "Salida de la Unión Europea."],
+    "pcte": [2, "Salida de España de la Unión Europea.", "ue_exterior"]
    }
   }
  ]

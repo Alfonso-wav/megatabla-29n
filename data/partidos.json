@@ -1,5 +1,5 @@
 {
-  "fechaCorte": "2026-11-22",
+  "fechaCorte": "2026-11-23",
   "eleccion": "Elecciones generales del 29 de noviembre de 2026",
   "partidos": [
     {
@@ -262,21 +262,22 @@
       "nota": "64 páginas en 21 capítulos. El propio documento dice que «no pretende ser un programa electoral» sino el programa político del partido, y no menciona estas elecciones. Fecha: el servidor lo da por modificado el 19/11."
     },
     {
-      "id": "upc",
-      "nombre": "Unidad del Pueblo Canario (NC-BC, Podemos, IUC, Sumar)",
-      "siglas": "UPC",
-      "estado": "pendiente"
-    },
-    {
-      "id": "ac",
-      "nombre": "Aliança Catalana",
-      "siglas": "AC",
-      "estado": "pendiente"
-    },
-    {
       "id": "pcte",
       "nombre": "Partido Comunista de los Trabajadores de España",
       "siglas": "PCTE",
+      "estado": "publicado",
+      "titulo": "Programa de lucha",
+      "fechaPublicacion": "2026-11-16",
+      "idioma": "es",
+      "url": "https://oposicionobrera.pcte.es/assets/docs/CAS-Programa-de-lucha-PCTE-d.pdf",
+      "archivo": "pcte.pdf",
+      "sha256": "79421d5944d32e11d5e54de6a5d17f2855956a6e66472ed17c1b134d3e01689b",
+      "nota": "24 páginas en 11 ejes, publicado en oposicionobrera.pcte.es (no en pcte.es). El propio documento dice que «no es un programa electoral» sino un «programa de lucha» para la clase obrera. No trata impuestos, medio ambiente, justicia, modelo territorial ni animales. Fecha: el servidor lo da por modificado el 16/11."
+    },
+    {
+      "id": "upc",
+      "nombre": "Unidad del Pueblo Canario (NC-BC, Podemos, IUC, Sumar)",
+      "siglas": "UPC",
       "estado": "pendiente"
     },
     {

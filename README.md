@@ -37,10 +37,11 @@ página inexistente.
    nuevo, añadir la materia a `materias.json` y revisar los demás programas para ese tema
    (grep en `data/text/`): los que no lo mencionen llevan `null`.
 
-Estado a 22/11/2026: publicados PP, PSOE, Vox, Frente Amplio, ERC, PNV, BNG, CC, Existe, Soria Ya, Adelante Andalucía, EH Bildu, SALF, PACMA, D21,
-Podemos, Junts, Compromís, Geroa Bai y Frente Obrero; pendientes UPC, Aliança Catalana, PCTE y el resto.
+Estado a 23/11/2026: publicados PP, PSOE, Vox, Frente Amplio, ERC, PNV, BNG, CC, Existe, Soria Ya, Adelante Andalucía, EH Bildu, SALF, PACMA, D21,
+Podemos, Junts, Compromís, Geroa Bai, Frente Obrero y PCTE; pendientes UPC y el resto. Aliança Catalana no se presenta.
 Geroa Bai no lo ha subido a su web: se enlaza la copia de Noticias de Navarra. El de Frente Obrero es su
-programa político general, no uno específico para el 29N (lo dice el propio documento).
+programa político general, no uno específico para el 29N (lo dice el propio documento). El del PCTE es un
+«programa de lucha» que, según el propio texto, «no es un programa electoral»; está en oposicionobrera.pcte.es.
 
 ## Listas de candidatos
 
